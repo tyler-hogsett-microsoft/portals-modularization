@@ -1,0 +1,9 @@
+{
+    "terminal.integrated.env.windows": {
+        "GIT_SUBREPO_ROOT": "${workspaceFolder}\\git-subrepo"
+    },
+    "terminal.integrated.shellArgs.windows": [
+        "-NoExit",
+        "-Command", "$env:Path = \"$env:Path;$env:GIT_SUBREPO_ROOT\\lib\""
+    ]
+}
