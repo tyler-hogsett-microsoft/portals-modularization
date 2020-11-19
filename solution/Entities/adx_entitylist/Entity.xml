@@ -2,7 +2,7 @@
 <Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name LocalizedName="Entity List" OriginalName="Entity List">adx_entitylist</Name>
   <EntityInfo>
-    <entity Name="adx_entitylist" unmodified="1">
+    <entity Name="adx_entitylist">
       <attributes>
         <attribute PhysicalName="mdce_module_id">
           <Type>lookup</Type>
