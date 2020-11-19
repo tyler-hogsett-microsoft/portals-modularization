@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <systemform unmodified="1">
+  <systemform>
     <formid>{2b970b06-8b9e-40fd-bedb-1cc99a09a258}</formid>
     <IntroducedVersion>7.0.0003</IntroducedVersion>
     <FormPresentation>0</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form maxWidth="1900" showImage="false" shownavigationbar="true">
+    <form headerdensity="HighWithControls" maxWidth="1900" showImage="false" shownavigationbar="true">
       <tabs>
         <tab expanded="true" id="{45b874d9-cb3c-4ab7-90e2-9393e6e80fb7}" IsUserDefined="1" verticallayout="true">
           <labels>
@@ -1683,7 +1683,7 @@
         </rows>
       </footer>
       <Navigation>
-        <NavBar></NavBar>
+        <NavBar />
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>
@@ -1986,6 +1986,30 @@
         </event>
       </events>
       <controlDescriptions />
+      <header celllabelalignment="Left" celllabelposition="Top" columns="111" id="{017f3b66-cc33-431d-b68b-fa3c2567e896}" labelwidth="115">
+        <rows>
+          <row>
+            <cell id="{7367b66a-ed28-417b-bc52-8b04ad84ba3b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{501d6d84-779b-4116-810e-f5396347f177}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{15519944-495e-4040-956c-ab7d5c325281}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <DisplayConditions FallbackForm="true" Order="0">
+        <Everyone />
+      </DisplayConditions>
     </form>
     <LocalizedNames>
       <LocalizedName description="Information" languagecode="1033" />

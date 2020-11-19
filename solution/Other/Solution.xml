@@ -123,6 +123,14 @@
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
+        <Required displayName="Active Entity Form Metadata" id="{0fa91a2a-c433-4f8e-b0af-44874c527204}" parentDisplayName="Entity Form Metadata" parentSchemaName="adx_entityformmetadata" schemaName="Active Entity Form Metadata" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="26" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Address Line Field Name" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_geolocation_addresslinefieldname" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="adx_adx_website_adx_websitelanguage" parentDisplayName="Website" parentSchemaName="adx_website" schemaName="adx_adx_website_adx_websitelanguage" solution="MicrosoftPortalBase (9.2.2006.10)" type="10" />
         <Dependent displayName="Information" id="{72fb7583-02b0-477d-877b-2516031d8a07}" parentDisplayName="Content Snippet" type="60" />
       </MissingDependency>
@@ -149,6 +157,18 @@
       <MissingDependency>
         <Required displayName="adx_entity_permissions.svg" schemaName="adx_entity_permissions.svg" solution="MicrosoftPortalBase (9.2.2006.10)" type="61" />
         <Dependent displayName="Entity Permission" schemaName="adx_entitypermission" type="1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_entityform/adx_entityformhandler.js" schemaName="adx_entityform/adx_entityformhandler.js" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="61" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_entityform_redirectwebpage" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_entityform_redirectwebpage" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="10" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_entityformmetadata_entityform" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_entityformmetadata_entityform" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="10" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="adx_entitypermission_icon_16x16.png" schemaName="adx_entitypermission_icon_16x16.png" solution="MicrosoftPortalBase (9.2.2006.10)" type="61" />
@@ -207,12 +227,44 @@
         <Dependent displayName="Publishing State" schemaName="adx_publishingstate" type="1" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="adx_jsoneditor/adx.jsoneditor.form.entityform.html" schemaName="adx_jsoneditor/adx.jsoneditor.form.entityform.html" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="61" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="adx_List_16.png" schemaName="adx_List_16.png" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="61" />
         <Dependent displayName="Entity List" schemaName="adx_entitylist" type="1" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="adx_List_32.png" schemaName="adx_List_32.png" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="61" />
         <Dependent displayName="Entity List" schemaName="adx_entitylist" type="1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_localizeStrings.html" schemaName="adx_localizeStrings.html" solution="MicrosoftPortalBase (9.2.2006.10)" type="61" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_metadata/attribute_selector.html" schemaName="adx_metadata/attribute_selector.html" solution="MicrosoftPortalBase (9.2.2006.10)" type="61" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_metadata/entity_selector.html" schemaName="adx_metadata/entity_selector.html" solution="MicrosoftPortalBase (9.2.2006.10)" type="61" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_metadata/form_selector.html" schemaName="adx_metadata/form_selector.html" solution="MicrosoftPortalBase (9.2.2006.10)" type="61" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_metadata/form_tab_selector.html" schemaName="adx_metadata/form_tab_selector.html" solution="MicrosoftPortalBase (9.2.2006.10)" type="61" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_metadata/relationship_selector.html" schemaName="adx_metadata/relationship_selector.html" solution="MicrosoftPortalBase (9.2.2006.10)" type="61" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_monaco/monaco_js.html" schemaName="adx_monaco/monaco_js.html" solution="MicrosoftPortalBase (9.2.2006.10)" type="61" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="adx_page_templates.svg" schemaName="adx_page_templates.svg" solution="MicrosoftPortalDependencies (9.2.10.0)" type="61" />
@@ -247,6 +299,10 @@
         <Dependent displayName="Web Template" schemaName="adx_webtemplate" type="1" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="adx_webforms/adx.xrm.webforms.handlers.js" schemaName="adx_webforms/adx.xrm.webforms.handlers.js" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="61" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="adx_weblink_sets.svg" schemaName="adx_weblink_sets.svg" solution="MicrosoftPortalDependencies (9.2.10.0)" type="61" />
         <Dependent displayName="Web Link Set" schemaName="adx_weblinkset" type="1" />
       </MissingDependency>
@@ -261,6 +317,10 @@
       <MissingDependency>
         <Required displayName="adx_website_contentsnippet" parentDisplayName="Website" parentSchemaName="adx_website" schemaName="adx_website_contentsnippet" solution="MicrosoftPortalDependencies (9.2.10.0)" type="10" />
         <Dependent displayName="Information" id="{72fb7583-02b0-477d-877b-2516031d8a07}" parentDisplayName="Content Snippet" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_website_entityform" parentDisplayName="Website" parentSchemaName="adx_website" schemaName="adx_website_entityform" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="10" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="adx_websiteaccess_medium" schemaName="adx_websiteaccess_medium" solution="MicrosoftPortalBase (9.2.2006.10)" type="61" />
@@ -287,6 +347,82 @@
         <Dependent displayName="Website" schemaName="adx_website" type="1" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Allow Create If Null" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_recordsourceallowcreateonnull" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Append Entity ID To Query String" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_redirecturlappendentityidquerystring" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Append Query String" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_appendquerystring" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Associate Current Portal User" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_associatecurrentportaluser" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Attach File Allow Multiple" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_attachfileallowmultiple" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Attach File Extension Type Accept" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_attachfileacceptextensions" solution="MicrosoftPortalTimeline (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Attach File Label" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_attachfilelabel" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Attach File MIME Type Accept" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_attachfileaccept" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Attach File Required Error Message" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_attachfilerequirederrormessage" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Attach File Required" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_attachfilerequired" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Attach File Save Option" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_attachfilesaveoption" solution="MicrosoftPortalTimeline (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Attach File Size Error Message" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_attachfilesizeerrormessage" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Attach File Storage Location" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_attachfilestoragelocation" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Attach File Type Error Message" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_attachfiletypeerrormessage" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Attach File" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_attachfile" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Attribute Logical Name" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_redirecturlquerystringattribute" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Auto Generate Steps From Tabs" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_autogeneratesteps" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Captcha Required" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_captcharequired" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="City Field Name" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_geolocation_cityfieldname" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Content Snippet Language" parentDisplayName="Content Snippet" parentSchemaName="adx_contentsnippet" schemaName="adx_contentsnippetlanguageid" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
         <Dependent displayName="Information" id="{72fb7583-02b0-477d-877b-2516031d8a07}" parentDisplayName="Content Snippet" type="60" />
       </MissingDependency>
@@ -295,8 +431,40 @@
         <Dependent displayName="Content Snippet" schemaName="adx_contentsnippet" type="1" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Country/Region Field Name" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_geolocation_countryfieldname" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="County Field Name" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_geolocation_countyfieldname" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Custom JavaScript" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_registerstartupscript" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Custom Query String" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_redirecturlcustomquerystring" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Display Map" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_geolocation_displaymap" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Display Name" parentDisplayName="Content Snippet" parentSchemaName="adx_contentsnippet" schemaName="adx_display_name" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
         <Dependent displayName="Information" id="{72fb7583-02b0-477d-877b-2516031d8a07}" parentDisplayName="Content Snippet" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Enable Entity Permissions" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_entitypermissionsenabled" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Enable Validation Summary Links" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_validationsummarylinksenabled" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Enabled" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_geolocation_enabled" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Entity Form Metadata" schemaName="adx_entityformmetadata" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="1" />
@@ -311,8 +479,28 @@
         <Dependent displayName="Entity List" schemaName="adx_entitylist" type="1" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Entity Name" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_entityname" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Entity Permission" schemaName="adx_entitypermission" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
         <Dependent displayName="Entity Permission" schemaName="adx_entitypermission" type="1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Entity Source Type" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_entitysourcetype" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Form Name" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_formname" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Formatted Address Field Name" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_geolocation_formattedaddressfieldname" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Hide Form on Success" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_hideformonsuccess" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Information" id="{1c038742-0f0b-4b1e-a61f-79fa72d4cc50}" parentDisplayName="Web Link Set" solution="MicrosoftPortalDependencies (9.2.10.0)" type="60" />
@@ -395,6 +583,38 @@
         <Dependent displayName="Information" id="{f9e44486-155b-4e29-b787-927b41d5cde9}" parentDisplayName="Entity Form Metadata" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Instructions" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_instructions" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Is Activity Party" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_portaluserlookupattributeisactivityparty" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Latitude Field Name" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_geolocation_latitudefieldname" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Longitude Field Name" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_geolocation_longitudefieldname" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Make All Fields Required" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_forceallfieldsrequired" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Map Type" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_geolocation_maptype" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Maximum File Size" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_attachfilemaxsize" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Mode" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_mode" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="msa_adx_contentsnippet_small" schemaName="msa_adx_contentsnippet_small" solution="MicrosoftPortalDependencies (9.2.10.0)" type="61" />
         <Dependent displayName="Content Snippet" schemaName="adx_contentsnippet" type="1" />
       </MissingDependency>
@@ -455,6 +675,10 @@
         <Dependent displayName="Web Role" schemaName="adx_webrole" type="1" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="msa_bingmaps/adx_bingmapsvalidation.js" schemaName="msa_bingmaps/adx_bingmapsvalidation.js" solution="MicrosoftPortalDependencies (9.2.10.0)" type="61" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="msa_icon_adx_webpage_small" schemaName="msa_icon_adx_webpage_small" solution="MicrosoftPortalDependencies (9.2.10.0)" type="61" />
         <Dependent displayName="Website" schemaName="adx_website" type="1" />
       </MissingDependency>
@@ -487,6 +711,26 @@
         <Dependent displayName="Information" id="{72fb7583-02b0-477d-877b-2516031d8a07}" parentDisplayName="Content Snippet" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Name" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_name" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Neighborhood Field Name" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_geolocation_neighborhoodfieldname" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Next Button CSS Class" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_nextbuttoncssclass" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Next Button Text" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_nextbuttontext" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="On Success" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_onsuccess" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Owner" parentDisplayName="Content Snippet" parentSchemaName="adx_contentsnippet" schemaName="ownerid" solution="Active" type="2" />
         <Dependent displayName="Information" id="{72fb7583-02b0-477d-877b-2516031d8a07}" parentDisplayName="Content Snippet" type="60" />
       </MissingDependency>
@@ -495,24 +739,196 @@
         <Dependent displayName="Page Template" schemaName="adx_pagetemplate" type="1" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Populate Entity Reference Lookup Field" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_populatereferenceentitylookupfield" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Previous Button CSS Class" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_previousbuttoncssclass" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Previous Button Text" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_previousbuttontext" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Primary Key Name" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_primarykeyname" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Provisioned Languages" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_provisionedlanguages" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Publishing State" schemaName="adx_publishingstate" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
         <Dependent displayName="Publishing State" schemaName="adx_publishingstate" type="1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Query String Parameter Name" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_redirecturlquerystringattributeparamname" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Recommended Fields Required" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_recommendedfieldsrequired" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Record ID Query String Parameter Name" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_recordidquerystringparametername" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Record Not Found Message" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_recordnotfoundmessage" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Record Source Relationship Name" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_referencerecordsourcerelationshipname" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Redirect URL Query String Name" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_redirecturlquerystringname" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Redirect URL" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_redirecturl" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Redirect Web Page" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_redirectwebpage" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Reference Entity Logical Name" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_referenceentitylogicalname" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Reference Entity ReadOnly Form Name" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_referenceentityreadonlyformname" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Reference Entity Relationship Name" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_referenceentityrelationshipname" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Reference Entity Source Type" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_referenceentitysourcetype" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Reference Query Attribute Logical Name" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_referencequeryattributelogicalname" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Reference Query String Is Primary Key" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_referencequerystringisprimarykey" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Reference Query String Name" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_referencequerystringname" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Reference Target Lookup Attribute Logical Name" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_referencetargetlookupattributelogicalname" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Relationship Name" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_recordsourcerelationshipname" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Render Web Resources Inline" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_renderwebresourcesinline" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Restrict Files To Accepted Types" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_attachfilerestrictaccept" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Set Entity Reference" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_setentityreference" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Setting" schemaName="adx_setting" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
         <Dependent displayName="Setting" schemaName="adx_setting" type="1" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Settings" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_settings" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Show Captcha for Authenticated Users" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_showcaptchaforauthenticatedusers" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Show Owner Fields" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_showownerfields" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Show Reference Entity ReadOnly Form" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_referenceentityshowreadonlyform" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Show Unsupported Fields" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_showunsupportedfields" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Site Setting" schemaName="adx_sitesetting" solution="MicrosoftPortalDependencies (9.2.10.0)" type="1" />
         <Dependent displayName="Site Setting" schemaName="adx_sitesetting" type="1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="State or Province Field Name" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_geolocation_statefieldname" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Status" parentDisplayName="Content Snippet" parentSchemaName="adx_contentsnippet" schemaName="statecode" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
         <Dependent displayName="Information" id="{72fb7583-02b0-477d-877b-2516031d8a07}" parentDisplayName="Content Snippet" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Status" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="statecode" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Submit Button Busy Text" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_submitbuttonbusytext" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Submit Button CSS Class" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_submitbuttoncssclass" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Submit Button Text" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_submitbuttontext" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Success Message" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_successmessage" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Tab Name" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_tabname" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Target Entity Portal User Lookup Attribute" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_targetentityportaluserlookupattribute" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="ToolTip Enabled" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_tooltipenabled" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Type" parentDisplayName="Content Snippet" parentSchemaName="adx_contentsnippet" schemaName="adx_type" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
         <Dependent displayName="Information" id="{72fb7583-02b0-477d-877b-2516031d8a07}" parentDisplayName="Content Snippet" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Validation Group" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_validationgroup" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Validation Summary CSS Class" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_validationsummarycssclass" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Validation Summary Header Text" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_validationsummaryheadertext" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Validation Summary Link Text" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_validationsummarylinktext" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Value" parentDisplayName="Content Snippet" parentSchemaName="adx_contentsnippet" schemaName="adx_value" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
@@ -547,6 +963,10 @@
         <Dependent displayName="Web Page Access Control Rule" schemaName="adx_webpageaccesscontrolrule" type="1" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Web Page Lookup View" id="{d40f1c4b-2b80-4d7d-8ed1-d5817562ab54}" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="Web Page Lookup View" solution="MicrosoftPortalDependencies (9.2.10.0)" type="26" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Web Page" schemaName="adx_webpage" solution="MicrosoftPortalDependencies (9.2.10.0)" type="1" />
         <Dependent displayName="Web Page" schemaName="adx_webpage" type="1" />
       </MissingDependency>
@@ -571,8 +991,16 @@
         <Dependent displayName="Information" id="{72fb7583-02b0-477d-877b-2516031d8a07}" parentDisplayName="Content Snippet" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Website" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_websiteid" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Website" schemaName="adx_website" solution="MicrosoftPortalDependencies (9.2.10.0)" type="1" />
         <Dependent displayName="Website" schemaName="adx_website" type="1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Zip/Postal Code Field Name" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_geolocation_postalcodefieldname" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>
