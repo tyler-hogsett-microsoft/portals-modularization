@@ -1,0 +1,1041 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform unmodified="1">
+    <formid>{9f3890fc-f4aa-49cd-a7a8-9fdb15fcdb5d}</formid>
+    <IntroducedVersion>1.0.0021</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1900">
+      <tabs>
+        <tab verticallayout="true" id="{a36e3e44-6924-4722-8d78-44175ead950b}" IsUserDefined="1" name="{a36e3e44-6924-4722-8d78-44175ead950b}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{139917fd-c4f2-411c-bcab-d810ad4b3a5a}" name="{139917fd-c4f2-411c-bcab-d810ad4b3a5a}" columns="11" locklevel="0" labelwidth="120" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="true" locklevel="0" colspan="1" id="{7042ecf7-bcd2-4248-b520-682e399111ee}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="adx_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_name" disabled="false" uniqueid="{3a7dcb18-cabb-85d0-534e-cd3a116cd01a}" />
+                      </cell>
+                      <cell id="{9c24cd45-787c-7d47-ea44-a8103ee184d8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Primary Domain Name" languagecode="1033" />
+                        </labels>
+                        <control id="adx_primarydomainname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_primarydomainname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e84652a2-073c-7d67-abed-aa6801687b71}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Default Language" languagecode="1033" />
+                        </labels>
+                        <control id="adx_defaultlanguage" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_defaultlanguage" disabled="false" uniqueid="{dd071753-66bb-8381-9796-231e63b3b3b2}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{1237CA0D-5889-E611-80D5-00155D0CC1B5}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                            <FilterRelationshipName>adx_adx_website_adx_websitelanguage</FilterRelationshipName>
+                            <DependentAttributeName>adx_websitelanguage.adx_websiteid</DependentAttributeName>
+                            <DependentAttributeType>adx_website</DependentAttributeType>
+                            <IsInlineNewEnabled>false</IsInlineNewEnabled>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{c006e6b3-2808-1d82-c989-c57e027659dd}" showlabel="true" locklevel="0" colspan="1" visible="false">
+                        <labels>
+                          <label description="Partial URL" languagecode="1033" />
+                        </labels>
+                        <control id="adx_partialurl" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_partialurl" disabled="false" uniqueid="{7edd5486-18aa-118d-0d31-5b1d5ac42412}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell auto="false" showlabel="true" locklevel="1" rowspan="1" colspan="1" id="{b4ec4dc2-e8db-4088-9f2c-5c2999f817a2}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" uniqueid="{032c213b-7ed3-d7a3-7472-1b2b7c80009b}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{e318a193-08da-0037-d828-e201534bdc14}" showlabel="true" locklevel="0" colspan="1">
+                        <labels>
+                          <label description="Parent Website" languagecode="1033" />
+                        </labels>
+                        <control id="adx_parentwebsiteid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_parentwebsiteid" disabled="false" uniqueid="{22e6ba78-d6ac-89b5-39d3-a11e5c62c6a1}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{52F03978-5C2C-426F-A5CF-7B76B8A043DB}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0d086481-acce-b052-8283-9bb1a63a1698}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{3575e9ee-dcb2-7732-7795-7d7695c58b28}" showlabel="false" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Language" languagecode="1033" />
+                        </labels>
+                        <control id="adx_website_language" classid="{671A9387-CA5A-4d1e-8AB7-06E39DDCF6B5}" datafieldname="adx_website_language" disabled="true" uniqueid="{a4d4b326-7da4-9a33-713c-7b8a84c37e20}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{a36e3e44-6924-4722-8d78-44175ead950b}_section_2" showlabel="true" showbar="true" locklevel="0" id="{409170e0-c0b7-96de-d0a1-e949be5dbdb5}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Options" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d5db0d14-5ec4-a812-a6aa-a8ab3cc3563c}" showlabel="true" locklevel="0" colspan="1">
+                        <labels>
+                          <label description="Header Template" languagecode="1033" />
+                        </labels>
+                        <control id="adx_headerwebtemplateid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_headerwebtemplateid" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{2CCDDADA-7B08-48B6-8823-0580858542B2}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{8b888d0e-2781-d22b-a03a-a24d1261bcb5}" showlabel="true" locklevel="0" colspan="1">
+                        <labels>
+                          <label description="Footer Template" languagecode="1033" />
+                        </labels>
+                        <control id="adx_footerwebtemplateid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_footerwebtemplateid" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{2CCDDADA-7B08-48B6-8823-0580858542B2}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_13_section_2" showlabel="false" showbar="false" locklevel="0" id="{71a2cc44-1d49-6e3c-052e-aa1c9366e607}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a0095262-bc3e-3469-2c09-6b68c9456530}" showlabel="true" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description="Supported Languages" languagecode="1033" />
+                        </labels>
+                        <control id="SupportedLanguagesSubgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{7d9a6147-74c2-559c-369c-1928b9b0dd02}">
+                          <parameters>
+                            <ViewId>{8C424A53-4B67-4626-80EC-4EBEEC52200A}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>adx_adx_website_adx_websitelanguage</RelationshipName>
+                            <TargetEntityType>adx_websitelanguage</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>true</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{8C424A53-4B67-4626-80EC-4EBEEC52200A}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_rootpages" id="{96487a55-b061-37b4-262c-a439904e0453}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Root Pages" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_12_section_2" showlabel="false" showbar="false" locklevel="0" id="{97388e6a-5ab7-6702-a252-c2a7b3eaed06}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{191d67d6-5ec2-71e1-47b4-750a24405e22}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                        <labels>
+                          <label description=" " languagecode="1033" />
+                        </labels>
+                        <control id="grid_rootpages" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                          <parameters>
+                            <ViewId>{DE9079AB-17E2-DF11-8658-00155D036405}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>adx_website_webpage</RelationshipName>
+                            <TargetEntityType>adx_webpage</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{EBC6FC95-4C19-44E0-8BA5-CB188DDF8A14},{DE9079AB-17E2-DF11-8658-00155D036405}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_childpages" id="{be219c27-d64a-04c3-7655-6a31688ce8a9}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Child Pages" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_5_section_1" showlabel="false" showbar="false" locklevel="0" id="{c31a6263-7990-d4bb-93d7-24688101bc56}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6ce9bd27-cd81-6aeb-73e3-09c51bdd9832}" showlabel="true" colspan="1" auto="false" rowspan="12">
+                        <labels>
+                          <label description=" " languagecode="1033" />
+                        </labels>
+                        <control id="grid_childpages" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                          <parameters>
+                            <ViewId>{EBC6FC95-4C19-44E0-8BA5-CB188DDF8A14}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>adx_website_webpage</RelationshipName>
+                            <TargetEntityType>adx_webpage</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>true</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{EBC6FC95-4C19-44E0-8BA5-CB188DDF8A14}</ViewIds>
+                            <EnableJumpBar>true</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>10</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_contentsnippets" id="{1277ed8c-a05d-e3dd-ac54-9d3a6bc80be2}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Content Snippets" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_6_section_1" showlabel="false" showbar="false" locklevel="0" id="{00d4e129-30b2-3e9e-d305-bcdca7eb5e45}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1401e01d-6eb7-7eec-8906-29d6a8c7696c}" showlabel="true" colspan="1" auto="false" rowspan="12">
+                        <labels>
+                          <label description=" " languagecode="1033" />
+                        </labels>
+                        <control id="grid_contentsnippets" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                          <parameters>
+                            <ViewId>{6D07DB0A-B60F-4260-96CB-7F226E6606A1}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>adx_website_contentsnippet</RelationshipName>
+                            <TargetEntityType>adx_contentsnippet</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>true</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{6D07DB0A-B60F-4260-96CB-7F226E6606A1}</ViewIds>
+                            <EnableJumpBar>true</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>10</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_weblinksets" id="{b93dbd99-9c15-04bd-5c50-cd8277a31bac}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Web Link Sets" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_7_section_1" showlabel="false" showbar="false" locklevel="0" id="{60da32b2-d3ea-1986-385b-8ddd11edb890}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e1e12ced-0e7c-44c6-b8d4-552e3a8baa8a}" showlabel="true" colspan="1" auto="false" rowspan="12">
+                        <labels>
+                          <label description=" " languagecode="1033" />
+                        </labels>
+                        <control id="grid_weblinksets" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                          <parameters>
+                            <ViewId>{B9A1D346-6D42-455C-AD6B-9AD057F63D62}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>adx_website_weblinkset</RelationshipName>
+                            <TargetEntityType>adx_weblinkset</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>true</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{B9A1D346-6D42-455C-AD6B-9AD057F63D62}</ViewIds>
+                            <EnableJumpBar>true</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>10</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_sitesettings" id="{58db3a46-8107-a99d-5570-e7c13e26824c}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Site Settings" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_8_section_1" showlabel="false" showbar="false" locklevel="0" id="{cab029dd-6220-0649-c17d-9ee0bd0019b7}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{23c2539d-98e3-4b3a-98ae-e03634977b66}" showlabel="true" colspan="1" auto="false" rowspan="12">
+                        <labels>
+                          <label description=" " languagecode="1033" />
+                        </labels>
+                        <control id="grid_sitesettings" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                          <parameters>
+                            <ViewId>{F69E9C90-1798-4A7A-8160-4127857BF06C}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>adx_website_sitesetting</RelationshipName>
+                            <TargetEntityType>adx_sitesetting</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>true</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{F69E9C90-1798-4A7A-8160-4127857BF06C}</ViewIds>
+                            <EnableJumpBar>true</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>10</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_sitemarkers" id="{79255e1a-c35b-261c-622b-14c2b90cb767}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Site Markers" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_9_section_1" showlabel="false" showbar="false" locklevel="0" id="{e5066d41-b1a4-8e54-ad88-e45e54014bb0}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a01624d3-0107-e6a0-7c5d-6b4965695d3c}" showlabel="true" colspan="1" auto="false" rowspan="12">
+                        <labels>
+                          <label description=" " languagecode="1033" />
+                        </labels>
+                        <control id="grid_sitemarkers" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                          <parameters>
+                            <ViewId>{FB2EAAE3-49C9-486A-BCEF-184FB5B14BEF}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>adx_website_sitemarker</RelationshipName>
+                            <TargetEntityType>adx_sitemarker</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>true</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{FB2EAAE3-49C9-486A-BCEF-184FB5B14BEF}</ViewIds>
+                            <EnableJumpBar>true</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>10</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_pagetemplates" id="{416d02b8-9e3e-55d6-9adb-59beb3ee9294}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Page Templates" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_10_section_1" showlabel="false" showbar="false" locklevel="0" id="{755c3483-912e-c75a-ee64-00aa132c1cd3}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d0a4b62a-85ee-9272-93de-8ddd95b3cd06}" showlabel="true" colspan="1" auto="false" rowspan="12">
+                        <labels>
+                          <label description=" " languagecode="1033" />
+                        </labels>
+                        <control id="grid_pagetemplates" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                          <parameters>
+                            <ViewId>{D260EA2A-4E94-45B2-8782-5379BE86D9B1}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>adx_website_pagetemplate</RelationshipName>
+                            <TargetEntityType>adx_pagetemplate</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>true</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{D260EA2A-4E94-45B2-8782-5379BE86D9B1}</ViewIds>
+                            <EnableJumpBar>true</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>10</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_publishingstates" id="{ea816d27-5796-6773-9545-06ecb257419e}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Publishing States" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_11_section_1" showlabel="false" showbar="false" locklevel="0" id="{68cd9d1a-4ab1-aea6-e415-ca80448c8db6}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{dc6c7174-9492-4b57-d064-257e6a3a52d5}" showlabel="true" colspan="1" auto="false" rowspan="12">
+                        <labels>
+                          <label description=" " languagecode="1033" />
+                        </labels>
+                        <control id="grid_publishingstates" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                          <parameters>
+                            <ViewId>{B851A902-4436-42EC-A230-2DF5EC93005B}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>adx_website_publishingstate</RelationshipName>
+                            <TargetEntityType>adx_publishingstate</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>true</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{B851A902-4436-42EC-A230-2DF5EC93005B}</ViewIds>
+                            <EnableJumpBar>true</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>10</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_websiteaccesspermissions" id="{95177040-9a50-87a8-5405-ec0577198e77}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Website Access Permissions" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_12_section_1" showlabel="false" showbar="false" locklevel="0" id="{b1bde352-2ed9-0121-7e56-7d7ed0d68378}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0370de99-54a0-d85a-40dc-ad3901461d8b}" showlabel="true" colspan="1" auto="false" rowspan="12">
+                        <labels>
+                          <label description=" " languagecode="1033" />
+                        </labels>
+                        <control id="grid_websiteaccesspermissions" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                          <parameters>
+                            <ViewId>{BA1A736D-0C7E-427F-A3CB-994126EE7211}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>adx_website_websiteaccess</RelationshipName>
+                            <TargetEntityType>adx_websiteaccess</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>true</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{BA1A736D-0C7E-427F-A3CB-994126EE7211}</ViewIds>
+                            <EnableJumpBar>true</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>10</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_webroles" id="{515ab949-ba3d-b6d9-748b-2d4120ec2343}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+          <labels>
+            <label description="Web Roles" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_13_section_1" showlabel="false" showbar="false" locklevel="0" id="{a654a3be-c381-0c8a-315a-2d28b710c663}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{444d71b2-43d4-c14a-c9b6-936008be1939}" showlabel="true" colspan="1" auto="false" rowspan="12">
+                        <labels>
+                          <label description=" " languagecode="1033" />
+                        </labels>
+                        <control id="grid_webroles" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                          <parameters>
+                            <ViewId>{8A3AAD5D-06EE-40AD-A1BA-000C521A8F83}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>adx_website_webrole</RelationshipName>
+                            <TargetEntityType>adx_webrole</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>true</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{8A3AAD5D-06EE-40AD-A1BA-000C521A8F83}</ViewIds>
+                            <EnableJumpBar>true</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>10</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab id="{6ac737ae-d989-4af6-9ce8-fb5189ac2f24}" IsUserDefined="0" name="{6ac737ae-d989-4af6-9ce8-fb5189ac2f24}" expanded="false">
+          <labels>
+            <label description="Notes" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" id="{b6c8814d-99eb-452a-ae6b-adc22c0ba969}" IsUserDefined="0" height="auto" name="{b6c8814d-99eb-452a-ae6b-adc22c0ba969}" columns="11">
+                  <labels>
+                    <label description="Notes" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell colspan="2" showlabel="false" rowspan="10" auto="true" id="{670de20a-f6d8-42a4-b694-9ec5623b3478}" locklevel="0">
+                        <labels>
+                          <label description="Notes Properties" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" disabled="false">
+                          <parameters>
+                            <DefaultTabId>ActivitiesTab</DefaultTabId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{78a67998-ac78-43fb-addd-1d4ac6106c58}" columns="1">
+        <rows>
+          <row>
+            <cell id="{38a105e7-1469-4864-9f6a-f4d9e98d2dfd}">
+              <labels>
+                <label description="Status" languagecode="1033" />
+              </labels>
+              <control id="footer_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+              <Title LCID="1026" Text="Обща информация" />
+              <Title LCID="1027" Text="Comú" />
+              <Title LCID="1029" Text="Obecné" />
+              <Title LCID="1030" Text="Almindelig" />
+              <Title LCID="1031" Text="Allgemein" />
+              <Title LCID="1032" Text="Κοινό" />
+              <Title LCID="3082" Text="Común" />
+              <Title LCID="1061" Text="Levinud" />
+              <Title LCID="1069" Text="Ohikoak" />
+              <Title LCID="1035" Text="Yhteiset" />
+              <Title LCID="1036" Text="Éléments communs" />
+              <Title LCID="1110" Text="Común" />
+              <Title LCID="1081" Text="सामान्य" />
+              <Title LCID="1050" Text="Uobičajeno" />
+              <Title LCID="1038" Text="Általános" />
+              <Title LCID="1057" Text="Umum" />
+              <Title LCID="1040" Text="Elementi comuni" />
+              <Title LCID="1087" Text="Жалпы" />
+              <Title LCID="1063" Text="Bendra" />
+              <Title LCID="1062" Text="Kopējs" />
+              <Title LCID="1086" Text="Umum" />
+              <Title LCID="1044" Text="Felles" />
+              <Title LCID="1043" Text="Algemeen" />
+              <Title LCID="1045" Text="Wspólne" />
+              <Title LCID="1046" Text="Comum" />
+              <Title LCID="2070" Text="Comum" />
+              <Title LCID="1048" Text="Comun" />
+              <Title LCID="1049" Text="Общее" />
+              <Title LCID="1051" Text="Spoločné" />
+              <Title LCID="1060" Text="Splošno" />
+              <Title LCID="3098" Text="Уобичајено" />
+              <Title LCID="2074" Text="Uobičajeno" />
+              <Title LCID="9242" Text="Uobičajeno" />
+              <Title LCID="1053" Text="Gemensamt" />
+              <Title LCID="1054" Text="ทั่วไป" />
+              <Title LCID="1055" Text="Ortak" />
+              <Title LCID="1058" Text="Загальне" />
+              <Title LCID="1066" Text="Thông thường" />
+              <Title LCID="1041" Text="共通" />
+              <Title LCID="1042" Text="일반" />
+              <Title LCID="10266" Text="Уобичајено" />
+              <Title LCID="2052" Text="公用" />
+              <Title LCID="3076" Text="一般" />
+              <Title LCID="1028" Text="一般" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+              <Title LCID="1026" Text="Продажби" />
+              <Title LCID="1027" Text="Vendes" />
+              <Title LCID="1029" Text="Prodej" />
+              <Title LCID="1030" Text="Salg" />
+              <Title LCID="1031" Text="Vertrieb" />
+              <Title LCID="1032" Text="Πωλήσεις" />
+              <Title LCID="3082" Text="Ventas" />
+              <Title LCID="1061" Text="Müük" />
+              <Title LCID="1069" Text="Salmentak" />
+              <Title LCID="1035" Text="Myynti" />
+              <Title LCID="1036" Text="Ventes" />
+              <Title LCID="1110" Text="Vendas" />
+              <Title LCID="1081" Text="विक्रय" />
+              <Title LCID="1050" Text="Prodaja" />
+              <Title LCID="1038" Text="Értékesítés" />
+              <Title LCID="1057" Text="Penjualan" />
+              <Title LCID="1040" Text="Vendite" />
+              <Title LCID="1087" Text="Сатылым" />
+              <Title LCID="1063" Text="Pardavimas" />
+              <Title LCID="1062" Text="Pārdošana" />
+              <Title LCID="1086" Text="Jualan" />
+              <Title LCID="1044" Text="Salg" />
+              <Title LCID="1043" Text="Verkoop" />
+              <Title LCID="1045" Text="Sprzedaż" />
+              <Title LCID="1046" Text="Vendas" />
+              <Title LCID="2070" Text="Vendas" />
+              <Title LCID="1048" Text="Vânzări" />
+              <Title LCID="1049" Text="Продажи" />
+              <Title LCID="1051" Text="Predaj" />
+              <Title LCID="1060" Text="Prodaja" />
+              <Title LCID="3098" Text="Продаја" />
+              <Title LCID="2074" Text="Prodaja" />
+              <Title LCID="9242" Text="Prodaja" />
+              <Title LCID="1053" Text="Försäljning" />
+              <Title LCID="1054" Text="การขาย" />
+              <Title LCID="1055" Text="Satış" />
+              <Title LCID="1058" Text="Збут" />
+              <Title LCID="1066" Text="Bán hàng" />
+              <Title LCID="1041" Text="営業" />
+              <Title LCID="1042" Text="영업" />
+              <Title LCID="10266" Text="Продаја" />
+              <Title LCID="2052" Text="销售" />
+              <Title LCID="3076" Text="銷售" />
+              <Title LCID="1028" Text="銷售" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+              <Title LCID="1026" Text="Обслужване" />
+              <Title LCID="1027" Text="Servei" />
+              <Title LCID="1029" Text="Služby" />
+              <Title LCID="1030" Text="Service" />
+              <Title LCID="1031" Text="Service" />
+              <Title LCID="1032" Text="Υπηρεσία" />
+              <Title LCID="3082" Text="Servicio" />
+              <Title LCID="1061" Text="Teenindus" />
+              <Title LCID="1069" Text="Zerbitzua" />
+              <Title LCID="1035" Text="Palvelu" />
+              <Title LCID="1036" Text="Service" />
+              <Title LCID="1110" Text="Servizo" />
+              <Title LCID="1081" Text="सेवा" />
+              <Title LCID="1050" Text="Usluga" />
+              <Title LCID="1038" Text="Szolgáltatás" />
+              <Title LCID="1057" Text="Layanan" />
+              <Title LCID="1040" Text="Servizio" />
+              <Title LCID="1087" Text="Қызмет" />
+              <Title LCID="1063" Text="Paslauga" />
+              <Title LCID="1062" Text="Serviss" />
+              <Title LCID="1086" Text="Perkhidmatan" />
+              <Title LCID="1044" Text="Service" />
+              <Title LCID="1043" Text="Service" />
+              <Title LCID="1045" Text="Usługa" />
+              <Title LCID="1046" Text="Serviço" />
+              <Title LCID="2070" Text="Serviço" />
+              <Title LCID="1048" Text="Serviciu" />
+              <Title LCID="1049" Text="Сервис" />
+              <Title LCID="1051" Text="Služba" />
+              <Title LCID="1060" Text="Storitev" />
+              <Title LCID="3098" Text="Услуга" />
+              <Title LCID="2074" Text="Usluga" />
+              <Title LCID="9242" Text="Usluga" />
+              <Title LCID="1053" Text="Tjänst" />
+              <Title LCID="1054" Text="การบริการ" />
+              <Title LCID="1055" Text="Servis" />
+              <Title LCID="1058" Text="Послуга" />
+              <Title LCID="1066" Text="Dịch vụ" />
+              <Title LCID="1041" Text="サービス" />
+              <Title LCID="1042" Text="서비스" />
+              <Title LCID="10266" Text="Услуга" />
+              <Title LCID="2052" Text="服务" />
+              <Title LCID="3076" Text="服務" />
+              <Title LCID="1028" Text="服務" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+              <Title LCID="1026" Text="Маркетинг" />
+              <Title LCID="1027" Text="Màrqueting" />
+              <Title LCID="1029" Text="Marketing" />
+              <Title LCID="1030" Text="Marketing" />
+              <Title LCID="1031" Text="Marketing" />
+              <Title LCID="1032" Text="Μάρκετινγκ" />
+              <Title LCID="3082" Text="Marketing" />
+              <Title LCID="1061" Text="Turundus" />
+              <Title LCID="1069" Text="Marketina" />
+              <Title LCID="1035" Text="Markkinointi" />
+              <Title LCID="1036" Text="Marketing" />
+              <Title LCID="1110" Text="Márketing" />
+              <Title LCID="1081" Text="मार्केटिंग" />
+              <Title LCID="1050" Text="Marketing" />
+              <Title LCID="1038" Text="Marketing" />
+              <Title LCID="1057" Text="Pemasaran" />
+              <Title LCID="1040" Text="Marketing" />
+              <Title LCID="1087" Text="Маркетинг" />
+              <Title LCID="1063" Text="Rinkodara" />
+              <Title LCID="1062" Text="Mārketings" />
+              <Title LCID="1086" Text="Pemasaran" />
+              <Title LCID="1044" Text="Markedsføring" />
+              <Title LCID="1043" Text="Marketing" />
+              <Title LCID="1045" Text="Marketing" />
+              <Title LCID="1046" Text="Marketing" />
+              <Title LCID="2070" Text="Marketing" />
+              <Title LCID="1048" Text="Marketing" />
+              <Title LCID="1049" Text="Маркетинг" />
+              <Title LCID="1051" Text="Marketing" />
+              <Title LCID="1060" Text="Trženje" />
+              <Title LCID="3098" Text="Маркетинг" />
+              <Title LCID="2074" Text="Marketing" />
+              <Title LCID="9242" Text="Marketing" />
+              <Title LCID="1053" Text="Marknadsföring" />
+              <Title LCID="1054" Text="การตลาด" />
+              <Title LCID="1055" Text="Pazarlama" />
+              <Title LCID="1058" Text="Маркетинг" />
+              <Title LCID="1066" Text="Tiếp thị" />
+              <Title LCID="1041" Text="マーケティング" />
+              <Title LCID="1042" Text="마케팅" />
+              <Title LCID="10266" Text="Маркетинг" />
+              <Title LCID="2052" Text="市场营销" />
+              <Title LCID="3076" Text="行銷" />
+              <Title LCID="1028" Text="行銷" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Processes" />
+              <Title LCID="1026" Text="Процеси" />
+              <Title LCID="1027" Text="Processos" />
+              <Title LCID="1029" Text="Procesy" />
+              <Title LCID="1030" Text="Processer" />
+              <Title LCID="1031" Text="Prozesse" />
+              <Title LCID="1032" Text="Διεργασίες" />
+              <Title LCID="3082" Text="Procesos" />
+              <Title LCID="1061" Text="Protsessid" />
+              <Title LCID="1069" Text="Prozesuak" />
+              <Title LCID="1035" Text="Prosessit" />
+              <Title LCID="1036" Text="Processus" />
+              <Title LCID="1110" Text="Procesos" />
+              <Title LCID="1081" Text="प्रक्रियाएँ" />
+              <Title LCID="1050" Text="Procesi" />
+              <Title LCID="1038" Text="Folyamatok" />
+              <Title LCID="1057" Text="Proses" />
+              <Title LCID="1040" Text="Processi" />
+              <Title LCID="1087" Text="Процестер" />
+              <Title LCID="1063" Text="Procesai" />
+              <Title LCID="1062" Text="Procesi" />
+              <Title LCID="1086" Text="Proses" />
+              <Title LCID="1044" Text="Prosesser" />
+              <Title LCID="1043" Text="Processen" />
+              <Title LCID="1045" Text="Procesy" />
+              <Title LCID="1046" Text="Processos" />
+              <Title LCID="2070" Text="Processos" />
+              <Title LCID="1048" Text="Procese" />
+              <Title LCID="1049" Text="Процессы" />
+              <Title LCID="1051" Text="Procesy" />
+              <Title LCID="1060" Text="Procesi" />
+              <Title LCID="3098" Text="Процеси" />
+              <Title LCID="2074" Text="Procesi" />
+              <Title LCID="9242" Text="Procesi" />
+              <Title LCID="1053" Text="Processer" />
+              <Title LCID="1054" Text="กระบวนการ" />
+              <Title LCID="1055" Text="İşlemler" />
+              <Title LCID="1058" Text="Процеси" />
+              <Title LCID="1066" Text="Quy trình" />
+              <Title LCID="1041" Text="プロセス" />
+              <Title LCID="1042" Text="프로세스" />
+              <Title LCID="10266" Text="Процеси" />
+              <Title LCID="2052" Text="流程" />
+              <Title LCID="3076" Text="程序" />
+              <Title LCID="1028" Text="程序" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+        <NavBar />
+      </Navigation>
+      <formLibraries>
+        <Library name="adx_resources/adx_website_language.js" libraryUniqueId="{eb078803-0703-4c9a-4349-662cc5c73de7}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="adx.localizations.websiteLanguage.prototype.InitializeLanguageField" libraryName="adx_resources/adx_website_language.js" handlerUniqueId="{8a27002a-2b02-d4ab-d5eb-d12942097ed4}" enabled="true" parameters="" passExecutionContext="false" />
+          </Handlers>
+        </event>
+      </events>
+      <controlDescriptions />
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

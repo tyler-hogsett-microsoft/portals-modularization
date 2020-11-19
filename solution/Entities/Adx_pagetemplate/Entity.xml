@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name LocalizedName="Page Template" OriginalName="Page Template">Adx_pagetemplate</Name>
+  <EntityInfo>
+    <entity Name="Adx_pagetemplate" unmodified="1">
+      <attributes />
+    </entity>
+  </EntityInfo>
+  <FormXml />
+  <RibbonDiffXml />
+</Entity>

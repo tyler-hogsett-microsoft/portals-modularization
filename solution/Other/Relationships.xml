@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="lk_mdce_portal_module_createdby" />
+  <EntityRelationship Name="lk_mdce_portal_module_modifiedby" />
+  <EntityRelationship Name="mdce_Adx_contentsnippet_module_id_mdce_portal_" />
+  <EntityRelationship Name="mdce_adx_entityform_module_id_mdce_portal_modu" />
+  <EntityRelationship Name="organization_mdce_portal_module" />
+</EntityRelationships>

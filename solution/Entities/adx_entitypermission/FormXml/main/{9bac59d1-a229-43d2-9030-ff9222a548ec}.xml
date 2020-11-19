@@ -1,0 +1,666 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform unmodified="1">
+    <formid>{9bac59d1-a229-43d2-9030-ff9222a548ec}</formid>
+    <IntroducedVersion>7.0.0000</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1900">
+      <tabs>
+        <tab verticallayout="true" id="{00cc69fa-e364-4f4d-a649-c87e98b78522}" IsUserDefined="1" expanded="true" name="adx_entitypermission_general" locklevel="0" showlabel="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{a349f40d-7a85-4e2a-8307-3e82290bdfbf}" name="adx_entitypermission_general" columns="11" locklevel="0" labelwidth="150" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0aa0f4b1-ae63-4357-8f0f-84851d91eec7}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="adx_entityname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_entityname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b0d71757-d8be-2231-6a71-e9c09865705e}" showlabel="true" locklevel="1">
+                        <labels>
+                          <label description="Entity Name" languagecode="1033" />
+                        </labels>
+                        <control id="adx_entitylogicalname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_entitylogicalname" disabled="true" />
+                      </cell>
+                      <cell id="{ebe68ebb-5c68-0913-a2b7-3414aa87b825}" showlabel="false" colspan="1" auto="false" rowspan="1">
+                        <labels>
+                          <label description="Entity Name (Selector)" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_adx_entitylogicalname_selector" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>adx_metadata/entity_selector.html</Url>
+                            <Data>field=adx_entitylogicalname</Data>
+                            <PassParameters>false</PassParameters>
+                            <Security>false</Security>
+                            <Scrolling>auto</Scrolling>
+                            <Border>false</Border>
+                          </parameters>
+                        </control>
+                        <events>
+                          <event name="onload" application="false">
+                            <dependencies>
+                              <dependency id="adx_entitylogicalname" />
+                            </dependencies>
+                          </event>
+                        </events>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{83b73265-d8d8-bc05-12c9-59796d04eac0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Website" languagecode="1033" />
+                        </labels>
+                        <control id="adx_websiteid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_websiteid" disabled="false" />
+                      </cell>
+                      <cell id="{068b8a50-b152-9d61-7dce-53b755ced0de}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3bdbd460-32e5-b481-6324-3dade3b04b02}" showlabel="true" locklevel="0" colspan="2">
+                        <labels>
+                          <label description="Scope" languagecode="1033" />
+                        </labels>
+                        <control id="adx_scope" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="adx_scope" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="adx_entitypermission_contact" showlabel="true" showbar="false" locklevel="0" id="{3ab8a941-9d2c-a1c1-bbd6-1083e5a340b2}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="150" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Contact Scope" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0bc0829a-343a-0c2a-eb32-8db1e8b2762e}" showlabel="true" locklevel="1">
+                        <labels>
+                          <label description="Contact Relationship" languagecode="1033" />
+                        </labels>
+                        <control id="adx_contactrelationship" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_contactrelationship" disabled="true" />
+                      </cell>
+                      <cell id="{c70b593c-b775-3785-6c74-770a10b9575d}" showlabel="false" colspan="1" auto="false" rowspan="1">
+                        <labels>
+                          <label description="Contact Relationship (Selector)" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_adx_contactrelationship_selector" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>adx_metadata/relationship_selector.html</Url>
+                            <Data>field=adx_contactrelationship&amp;source=adx_entitylogicalname&amp;targets=contact</Data>
+                            <PassParameters>false</PassParameters>
+                            <Security>false</Security>
+                            <Scrolling>auto</Scrolling>
+                            <Border>false</Border>
+                          </parameters>
+                        </control>
+                        <events>
+                          <event name="onload" application="false">
+                            <dependencies>
+                              <dependency id="adx_contactrelationship" />
+                            </dependencies>
+                          </event>
+                        </events>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="adx_entitypermission_account" showlabel="true" showbar="false" locklevel="0" id="{e024d9a2-b989-c252-dd33-5ae594112b7d}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="150" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Account Scope" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{46b77e0d-1cd9-85db-b727-77da91c59d30}" showlabel="true" locklevel="1">
+                        <labels>
+                          <label description="Account Relationship" languagecode="1033" />
+                        </labels>
+                        <control id="adx_accountrelationship" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_accountrelationship" disabled="true" />
+                      </cell>
+                      <cell id="{3b5a629b-635c-1545-63ab-dc3eb686dddb}" showlabel="false" colspan="1" auto="false" rowspan="1">
+                        <labels>
+                          <label description="Account Relationship (Selector)" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_adx_accountrelationshipname_selector" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>adx_metadata/relationship_selector.html</Url>
+                            <Data>field=adx_accountrelationship&amp;source=adx_entitylogicalname&amp;targets=account</Data>
+                            <PassParameters>false</PassParameters>
+                            <Security>false</Security>
+                            <Scrolling>auto</Scrolling>
+                            <Border>false</Border>
+                          </parameters>
+                        </control>
+                        <events>
+                          <event name="onload" application="false">
+                            <dependencies>
+                              <dependency id="adx_accountrelationship" />
+                            </dependencies>
+                          </event>
+                        </events>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="adx_entitypermission_parent" showlabel="true" showbar="false" locklevel="0" id="{c477c65b-1537-3634-c485-55e7c59a28c8}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="150" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Parent Scope" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ec02be13-93b6-c4ea-6943-9202192aab14}" showlabel="true" locklevel="1" colspan="2">
+                        <labels>
+                          <label description="Parent Entity Permission" languagecode="1033" />
+                        </labels>
+                        <control id="adx_parententitypermission" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_parententitypermission" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{D67B4974-E677-42FC-9CF4-7FD77D192382}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6e50506e-a9be-edbe-ed67-53d0673b72bb}" showlabel="true" locklevel="1">
+                        <labels>
+                          <label description="Parent Relationship" languagecode="1033" />
+                        </labels>
+                        <control id="adx_parentrelationship" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_parentrelationship" disabled="true" />
+                      </cell>
+                      <cell id="{b24d7316-2b88-3e29-17bb-d07d1b85829c}" showlabel="false" colspan="1" auto="false" rowspan="1">
+                        <labels>
+                          <label description="Parent Relationship (Selector)" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_adx_parentrelationship_selector" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>adx_metadata/relationship_selector.html</Url>
+                            <Data>field=adx_parentrelationship&amp;source=adx_entitylogicalname&amp;targets=$adx_parententitypermission.adx_entitylogicalname</Data>
+                            <PassParameters>false</PassParameters>
+                            <Security>false</Security>
+                            <Scrolling>auto</Scrolling>
+                            <Border>false</Border>
+                          </parameters>
+                        </control>
+                        <events>
+                          <event name="onload" application="false">
+                            <dependencies>
+                              <dependency id="adx_parentrelationship" />
+                              <dependency id="adx_parententitypermission" />
+                            </dependencies>
+                          </event>
+                        </events>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="adx_entitypermission_privileges" showlabel="true" showbar="false" locklevel="0" id="{b93a4c4d-c532-c042-62d7-1a915cb098db}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="75" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Privileges" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7694799a-7eeb-603b-9951-a7b10d96ac28}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Read" languagecode="1033" />
+                        </labels>
+                        <control id="adx_read" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="adx_read" disabled="false" />
+                      </cell>
+                      <cell id="{5365a694-923a-c015-e3e7-0bad09459610}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Write" languagecode="1033" />
+                        </labels>
+                        <control id="adx_write" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="adx_write" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4d776a9b-2198-66a9-1a97-9a26e18e3e75}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Create" languagecode="1033" />
+                        </labels>
+                        <control id="adx_create" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="adx_create" disabled="false" />
+                      </cell>
+                      <cell id="{c8aa6802-be1b-7933-d654-457ee05a8b10}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Delete" languagecode="1033" />
+                        </labels>
+                        <control id="adx_delete" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="adx_delete" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a3d17ded-ae4e-690e-ab03-5b6b83433496}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Append" languagecode="1033" />
+                        </labels>
+                        <control id="adx_append" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="adx_append" disabled="false" />
+                      </cell>
+                      <cell id="{099ea88b-dea1-7c0b-4679-41804357673a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Append To" languagecode="1033" />
+                        </labels>
+                        <control id="adx_appendto" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="adx_appendto" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="adx_entitypermission_children" showlabel="true" showbar="false" locklevel="0" id="{91bae5e1-b990-b36b-c1ca-73e1873974ab}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Child Entity Permissions" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c3cbc48c-5a3e-e146-17b7-0809e51de44c}" showlabel="false" colspan="1" auto="false" rowspan="12">
+                        <labels>
+                          <label description="Entity Permissions (Parent Entity Permission)" languagecode="1033" />
+                        </labels>
+                        <control id="subgrid_childentitypermissions" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                          <parameters>
+                            <ViewId>{D3F8A7C8-2AF0-E311-9428-00155D038C01}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>adx_entitypermission_parententitypermission</RelationshipName>
+                            <TargetEntityType>adx_entitypermission</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{3B799288-E2E7-4178-9DF8-D635C2A6ED60},{D3F8A7C8-2AF0-E311-9428-00155D038C01}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>10</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="adx_entitypermission_webroles" showlabel="true" showbar="false" locklevel="0" id="{3cc94e44-e809-3d90-288b-7a3e37578b15}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Web Roles" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c665e611-3321-a372-311b-12c7b9056c32}" showlabel="false" colspan="1" auto="false" rowspan="12">
+                        <labels>
+                          <label description="Web Roles" languagecode="1033" />
+                        </labels>
+                        <control id="subgrid_webroles" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                          <parameters>
+                            <ViewId>{8A3AAD5D-06EE-40AD-A1BA-000C521A8F83}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>adx_entitypermission_webrole</RelationshipName>
+                            <TargetEntityType>adx_webrole</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{8A3AAD5D-06EE-40AD-A1BA-000C521A8F83}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>10</RecordsPerPage>
+                            <RelationshipRoleOrdinal>1</RelationshipRoleOrdinal>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="adx_entitypermission_notes" showlabel="false" showbar="false" locklevel="0" id="{a6a6c8bb-5b33-bb68-eccc-c7a13b1ee4a8}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Notes" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e85edd72-4115-c134-38d4-bb1d3b25a8a0}" showlabel="false" rowspan="15" auto="false" colspan="1" locklevel="0">
+                        <labels>
+                          <label description="Notes" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" disabled="false">
+                          <parameters>
+                            <DefaultTabId>ActivitiesTab</DefaultTabId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+              <Title LCID="1026" Text="Обща информация" />
+              <Title LCID="1027" Text="Comú" />
+              <Title LCID="1029" Text="Obecné" />
+              <Title LCID="1030" Text="Almindelig" />
+              <Title LCID="1031" Text="Allgemein" />
+              <Title LCID="1032" Text="Κοινό" />
+              <Title LCID="3082" Text="Común" />
+              <Title LCID="1061" Text="Levinud" />
+              <Title LCID="1069" Text="Ohikoak" />
+              <Title LCID="1035" Text="Yhteiset" />
+              <Title LCID="1036" Text="Éléments communs" />
+              <Title LCID="1110" Text="Común" />
+              <Title LCID="1081" Text="सामान्य" />
+              <Title LCID="1050" Text="Uobičajeno" />
+              <Title LCID="1038" Text="Általános" />
+              <Title LCID="1057" Text="Umum" />
+              <Title LCID="1040" Text="Elementi comuni" />
+              <Title LCID="1087" Text="Жалпы" />
+              <Title LCID="1063" Text="Bendra" />
+              <Title LCID="1062" Text="Kopējs" />
+              <Title LCID="1086" Text="Umum" />
+              <Title LCID="1044" Text="Felles" />
+              <Title LCID="1043" Text="Algemeen" />
+              <Title LCID="1045" Text="Wspólne" />
+              <Title LCID="1046" Text="Comum" />
+              <Title LCID="2070" Text="Comum" />
+              <Title LCID="1048" Text="Comun" />
+              <Title LCID="1049" Text="Общее" />
+              <Title LCID="1051" Text="Spoločné" />
+              <Title LCID="1060" Text="Splošno" />
+              <Title LCID="3098" Text="Уобичајено" />
+              <Title LCID="2074" Text="Uobičajeno" />
+              <Title LCID="9242" Text="Uobičajeno" />
+              <Title LCID="1053" Text="Gemensamt" />
+              <Title LCID="1054" Text="ทั่วไป" />
+              <Title LCID="1055" Text="Ortak" />
+              <Title LCID="1058" Text="Загальне" />
+              <Title LCID="1066" Text="Thông thường" />
+              <Title LCID="1041" Text="共通" />
+              <Title LCID="1042" Text="일반" />
+              <Title LCID="10266" Text="Уобичајено" />
+              <Title LCID="2052" Text="公用" />
+              <Title LCID="3076" Text="一般" />
+              <Title LCID="1028" Text="一般" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+              <Title LCID="1026" Text="Продажби" />
+              <Title LCID="1027" Text="Vendes" />
+              <Title LCID="1029" Text="Prodej" />
+              <Title LCID="1030" Text="Salg" />
+              <Title LCID="1031" Text="Vertrieb" />
+              <Title LCID="1032" Text="Πωλήσεις" />
+              <Title LCID="3082" Text="Ventas" />
+              <Title LCID="1061" Text="Müük" />
+              <Title LCID="1069" Text="Salmentak" />
+              <Title LCID="1035" Text="Myynti" />
+              <Title LCID="1036" Text="Ventes" />
+              <Title LCID="1110" Text="Vendas" />
+              <Title LCID="1081" Text="विक्रय" />
+              <Title LCID="1050" Text="Prodaja" />
+              <Title LCID="1038" Text="Értékesítés" />
+              <Title LCID="1057" Text="Penjualan" />
+              <Title LCID="1040" Text="Vendite" />
+              <Title LCID="1087" Text="Сатылым" />
+              <Title LCID="1063" Text="Pardavimas" />
+              <Title LCID="1062" Text="Pārdošana" />
+              <Title LCID="1086" Text="Jualan" />
+              <Title LCID="1044" Text="Salg" />
+              <Title LCID="1043" Text="Verkoop" />
+              <Title LCID="1045" Text="Sprzedaż" />
+              <Title LCID="1046" Text="Vendas" />
+              <Title LCID="2070" Text="Vendas" />
+              <Title LCID="1048" Text="Vânzări" />
+              <Title LCID="1049" Text="Продажи" />
+              <Title LCID="1051" Text="Predaj" />
+              <Title LCID="1060" Text="Prodaja" />
+              <Title LCID="3098" Text="Продаја" />
+              <Title LCID="2074" Text="Prodaja" />
+              <Title LCID="9242" Text="Prodaja" />
+              <Title LCID="1053" Text="Försäljning" />
+              <Title LCID="1054" Text="การขาย" />
+              <Title LCID="1055" Text="Satış" />
+              <Title LCID="1058" Text="Збут" />
+              <Title LCID="1066" Text="Bán hàng" />
+              <Title LCID="1041" Text="営業" />
+              <Title LCID="1042" Text="영업" />
+              <Title LCID="10266" Text="Продаја" />
+              <Title LCID="2052" Text="销售" />
+              <Title LCID="3076" Text="銷售" />
+              <Title LCID="1028" Text="銷售" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+              <Title LCID="1026" Text="Обслужване" />
+              <Title LCID="1027" Text="Servei" />
+              <Title LCID="1029" Text="Služby" />
+              <Title LCID="1030" Text="Service" />
+              <Title LCID="1031" Text="Service" />
+              <Title LCID="1032" Text="Υπηρεσία" />
+              <Title LCID="3082" Text="Servicio" />
+              <Title LCID="1061" Text="Teenindus" />
+              <Title LCID="1069" Text="Zerbitzua" />
+              <Title LCID="1035" Text="Palvelu" />
+              <Title LCID="1036" Text="Service" />
+              <Title LCID="1110" Text="Servizo" />
+              <Title LCID="1081" Text="सेवा" />
+              <Title LCID="1050" Text="Usluga" />
+              <Title LCID="1038" Text="Szolgáltatás" />
+              <Title LCID="1057" Text="Layanan" />
+              <Title LCID="1040" Text="Servizio" />
+              <Title LCID="1087" Text="Қызмет" />
+              <Title LCID="1063" Text="Paslauga" />
+              <Title LCID="1062" Text="Serviss" />
+              <Title LCID="1086" Text="Perkhidmatan" />
+              <Title LCID="1044" Text="Service" />
+              <Title LCID="1043" Text="Service" />
+              <Title LCID="1045" Text="Usługa" />
+              <Title LCID="1046" Text="Serviço" />
+              <Title LCID="2070" Text="Serviço" />
+              <Title LCID="1048" Text="Serviciu" />
+              <Title LCID="1049" Text="Сервис" />
+              <Title LCID="1051" Text="Služba" />
+              <Title LCID="1060" Text="Storitev" />
+              <Title LCID="3098" Text="Услуга" />
+              <Title LCID="2074" Text="Usluga" />
+              <Title LCID="9242" Text="Usluga" />
+              <Title LCID="1053" Text="Tjänst" />
+              <Title LCID="1054" Text="การบริการ" />
+              <Title LCID="1055" Text="Servis" />
+              <Title LCID="1058" Text="Послуга" />
+              <Title LCID="1066" Text="Dịch vụ" />
+              <Title LCID="1041" Text="サービス" />
+              <Title LCID="1042" Text="서비스" />
+              <Title LCID="10266" Text="Услуга" />
+              <Title LCID="2052" Text="服务" />
+              <Title LCID="3076" Text="服務" />
+              <Title LCID="1028" Text="服務" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+              <Title LCID="1026" Text="Маркетинг" />
+              <Title LCID="1027" Text="Màrqueting" />
+              <Title LCID="1029" Text="Marketing" />
+              <Title LCID="1030" Text="Marketing" />
+              <Title LCID="1031" Text="Marketing" />
+              <Title LCID="1032" Text="Μάρκετινγκ" />
+              <Title LCID="3082" Text="Marketing" />
+              <Title LCID="1061" Text="Turundus" />
+              <Title LCID="1069" Text="Marketina" />
+              <Title LCID="1035" Text="Markkinointi" />
+              <Title LCID="1036" Text="Marketing" />
+              <Title LCID="1110" Text="Márketing" />
+              <Title LCID="1081" Text="मार्केटिंग" />
+              <Title LCID="1050" Text="Marketing" />
+              <Title LCID="1038" Text="Marketing" />
+              <Title LCID="1057" Text="Pemasaran" />
+              <Title LCID="1040" Text="Marketing" />
+              <Title LCID="1087" Text="Маркетинг" />
+              <Title LCID="1063" Text="Rinkodara" />
+              <Title LCID="1062" Text="Mārketings" />
+              <Title LCID="1086" Text="Pemasaran" />
+              <Title LCID="1044" Text="Markedsføring" />
+              <Title LCID="1043" Text="Marketing" />
+              <Title LCID="1045" Text="Marketing" />
+              <Title LCID="1046" Text="Marketing" />
+              <Title LCID="2070" Text="Marketing" />
+              <Title LCID="1048" Text="Marketing" />
+              <Title LCID="1049" Text="Маркетинг" />
+              <Title LCID="1051" Text="Marketing" />
+              <Title LCID="1060" Text="Trženje" />
+              <Title LCID="3098" Text="Маркетинг" />
+              <Title LCID="2074" Text="Marketing" />
+              <Title LCID="9242" Text="Marketing" />
+              <Title LCID="1053" Text="Marknadsföring" />
+              <Title LCID="1054" Text="การตลาด" />
+              <Title LCID="1055" Text="Pazarlama" />
+              <Title LCID="1058" Text="Маркетинг" />
+              <Title LCID="1066" Text="Tiếp thị" />
+              <Title LCID="1041" Text="マーケティング" />
+              <Title LCID="1042" Text="마케팅" />
+              <Title LCID="10266" Text="Маркетинг" />
+              <Title LCID="2052" Text="市场营销" />
+              <Title LCID="3076" Text="行銷" />
+              <Title LCID="1028" Text="行銷" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+              <Title LCID="1026" Text="Сесии на процес" />
+              <Title LCID="1027" Text="Sessions del procés" />
+              <Title LCID="1029" Text="Relace procesů" />
+              <Title LCID="1030" Text="Processessioner" />
+              <Title LCID="1031" Text="Prozesssitzungen" />
+              <Title LCID="1032" Text="Περίοδοι λειτουργίας διεργασίας" />
+              <Title LCID="3082" Text="Sesiones de proceso" />
+              <Title LCID="1061" Text="Protsessiseansid" />
+              <Title LCID="1069" Text="Prozesu-saioak" />
+              <Title LCID="1035" Text="Prosessin istunnot" />
+              <Title LCID="1036" Text="Sessions de traitement" />
+              <Title LCID="1110" Text="Sesións de proceso" />
+              <Title LCID="1081" Text="प्रक्रिया सत्र" />
+              <Title LCID="1050" Text="Sesije procesa" />
+              <Title LCID="1038" Text="Feldolgozási munkamenetek" />
+              <Title LCID="1057" Text="Sesi Proses" />
+              <Title LCID="1040" Text="Sessioni processo" />
+              <Title LCID="1087" Text="Процесс сеанстары" />
+              <Title LCID="1063" Text="Apdorojimo seansai" />
+              <Title LCID="1062" Text="Apstrādes sesijas" />
+              <Title LCID="1086" Text="Sesi Proses" />
+              <Title LCID="1044" Text="Prosessøkter" />
+              <Title LCID="1043" Text="Processessies" />
+              <Title LCID="1045" Text="Sesje procesów" />
+              <Title LCID="1046" Text="Sessões de Processo" />
+              <Title LCID="2070" Text="Sessões de Processo" />
+              <Title LCID="1048" Text="Sesiuni de proces" />
+              <Title LCID="1049" Text="Сеансы процесса" />
+              <Title LCID="1051" Text="Relácie procesov" />
+              <Title LCID="1060" Text="Seje procesov" />
+              <Title LCID="3098" Text="Сесије процеса" />
+              <Title LCID="2074" Text="Sesije procesa" />
+              <Title LCID="9242" Text="Sesije procesa" />
+              <Title LCID="1053" Text="Processessioner" />
+              <Title LCID="1054" Text="เซสชันของกระบวนการ" />
+              <Title LCID="1055" Text="İşlem Oturumları" />
+              <Title LCID="1058" Text="Сеанси процесів" />
+              <Title LCID="1066" Text="Phiên quá trình" />
+              <Title LCID="1041" Text="プロセス セッション" />
+              <Title LCID="1042" Text="프로세스 세션" />
+              <Title LCID="10266" Text="Сесије процеса" />
+              <Title LCID="2052" Text="进程会话" />
+              <Title LCID="3076" Text="程序工作階段" />
+              <Title LCID="1028" Text="程序工作階段" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <formLibraries>
+        <Library name="adx_scripts/jquery1.10.2.min.js" libraryUniqueId="{9756d5d8-b127-32e7-3e89-ee73cb2ee107}" />
+        <Library name="adx_resources/ResourcesManager.js" libraryUniqueId="{01b3b355-29d7-cca7-dc5a-297367471dce}" />
+        <Library name="adx_entitypermission.js" libraryUniqueId="{a2e431e1-b699-cba2-9161-89d564e3b8b0}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="adx_entitypermission_OnLoad" libraryName="adx_entitypermission.js" handlerUniqueId="{c46c531d-7eb7-2b20-5769-a43ac5c69d4c}" enabled="true" parameters="" passExecutionContext="false" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="adx_scope">
+          <Handlers>
+            <Handler functionName="adx_scope_OnChange" libraryName="adx_entitypermission.js" handlerUniqueId="{d923cbb0-c6ee-94d3-3822-711cd8d92560}" enabled="true" parameters="" passExecutionContext="false" />
+          </Handlers>
+        </event>
+        <event name="onsave" application="false" active="false">
+          <Handlers>
+            <Handler functionName="adx_entitypermission_OnSave" libraryName="adx_entitypermission.js" handlerUniqueId="{ea627ea0-90a0-518e-4c22-dcb4d6c2286e}" enabled="true" parameters="" passExecutionContext="false" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

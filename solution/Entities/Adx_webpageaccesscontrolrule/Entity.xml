@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name LocalizedName="Web Page Access Control Rule" OriginalName="Web Page Access Control Rule">Adx_webpageaccesscontrolrule</Name>
+  <EntityInfo>
+    <entity Name="Adx_webpageaccesscontrolrule" unmodified="1">
+      <attributes />
+    </entity>
+  </EntityInfo>
+  <FormXml />
+  <RibbonDiffXml />
+</Entity>
