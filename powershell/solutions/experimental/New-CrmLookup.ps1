@@ -128,16 +128,16 @@ $missingDependenciesNode = $xml.SelectSingleNode("/ImportExportXml/SolutionManif
 $missingDependenciesNode.InnerXML += 
     $(if($missingDependenciesNode.InnerXML.Length -eq 0) { "`r`n" }) +
 "      <MissingDependency>
-        <Required displayName=`"$entityDisplayName`" schemaName=`"$entitySchemaName`" solution=`"MicrosoftPortalBase (9.2.2006.10)`" type=`"1`" />
+        <Required displayName=`"$entityDisplayName`" schemaName=`"$EntityLogicalName`" solution=`"MicrosoftPortalBase (9.2.2006.10)`" type=`"1`" />
         <Dependent displayName=`"$relationshipSchemaName`" parentDisplayName=`"$targetEntityDisplayName`" parentSchemaName=`"mdce_portal_module`" schemaName=`"$relationshipSchemaName`" type=`"10`" />
       </MissingDependency>
       <MissingDependency>
-        <Required displayName=`"$entityDisplayName`" schemaName=`"$entitySchemaName`" solution=`"MicrosoftPortalBase (9.2.2006.10)`" type=`"1`" />
-        <Dependent displayName=`"$AttributeDisplayName`" parentDisplayName=`"$entityDisplayName`" parentSchemaName=`"$entitySchemaName`" schemaName=`"$attributeLogicalName`" type=`"2`" />
+        <Required displayName=`"$entityDisplayName`" schemaName=`"$EntityLogicalName`" solution=`"MicrosoftPortalBase (9.2.2006.10)`" type=`"1`" />
+        <Dependent displayName=`"$AttributeDisplayName`" parentDisplayName=`"$entityDisplayName`" parentSchemaName=`"$EntityLogicalName`" schemaName=`"$attributeLogicalName`" type=`"2`" />
       </MissingDependency>
       <MissingDependency>
-        <Required displayName=`"$entityDisplayName`" schemaName=`"$entitySchemaName`" solution=`"MicrosoftPortalBase (9.2.2006.10)`" type=`"1`" />
-        <Dependent parentDisplayName=`"$entityDisplayName`" parentSchemaName=`"$entitySchemaName`" schemaName=`"$($attributeLogicalName)name`" type=`"2`" />
+        <Required displayName=`"$entityDisplayName`" schemaName=`"$EntityLogicalName`" solution=`"MicrosoftPortalBase (9.2.2006.10)`" type=`"1`" />
+        <Dependent parentDisplayName=`"$entityDisplayName`" parentSchemaName=`"$EntityLogicalName`" schemaName=`"$($attributeLogicalName)name`" type=`"2`" />
       </MissingDependency>
     "
 $xml.Save($solutionXmlFilePath)
