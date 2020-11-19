@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <systemform unmodified="1">
+  <systemform>
     <formid>{72fb7583-02b0-477d-877b-2516031d8a07}</formid>
     <IntroducedVersion>1.0.0021</IntroducedVersion>
     <FormPresentation>0</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form shownavigationbar="true">
+    <form headerdensity="HighWithControls" shownavigationbar="true">
       <tabs>
         <tab expanded="true" id="{a440d252-912b-4499-b0e8-5c1d4cba58f1}" IsUserDefined="1" locklevel="0" name="adx_contentsnippet_general" showlabel="true" verticallayout="true">
           <labels>
@@ -198,6 +198,21 @@
                     </row>
                   </rows>
                 </section>
+                <section celllabelalignment="Left" celllabelposition="Left" columns="1" id="355b38ca-46ae-48f6-9396-ca45c3996a51" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="modularization" showbar="false" showlabel="false">
+                  <labels>
+                    <label description="Modularization" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{913050dc-123d-4b9f-b722-cb2ea8930ef6}" locklevel="0">
+                        <labels>
+                          <label description="Module" languagecode="1033" />
+                        </labels>
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mdce_module_id" disabled="false" id="mdce_module_id" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
               </sections>
             </column>
           </columns>
@@ -216,7 +231,7 @@
         </rows>
       </footer>
       <Navigation>
-        <NavBar></NavBar>
+        <NavBar />
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>
@@ -480,6 +495,30 @@
           </Handlers>
         </event>
       </events>
+      <header celllabelalignment="Left" celllabelposition="Top" columns="111" id="{37585482-f9ae-4c75-9b07-4fb358b98e6a}" labelwidth="115">
+        <rows>
+          <row>
+            <cell id="{0efee855-4cbe-44a8-95dc-58e21e919e06}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{31c6f670-ad11-4aea-b579-375bc464c9e1}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e7ddcc5b-e698-4125-93e7-fe66330a2be9}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <DisplayConditions FallbackForm="true" Order="0">
+        <Everyone />
+      </DisplayConditions>
     </form>
     <LocalizedNames>
       <LocalizedName description="Information" languagecode="1033" />

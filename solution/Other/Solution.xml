@@ -175,6 +175,18 @@
         <Dependent displayName="Entity Form Metadata" schemaName="adx_entityformmetadata" type="1" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Entity Form Metadata" schemaName="adx_entityformmetadata" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="1" />
+        <Dependent displayName="mdce_adx_entityformmetadata_module_id_mdce_por" parentDisplayName="Portal Module" parentSchemaName="mdce_portal_module" schemaName="mdce_adx_entityformmetadata_module_id_mdce_por" type="10" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Entity Form Metadata" schemaName="adx_entityformmetadata" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="1" />
+        <Dependent displayName="Module" parentDisplayName="Entity Form Metadata" parentSchemaName="adx_entityformmetadata" schemaName="mdce_module_id" type="2" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Entity Form Metadata" schemaName="adx_entityformmetadata" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="1" />
+        <Dependent parentDisplayName="Entity Form Metadata" parentSchemaName="adx_entityformmetadata" schemaName="mdce_module_idname" type="2" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Entity Form" schemaName="adx_entityform" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="1" />
         <Dependent displayName="Entity Form" schemaName="adx_entityform" type="1" />
       </MissingDependency>

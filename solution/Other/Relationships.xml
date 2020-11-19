@@ -4,5 +4,6 @@
   <EntityRelationship Name="lk_mdce_portal_module_modifiedby" />
   <EntityRelationship Name="mdce_Adx_contentsnippet_module_id_mdce_portal_" />
   <EntityRelationship Name="mdce_adx_entityform_module_id_mdce_portal_modu" />
+  <EntityRelationship Name="mdce_adx_entityformmetadata_module_id_mdce_por" />
   <EntityRelationship Name="organization_mdce_portal_module" />
 </EntityRelationships>
