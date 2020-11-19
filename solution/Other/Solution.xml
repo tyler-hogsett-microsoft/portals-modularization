@@ -319,6 +319,18 @@
         <Dependent displayName="Information" id="{72fb7583-02b0-477d-877b-2516031d8a07}" parentDisplayName="Content Snippet" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Page Template" schemaName="adx_pagetemplate" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="mdce_Adx_pagetemplate_module_id_mdce_portal_mo" parentDisplayName="Portal Module" parentSchemaName="mdce_portal_module" schemaName="mdce_Adx_pagetemplate_module_id_mdce_portal_mo" type="10" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Page Template" schemaName="adx_pagetemplate" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="Module" parentDisplayName="Page Template" parentSchemaName="adx_pagetemplate" schemaName="module_id" type="2" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Page Template" schemaName="adx_pagetemplate" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent parentDisplayName="Page Template" parentSchemaName="adx_pagetemplate" schemaName="module_idname" type="2" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Page Template" schemaName="adx_pagetemplate" solution="MicrosoftPortalDependencies (9.2.10.0)" type="1" />
         <Dependent displayName="Page Template" schemaName="adx_pagetemplate" type="1" />
       </MissingDependency>
