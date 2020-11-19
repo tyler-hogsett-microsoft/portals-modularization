@@ -37,5 +37,7 @@ Remove-Item $TargetFolderPath -Force -Recurse -ErrorAction Ignore
 
 & $PSScriptRoot\doctoring\Remove-KeysFromMissingDependencies.ps1 `
     -SolutionFolderPath $TargetFolderPath
+& $PSScriptRoot\doctoring\Set-ManagedPropertyToBoth.ps1 `
+    -SolutionFolderPath $TargetFolderPath
 & $PSScriptRoot\doctoring\Sort-SolutionXmlFolder `
     -Path $TargetFolderPath

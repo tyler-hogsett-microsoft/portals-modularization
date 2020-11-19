@@ -22,7 +22,7 @@ $xml.Load($formXmlFilePath)
 $sectionsXmlNode = $xml.SelectSingleNode("/forms/systemform/form/tabs/tab/columns/column/sections")
 $sectionsXmlNode.InnerXML +=
     $(if($sectionsXmlNode.InnerXML.Length -eq 0) { "`r`n" }) +
-"  <section celllabelalignment=`"Left`" celllabelposition=`"Left`" columns=`"1`" id=`"$([Guid]::NewGuid())`" IsUserDefined=`"0`" labelwidth=`"115`" layout=`"varwidth`" locklevel=`"0`" name=`"$sectionLogicalName`" showbar=`"false`" showlabel=`"false`">
+"  <section celllabelalignment=`"Left`" celllabelposition=`"Left`" columns=`"1`" id=`"{$([Guid]::NewGuid())}`" IsUserDefined=`"0`" labelwidth=`"115`" layout=`"varwidth`" locklevel=`"0`" name=`"$sectionLogicalName`" showbar=`"false`" showlabel=`"false`">
                   <labels>
                     <label description=`"$SectionDisplayName`" languagecode=`"1033`" />
                   </labels>
