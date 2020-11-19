@@ -175,7 +175,7 @@
     <IsCustomizable>1</IsCustomizable>
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>adx_pagetemplate</ReferencingEntityName>
+    <ReferencingEntityName>Adx_pagetemplate</ReferencingEntityName>
     <ReferencedEntityName>mdce_portal_module</ReferencedEntityName>
     <CascadeAssign>NoCascade</CascadeAssign>
     <CascadeDelete>RemoveLink</CascadeDelete>
@@ -209,7 +209,7 @@
     <IsCustomizable>1</IsCustomizable>
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>adx_publishingstate</ReferencingEntityName>
+    <ReferencingEntityName>Adx_publishingstate</ReferencingEntityName>
     <ReferencedEntityName>mdce_portal_module</ReferencedEntityName>
     <CascadeAssign>NoCascade</CascadeAssign>
     <CascadeDelete>RemoveLink</CascadeDelete>
@@ -277,7 +277,7 @@
     <IsCustomizable>1</IsCustomizable>
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>adx_sitesetting</ReferencingEntityName>
+    <ReferencingEntityName>Adx_sitesetting</ReferencingEntityName>
     <ReferencedEntityName>mdce_portal_module</ReferencedEntityName>
     <CascadeAssign>NoCascade</CascadeAssign>
     <CascadeDelete>RemoveLink</CascadeDelete>
@@ -311,7 +311,7 @@
     <IsCustomizable>1</IsCustomizable>
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>adx_webfile</ReferencingEntityName>
+    <ReferencingEntityName>Adx_webfile</ReferencingEntityName>
     <ReferencedEntityName>mdce_portal_module</ReferencedEntityName>
     <CascadeAssign>NoCascade</CascadeAssign>
     <CascadeDelete>RemoveLink</CascadeDelete>
@@ -447,7 +447,7 @@
     <IsCustomizable>1</IsCustomizable>
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>adx_weblink</ReferencingEntityName>
+    <ReferencingEntityName>Adx_weblink</ReferencingEntityName>
     <ReferencedEntityName>mdce_portal_module</ReferencedEntityName>
     <CascadeAssign>NoCascade</CascadeAssign>
     <CascadeDelete>RemoveLink</CascadeDelete>
@@ -481,7 +481,7 @@
     <IsCustomizable>1</IsCustomizable>
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>adx_weblinkset</ReferencingEntityName>
+    <ReferencingEntityName>Adx_weblinkset</ReferencingEntityName>
     <ReferencedEntityName>mdce_portal_module</ReferencedEntityName>
     <CascadeAssign>NoCascade</CascadeAssign>
     <CascadeDelete>RemoveLink</CascadeDelete>
@@ -515,7 +515,7 @@
     <IsCustomizable>1</IsCustomizable>
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>adx_webpage</ReferencingEntityName>
+    <ReferencingEntityName>Adx_webpage</ReferencingEntityName>
     <ReferencedEntityName>mdce_portal_module</ReferencedEntityName>
     <CascadeAssign>NoCascade</CascadeAssign>
     <CascadeDelete>RemoveLink</CascadeDelete>
@@ -549,7 +549,7 @@
     <IsCustomizable>1</IsCustomizable>
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>adx_webpageaccesscontrolrule</ReferencingEntityName>
+    <ReferencingEntityName>Adx_webpageaccesscontrolrule</ReferencingEntityName>
     <ReferencedEntityName>mdce_portal_module</ReferencedEntityName>
     <CascadeAssign>NoCascade</CascadeAssign>
     <CascadeDelete>RemoveLink</CascadeDelete>
@@ -583,7 +583,7 @@
     <IsCustomizable>1</IsCustomizable>
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>adx_webrole</ReferencingEntityName>
+    <ReferencingEntityName>Adx_webrole</ReferencingEntityName>
     <ReferencedEntityName>mdce_portal_module</ReferencedEntityName>
     <CascadeAssign>NoCascade</CascadeAssign>
     <CascadeDelete>RemoveLink</CascadeDelete>
@@ -617,7 +617,7 @@
     <IsCustomizable>1</IsCustomizable>
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>adx_website</ReferencingEntityName>
+    <ReferencingEntityName>Adx_website</ReferencingEntityName>
     <ReferencedEntityName>mdce_portal_module</ReferencedEntityName>
     <CascadeAssign>NoCascade</CascadeAssign>
     <CascadeDelete>RemoveLink</CascadeDelete>
@@ -651,7 +651,7 @@
     <IsCustomizable>1</IsCustomizable>
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>adx_websiteaccess</ReferencingEntityName>
+    <ReferencingEntityName>Adx_websiteaccess</ReferencingEntityName>
     <ReferencedEntityName>mdce_portal_module</ReferencedEntityName>
     <CascadeAssign>NoCascade</CascadeAssign>
     <CascadeDelete>RemoveLink</CascadeDelete>
