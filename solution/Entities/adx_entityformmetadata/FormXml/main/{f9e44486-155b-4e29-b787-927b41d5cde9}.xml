@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <systemform unmodified="1">
+  <systemform>
     <formid>{f9e44486-155b-4e29-b787-927b41d5cde9}</formid>
     <IntroducedVersion>7.0.0003</IntroducedVersion>
     <FormPresentation>0</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form maxWidth="1900" showImage="false" shownavigationbar="true">
+    <form headerdensity="HighWithControls" maxWidth="1900" showImage="false" shownavigationbar="true">
       <tabs>
         <tab id="{279d3d21-6b08-46ae-8815-96ee2b1fa94c}" IsUserDefined="1" verticallayout="true">
           <labels>
@@ -975,13 +975,24 @@
                     </row>
                   </rows>
                 </section>
-                <section celllabelalignment="Left" celllabelposition="Left" columns="1" id="{3970e448-088a-4def-a3d1-70a35cf6c8bc}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="modularization" showbar="false" showlabel="false">
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab id="9a8e06ac-292a-486d-8d54-a0f071d88976" IsUserDefined="0" locklevel="0" name="tab_administration" showlabel="true">
+          <labels>
+            <label description="Administration" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section celllabelalignment="Left" celllabelposition="Left" columns="1" id="7e8abc32-3381-42e6-83ad-6d1fe766f0c9" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="tab_administration_section_modularization" showbar="false" showlabel="true">
                   <labels>
                     <label description="Modularization" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{9ca31b80-b248-4dca-8a1f-0a52514b7cb1}" locklevel="0">
+                      <cell id="{35c8cfd8-9bf6-4f0c-8584-2e9114702318}" locklevel="0">
                         <labels>
                           <label description="Module" languagecode="1033" />
                         </labels>
@@ -1303,6 +1314,30 @@
         </event>
       </events>
       <controlDescriptions />
+      <header celllabelalignment="Left" celllabelposition="Top" columns="111" id="{37b39223-e3c9-4623-8dd4-2d10d04bec38}" labelwidth="115">
+        <rows>
+          <row>
+            <cell id="{30d5270a-0d45-47d2-a4cf-c10370d3f1c3}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d90e18d5-326b-472b-a0a7-1eac88cf386c}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{ad7de6ab-6b60-4705-b197-b3ebc83fdc8e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <DisplayConditions FallbackForm="true" Order="0">
+        <Everyone />
+      </DisplayConditions>
     </form>
     <LocalizedNames>
       <LocalizedName description="Information" languagecode="1033" />
