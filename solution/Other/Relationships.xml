@@ -8,6 +8,20 @@
   <EntityRelationship Name="mdce_adx_entitylist_module_id_mdce_portal_modu" />
   <EntityRelationship Name="mdce_adx_entitypermission_module_id_mdce_porta" />
   <EntityRelationship Name="mdce_Adx_pagetemplate_module_id_mdce_portal_mo" />
-  <EntityRelationship Name="organization_mdce_portal_module" />
   <EntityRelationship Name="mdce_Adx_publishingstate_module_id_mdce_portal" />
+  <EntityRelationship Name="mdce_adx_setting_module_id_mdce_portal_module" />
+  <EntityRelationship Name="mdce_Adx_sitesetting_module_id_mdce_portal_mod" />
+  <EntityRelationship Name="mdce_Adx_webfile_module_id_mdce_portal_module" />
+  <EntityRelationship Name="mdce_adx_webform_module_id_mdce_portal_module" />
+  <EntityRelationship Name="mdce_adx_webformmetadata_module_id_mdce_portal" />
+  <EntityRelationship Name="mdce_adx_webformstep_module_id_mdce_portal_mod" />
+  <EntityRelationship Name="mdce_Adx_weblink_module_id_mdce_portal_module" />
+  <EntityRelationship Name="mdce_Adx_weblinkset_module_id_mdce_portal_modu" />
+  <EntityRelationship Name="mdce_Adx_webpage_module_id_mdce_portal_module" />
+  <EntityRelationship Name="mdce_Adx_webpageaccesscontrolrule_module_id_md" />
+  <EntityRelationship Name="mdce_Adx_webrole_module_id_mdce_portal_module" />
+  <EntityRelationship Name="mdce_Adx_website_module_id_mdce_portal_module" />
+  <EntityRelationship Name="mdce_Adx_websiteaccess_module_id_mdce_portal_m" />
+  <EntityRelationship Name="mdce_adx_webtemplate_module_id_mdce_portal_mod" />
+  <EntityRelationship Name="organization_mdce_portal_module" />
 </EntityRelationships>
