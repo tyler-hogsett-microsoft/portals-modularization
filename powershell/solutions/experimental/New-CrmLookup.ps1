@@ -22,7 +22,8 @@ $entityNode.RemoveAttribute("unmodified")
 $entityNameNode = $xml.SelectSingleNode("/Entity/Name")
 $entitySchemaName = $entityNameNode.InnerXML
 $entityDisplayName = $entityNameNode.Attributes["LocalizedName"].Value
-$relationshipSchemaName = "mdce_$($entitySchemaName)_$($attributeLogicalName)_$TargetEntityLogicalName".Substring(0, 46)
+$relationshipSchemaLongName = "mdce_$($entitySchemaName)_$($attributeLogicalName)_$TargetEntityLogicalName"
+$relationshipSchemaName = $relationshipSchemaLongName.Substring(0, [Math]::Min(46, $relationshipSchemaLongName.Length))
 $attributesNode = $xml.SelectSingleNode("/Entity/EntityInfo/entity/attributes")
 $attributesNode.InnerXML += 
     $(if($attributesNode.InnerXML.Length -eq 0) { "`r`n" }) +
