@@ -195,6 +195,18 @@
         <Dependent displayName="Entity List" schemaName="adx_entitylist" type="1" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Entity List" schemaName="adx_entitylist" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="1" />
+        <Dependent displayName="mdce_adx_entitylist_module_id_mdce_portal_modu" parentDisplayName="Portal Module" parentSchemaName="mdce_portal_module" schemaName="mdce_adx_entitylist_module_id_mdce_portal_modu" type="10" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Entity List" schemaName="adx_entitylist" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="1" />
+        <Dependent displayName="Module" parentDisplayName="Entity List" parentSchemaName="adx_entitylist" schemaName="mdce_module_id" type="2" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Entity List" schemaName="adx_entitylist" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="1" />
+        <Dependent parentDisplayName="Entity List" parentSchemaName="adx_entitylist" schemaName="mdce_module_idname" type="2" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Entity Permission" schemaName="adx_entitypermission" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
         <Dependent displayName="Entity Permission" schemaName="adx_entitypermission" type="1" />
       </MissingDependency>
