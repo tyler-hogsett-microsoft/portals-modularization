@@ -6,7 +6,8 @@ param(
     [Parameter(Mandatory=$true)]
     [string]$AttributeDisplayName,
     [Parameter(Mandatory=$true)]
-    [string]$TargetEntityLogicalName
+    [string]$TargetEntityLogicalName,
+    [switch]$SkipSort
 )
 
 $attributeLogicalName = "$($AttributeDisplayName.ToLower() -Replace " ", "_")_id"
@@ -142,4 +143,7 @@ $missingDependenciesNode.InnerXML +=
     "
 $xml.Save($solutionXmlFilePath)
 
-& $PSScriptRoot\..\doctoring\Sort-SolutionXmlFolder.ps1 $SolutionFolderPath
+if(-not $SkipSort)
+{
+    & $PSScriptRoot\..\doctoring\Sort-SolutionXmlFolder.ps1 $SolutionFolderPath
+}
