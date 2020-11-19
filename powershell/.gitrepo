@@ -5,7 +5,7 @@
 ;
 [subrepo]
 	remote = https://github.com/tyler-hogsett-microsoft/cds-powershell-quickstart
-	branch = portals
+	branch = main
 	commit = 333902863c2f3bdb68d5d854da502dc69affe740
 	parent = 74aa14f7c179bec5c6d3cd817cf316d83ae6cfcb
 	method = merge
