@@ -418,6 +418,18 @@
         <Required displayName="Website" schemaName="adx_website" solution="MicrosoftPortalDependencies (9.2.10.0)" type="1" />
         <Dependent displayName="Website" schemaName="adx_website" type="1" />
       </MissingDependency>
+          <MissingDependency>
+        <Required displayName="Publishing State" schemaName="adx_publishingstate" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="mdce_Adx_publishingstate_module_id_mdce_portal" parentDisplayName="Portal Module" parentSchemaName="mdce_portal_module" schemaName="mdce_Adx_publishingstate_module_id_mdce_portal" type="10" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Publishing State" schemaName="adx_publishingstate" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="Module" parentDisplayName="Publishing State" parentSchemaName="adx_publishingstate" schemaName="module_id" type="2" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Publishing State" schemaName="adx_publishingstate" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent parentDisplayName="Publishing State" parentSchemaName="adx_publishingstate" schemaName="module_idname" type="2" />
+      </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>
 </ImportExportXml>
