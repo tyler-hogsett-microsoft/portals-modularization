@@ -33,6 +33,7 @@ $attributesNode.InnerXML +=
           <LogicalName>$attributeLogicalName</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
           <ValidForReadApi>1</ValidForReadApi>
           <ValidForCreateApi>1</ValidForCreateApi>
@@ -87,7 +88,7 @@ $entityRelationshipsNode.InnerXML +=
     <IsCustomizable>1</IsCustomizable>
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>$EntityLogicalName</ReferencingEntityName>
+    <ReferencingEntityName>$entitySchemaName</ReferencingEntityName>
     <ReferencedEntityName>$TargetEntityLogicalName</ReferencedEntityName>
     <CascadeAssign>NoCascade</CascadeAssign>
     <CascadeDelete>RemoveLink</CascadeDelete>
