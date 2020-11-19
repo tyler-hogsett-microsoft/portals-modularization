@@ -48,7 +48,6 @@ Compress-Archive "$postSolutionPackagerDoctoredFolderPath/*" $doctoredSolutionPa
 Import-CrmSolutionAsync `
     -conn $Connection `
     -SolutionFilePath $doctoredSolutionPath `
-    -AsyncOperationImportMethod `
     -BlockUntilImportComplete
 
 Publish-CrmAllCustomization `
