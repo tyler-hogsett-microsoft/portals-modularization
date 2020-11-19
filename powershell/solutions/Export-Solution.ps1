@@ -29,8 +29,13 @@ Export-CrmSolution `
 
 Remove-Item $TargetFolderPath -Force -Recurse -ErrorAction Ignore
 
-. $PSScriptRoot\Run-SolutionPackager.ps1 `
+& $PSScriptRoot\Run-SolutionPackager.ps1 `
     -Action Extract `
     -ZipFile $solutionFilePath `
     -PackageType Unmanaged `
     -Folder $TargetFolderPath
+
+& $PSScriptRoot\doctoring\Remove-KeysFromMissingDependencies.ps1 `
+    -SolutionFolderPath $TargetFolderPath
+& $PSScriptRoot\doctoring\Sort-SolutionXmlFolder `
+    -Path $TargetFolderPath
