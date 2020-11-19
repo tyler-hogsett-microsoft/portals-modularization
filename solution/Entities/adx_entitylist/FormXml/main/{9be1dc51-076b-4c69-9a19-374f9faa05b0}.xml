@@ -5,68 +5,68 @@
     <IntroducedVersion>7.0.0003</IntroducedVersion>
     <FormPresentation>0</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form shownavigationbar="true" showImage="false" maxWidth="1900">
+    <form maxWidth="1900" showImage="false" shownavigationbar="true">
       <tabs>
-        <tab verticallayout="true" id="{42ec7a6b-7f34-49f7-a08f-361567162d28}" IsUserDefined="1">
+        <tab id="{42ec7a6b-7f34-49f7-a08f-361567162d28}" IsUserDefined="1" verticallayout="true">
           <labels>
             <label description="General" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showlabel="false" showbar="false" IsUserDefined="0" id="{1b56c56d-d5f0-4d0e-bb5a-d91b460c254a}" name="{1b56c56d-d5f0-4d0e-bb5a-d91b460c254a}" columns="11" locklevel="0" labelwidth="200" celllabelalignment="Left" celllabelposition="Left">
+                <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{1b56c56d-d5f0-4d0e-bb5a-d91b460c254a}" IsUserDefined="0" labelwidth="200" locklevel="0" name="{1b56c56d-d5f0-4d0e-bb5a-d91b460c254a}" showbar="false" showlabel="false">
                   <labels>
                     <label description="General" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{e10ec232-d121-c84a-9c6a-6264147ea87e}" showlabel="true" locklevel="0" visible="false">
+                      <cell id="{e10ec232-d121-c84a-9c6a-6264147ea87e}" locklevel="0" showlabel="true" visible="false">
                         <labels>
                           <label description="Provisioned Languages" languagecode="1033" />
                         </labels>
-                        <control id="adx_provisionedlanguages" classid="{671A9387-CA5A-4d1e-8AB7-06E39DDCF6B5}" datafieldname="adx_provisionedlanguages" disabled="false" />
+                        <control classid="{671A9387-CA5A-4d1e-8AB7-06E39DDCF6B5}" datafieldname="adx_provisionedlanguages" disabled="false" id="adx_provisionedlanguages" />
                       </cell>
-                      <cell id="{61667edc-e3e1-05be-81de-6d0e65667038}" showlabel="true" locklevel="0" visible="false">
+                      <cell id="{61667edc-e3e1-05be-81de-6d0e65667038}" locklevel="0" showlabel="true" visible="false">
                         <labels>
                           <label description="Primary Key Name" languagecode="1033" />
                         </labels>
-                        <control id="adx_primarykeyname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_primarykeyname" disabled="false" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_primarykeyname" disabled="false" id="adx_primarykeyname" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{40c0e27a-71b1-3922-c0d9-2d3028d7ea21}" showlabel="true" locklevel="0" colspan="1" visible="false">
+                      <cell colspan="1" id="{40c0e27a-71b1-3922-c0d9-2d3028d7ea21}" locklevel="0" showlabel="true" visible="false">
                         <labels>
                           <label description="View" languagecode="1033" />
                         </labels>
-                        <control id="adx_view" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_view" disabled="false" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_view" disabled="false" id="adx_view" />
                       </cell>
-                      <cell id="{366e404e-54ea-2698-da51-03e73aa686e5}" showlabel="false" locklevel="0" colspan="1" visible="false">
+                      <cell colspan="1" id="{366e404e-54ea-2698-da51-03e73aa686e5}" locklevel="0" showlabel="false" visible="false">
                         <labels>
                           <label description="Views" languagecode="1033" />
                         </labels>
-                        <control id="adx_views" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="adx_views" disabled="false" />
+                        <control classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="adx_views" disabled="false" id="adx_views" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{9f1acba4-b1ec-43fd-a18b-55e5726cc8f5}" colspan="2">
+                      <cell colspan="2" id="{9f1acba4-b1ec-43fd-a18b-55e5726cc8f5}">
                         <labels>
                           <label description="Name" languagecode="1033" />
                         </labels>
-                        <control id="adx_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_name" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_name" id="adx_name" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{eb578142-09ec-218c-6559-5b588c52b917}" showlabel="true" locklevel="0">
+                      <cell id="{eb578142-09ec-218c-6559-5b588c52b917}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Entity Name" languagecode="1033" />
                         </labels>
-                        <control id="adx_entityname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_entityname" disabled="true" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_entityname" disabled="true" id="adx_entityname" />
                       </cell>
-                      <cell id="{d3668dc0-7136-c91c-29b2-e711b0113113}" showlabel="false" colspan="1" auto="false" rowspan="1">
+                      <cell auto="false" colspan="1" id="{d3668dc0-7136-c91c-29b2-e711b0113113}" rowspan="1" showlabel="false">
                         <labels>
                           <label description="Entity Name" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_adx_entityname" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_adx_entityname">
                           <parameters>
                             <Url>adx_metadata/entity_selector.html</Url>
                             <Data>field=adx_entityname</Data>
@@ -77,18 +77,18 @@
                           </parameters>
                         </control>
                         <events>
-                          <event name="onload" application="0">
+                          <event application="0" name="onload">
                             <dependencies />
                           </event>
                         </events>
                       </cell>
                     </row>
                     <row>
-                      <cell id="{10d927a9-99b0-5ed0-cb70-04e67dd2455c}" showlabel="true" locklevel="0">
+                      <cell id="{10d927a9-99b0-5ed0-cb70-04e67dd2455c}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Website" languagecode="1033" />
                         </labels>
-                        <control id="adx_websiteid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_websiteid" disabled="false" />
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_websiteid" disabled="false" id="adx_websiteid" />
                       </cell>
                       <cell id="{03b98239-da14-59bb-671c-46152b2226e9}" showlabel="false">
                         <labels>
@@ -97,11 +97,11 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{a0c28bc5-9572-14d1-9606-73a4e00db6c0}" showlabel="true" colspan="2" auto="false" rowspan="14">
+                      <cell auto="false" colspan="2" id="{a0c28bc5-9572-14d1-9606-73a4e00db6c0}" rowspan="14" showlabel="true">
                         <labels>
                           <label description="Views" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_views" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_views">
                           <parameters>
                             <Url>adx_jsoneditor/adx.jsoneditor.view.entitylist.html</Url>
                             <Data>schema=adx.jsoneditor.view.entitylist&amp;field=adx_views</Data>
@@ -112,7 +112,7 @@
                           </parameters>
                         </control>
                         <events>
-                          <event name="onload" application="0">
+                          <event application="0" name="onload">
                             <dependencies />
                           </event>
                         </events>
@@ -132,39 +132,39 @@
                     <row></row>
                     <row></row>
                     <row>
-                      <cell id="{7d7c4196-4c12-d05b-021b-63aa85b68b3a}" showlabel="true" locklevel="0">
+                      <cell id="{7d7c4196-4c12-d05b-021b-63aa85b68b3a}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Page Size" languagecode="1033" />
                         </labels>
-                        <control id="adx_pagesize" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="adx_pagesize" disabled="false" />
+                        <control classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="adx_pagesize" disabled="false" id="adx_pagesize" />
                       </cell>
-                      <cell id="{34b0b7ee-9668-0c9c-a0e1-60cbb34bd695}" showlabel="true" locklevel="0" colspan="1" visible="false">
+                      <cell colspan="1" id="{34b0b7ee-9668-0c9c-a0e1-60cbb34bd695}" locklevel="0" showlabel="true" visible="false">
                         <labels>
                           <label description="Empty List Text" languagecode="1033" />
                         </labels>
-                        <control id="adx_emptylisttext" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="adx_emptylisttext" disabled="false" />
+                        <control classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="adx_emptylisttext" disabled="false" id="adx_emptylisttext" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{ae253a51-0cd0-78b4-99d3-d707337aeb4a}" showlabel="true" locklevel="0">
+                      <cell id="{ae253a51-0cd0-78b4-99d3-d707337aeb4a}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Web Page for Details View" languagecode="1033" />
                         </labels>
-                        <control id="adx_webpagefordetailsview" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_webpagefordetailsview" disabled="false" />
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_webpagefordetailsview" disabled="false" id="adx_webpagefordetailsview" />
                       </cell>
-                      <cell id="{c606059a-ce61-dcb3-b885-57894b517e2e}" showlabel="true" locklevel="0">
+                      <cell id="{c606059a-ce61-dcb3-b885-57894b517e2e}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="ID Query String Parameter Name" languagecode="1033" />
                         </labels>
-                        <control id="adx_idquerystringparametername" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_idquerystringparametername" disabled="false" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_idquerystringparametername" disabled="false" id="adx_idquerystringparametername" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{794a4113-91ea-3748-8bab-24b35252d013}" showlabel="true" colspan="2" auto="false" rowspan="2">
+                      <cell auto="false" colspan="2" id="{794a4113-91ea-3748-8bab-24b35252d013}" rowspan="2" showlabel="true">
                         <labels>
                           <label description="Details Button Label" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_localize_detailsbuttonlabel" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_localize_detailsbuttonlabel">
                           <parameters>
                             <Url>adx_localizeStrings.html</Url>
                             <ShowInROF>false</ShowInROF>
@@ -176,7 +176,7 @@
                           </parameters>
                         </control>
                         <events>
-                          <event name="onload" application="0">
+                          <event application="0" name="onload">
                             <dependencies />
                           </event>
                         </events>
@@ -185,19 +185,19 @@
                     <row></row>
                     <row></row>
                     <row>
-                      <cell id="{835d57a2-b827-ee0c-87bb-118d84067033}" showlabel="false" locklevel="0" colspan="2" visible="false">
+                      <cell colspan="2" id="{835d57a2-b827-ee0c-87bb-118d84067033}" locklevel="0" showlabel="false" visible="false">
                         <labels>
                           <label description="Details Button Label" languagecode="1033" />
                         </labels>
-                        <control id="adx_detailsbuttonlabel" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_detailsbuttonlabel" disabled="false" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_detailsbuttonlabel" disabled="false" id="adx_detailsbuttonlabel" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{0e2e6700-5065-528c-683a-821b175a891b}" showlabel="true" locklevel="0">
+                      <cell id="{0e2e6700-5065-528c-683a-821b175a891b}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Web Page for Create" languagecode="1033" />
                         </labels>
-                        <control id="adx_webpageforcreate" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_webpageforcreate" disabled="false" />
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_webpageforcreate" disabled="false" id="adx_webpageforcreate" />
                       </cell>
                       <cell id="{db3a802d-022e-e44a-624a-d10d3739108c}" showlabel="false">
                         <labels>
@@ -206,11 +206,11 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{06279430-36a6-881a-a6e9-4c3ed06e70ce}" showlabel="true" colspan="2" auto="false" rowspan="2">
+                      <cell auto="false" colspan="2" id="{06279430-36a6-881a-a6e9-4c3ed06e70ce}" rowspan="2" showlabel="true">
                         <labels>
                           <label description="Create Button Label" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_localizecreatebuttonlabel" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_localizecreatebuttonlabel">
                           <parameters>
                             <Url>adx_localizeStrings.html</Url>
                             <PassParameters>false</PassParameters>
@@ -226,19 +226,19 @@
                     <row></row>
                     <row></row>
                     <row>
-                      <cell id="{937bbc78-0392-4850-54b5-b11b817506b8}" showlabel="false" locklevel="0" colspan="2" visible="false">
+                      <cell colspan="2" id="{937bbc78-0392-4850-54b5-b11b817506b8}" locklevel="0" showlabel="false" visible="false">
                         <labels>
                           <label description="Create Button Label" languagecode="1033" />
                         </labels>
-                        <control id="adx_createbuttonlabel" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_createbuttonlabel" disabled="false" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_createbuttonlabel" disabled="false" id="adx_createbuttonlabel" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{3c0b11de-915e-63e5-dac0-ee954524044a}" showlabel="true" colspan="2" auto="false" rowspan="2">
+                      <cell auto="false" colspan="2" id="{3c0b11de-915e-63e5-dac0-ee954524044a}" rowspan="2" showlabel="true">
                         <labels>
                           <label description="Empty List Text" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_localize_emptylisttext" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_localize_emptylisttext">
                           <parameters>
                             <Url>adx_localizeStrings.html</Url>
                             <Data>adx_emptylisttext</Data>
@@ -253,32 +253,32 @@
                     <row></row>
                     <row></row>
                     <row>
-                      <cell id="{4d9608b5-ca0d-87d4-7e77-075b554689e0}" showlabel="true" locklevel="0">
+                      <cell id="{4d9608b5-ca0d-87d4-7e77-075b554689e0}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Enable Entity Permissions" languagecode="1033" />
                         </labels>
-                        <control id="adx_entitypermissionsenabled" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="adx_entitypermissionsenabled" disabled="false" />
+                        <control classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="adx_entitypermissionsenabled" disabled="false" id="adx_entitypermissionsenabled" />
                       </cell>
-                      <cell id="{e02274c6-3a2d-ecca-8b31-000b98bba773}" showlabel="true" locklevel="0">
+                      <cell id="{e02274c6-3a2d-ecca-8b31-000b98bba773}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Key" languagecode="1033" />
                         </labels>
-                        <control id="adx_key" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_key" disabled="false" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_key" disabled="false" id="adx_key" />
                       </cell>
                     </row>
                   </rows>
                 </section>
-                <section name="{42ec7a6b-7f34-49f7-a08f-361567162d28}_section_3" showlabel="true" showbar="true" locklevel="0" id="{dc85ea20-ad6b-a237-51ba-b67622896aae}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="200" celllabelalignment="Left" celllabelposition="Left">
+                <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{dc85ea20-ad6b-a237-51ba-b67622896aae}" IsUserDefined="0" labelwidth="200" layout="varwidth" locklevel="0" name="{42ec7a6b-7f34-49f7-a08f-361567162d28}_section_3" showbar="true" showlabel="true">
                   <labels>
                     <label description="Search" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{8a435934-ea0a-1b5b-69e3-06b51d76895d}" showlabel="true" locklevel="0">
+                      <cell id="{8a435934-ea0a-1b5b-69e3-06b51d76895d}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Enabled" languagecode="1033" />
                         </labels>
-                        <control id="adx_searchenabled" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="adx_searchenabled" disabled="false" />
+                        <control classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="adx_searchenabled" disabled="false" id="adx_searchenabled" />
                       </cell>
                       <cell id="{5174a226-d0ea-5200-1a4b-dc49223d44ac}" showlabel="false">
                         <labels>
@@ -287,11 +287,11 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{277478c1-b427-63bc-3a37-187781ccac87}" showlabel="true" colspan="2" auto="false" rowspan="2">
+                      <cell auto="false" colspan="2" id="{277478c1-b427-63bc-3a37-187781ccac87}" rowspan="2" showlabel="true">
                         <labels>
                           <label description="Placeholder Text" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_localizesearchplaceholdertext" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_localizesearchplaceholdertext">
                           <parameters>
                             <Url>adx_localizeStrings.html</Url>
                             <ShowInROF>false</ShowInROF>
@@ -303,7 +303,7 @@
                           </parameters>
                         </control>
                         <events>
-                          <event name="onload" application="0">
+                          <event application="0" name="onload">
                             <dependencies />
                           </event>
                         </events>
@@ -314,11 +314,11 @@
                     <row></row>
                     <row></row>
                     <row>
-                      <cell id="{75a960b5-3590-68b1-9ce7-c2ee52a826ae}" showlabel="true" locklevel="0" visible="false">
+                      <cell id="{75a960b5-3590-68b1-9ce7-c2ee52a826ae}" locklevel="0" showlabel="true" visible="false">
                         <labels>
                           <label description="Search Placeholder Text" languagecode="1033" />
                         </labels>
-                        <control id="adx_searchplaceholdertext" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_searchplaceholdertext" disabled="false" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_searchplaceholdertext" disabled="false" id="adx_searchplaceholdertext" />
                       </cell>
                       <cell id="{b2cbcdc8-4390-db90-b443-559489bd3d30}" showlabel="false">
                         <labels>
@@ -327,11 +327,11 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{cce02ba8-2a44-b675-2cbd-b1b1c46052ea}" showlabel="true" colspan="2" auto="false" rowspan="2">
+                      <cell auto="false" colspan="2" id="{cce02ba8-2a44-b675-2cbd-b1b1c46052ea}" rowspan="2" showlabel="true">
                         <labels>
                           <label description="Tooltip Text" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_localizesearchtooltiptext" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_localizesearchtooltiptext">
                           <parameters>
                             <Url>adx_localizeStrings.html</Url>
                             <ShowInROF>false</ShowInROF>
@@ -343,7 +343,7 @@
                           </parameters>
                         </control>
                         <events>
-                          <event name="onload" application="0">
+                          <event application="0" name="onload">
                             <dependencies />
                           </event>
                         </events>
@@ -354,11 +354,11 @@
                     <row></row>
                     <row></row>
                     <row>
-                      <cell id="{b5559a9d-db81-b963-387e-05c3ed6d4976}" showlabel="true" locklevel="0" visible="false">
+                      <cell id="{b5559a9d-db81-b963-387e-05c3ed6d4976}" locklevel="0" showlabel="true" visible="false">
                         <labels>
                           <label description="Search Tooltip Text" languagecode="1033" />
                         </labels>
-                        <control id="adx_searchtooltiptext" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_searchtooltiptext" disabled="false" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_searchtooltiptext" disabled="false" id="adx_searchtooltiptext" />
                       </cell>
                       <cell id="{37a0c601-2452-1bc1-10a5-cd8c5ddb5aa0}" showlabel="false">
                         <labels>
@@ -368,23 +368,23 @@
                     </row>
                   </rows>
                 </section>
-                <section name="section_filterconditions" showlabel="true" showbar="true" locklevel="0" id="{8302037b-76be-da46-8d7e-d2942863c73a}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{8302037b-76be-da46-8d7e-d2942863c73a}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="section_filterconditions" showbar="true" showlabel="true">
                   <labels>
                     <label description="Filter Conditions" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{7c84312b-3148-60c7-419e-a3a43da0a346}" showlabel="true" locklevel="0" colspan="1">
+                      <cell colspan="1" id="{7c84312b-3148-60c7-419e-a3a43da0a346}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Portal User Attribute" languagecode="1033" />
                         </labels>
-                        <control id="adx_filterportaluser" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_filterportaluser" disabled="true" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_filterportaluser" disabled="true" id="adx_filterportaluser" />
                       </cell>
-                      <cell id="{8c0d7477-4664-a36b-60cc-b79eb5321254}" showlabel="false" colspan="1" auto="false" rowspan="1">
+                      <cell auto="false" colspan="1" id="{8c0d7477-4664-a36b-60cc-b79eb5321254}" rowspan="1" showlabel="false">
                         <labels>
                           <label description="Portal User Attribute" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_adx_filterportaluser" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_adx_filterportaluser">
                           <parameters>
                             <Url>adx_metadata/attribute_selector.html</Url>
                             <Data>field=adx_filterportaluser&amp;source=adx_entityname&amp;attributetypes=Lookup,Customer&amp;targets=contact,systemuser</Data>
@@ -395,24 +395,24 @@
                           </parameters>
                         </control>
                         <events>
-                          <event name="onload" application="0">
+                          <event application="0" name="onload">
                             <dependencies />
                           </event>
                         </events>
                       </cell>
                     </row>
                     <row>
-                      <cell id="{4d08e76d-eded-98a2-3e33-d2e139a16de7}" showlabel="true" locklevel="0">
+                      <cell id="{4d08e76d-eded-98a2-3e33-d2e139a16de7}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Account Attribute" languagecode="1033" />
                         </labels>
-                        <control id="adx_filteraccount" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_filteraccount" disabled="true" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_filteraccount" disabled="true" id="adx_filteraccount" />
                       </cell>
-                      <cell id="{57e15574-8c31-1ce1-1e20-d4d1a047e276}" showlabel="false" colspan="1" auto="false" rowspan="1">
+                      <cell auto="false" colspan="1" id="{57e15574-8c31-1ce1-1e20-d4d1a047e276}" rowspan="1" showlabel="false">
                         <labels>
                           <label description="Account Attribute" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_adx_filteraccount" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_adx_filteraccount">
                           <parameters>
                             <Url>adx_metadata/attribute_selector.html</Url>
                             <Data>field=adx_filteraccount&amp;source=adx_entityname&amp;attributetypes=Lookup,Customer&amp;targets=account</Data>
@@ -423,24 +423,24 @@
                           </parameters>
                         </control>
                         <events>
-                          <event name="onload" application="0">
+                          <event application="0" name="onload">
                             <dependencies />
                           </event>
                         </events>
                       </cell>
                     </row>
                     <row>
-                      <cell id="{5177b2b2-59ae-1a6a-e996-8a1629abb80d}" showlabel="true" locklevel="0">
+                      <cell id="{5177b2b2-59ae-1a6a-e996-8a1629abb80d}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Website Attribute" languagecode="1033" />
                         </labels>
-                        <control id="adx_filterwebsite" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_filterwebsite" disabled="true" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_filterwebsite" disabled="true" id="adx_filterwebsite" />
                       </cell>
-                      <cell id="{ae5175ab-8168-ebc0-6ae0-b45c675162d8}" showlabel="false" colspan="1" auto="false" rowspan="1">
+                      <cell auto="false" colspan="1" id="{ae5175ab-8168-ebc0-6ae0-b45c675162d8}" rowspan="1" showlabel="false">
                         <labels>
                           <label description="Website Attribute" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_adx_filterwebsite" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_adx_filterwebsite">
                           <parameters>
                             <Url>adx_metadata/attribute_selector.html</Url>
                             <Data>field=adx_filterwebsite&amp;source=adx_entityname&amp;attributetypes=Lookup&amp;targets=adx_website</Data>
@@ -451,7 +451,7 @@
                           </parameters>
                         </control>
                         <events>
-                          <event name="onload" application="0">
+                          <event application="0" name="onload">
                             <dependencies />
                           </event>
                         </events>
@@ -459,17 +459,17 @@
                     </row>
                   </rows>
                 </section>
-                <section name="{42ec7a6b-7f34-49f7-a08f-361567162d28}_section_4" showlabel="true" showbar="true" locklevel="0" id="{0592ea73-0cd4-da8b-b39a-77ab9eed3b41}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{0592ea73-0cd4-da8b-b39a-77ab9eed3b41}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="{42ec7a6b-7f34-49f7-a08f-361567162d28}_section_4" showbar="true" showlabel="true">
                   <labels>
                     <label description="Metadata Filter" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{d40b9e7b-d840-3a82-6ab7-3aa1a532e146}" showlabel="true" locklevel="0">
+                      <cell id="{d40b9e7b-d840-3a82-6ab7-3aa1a532e146}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Enabled" languagecode="1033" />
                         </labels>
-                        <control id="adx_filter_enabled" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="adx_filter_enabled" disabled="false" />
+                        <control classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="adx_filter_enabled" disabled="false" id="adx_filter_enabled" />
                       </cell>
                       <cell id="{7604ca1e-4e21-4c32-c5d4-a7da99b38744}" showlabel="false">
                         <labels>
@@ -478,11 +478,11 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{b0b204d1-b133-99d8-d2e9-b4a5b61a4e81}" showlabel="true" locklevel="0">
+                      <cell id="{b0b204d1-b133-99d8-d2e9-b4a5b61a4e81}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Orientation" languagecode="1033" />
                         </labels>
-                        <control id="adx_filter_orientation" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="adx_filter_orientation" disabled="false" />
+                        <control classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="adx_filter_orientation" disabled="false" id="adx_filter_orientation" />
                       </cell>
                       <cell id="{7905cad1-5464-7cc1-4047-44cc3848b7c2}" showlabel="false">
                         <labels>
@@ -491,11 +491,11 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{bac88b4c-4315-b86c-c6db-70be7d521eca}" showlabel="true" colspan="2" auto="false" rowspan="2">
+                      <cell auto="false" colspan="2" id="{bac88b4c-4315-b86c-c6db-70be7d521eca}" rowspan="2" showlabel="true">
                         <labels>
                           <label description="Apply Button Label" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_filter_applybuttonlabel" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_filter_applybuttonlabel">
                           <parameters>
                             <Url>adx_localizeStrings.html</Url>
                             <Data>adx_filter_applybuttonlabel</Data>
@@ -506,7 +506,7 @@
                           </parameters>
                         </control>
                         <events>
-                          <event name="onload" application="false">
+                          <event application="false" name="onload">
                             <dependencies />
                           </event>
                         </events>
@@ -515,19 +515,19 @@
                     <row></row>
                     <row></row>
                     <row>
-                      <cell id="{701a1d15-1be7-b295-62c4-02cbe2750674}" showlabel="false" locklevel="0" colspan="2" visible="false">
+                      <cell colspan="2" id="{701a1d15-1be7-b295-62c4-02cbe2750674}" locklevel="0" showlabel="false" visible="false">
                         <labels>
                           <label description="Apply Button Label" languagecode="1033" />
                         </labels>
-                        <control id="adx_filter_applybuttonlabel" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_filter_applybuttonlabel" disabled="false" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_filter_applybuttonlabel" disabled="false" id="adx_filter_applybuttonlabel" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{8d349bae-923b-d921-00d8-12eb3be923ed}" showlabel="false" colspan="2" auto="false" rowspan="18">
+                      <cell auto="false" colspan="2" id="{8d349bae-923b-d921-00d8-12eb3be923ed}" rowspan="18" showlabel="false">
                         <labels>
                           <label description="filter_definition" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_filter_definition" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_filter_definition">
                           <parameters>
                             <Url>adx_jsoneditor/adx.jsoneditor.filter.entitylist.html</Url>
                             <Data>schema=adx.jsoneditor.filter.entitylist&amp;field=adx_filter_definition</Data>
@@ -538,7 +538,7 @@
                           </parameters>
                         </control>
                         <events>
-                          <event name="onload" application="0">
+                          <event application="0" name="onload">
                             <dependencies>
                               <dependency id="adx_filter_definition" />
                             </dependencies>
@@ -564,11 +564,11 @@
                     <row></row>
                     <row></row>
                     <row>
-                      <cell id="{95d4e1e0-0a47-44ca-dce8-5c5aea8a3218}" showlabel="false" colspan="2" rowspan="1" visible="false" locklevel="1">
+                      <cell colspan="2" id="{95d4e1e0-0a47-44ca-dce8-5c5aea8a3218}" locklevel="1" rowspan="1" showlabel="false" visible="false">
                         <labels>
                           <label description="Filter Definition" languagecode="1033" />
                         </labels>
-                        <control id="adx_filter_definition" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="adx_filter_definition" disabled="false" />
+                        <control classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="adx_filter_definition" disabled="false" id="adx_filter_definition" />
                       </cell>
                     </row>
                   </rows>
@@ -577,24 +577,24 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_map" id="{ce1de2c6-00e4-8d33-090e-656ce1b3b167}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+        <tab expanded="true" id="{ce1de2c6-00e4-8d33-090e-656ce1b3b167}" IsUserDefined="0" locklevel="0" name="tab_map" showlabel="true">
           <labels>
             <label description="Map View" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{6b799836-b48c-9237-5d61-562d145acc4d}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115">
+                <section columns="11" id="{6b799836-b48c-9237-5d61-562d145acc4d}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="tab_2_section_1" showbar="false" showlabel="false">
                   <labels>
                     <label description="Section" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{808293c3-cab3-c55e-77e4-2b7e6d172bc1}" showlabel="true" locklevel="0">
+                      <cell id="{808293c3-cab3-c55e-77e4-2b7e6d172bc1}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Map Enabled" languagecode="1033" />
                         </labels>
-                        <control id="adx_map_enabled" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="adx_map_enabled" disabled="false" uniqueid="{b18d55d9-43d7-0616-dd42-9e3821e9ca12}" />
+                        <control classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="adx_map_enabled" disabled="false" id="adx_map_enabled" uniqueid="{b18d55d9-43d7-0616-dd42-9e3821e9ca12}" />
                       </cell>
                       <cell id="{77157125-d846-1728-4cb9-a9779735c003}" showlabel="false">
                         <labels>
@@ -604,23 +604,23 @@
                     </row>
                   </rows>
                 </section>
-                <section name="tab_map_section_3" showlabel="true" showbar="true" locklevel="0" id="{6050996b-0ce3-315b-613e-16d932b04189}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="200" celllabelalignment="Left" celllabelposition="Left">
+                <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{6050996b-0ce3-315b-613e-16d932b04189}" IsUserDefined="0" labelwidth="200" layout="varwidth" locklevel="0" name="tab_map_section_3" showbar="true" showlabel="true">
                   <labels>
                     <label description="Entity Field Mappings" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{98422b00-4b4e-8079-1753-c648bd3cd733}" showlabel="true" locklevel="0">
+                      <cell id="{98422b00-4b4e-8079-1753-c648bd3cd733}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Latitude Field Name" languagecode="1033" />
                         </labels>
-                        <control id="adx_map_latitudefieldname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_map_latitudefieldname" disabled="true" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_map_latitudefieldname" disabled="true" id="adx_map_latitudefieldname" />
                       </cell>
-                      <cell id="{91e57953-7757-42d9-9c21-8adbcb7626e8}" showlabel="false" colspan="1" auto="false" rowspan="1">
+                      <cell auto="false" colspan="1" id="{91e57953-7757-42d9-9c21-8adbcb7626e8}" rowspan="1" showlabel="false">
                         <labels>
                           <label description="Latitude Field Name" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_adx_map_latitudefieldname" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_adx_map_latitudefieldname">
                           <parameters>
                             <Url>adx_metadata/attribute_selector.html</Url>
                             <Data>field=adx_map_latitudefieldname&amp;source=adx_entityname&amp;attributetypes=Double</Data>
@@ -631,24 +631,24 @@
                           </parameters>
                         </control>
                         <events>
-                          <event name="onload" application="0">
+                          <event application="0" name="onload">
                             <dependencies />
                           </event>
                         </events>
                       </cell>
                     </row>
                     <row>
-                      <cell id="{7339db02-4ec7-e924-0e5c-29988b8b1e85}" showlabel="true" locklevel="0">
+                      <cell id="{7339db02-4ec7-e924-0e5c-29988b8b1e85}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Longitude Field Name" languagecode="1033" />
                         </labels>
-                        <control id="adx_map_longitudefieldname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_map_longitudefieldname" disabled="true" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_map_longitudefieldname" disabled="true" id="adx_map_longitudefieldname" />
                       </cell>
-                      <cell id="{a0913635-1463-e481-b164-c6089bab5179}" showlabel="false" colspan="1" auto="false" rowspan="1">
+                      <cell auto="false" colspan="1" id="{a0913635-1463-e481-b164-c6089bab5179}" rowspan="1" showlabel="false">
                         <labels>
                           <label description="Longitude Field Name" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_adx_map_longitudefieldname" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_adx_map_longitudefieldname">
                           <parameters>
                             <Url>adx_metadata/attribute_selector.html</Url>
                             <Data>field=adx_map_longitudefieldname&amp;source=adx_entityname&amp;attributeTypes=Double</Data>
@@ -659,24 +659,24 @@
                           </parameters>
                         </control>
                         <events>
-                          <event name="onload" application="0">
+                          <event application="0" name="onload">
                             <dependencies />
                           </event>
                         </events>
                       </cell>
                     </row>
                     <row>
-                      <cell id="{6e1ce503-dbba-8a47-57a3-d663e1411bb2}" showlabel="true" locklevel="0">
+                      <cell id="{6e1ce503-dbba-8a47-57a3-d663e1411bb2}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Infobox Title Field Name" languagecode="1033" />
                         </labels>
-                        <control id="adx_map_infoboxtitlefieldname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_map_infoboxtitlefieldname" disabled="true" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_map_infoboxtitlefieldname" disabled="true" id="adx_map_infoboxtitlefieldname" />
                       </cell>
-                      <cell id="{aed9a229-a99b-5052-09bd-8a6c4b1ad9c0}" showlabel="false" colspan="1" auto="false" rowspan="1">
+                      <cell auto="false" colspan="1" id="{aed9a229-a99b-5052-09bd-8a6c4b1ad9c0}" rowspan="1" showlabel="false">
                         <labels>
                           <label description="Infobox Title Field Name" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_adx_map_infoboxtitlefieldname" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_adx_map_infoboxtitlefieldname">
                           <parameters>
                             <Url>adx_metadata/attribute_selector.html</Url>
                             <Data>field=adx_map_infoboxtitlefieldname&amp;source=adx_entityname&amp;attributeTypes=String</Data>
@@ -687,24 +687,24 @@
                           </parameters>
                         </control>
                         <events>
-                          <event name="onload" application="0">
+                          <event application="0" name="onload">
                             <dependencies />
                           </event>
                         </events>
                       </cell>
                     </row>
                     <row>
-                      <cell id="{0bc921a6-ec06-7d75-c81c-8cbba9dc63a6}" showlabel="true" locklevel="0">
+                      <cell id="{0bc921a6-ec06-7d75-c81c-8cbba9dc63a6}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Infobox Description Field Name" languagecode="1033" />
                         </labels>
-                        <control id="adx_map_infoboxdescriptionfieldname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_map_infoboxdescriptionfieldname" disabled="true" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_map_infoboxdescriptionfieldname" disabled="true" id="adx_map_infoboxdescriptionfieldname" />
                       </cell>
-                      <cell id="{8d8090b0-75e6-c358-7be1-1783b5ee4241}" showlabel="false" colspan="1" auto="false" rowspan="1">
+                      <cell auto="false" colspan="1" id="{8d8090b0-75e6-c358-7be1-1783b5ee4241}" rowspan="1" showlabel="false">
                         <labels>
                           <label description="Infobox Description Field Name" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_adx_map_infoboxdescriptionfieldname" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_adx_map_infoboxdescriptionfieldname">
                           <parameters>
                             <Url>adx_metadata/attribute_selector.html</Url>
                             <Data>field=adx_map_infoboxdescriptionfieldname&amp;source=adx_entityname&amp;attributeTypes=String,Memo</Data>
@@ -715,7 +715,7 @@
                           </parameters>
                         </control>
                         <events>
-                          <event name="onload" application="0">
+                          <event application="0" name="onload">
                             <dependencies />
                           </event>
                         </events>
@@ -723,17 +723,17 @@
                     </row>
                   </rows>
                 </section>
-                <section name="tab_map_section_2" showlabel="true" showbar="true" locklevel="0" id="{09160de2-d11a-6738-4e56-29cbb6952298}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="200" celllabelalignment="Left" celllabelposition="Left">
+                <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{09160de2-d11a-6738-4e56-29cbb6952298}" IsUserDefined="0" labelwidth="200" layout="varwidth" locklevel="0" name="tab_map_section_2" showbar="true" showlabel="true">
                   <labels>
                     <label description="Settings" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{56680de9-c583-4a35-3832-64729517980a}" showlabel="true" locklevel="0">
+                      <cell id="{56680de9-c583-4a35-3832-64729517980a}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Map Type" languagecode="1033" />
                         </labels>
-                        <control id="adx_map_type" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="adx_map_type" disabled="false" />
+                        <control classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="adx_map_type" disabled="false" id="adx_map_type" />
                       </cell>
                       <cell id="{535e6586-37b0-e916-3464-0bb14b0db56a}" showlabel="false" userspacer="true">
                         <labels>
@@ -742,39 +742,39 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{2450b076-0be4-05e2-90a6-6cec2917e653}" showlabel="true" locklevel="0">
+                      <cell id="{2450b076-0be4-05e2-90a6-6cec2917e653}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Credentials" languagecode="1033" />
                         </labels>
-                        <control id="adx_map_credentials" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_map_credentials" disabled="false" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_map_credentials" disabled="false" id="adx_map_credentials" />
                       </cell>
-                      <cell id="{33541d89-8c6b-402e-659d-27a2eee73cd1}" showlabel="true" locklevel="0">
+                      <cell id="{33541d89-8c6b-402e-659d-27a2eee73cd1}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="REST URL" languagecode="1033" />
                         </labels>
-                        <control id="adx_map_resturl" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_map_resturl" disabled="false" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_map_resturl" disabled="false" id="adx_map_resturl" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{569ee7ee-7940-7439-e2b4-ce8c37ecb5b7}" showlabel="true" locklevel="0">
+                      <cell id="{569ee7ee-7940-7439-e2b4-ce8c37ecb5b7}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Default Center Latitude" languagecode="1033" />
                         </labels>
-                        <control id="adx_map_latitude" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="adx_map_latitude" disabled="false" />
+                        <control classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="adx_map_latitude" disabled="false" id="adx_map_latitude" />
                       </cell>
-                      <cell id="{26de7235-2e59-b94b-65db-d14be0ee6a21}" showlabel="true" locklevel="0">
+                      <cell id="{26de7235-2e59-b94b-65db-d14be0ee6a21}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Default Center Longitude" languagecode="1033" />
                         </labels>
-                        <control id="adx_map_longitude" classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="adx_map_longitude" disabled="false" />
+                        <control classid="{0D2C745A-E5A8-4c8f-BA63-C6D3BB604660}" datafieldname="adx_map_longitude" disabled="false" id="adx_map_longitude" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{808c0470-c6b1-526b-c206-32944486e791}" showlabel="true" locklevel="0">
+                      <cell id="{808c0470-c6b1-526b-c206-32944486e791}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Default Zoom" languagecode="1033" />
                         </labels>
-                        <control id="adx_map_zoom" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="adx_map_zoom" disabled="false" />
+                        <control classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="adx_map_zoom" disabled="false" id="adx_map_zoom" />
                       </cell>
                       <cell id="{d868da71-e8ca-97b1-b19d-25c38cbd452a}" showlabel="false" userspacer="true">
                         <labels>
@@ -783,39 +783,39 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{bba72825-4114-180c-a325-b56b3a02e73c}" showlabel="true" locklevel="0">
+                      <cell id="{bba72825-4114-180c-a325-b56b3a02e73c}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Infobox Offset x" languagecode="1033" />
                         </labels>
-                        <control id="adx_map_infoboxoffsetx" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="adx_map_infoboxoffsetx" disabled="false" />
+                        <control classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="adx_map_infoboxoffsetx" disabled="false" id="adx_map_infoboxoffsetx" />
                       </cell>
-                      <cell id="{cc8ecac4-6410-c01a-5a22-b39a4024612e}" showlabel="true" locklevel="0">
+                      <cell id="{cc8ecac4-6410-c01a-5a22-b39a4024612e}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Infobox Offset y" languagecode="1033" />
                         </labels>
-                        <control id="adx_map_infoboxoffsety" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="adx_map_infoboxoffsety" disabled="false" />
+                        <control classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="adx_map_infoboxoffsety" disabled="false" id="adx_map_infoboxoffsety" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{584e4c36-5536-cc18-ba12-0124004ed5b5}" showlabel="true" locklevel="0">
+                      <cell id="{584e4c36-5536-cc18-ba12-0124004ed5b5}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Pin Image Height" languagecode="1033" />
                         </labels>
-                        <control id="adx_map_pushpinheight" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="adx_map_pushpinheight" disabled="false" />
+                        <control classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="adx_map_pushpinheight" disabled="false" id="adx_map_pushpinheight" />
                       </cell>
-                      <cell id="{e269103a-4166-b881-e8e1-e7044d829579}" showlabel="true" locklevel="0">
+                      <cell id="{e269103a-4166-b881-e8e1-e7044d829579}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Pin Image Width" languagecode="1033" />
                         </labels>
-                        <control id="adx_map_pushpinwidth" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="adx_map_pushpinwidth" disabled="false" />
+                        <control classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="adx_map_pushpinwidth" disabled="false" id="adx_map_pushpinwidth" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{50307da3-01ee-d793-a7a5-b469eca27823}" showlabel="true" locklevel="0">
+                      <cell id="{50307da3-01ee-d793-a7a5-b469eca27823}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Pin Image URL" languagecode="1033" />
                         </labels>
-                        <control id="adx_map_pushpinurl" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_map_pushpinurl" disabled="false" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_map_pushpinurl" disabled="false" id="adx_map_pushpinurl" />
                       </cell>
                       <cell id="{9a0872a7-15de-dda2-130a-4c4812d35790}" showlabel="false">
                         <labels>
@@ -825,23 +825,23 @@
                     </row>
                   </rows>
                 </section>
-                <section name="tab_map_section_4" showlabel="true" showbar="true" locklevel="0" id="{b7b1c5d2-d22d-9ed3-deb5-20a985216d33}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{b7b1c5d2-d22d-9ed3-deb5-20a985216d33}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="tab_map_section_4" showbar="true" showlabel="true">
                   <labels>
                     <label description="Search Options" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{97e6bca1-61b9-5e6d-78aa-a78636d374e1}" showlabel="true" locklevel="0">
+                      <cell id="{97e6bca1-61b9-5e6d-78aa-a78636d374e1}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Distance Units" languagecode="1033" />
                         </labels>
-                        <control id="adx_map_distanceunits" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="adx_map_distanceunits" disabled="false" />
+                        <control classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="adx_map_distanceunits" disabled="false" id="adx_map_distanceunits" />
                       </cell>
-                      <cell id="{0e0b9dcc-5657-3ce7-cb05-d7d2261eead6}" showlabel="true" locklevel="1">
+                      <cell id="{0e0b9dcc-5657-3ce7-cb05-d7d2261eead6}" locklevel="1" showlabel="true">
                         <labels>
                           <label description="Distance Values" languagecode="1033" />
                         </labels>
-                        <control id="adx_map_distancevalues" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_map_distancevalues" disabled="false" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_map_distancevalues" disabled="false" id="adx_map_distancevalues" />
                       </cell>
                     </row>
                   </rows>
@@ -850,24 +850,24 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_4" id="{00160444-eaa0-b1de-bdcb-8954e9709147}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+        <tab expanded="true" id="{00160444-eaa0-b1de-bdcb-8954e9709147}" IsUserDefined="0" locklevel="0" name="tab_4" showlabel="true">
           <labels>
             <label description="Calendar View" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section name="tab_4_section_1" showlabel="false" showbar="false" locklevel="0" id="{d59d2a2e-ccd3-3d42-e14a-361a83da7681}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115">
+                <section columns="11" id="{d59d2a2e-ccd3-3d42-e14a-361a83da7681}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="tab_4_section_1" showbar="false" showlabel="false">
                   <labels>
                     <label description="Section" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{5e87a84c-ead4-5825-7252-5cebd0dc5a65}" showlabel="true" locklevel="0">
+                      <cell id="{5e87a84c-ead4-5825-7252-5cebd0dc5a65}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Enabled" languagecode="1033" />
                         </labels>
-                        <control id="adx_calendar_enabled" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="adx_calendar_enabled" disabled="false" />
+                        <control classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="adx_calendar_enabled" disabled="false" id="adx_calendar_enabled" />
                       </cell>
                       <cell id="{24e674ec-a489-75a4-ee31-9dbb873c3940}" showlabel="false">
                         <labels>
@@ -877,23 +877,23 @@
                     </row>
                   </rows>
                 </section>
-                <section name="tab_4_section_2" showlabel="true" showbar="true" locklevel="0" id="{722e6969-c460-0283-4c33-46973b197a00}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="200" celllabelalignment="Left" celllabelposition="Left">
+                <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{722e6969-c460-0283-4c33-46973b197a00}" IsUserDefined="0" labelwidth="200" layout="varwidth" locklevel="0" name="tab_4_section_2" showbar="true" showlabel="true">
                   <labels>
                     <label description="Entity Field Mappings" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{e2d9613c-29ee-5c97-8767-343b846364c4}" showlabel="true" locklevel="0">
+                      <cell id="{e2d9613c-29ee-5c97-8767-343b846364c4}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Start Date Field Name" languagecode="1033" />
                         </labels>
-                        <control id="adx_calendar_startdatefieldname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_calendar_startdatefieldname" disabled="true" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_calendar_startdatefieldname" disabled="true" id="adx_calendar_startdatefieldname" />
                       </cell>
-                      <cell id="{ebec061a-4b8c-3a47-5e16-1b5d332ade71}" showlabel="false" colspan="1" auto="false" rowspan="1">
+                      <cell auto="false" colspan="1" id="{ebec061a-4b8c-3a47-5e16-1b5d332ade71}" rowspan="1" showlabel="false">
                         <labels>
                           <label description="Start Date Field Name" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_adx_calendar_startdatefieldname" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_adx_calendar_startdatefieldname">
                           <parameters>
                             <Url>adx_metadata/attribute_selector.html</Url>
                             <Data>field=adx_calendar_startdatefieldname&amp;source=adx_entityname&amp;attributeTypes=DateTime</Data>
@@ -904,24 +904,24 @@
                           </parameters>
                         </control>
                         <events>
-                          <event name="onload" application="0">
+                          <event application="0" name="onload">
                             <dependencies />
                           </event>
                         </events>
                       </cell>
                     </row>
                     <row>
-                      <cell id="{89a8ed09-56d0-692e-51e5-5eb5c5dd9c42}" showlabel="true" locklevel="0">
+                      <cell id="{89a8ed09-56d0-692e-51e5-5eb5c5dd9c42}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="End Date Field Name" languagecode="1033" />
                         </labels>
-                        <control id="adx_calendar_enddatefieldname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_calendar_enddatefieldname" disabled="true" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_calendar_enddatefieldname" disabled="true" id="adx_calendar_enddatefieldname" />
                       </cell>
-                      <cell id="{76023c35-c080-2a78-29e1-babc0781b4d3}" showlabel="false" colspan="1" auto="false" rowspan="1">
+                      <cell auto="false" colspan="1" id="{76023c35-c080-2a78-29e1-babc0781b4d3}" rowspan="1" showlabel="false">
                         <labels>
                           <label description="End Date Field Name" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_adx_calendar_enddatefieldname" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_adx_calendar_enddatefieldname">
                           <parameters>
                             <Url>adx_metadata/attribute_selector.html</Url>
                             <Data>field=adx_calendar_enddatefieldname&amp;source=adx_entityname&amp;attributeTypes=DateTime</Data>
@@ -932,24 +932,24 @@
                           </parameters>
                         </control>
                         <events>
-                          <event name="onload" application="0">
+                          <event application="0" name="onload">
                             <dependencies />
                           </event>
                         </events>
                       </cell>
                     </row>
                     <row>
-                      <cell id="{018b4bd3-1911-cbec-e6e6-45e577674758}" showlabel="true" locklevel="0">
+                      <cell id="{018b4bd3-1911-cbec-e6e6-45e577674758}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Summary Field Name" languagecode="1033" />
                         </labels>
-                        <control id="adx_calendar_summaryfieldname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_calendar_summaryfieldname" disabled="true" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_calendar_summaryfieldname" disabled="true" id="adx_calendar_summaryfieldname" />
                       </cell>
-                      <cell id="{ec284397-3299-aae5-dc00-7cb62429ca7e}" showlabel="false" colspan="1" auto="false" rowspan="1">
+                      <cell auto="false" colspan="1" id="{ec284397-3299-aae5-dc00-7cb62429ca7e}" rowspan="1" showlabel="false">
                         <labels>
                           <label description="Summary Field Name" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_adx_calendar_summaryfieldname" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_adx_calendar_summaryfieldname">
                           <parameters>
                             <Url>adx_metadata/attribute_selector.html</Url>
                             <Data>field=adx_calendar_summaryfieldname&amp;source=adx_entityname&amp;attributeTypes=String,Memo</Data>
@@ -960,24 +960,24 @@
                           </parameters>
                         </control>
                         <events>
-                          <event name="onload" application="0">
+                          <event application="0" name="onload">
                             <dependencies />
                           </event>
                         </events>
                       </cell>
                     </row>
                     <row>
-                      <cell id="{adbaaa53-4180-a654-9411-b6ed6d590919}" showlabel="true" locklevel="0">
+                      <cell id="{adbaaa53-4180-a654-9411-b6ed6d590919}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Description Field Name" languagecode="1033" />
                         </labels>
-                        <control id="adx_calendar_descriptionfieldname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_calendar_descriptionfieldname" disabled="true" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_calendar_descriptionfieldname" disabled="true" id="adx_calendar_descriptionfieldname" />
                       </cell>
-                      <cell id="{b13886ac-9c79-37ba-6abb-ea17cb948565}" showlabel="false" colspan="1" auto="false" rowspan="1">
+                      <cell auto="false" colspan="1" id="{b13886ac-9c79-37ba-6abb-ea17cb948565}" rowspan="1" showlabel="false">
                         <labels>
                           <label description="Description Field Name" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_adx_calendar_descriptionfieldname" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_adx_calendar_descriptionfieldname">
                           <parameters>
                             <Url>adx_metadata/attribute_selector.html</Url>
                             <Data>field=adx_calendar_descriptionfieldname&amp;source=adx_entityname&amp;attributeTypes=String,Memo</Data>
@@ -988,24 +988,24 @@
                           </parameters>
                         </control>
                         <events>
-                          <event name="onload" application="0">
+                          <event application="0" name="onload">
                             <dependencies />
                           </event>
                         </events>
                       </cell>
                     </row>
                     <row>
-                      <cell id="{1b8c134e-18bc-18d4-c490-b29caae32006}" showlabel="true" locklevel="0">
+                      <cell id="{1b8c134e-18bc-18d4-c490-b29caae32006}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Organizer Field Name" languagecode="1033" />
                         </labels>
-                        <control id="adx_calendar_organizerfieldname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_calendar_organizerfieldname" disabled="true" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_calendar_organizerfieldname" disabled="true" id="adx_calendar_organizerfieldname" />
                       </cell>
-                      <cell id="{88a325bc-3463-beac-1be0-b56765264e00}" showlabel="false" colspan="1" auto="false" rowspan="1">
+                      <cell auto="false" colspan="1" id="{88a325bc-3463-beac-1be0-b56765264e00}" rowspan="1" showlabel="false">
                         <labels>
                           <label description="Organizer Field Name" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_adx_calendar_organizerfieldname" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_adx_calendar_organizerfieldname">
                           <parameters>
                             <Url>adx_metadata/attribute_selector.html</Url>
                             <Data>field=adx_calendar_organizerfieldname&amp;source=adx_entityname&amp;attributeTypes=String,Lookup</Data>
@@ -1016,24 +1016,24 @@
                           </parameters>
                         </control>
                         <events>
-                          <event name="onload" application="0">
+                          <event application="0" name="onload">
                             <dependencies />
                           </event>
                         </events>
                       </cell>
                     </row>
                     <row>
-                      <cell id="{a146c83e-eb24-6139-9ee3-735d25201747}" showlabel="true" locklevel="0">
+                      <cell id="{a146c83e-eb24-6139-9ee3-735d25201747}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Location Field Name" languagecode="1033" />
                         </labels>
-                        <control id="adx_calendar_locationfieldname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_calendar_locationfieldname" disabled="true" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_calendar_locationfieldname" disabled="true" id="adx_calendar_locationfieldname" />
                       </cell>
-                      <cell id="{8bb2759a-421d-3dba-cb25-734d1c93aecd}" showlabel="false" colspan="1" auto="false" rowspan="1">
+                      <cell auto="false" colspan="1" id="{8bb2759a-421d-3dba-cb25-734d1c93aecd}" rowspan="1" showlabel="false">
                         <labels>
                           <label description="Location Field Name" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_adx_calendar_locationfieldname" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_adx_calendar_locationfieldname">
                           <parameters>
                             <Url>adx_metadata/attribute_selector.html</Url>
                             <Data>field=adx_calendar_locationfieldname&amp;source=adx_entityname&amp;attributeTypes=String,Memo</Data>
@@ -1044,24 +1044,24 @@
                           </parameters>
                         </control>
                         <events>
-                          <event name="onload" application="0">
+                          <event application="0" name="onload">
                             <dependencies />
                           </event>
                         </events>
                       </cell>
                     </row>
                     <row>
-                      <cell id="{18d19176-4117-d6c4-713d-29e6d5231530}" showlabel="true" locklevel="0">
+                      <cell id="{18d19176-4117-d6c4-713d-29e6d5231530}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Is All Day Field Name" languagecode="1033" />
                         </labels>
-                        <control id="adx_calendar_alldayfieldname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_calendar_alldayfieldname" disabled="true" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_calendar_alldayfieldname" disabled="true" id="adx_calendar_alldayfieldname" />
                       </cell>
-                      <cell id="{3387a174-0840-a62e-002a-b776b4435ade}" showlabel="false" colspan="1" auto="false" rowspan="1">
+                      <cell auto="false" colspan="1" id="{3387a174-0840-a62e-002a-b776b4435ade}" rowspan="1" showlabel="false">
                         <labels>
                           <label description="Is All Day Field" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_adx_calendar_alldayfieldname" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_adx_calendar_alldayfieldname">
                           <parameters>
                             <Url>adx_metadata/attribute_selector.html</Url>
                             <Data>field=adx_calendar_alldayfieldname&amp;source=adx_entityname&amp;attributeTypes=Boolean</Data>
@@ -1072,7 +1072,7 @@
                           </parameters>
                         </control>
                         <events>
-                          <event name="onload" application="0">
+                          <event application="0" name="onload">
                             <dependencies />
                           </event>
                         </events>
@@ -1080,45 +1080,45 @@
                     </row>
                   </rows>
                 </section>
-                <section name="tab_4_section_3" showlabel="true" showbar="true" locklevel="0" id="{e190e6de-9e3d-0c23-136d-2384e5e4b85a}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="200" celllabelalignment="Left" celllabelposition="Left">
+                <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{e190e6de-9e3d-0c23-136d-2384e5e4b85a}" IsUserDefined="0" labelwidth="200" layout="varwidth" locklevel="0" name="tab_4_section_3" showbar="true" showlabel="true">
                   <labels>
                     <label description="Settings" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{926a4c36-c3aa-a508-285c-2dc4001e8cc9}" showlabel="true" locklevel="0">
+                      <cell id="{926a4c36-c3aa-a508-285c-2dc4001e8cc9}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Initial View" languagecode="1033" />
                         </labels>
-                        <control id="adx_calendar_initialview" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="adx_calendar_initialview" disabled="false" />
+                        <control classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="adx_calendar_initialview" disabled="false" id="adx_calendar_initialview" />
                       </cell>
-                      <cell id="{228c4e82-b485-4a08-2ede-eeeb8d47a2a3}" showlabel="true" locklevel="0">
+                      <cell id="{228c4e82-b485-4a08-2ede-eeeb8d47a2a3}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Initial Date" languagecode="1033" />
                         </labels>
-                        <control id="adx_calendar_initialdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="adx_calendar_initialdate" disabled="false" />
+                        <control classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="adx_calendar_initialdate" disabled="false" id="adx_calendar_initialdate" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{856315e1-6148-1049-b3d0-a3993b7b35db}" showlabel="true" locklevel="0">
+                      <cell id="{856315e1-6148-1049-b3d0-a3993b7b35db}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Time Zone Display Mode" languagecode="1033" />
                         </labels>
-                        <control id="adx_calendar_timezonemode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="adx_calendar_timezonemode" disabled="false" />
+                        <control classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="adx_calendar_timezonemode" disabled="false" id="adx_calendar_timezonemode" />
                       </cell>
-                      <cell id="{0d917e4b-07b0-54a6-6a7a-843b6002007d}" showlabel="true" locklevel="0">
+                      <cell id="{0d917e4b-07b0-54a6-6a7a-843b6002007d}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Display Time Zone" languagecode="1033" />
                         </labels>
-                        <control id="adx_calendar_timezone" classid="{7C624A0B-F59E-493d-9583-638D34759266}" datafieldname="adx_calendar_timezone" disabled="false" />
+                        <control classid="{7C624A0B-F59E-493d-9583-638D34759266}" datafieldname="adx_calendar_timezone" disabled="false" id="adx_calendar_timezone" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{e676727e-72e4-74ae-62b6-22b460832103}" showlabel="true" locklevel="0">
+                      <cell id="{e676727e-72e4-74ae-62b6-22b460832103}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Style" languagecode="1033" />
                         </labels>
-                        <control id="adx_calendar_style" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="adx_calendar_style" disabled="false" />
+                        <control classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="adx_calendar_style" disabled="false" id="adx_calendar_style" />
                       </cell>
                       <cell id="{68beb795-4db4-58ad-a7e0-ea292d67894b}" showlabel="false">
                         <labels>
@@ -1132,24 +1132,24 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_odata" id="{6088d604-91be-60d4-9a55-ec263c1b715e}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+        <tab expanded="true" id="{6088d604-91be-60d4-9a55-ec263c1b715e}" IsUserDefined="0" locklevel="0" name="tab_odata" showlabel="true">
           <labels>
             <label description="OData Feed" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section name="tab_5_section_1" showlabel="false" showbar="false" locklevel="0" id="{772d907c-5d55-4504-7596-922797ba7a3d}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115">
+                <section columns="11" id="{772d907c-5d55-4504-7596-922797ba7a3d}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="tab_5_section_1" showbar="false" showlabel="false">
                   <labels>
                     <label description="Section" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{868924e8-5b0d-843a-de68-646575323c3e}" showlabel="true" locklevel="0">
+                      <cell id="{868924e8-5b0d-843a-de68-646575323c3e}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Enabled" languagecode="1033" />
                         </labels>
-                        <control id="adx_odata_enabled" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="adx_odata_enabled" disabled="false" />
+                        <control classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="adx_odata_enabled" disabled="false" id="adx_odata_enabled" />
                       </cell>
                       <cell id="{ae95b724-378c-e43c-bd85-8c8aa5d84159}" showlabel="false">
                         <labels>
@@ -1159,31 +1159,31 @@
                     </row>
                   </rows>
                 </section>
-                <section name="tab_odata_section_2" showlabel="true" showbar="true" locklevel="0" id="{c1251aed-1139-20ca-c0a5-d56c212d3034}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{c1251aed-1139-20ca-c0a5-d56c212d3034}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="tab_odata_section_2" showbar="true" showlabel="true">
                   <labels>
                     <label description="Settings" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{dde19235-a6bb-5e1c-0b99-e71c5425e749}" showlabel="true" locklevel="0">
+                      <cell id="{dde19235-a6bb-5e1c-0b99-e71c5425e749}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Entity Type Name" languagecode="1033" />
                         </labels>
-                        <control id="adx_odata_entitytypename" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_odata_entitytypename" disabled="false" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_odata_entitytypename" disabled="false" id="adx_odata_entitytypename" />
                       </cell>
-                      <cell id="{4629c97b-6c34-6e36-ad6b-519781319100}" showlabel="true" locklevel="0">
+                      <cell id="{4629c97b-6c34-6e36-ad6b-519781319100}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Entity Set Name" languagecode="1033" />
                         </labels>
-                        <control id="adx_odata_entitysetname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_odata_entitysetname" disabled="false" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_odata_entitysetname" disabled="false" id="adx_odata_entitysetname" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{2cd63145-c3ac-386b-1453-e83035eab15d}" showlabel="true" colspan="2" auto="false" rowspan="1">
+                      <cell auto="false" colspan="2" id="{2cd63145-c3ac-386b-1453-e83035eab15d}" rowspan="1" showlabel="true">
                         <labels>
                           <label description="View" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_viewselector_odataview" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_viewselector_odataview">
                           <parameters>
                             <Url>adx_metadata/view_selector.html</Url>
                             <Data>field=adx_odata_view&amp;source=adx_entityname</Data>
@@ -1194,18 +1194,18 @@
                           </parameters>
                         </control>
                         <events>
-                          <event name="onload" application="0">
+                          <event application="0" name="onload">
                             <dependencies />
                           </event>
                         </events>
                       </cell>
                     </row>
                     <row>
-                      <cell id="{50eca801-c051-568a-a965-0d9a48ea4ba9}" showlabel="true" locklevel="0" colspan="2" visible="false">
+                      <cell colspan="2" id="{50eca801-c051-568a-a965-0d9a48ea4ba9}" locklevel="0" showlabel="true" visible="false">
                         <labels>
                           <label description="View" languagecode="1033" />
                         </labels>
-                        <control id="adx_odata_view" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_odata_view" disabled="false" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_odata_view" disabled="false" id="adx_odata_view" />
                       </cell>
                     </row>
                   </rows>
@@ -1214,35 +1214,35 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_options" id="{08c090ab-dc43-9958-8988-93dc8cbcda97}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+        <tab expanded="true" id="{08c090ab-dc43-9958-8988-93dc8cbcda97}" IsUserDefined="0" locklevel="0" name="tab_options" showlabel="true">
           <labels>
             <label description="Options" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section name="tab_3_section_1" showlabel="true" showbar="true" locklevel="0" id="{eb77755d-3de0-7905-1719-4917d1694d4e}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{eb77755d-3de0-7905-1719-4917d1694d4e}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="tab_3_section_1" showbar="true" showlabel="true">
                   <labels>
                     <label description="Custom JavaScript" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{5e0092a4-6c59-52c5-9369-88a504c5be41}" showlabel="false" colspan="2" rowspan="4" visible="false" locklevel="1">
+                      <cell colspan="2" id="{5e0092a4-6c59-52c5-9369-88a504c5be41}" locklevel="1" rowspan="4" showlabel="false" visible="false">
                         <labels>
                           <label description="Custom JavaScript" languagecode="1033" />
                         </labels>
-                        <control id="adx_registerstartupscript" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="adx_registerstartupscript" disabled="false" />
+                        <control classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="adx_registerstartupscript" disabled="false" id="adx_registerstartupscript" />
                       </cell>
                     </row>
                     <row></row>
                     <row></row>
                     <row></row>
                     <row>
-                      <cell id="{60ae3498-1db0-446e-90bc-67e65c323a28}" showlabel="false" colspan="2" auto="false" rowspan="6">
+                      <cell auto="false" colspan="2" id="{60ae3498-1db0-446e-90bc-67e65c323a28}" rowspan="6" showlabel="false">
                         <labels>
                           <label description="Custom JavaScript" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_adx_customjavascript" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_adx_customjavascript">
                           <parameters>
                             <Url>adx_monaco/monaco_js.html</Url>
                             <Data>field=adx_registerstartupscript&amp;sync=true</Data>
@@ -1253,7 +1253,7 @@
                           </parameters>
                         </control>
                         <events>
-                          <event name="onload" application="false">
+                          <event application="false" name="onload">
                             <dependencies>
                               <dependency id="adx_registerstartupscript" />
                             </dependencies>
@@ -1268,17 +1268,17 @@
                     <row></row>
                   </rows>
                 </section>
-                <section name="tab_configuration" showlabel="false" showbar="false" locklevel="0" id="{ddcacdd0-3d2c-72a8-16c3-68b8b0836cdc}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                <section celllabelalignment="Left" celllabelposition="Left" columns="1" id="{ddcacdd0-3d2c-72a8-16c3-68b8b0836cdc}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="tab_configuration" showbar="false" showlabel="false">
                   <labels>
                     <label description="Configuration" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{54a30e16-2624-7c1e-cd8c-0e38c00b5de1}" showlabel="false" colspan="1" auto="false" rowspan="18">
+                      <cell auto="false" colspan="1" id="{54a30e16-2624-7c1e-cd8c-0e38c00b5de1}" rowspan="18" showlabel="false">
                         <labels>
                           <label description="Grid Settings" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_grid_settings" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_grid_settings">
                           <parameters>
                             <Url>adx_jsoneditor/adx.jsoneditor.grid.entitylist.html</Url>
                             <Data>schema=adx.jsoneditor.grid.entitylist&amp;field=adx_settings</Data>
@@ -1289,7 +1289,7 @@
                           </parameters>
                         </control>
                         <events>
-                          <event name="onload" application="0">
+                          <event application="0" name="onload">
                             <dependencies>
                               <dependency id="adx_settings" />
                             </dependencies>
@@ -1315,11 +1315,11 @@
                     <row></row>
                     <row></row>
                     <row>
-                      <cell id="{93d2a7e4-c0ac-1eb0-82b1-0abb958627a9}" showlabel="false" rowspan="1" visible="false" locklevel="1">
+                      <cell id="{93d2a7e4-c0ac-1eb0-82b1-0abb958627a9}" locklevel="1" rowspan="1" showlabel="false" visible="false">
                         <labels>
                           <label description="Settings" languagecode="1033" />
                         </labels>
-                        <control id="adx_settings" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="adx_settings" disabled="false" />
+                        <control classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="adx_settings" disabled="false" id="adx_settings" />
                       </cell>
                     </row>
                   </rows>
@@ -1328,24 +1328,24 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_webpages" id="{1cb2a94a-9037-9eb4-317e-98d24ecc880c}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+        <tab expanded="false" id="{1cb2a94a-9037-9eb4-317e-98d24ecc880c}" IsUserDefined="0" locklevel="0" name="tab_webpages" showlabel="true">
           <labels>
             <label description="Web Pages" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section name="tab_6_section_1" showlabel="false" showbar="false" locklevel="0" id="{c2a0e674-a195-bdab-38b6-84e15bae247d}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                <section columns="1" id="{c2a0e674-a195-bdab-38b6-84e15bae247d}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="tab_6_section_1" showbar="false" showlabel="false">
                   <labels>
                     <label description="Section" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{a1e301da-444b-8702-9cc3-c249b46670dc}" showlabel="false" colspan="1" auto="false" rowspan="12">
+                      <cell auto="false" colspan="1" id="{a1e301da-444b-8702-9cc3-c249b46670dc}" rowspan="12" showlabel="false">
                         <labels>
                           <label description="Web Pages (Entity List)" languagecode="1033" />
                         </labels>
-                        <control id="grid_webpages" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                        <control classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" id="grid_webpages">
                           <parameters>
                             <ViewId>{EBC6FC95-4C19-44E0-8BA5-CB188DDF8A14}</ViewId>
                             <IsUserView>false</IsUserView>
@@ -1390,7 +1390,7 @@
               <labels>
                 <label description="Status" languagecode="1033" />
               </labels>
-              <control id="footer_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" />
+              <control classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" id="footer_statecode" />
             </cell>
           </row>
         </rows>
@@ -1646,46 +1646,46 @@
         </NavBarAreas>
       </Navigation>
       <formLibraries>
-        <Library name="adx_adx.js" libraryUniqueId="{537acdb5-bbb3-9de7-5385-c9ed6adb25da}" />
-        <Library name="adx_webforms/adx.xrm.webforms.handlers.js" libraryUniqueId="{c9441561-55e6-9a79-c3aa-98ee6d98638c}" />
-        <Library name="msa_bingmaps/adx_bingmapsvalidation.js" libraryUniqueId="{a530c47a-a367-bce7-e89e-643c71bd9b92}" />
-        <Library name="adx_entitylisthandler.js" libraryUniqueId="{c74509d5-0527-6509-4e49-1710a57c3e93}" />
-        <Library name="adx_resources/ResourcesManager.js" libraryUniqueId="{e7cd0dda-d6be-7138-7ae0-1474035da12e}" />
-        <Library name="adx_scripts/jquery1.9.1.min.js" libraryUniqueId="{53937eed-464e-0859-e008-98ccd71c8962}" />
+        <Library libraryUniqueId="{537acdb5-bbb3-9de7-5385-c9ed6adb25da}" name="adx_adx.js" />
+        <Library libraryUniqueId="{c9441561-55e6-9a79-c3aa-98ee6d98638c}" name="adx_webforms/adx.xrm.webforms.handlers.js" />
+        <Library libraryUniqueId="{a530c47a-a367-bce7-e89e-643c71bd9b92}" name="msa_bingmaps/adx_bingmapsvalidation.js" />
+        <Library libraryUniqueId="{c74509d5-0527-6509-4e49-1710a57c3e93}" name="adx_entitylisthandler.js" />
+        <Library libraryUniqueId="{e7cd0dda-d6be-7138-7ae0-1474035da12e}" name="adx_resources/ResourcesManager.js" />
+        <Library libraryUniqueId="{53937eed-464e-0859-e008-98ccd71c8962}" name="adx_scripts/jquery1.9.1.min.js" />
       </formLibraries>
       <events>
-        <event name="onload" application="false" active="false">
+        <event active="false" application="false" name="onload">
           <dependencies>
             <dependency id="adx_map_distancevalues" />
           </dependencies>
           <Handlers>
-            <Handler handlerUniqueId="{9d6ac88c-e55d-29b2-2e67-35665adcd082}" functionName="adx.form.prefillField" libraryName="adx_adx.js" enabled="true" passExecutionContext="false" parameters="&quot;adx_idquerystringparametername&quot;,&quot;id&quot;" />
-            <Handler handlerUniqueId="{08bd48ab-5ae5-c349-94bd-747c9377a148}" functionName="adx.form.prefillField" libraryName="adx_adx.js" enabled="true" passExecutionContext="false" parameters="&quot;adx_pagesize&quot;,10" />
-            <Handler handlerUniqueId="{ea08d39d-b54d-d20d-9dce-dcd5bae0298b}" functionName="adx.form.prefillField" libraryName="adx_adx.js" enabled="true" passExecutionContext="false" parameters="&quot;adx_map_resturl&quot;,&quot;https://dev.virtualearth.net/REST/v1/Locations&quot;" />
-            <Handler handlerUniqueId="{70911146-c1d5-5d27-63e5-2256dacd9864}" functionName="adx.form.prefillField" libraryName="adx_adx.js" enabled="true" passExecutionContext="false" parameters="&quot;adx_map_zoom&quot;,12" />
-            <Handler handlerUniqueId="{49dce2a7-9e33-6acd-1276-d989eaac59e2}" functionName="adx.form.prefillField" libraryName="adx_adx.js" enabled="true" passExecutionContext="false" parameters="&quot;adx_map_pushpinheight&quot;,39" />
-            <Handler handlerUniqueId="{1e82de5e-10b5-35ce-4bae-0946b9e636e5}" functionName="adx.form.prefillField" libraryName="adx_adx.js" enabled="true" passExecutionContext="false" parameters="&quot;adx_map_pushpinwidth&quot;,32" />
-            <Handler handlerUniqueId="{22db2280-3b44-3122-e1b5-81a8d86828aa}" functionName="adx.form.prefillField" libraryName="adx_adx.js" enabled="true" passExecutionContext="false" parameters="&quot;adx_map_infoboxoffsetx&quot;,25" />
-            <Handler handlerUniqueId="{644470e5-497d-162a-309b-a9e94e786949}" functionName="adx.form.prefillField" libraryName="adx_adx.js" enabled="true" passExecutionContext="false" parameters="&quot;adx_map_infoboxoffsety&quot;,46" />
-            <Handler handlerUniqueId="{15916540-1a7b-1ec7-2361-179277b56d4d}" functionName="adx.form.prefillField" libraryName="adx_adx.js" enabled="true" passExecutionContext="false" parameters="&quot;adx_map_distancevalues&quot;,&quot;5,10,25,50,100&quot;" />
-            <Handler functionName="adx.xrm.webForms.entityList.onLoad" libraryName="adx_webforms/adx.xrm.webforms.handlers.js" handlerUniqueId="{23cd234d-1aac-c091-2035-567005011cd6}" enabled="true" parameters="" passExecutionContext="false" />
-            <Handler functionName="adx.adx_entityList.loadResources" libraryName="adx_entitylisthandler.js" handlerUniqueId="{85b0db9c-25b6-94c8-a8bd-a085da7ae90a}" enabled="true" parameters="" passExecutionContext="false" />
-            <Handler functionName="adx.adx_entityList.blockBingMapsIntegrationInDeu" libraryName="adx_entitylisthandler.js" handlerUniqueId="{27491ad0-051d-9489-563e-1555be455dc2}" enabled="true" parameters="" passExecutionContext="false" />
+            <Handler enabled="true" functionName="adx.form.prefillField" handlerUniqueId="{9d6ac88c-e55d-29b2-2e67-35665adcd082}" libraryName="adx_adx.js" parameters="&quot;adx_idquerystringparametername&quot;,&quot;id&quot;" passExecutionContext="false" />
+            <Handler enabled="true" functionName="adx.form.prefillField" handlerUniqueId="{08bd48ab-5ae5-c349-94bd-747c9377a148}" libraryName="adx_adx.js" parameters="&quot;adx_pagesize&quot;,10" passExecutionContext="false" />
+            <Handler enabled="true" functionName="adx.form.prefillField" handlerUniqueId="{ea08d39d-b54d-d20d-9dce-dcd5bae0298b}" libraryName="adx_adx.js" parameters="&quot;adx_map_resturl&quot;,&quot;https://dev.virtualearth.net/REST/v1/Locations&quot;" passExecutionContext="false" />
+            <Handler enabled="true" functionName="adx.form.prefillField" handlerUniqueId="{70911146-c1d5-5d27-63e5-2256dacd9864}" libraryName="adx_adx.js" parameters="&quot;adx_map_zoom&quot;,12" passExecutionContext="false" />
+            <Handler enabled="true" functionName="adx.form.prefillField" handlerUniqueId="{49dce2a7-9e33-6acd-1276-d989eaac59e2}" libraryName="adx_adx.js" parameters="&quot;adx_map_pushpinheight&quot;,39" passExecutionContext="false" />
+            <Handler enabled="true" functionName="adx.form.prefillField" handlerUniqueId="{1e82de5e-10b5-35ce-4bae-0946b9e636e5}" libraryName="adx_adx.js" parameters="&quot;adx_map_pushpinwidth&quot;,32" passExecutionContext="false" />
+            <Handler enabled="true" functionName="adx.form.prefillField" handlerUniqueId="{22db2280-3b44-3122-e1b5-81a8d86828aa}" libraryName="adx_adx.js" parameters="&quot;adx_map_infoboxoffsetx&quot;,25" passExecutionContext="false" />
+            <Handler enabled="true" functionName="adx.form.prefillField" handlerUniqueId="{644470e5-497d-162a-309b-a9e94e786949}" libraryName="adx_adx.js" parameters="&quot;adx_map_infoboxoffsety&quot;,46" passExecutionContext="false" />
+            <Handler enabled="true" functionName="adx.form.prefillField" handlerUniqueId="{15916540-1a7b-1ec7-2361-179277b56d4d}" libraryName="adx_adx.js" parameters="&quot;adx_map_distancevalues&quot;,&quot;5,10,25,50,100&quot;" passExecutionContext="false" />
+            <Handler enabled="true" functionName="adx.xrm.webForms.entityList.onLoad" handlerUniqueId="{23cd234d-1aac-c091-2035-567005011cd6}" libraryName="adx_webforms/adx.xrm.webforms.handlers.js" parameters="" passExecutionContext="false" />
+            <Handler enabled="true" functionName="adx.adx_entityList.loadResources" handlerUniqueId="{85b0db9c-25b6-94c8-a8bd-a085da7ae90a}" libraryName="adx_entitylisthandler.js" parameters="" passExecutionContext="false" />
+            <Handler enabled="true" functionName="adx.adx_entityList.blockBingMapsIntegrationInDeu" handlerUniqueId="{27491ad0-051d-9489-563e-1555be455dc2}" libraryName="adx_entitylisthandler.js" parameters="" passExecutionContext="false" />
           </Handlers>
         </event>
-        <event name="onchange" application="false" active="false" attribute="adx_entityname">
+        <event active="false" application="false" attribute="adx_entityname" name="onchange">
           <Handlers>
-            <Handler functionName="adx.xrm.webForms.entityList.entityName.onChange" libraryName="adx_webforms/adx.xrm.webforms.handlers.js" handlerUniqueId="{4d1cb26c-baba-656d-b3be-c6a381c0c3bd}" enabled="true" parameters="" passExecutionContext="false" />
+            <Handler enabled="true" functionName="adx.xrm.webForms.entityList.entityName.onChange" handlerUniqueId="{4d1cb26c-baba-656d-b3be-c6a381c0c3bd}" libraryName="adx_webforms/adx.xrm.webforms.handlers.js" parameters="" passExecutionContext="false" />
           </Handlers>
         </event>
-        <event name="onchange" application="false" active="false" attribute="adx_views">
+        <event active="false" application="false" attribute="adx_views" name="onchange">
           <Handlers>
-            <Handler functionName="adx.xrm.webForms.entityList.view.onChange" libraryName="adx_webforms/adx.xrm.webforms.handlers.js" handlerUniqueId="{e2ba91b5-d6cd-68bd-49e2-0964bc69ad01}" enabled="true" parameters="" passExecutionContext="false" />
+            <Handler enabled="true" functionName="adx.xrm.webForms.entityList.view.onChange" handlerUniqueId="{e2ba91b5-d6cd-68bd-49e2-0964bc69ad01}" libraryName="adx_webforms/adx.xrm.webforms.handlers.js" parameters="" passExecutionContext="false" />
           </Handlers>
         </event>
-        <event name="onchange" application="false" active="false" attribute="adx_map_enabled">
+        <event active="false" application="false" attribute="adx_map_enabled" name="onchange">
           <Handlers>
-            <Handler functionName="adx.adx_entityList.showAdx_BingMapPrivacyDisclaimer" libraryName="adx_entitylisthandler.js" handlerUniqueId="{29c3a691-d30d-2191-53d0-653a8e334a78}" enabled="true" parameters="" passExecutionContext="true" />
+            <Handler enabled="true" functionName="adx.adx_entityList.showAdx_BingMapPrivacyDisclaimer" handlerUniqueId="{29c3a691-d30d-2191-53d0-653a8e334a78}" libraryName="adx_entitylisthandler.js" parameters="" passExecutionContext="true" />
           </Handlers>
         </event>
       </events>

@@ -7,14 +7,14 @@
     <FormActivationState>1</FormActivationState>
     <form>
       <tabs>
-        <tab verticallayout="true" id="{e89698ed-fd98-4e6e-bc6e-b4739642313a}" IsUserDefined="1">
+        <tab id="{e89698ed-fd98-4e6e-bc6e-b4739642313a}" IsUserDefined="1" verticallayout="true">
           <labels>
             <label description="General" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showlabel="false" showbar="false" IsUserDefined="0" id="{abdfd5b4-e4f7-47de-9168-d095ba745bb2}">
+                <section id="{abdfd5b4-e4f7-47de-9168-d095ba745bb2}" IsUserDefined="0" showbar="false" showlabel="false">
                   <labels>
                     <label description="General" languagecode="1033" />
                   </labels>
@@ -24,7 +24,7 @@
                         <labels>
                           <label description="Name" languagecode="1033" />
                         </labels>
-                        <control id="mdce_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mdce_name" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="mdce_name" id="mdce_name" />
                       </cell>
                     </row>
                   </rows>

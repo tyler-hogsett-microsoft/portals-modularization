@@ -5,40 +5,40 @@
     <IntroducedVersion>7.0.0000</IntroducedVersion>
     <FormPresentation>1</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form shownavigationbar="true" showImage="false" maxWidth="1900">
+    <form maxWidth="1900" showImage="false" shownavigationbar="true">
       <tabs>
-        <tab verticallayout="true" id="{00cc69fa-e364-4f4d-a649-c87e98b78522}" IsUserDefined="1" expanded="true" name="adx_entitypermission_general" locklevel="0" showlabel="true">
+        <tab expanded="true" id="{00cc69fa-e364-4f4d-a649-c87e98b78522}" IsUserDefined="1" locklevel="0" name="adx_entitypermission_general" showlabel="true" verticallayout="true">
           <labels>
             <label description="General" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showlabel="false" showbar="false" IsUserDefined="0" id="{a349f40d-7a85-4e2a-8307-3e82290bdfbf}" name="adx_entitypermission_general" columns="11" locklevel="0" labelwidth="150" celllabelalignment="Left" celllabelposition="Left">
+                <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{a349f40d-7a85-4e2a-8307-3e82290bdfbf}" IsUserDefined="0" labelwidth="150" locklevel="0" name="adx_entitypermission_general" showbar="false" showlabel="false">
                   <labels>
                     <label description="General" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{0aa0f4b1-ae63-4357-8f0f-84851d91eec7}" showlabel="true" locklevel="0" colspan="2">
+                      <cell colspan="2" id="{0aa0f4b1-ae63-4357-8f0f-84851d91eec7}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Name" languagecode="1033" />
                         </labels>
-                        <control id="adx_entityname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_entityname" disabled="false" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_entityname" disabled="false" id="adx_entityname" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{b0d71757-d8be-2231-6a71-e9c09865705e}" showlabel="true" locklevel="1">
+                      <cell id="{b0d71757-d8be-2231-6a71-e9c09865705e}" locklevel="1" showlabel="true">
                         <labels>
                           <label description="Entity Name" languagecode="1033" />
                         </labels>
-                        <control id="adx_entitylogicalname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_entitylogicalname" disabled="true" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_entitylogicalname" disabled="true" id="adx_entitylogicalname" />
                       </cell>
-                      <cell id="{ebe68ebb-5c68-0913-a2b7-3414aa87b825}" showlabel="false" colspan="1" auto="false" rowspan="1">
+                      <cell auto="false" colspan="1" id="{ebe68ebb-5c68-0913-a2b7-3414aa87b825}" rowspan="1" showlabel="false">
                         <labels>
                           <label description="Entity Name (Selector)" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_adx_entitylogicalname_selector" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_adx_entitylogicalname_selector">
                           <parameters>
                             <Url>adx_metadata/entity_selector.html</Url>
                             <Data>field=adx_entitylogicalname</Data>
@@ -49,7 +49,7 @@
                           </parameters>
                         </control>
                         <events>
-                          <event name="onload" application="false">
+                          <event application="false" name="onload">
                             <dependencies>
                               <dependency id="adx_entitylogicalname" />
                             </dependencies>
@@ -58,11 +58,11 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{83b73265-d8d8-bc05-12c9-59796d04eac0}" showlabel="true" locklevel="0">
+                      <cell id="{83b73265-d8d8-bc05-12c9-59796d04eac0}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Website" languagecode="1033" />
                         </labels>
-                        <control id="adx_websiteid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_websiteid" disabled="false" />
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_websiteid" disabled="false" id="adx_websiteid" />
                       </cell>
                       <cell id="{068b8a50-b152-9d61-7dce-53b755ced0de}" showlabel="false">
                         <labels>
@@ -71,32 +71,32 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{3bdbd460-32e5-b481-6324-3dade3b04b02}" showlabel="true" locklevel="0" colspan="2">
+                      <cell colspan="2" id="{3bdbd460-32e5-b481-6324-3dade3b04b02}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Scope" languagecode="1033" />
                         </labels>
-                        <control id="adx_scope" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="adx_scope" disabled="false" />
+                        <control classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="adx_scope" disabled="false" id="adx_scope" />
                       </cell>
                     </row>
                   </rows>
                 </section>
-                <section name="adx_entitypermission_contact" showlabel="true" showbar="false" locklevel="0" id="{3ab8a941-9d2c-a1c1-bbd6-1083e5a340b2}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="150" celllabelalignment="Left" celllabelposition="Left">
+                <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{3ab8a941-9d2c-a1c1-bbd6-1083e5a340b2}" IsUserDefined="0" labelwidth="150" layout="varwidth" locklevel="0" name="adx_entitypermission_contact" showbar="false" showlabel="true">
                   <labels>
                     <label description="Contact Scope" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{0bc0829a-343a-0c2a-eb32-8db1e8b2762e}" showlabel="true" locklevel="1">
+                      <cell id="{0bc0829a-343a-0c2a-eb32-8db1e8b2762e}" locklevel="1" showlabel="true">
                         <labels>
                           <label description="Contact Relationship" languagecode="1033" />
                         </labels>
-                        <control id="adx_contactrelationship" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_contactrelationship" disabled="true" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_contactrelationship" disabled="true" id="adx_contactrelationship" />
                       </cell>
-                      <cell id="{c70b593c-b775-3785-6c74-770a10b9575d}" showlabel="false" colspan="1" auto="false" rowspan="1">
+                      <cell auto="false" colspan="1" id="{c70b593c-b775-3785-6c74-770a10b9575d}" rowspan="1" showlabel="false">
                         <labels>
                           <label description="Contact Relationship (Selector)" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_adx_contactrelationship_selector" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_adx_contactrelationship_selector">
                           <parameters>
                             <Url>adx_metadata/relationship_selector.html</Url>
                             <Data>field=adx_contactrelationship&amp;source=adx_entitylogicalname&amp;targets=contact</Data>
@@ -107,7 +107,7 @@
                           </parameters>
                         </control>
                         <events>
-                          <event name="onload" application="false">
+                          <event application="false" name="onload">
                             <dependencies>
                               <dependency id="adx_contactrelationship" />
                             </dependencies>
@@ -117,23 +117,23 @@
                     </row>
                   </rows>
                 </section>
-                <section name="adx_entitypermission_account" showlabel="true" showbar="false" locklevel="0" id="{e024d9a2-b989-c252-dd33-5ae594112b7d}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="150" celllabelalignment="Left" celllabelposition="Left">
+                <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{e024d9a2-b989-c252-dd33-5ae594112b7d}" IsUserDefined="0" labelwidth="150" layout="varwidth" locklevel="0" name="adx_entitypermission_account" showbar="false" showlabel="true">
                   <labels>
                     <label description="Account Scope" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{46b77e0d-1cd9-85db-b727-77da91c59d30}" showlabel="true" locklevel="1">
+                      <cell id="{46b77e0d-1cd9-85db-b727-77da91c59d30}" locklevel="1" showlabel="true">
                         <labels>
                           <label description="Account Relationship" languagecode="1033" />
                         </labels>
-                        <control id="adx_accountrelationship" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_accountrelationship" disabled="true" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_accountrelationship" disabled="true" id="adx_accountrelationship" />
                       </cell>
-                      <cell id="{3b5a629b-635c-1545-63ab-dc3eb686dddb}" showlabel="false" colspan="1" auto="false" rowspan="1">
+                      <cell auto="false" colspan="1" id="{3b5a629b-635c-1545-63ab-dc3eb686dddb}" rowspan="1" showlabel="false">
                         <labels>
                           <label description="Account Relationship (Selector)" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_adx_accountrelationshipname_selector" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_adx_accountrelationshipname_selector">
                           <parameters>
                             <Url>adx_metadata/relationship_selector.html</Url>
                             <Data>field=adx_accountrelationship&amp;source=adx_entitylogicalname&amp;targets=account</Data>
@@ -144,7 +144,7 @@
                           </parameters>
                         </control>
                         <events>
-                          <event name="onload" application="false">
+                          <event application="false" name="onload">
                             <dependencies>
                               <dependency id="adx_accountrelationship" />
                             </dependencies>
@@ -154,17 +154,17 @@
                     </row>
                   </rows>
                 </section>
-                <section name="adx_entitypermission_parent" showlabel="true" showbar="false" locklevel="0" id="{c477c65b-1537-3634-c485-55e7c59a28c8}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="150" celllabelalignment="Left" celllabelposition="Left">
+                <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{c477c65b-1537-3634-c485-55e7c59a28c8}" IsUserDefined="0" labelwidth="150" layout="varwidth" locklevel="0" name="adx_entitypermission_parent" showbar="false" showlabel="true">
                   <labels>
                     <label description="Parent Scope" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{ec02be13-93b6-c4ea-6943-9202192aab14}" showlabel="true" locklevel="1" colspan="2">
+                      <cell colspan="2" id="{ec02be13-93b6-c4ea-6943-9202192aab14}" locklevel="1" showlabel="true">
                         <labels>
                           <label description="Parent Entity Permission" languagecode="1033" />
                         </labels>
-                        <control id="adx_parententitypermission" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_parententitypermission" disabled="false">
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_parententitypermission" disabled="false" id="adx_parententitypermission">
                           <parameters>
                             <AutoResolve>true</AutoResolve>
                             <DisableMru>false</DisableMru>
@@ -177,17 +177,17 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{6e50506e-a9be-edbe-ed67-53d0673b72bb}" showlabel="true" locklevel="1">
+                      <cell id="{6e50506e-a9be-edbe-ed67-53d0673b72bb}" locklevel="1" showlabel="true">
                         <labels>
                           <label description="Parent Relationship" languagecode="1033" />
                         </labels>
-                        <control id="adx_parentrelationship" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_parentrelationship" disabled="true" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_parentrelationship" disabled="true" id="adx_parentrelationship" />
                       </cell>
-                      <cell id="{b24d7316-2b88-3e29-17bb-d07d1b85829c}" showlabel="false" colspan="1" auto="false" rowspan="1">
+                      <cell auto="false" colspan="1" id="{b24d7316-2b88-3e29-17bb-d07d1b85829c}" rowspan="1" showlabel="false">
                         <labels>
                           <label description="Parent Relationship (Selector)" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_adx_parentrelationship_selector" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_adx_parentrelationship_selector">
                           <parameters>
                             <Url>adx_metadata/relationship_selector.html</Url>
                             <Data>field=adx_parentrelationship&amp;source=adx_entitylogicalname&amp;targets=$adx_parententitypermission.adx_entitylogicalname</Data>
@@ -198,7 +198,7 @@
                           </parameters>
                         </control>
                         <events>
-                          <event name="onload" application="false">
+                          <event application="false" name="onload">
                             <dependencies>
                               <dependency id="adx_parentrelationship" />
                               <dependency id="adx_parententitypermission" />
@@ -209,66 +209,66 @@
                     </row>
                   </rows>
                 </section>
-                <section name="adx_entitypermission_privileges" showlabel="true" showbar="false" locklevel="0" id="{b93a4c4d-c532-c042-62d7-1a915cb098db}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="75" celllabelalignment="Left" celllabelposition="Left">
+                <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{b93a4c4d-c532-c042-62d7-1a915cb098db}" IsUserDefined="0" labelwidth="75" layout="varwidth" locklevel="0" name="adx_entitypermission_privileges" showbar="false" showlabel="true">
                   <labels>
                     <label description="Privileges" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{7694799a-7eeb-603b-9951-a7b10d96ac28}" showlabel="true" locklevel="0">
+                      <cell id="{7694799a-7eeb-603b-9951-a7b10d96ac28}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Read" languagecode="1033" />
                         </labels>
-                        <control id="adx_read" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="adx_read" disabled="false" />
+                        <control classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="adx_read" disabled="false" id="adx_read" />
                       </cell>
-                      <cell id="{5365a694-923a-c015-e3e7-0bad09459610}" showlabel="true" locklevel="0">
+                      <cell id="{5365a694-923a-c015-e3e7-0bad09459610}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Write" languagecode="1033" />
                         </labels>
-                        <control id="adx_write" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="adx_write" disabled="false" />
+                        <control classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="adx_write" disabled="false" id="adx_write" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{4d776a9b-2198-66a9-1a97-9a26e18e3e75}" showlabel="true" locklevel="0">
+                      <cell id="{4d776a9b-2198-66a9-1a97-9a26e18e3e75}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Create" languagecode="1033" />
                         </labels>
-                        <control id="adx_create" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="adx_create" disabled="false" />
+                        <control classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="adx_create" disabled="false" id="adx_create" />
                       </cell>
-                      <cell id="{c8aa6802-be1b-7933-d654-457ee05a8b10}" showlabel="true" locklevel="0">
+                      <cell id="{c8aa6802-be1b-7933-d654-457ee05a8b10}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Delete" languagecode="1033" />
                         </labels>
-                        <control id="adx_delete" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="adx_delete" disabled="false" />
+                        <control classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="adx_delete" disabled="false" id="adx_delete" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{a3d17ded-ae4e-690e-ab03-5b6b83433496}" showlabel="true" locklevel="0">
+                      <cell id="{a3d17ded-ae4e-690e-ab03-5b6b83433496}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Append" languagecode="1033" />
                         </labels>
-                        <control id="adx_append" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="adx_append" disabled="false" />
+                        <control classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="adx_append" disabled="false" id="adx_append" />
                       </cell>
-                      <cell id="{099ea88b-dea1-7c0b-4679-41804357673a}" showlabel="true" locklevel="0">
+                      <cell id="{099ea88b-dea1-7c0b-4679-41804357673a}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Append To" languagecode="1033" />
                         </labels>
-                        <control id="adx_appendto" classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="adx_appendto" disabled="false" />
+                        <control classid="{B0C6723A-8503-4fd7-BB28-C8A06AC933C2}" datafieldname="adx_appendto" disabled="false" id="adx_appendto" />
                       </cell>
                     </row>
                   </rows>
                 </section>
-                <section name="adx_entitypermission_children" showlabel="true" showbar="false" locklevel="0" id="{91bae5e1-b990-b36b-c1ca-73e1873974ab}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                <section celllabelalignment="Left" celllabelposition="Left" columns="1" id="{91bae5e1-b990-b36b-c1ca-73e1873974ab}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="adx_entitypermission_children" showbar="false" showlabel="true">
                   <labels>
                     <label description="Child Entity Permissions" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{c3cbc48c-5a3e-e146-17b7-0809e51de44c}" showlabel="false" colspan="1" auto="false" rowspan="12">
+                      <cell auto="false" colspan="1" id="{c3cbc48c-5a3e-e146-17b7-0809e51de44c}" rowspan="12" showlabel="false">
                         <labels>
                           <label description="Entity Permissions (Parent Entity Permission)" languagecode="1033" />
                         </labels>
-                        <control id="subgrid_childentitypermissions" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                        <control classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" id="subgrid_childentitypermissions">
                           <parameters>
                             <ViewId>{D3F8A7C8-2AF0-E311-9428-00155D038C01}</ViewId>
                             <IsUserView>false</IsUserView>
@@ -301,17 +301,17 @@
                     <row />
                   </rows>
                 </section>
-                <section name="adx_entitypermission_webroles" showlabel="true" showbar="false" locklevel="0" id="{3cc94e44-e809-3d90-288b-7a3e37578b15}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                <section celllabelalignment="Left" celllabelposition="Left" columns="1" id="{3cc94e44-e809-3d90-288b-7a3e37578b15}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="adx_entitypermission_webroles" showbar="false" showlabel="true">
                   <labels>
                     <label description="Web Roles" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{c665e611-3321-a372-311b-12c7b9056c32}" showlabel="false" colspan="1" auto="false" rowspan="12">
+                      <cell auto="false" colspan="1" id="{c665e611-3321-a372-311b-12c7b9056c32}" rowspan="12" showlabel="false">
                         <labels>
                           <label description="Web Roles" languagecode="1033" />
                         </labels>
-                        <control id="subgrid_webroles" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                        <control classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" id="subgrid_webroles">
                           <parameters>
                             <ViewId>{8A3AAD5D-06EE-40AD-A1BA-000C521A8F83}</ViewId>
                             <IsUserView>false</IsUserView>
@@ -345,17 +345,17 @@
                     <row />
                   </rows>
                 </section>
-                <section name="adx_entitypermission_notes" showlabel="false" showbar="false" locklevel="0" id="{a6a6c8bb-5b33-bb68-eccc-c7a13b1ee4a8}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                <section celllabelalignment="Left" celllabelposition="Left" columns="1" id="{a6a6c8bb-5b33-bb68-eccc-c7a13b1ee4a8}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="adx_entitypermission_notes" showbar="false" showlabel="false">
                   <labels>
                     <label description="Notes" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{e85edd72-4115-c134-38d4-bb1d3b25a8a0}" showlabel="false" rowspan="15" auto="false" colspan="1" locklevel="0">
+                      <cell auto="false" colspan="1" id="{e85edd72-4115-c134-38d4-bb1d3b25a8a0}" locklevel="0" rowspan="15" showlabel="false">
                         <labels>
                           <label description="Notes" languagecode="1033" />
                         </labels>
-                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" disabled="false">
+                        <control classid="{06375649-c143-495e-a496-c962e5b4488e}" disabled="false" id="notescontrol">
                           <parameters>
                             <DefaultTabId>ActivitiesTab</DefaultTabId>
                           </parameters>
@@ -634,24 +634,24 @@
         </NavBarAreas>
       </Navigation>
       <formLibraries>
-        <Library name="adx_scripts/jquery1.10.2.min.js" libraryUniqueId="{9756d5d8-b127-32e7-3e89-ee73cb2ee107}" />
-        <Library name="adx_resources/ResourcesManager.js" libraryUniqueId="{01b3b355-29d7-cca7-dc5a-297367471dce}" />
-        <Library name="adx_entitypermission.js" libraryUniqueId="{a2e431e1-b699-cba2-9161-89d564e3b8b0}" />
+        <Library libraryUniqueId="{9756d5d8-b127-32e7-3e89-ee73cb2ee107}" name="adx_scripts/jquery1.10.2.min.js" />
+        <Library libraryUniqueId="{01b3b355-29d7-cca7-dc5a-297367471dce}" name="adx_resources/ResourcesManager.js" />
+        <Library libraryUniqueId="{a2e431e1-b699-cba2-9161-89d564e3b8b0}" name="adx_entitypermission.js" />
       </formLibraries>
       <events>
-        <event name="onload" application="false" active="false">
+        <event active="false" application="false" name="onload">
           <Handlers>
-            <Handler functionName="adx_entitypermission_OnLoad" libraryName="adx_entitypermission.js" handlerUniqueId="{c46c531d-7eb7-2b20-5769-a43ac5c69d4c}" enabled="true" parameters="" passExecutionContext="false" />
+            <Handler enabled="true" functionName="adx_entitypermission_OnLoad" handlerUniqueId="{c46c531d-7eb7-2b20-5769-a43ac5c69d4c}" libraryName="adx_entitypermission.js" parameters="" passExecutionContext="false" />
           </Handlers>
         </event>
-        <event name="onchange" application="false" active="false" attribute="adx_scope">
+        <event active="false" application="false" attribute="adx_scope" name="onchange">
           <Handlers>
-            <Handler functionName="adx_scope_OnChange" libraryName="adx_entitypermission.js" handlerUniqueId="{d923cbb0-c6ee-94d3-3822-711cd8d92560}" enabled="true" parameters="" passExecutionContext="false" />
+            <Handler enabled="true" functionName="adx_scope_OnChange" handlerUniqueId="{d923cbb0-c6ee-94d3-3822-711cd8d92560}" libraryName="adx_entitypermission.js" parameters="" passExecutionContext="false" />
           </Handlers>
         </event>
-        <event name="onsave" application="false" active="false">
+        <event active="false" application="false" name="onsave">
           <Handlers>
-            <Handler functionName="adx_entitypermission_OnSave" libraryName="adx_entitypermission.js" handlerUniqueId="{ea627ea0-90a0-518e-4c22-dcb4d6c2286e}" enabled="true" parameters="" passExecutionContext="false" />
+            <Handler enabled="true" functionName="adx_entitypermission_OnSave" handlerUniqueId="{ea627ea0-90a0-518e-4c22-dcb4d6c2286e}" libraryName="adx_entitypermission.js" parameters="" passExecutionContext="false" />
           </Handlers>
         </event>
       </events>

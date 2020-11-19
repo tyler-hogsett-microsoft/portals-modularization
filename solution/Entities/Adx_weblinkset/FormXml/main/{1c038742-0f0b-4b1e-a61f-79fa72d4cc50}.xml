@@ -7,32 +7,32 @@
     <FormActivationState>1</FormActivationState>
     <form shownavigationbar="true">
       <tabs>
-        <tab verticallayout="true" id="{8c794036-9dc7-4c14-b3f1-705da097c5ef}" IsUserDefined="1" name="{8c794036-9dc7-4c14-b3f1-705da097c5ef}">
+        <tab id="{8c794036-9dc7-4c14-b3f1-705da097c5ef}" IsUserDefined="1" name="{8c794036-9dc7-4c14-b3f1-705da097c5ef}" verticallayout="true">
           <labels>
             <label description="General" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showlabel="false" showbar="false" IsUserDefined="0" id="{0907e05b-70c7-4463-80bd-ed65c2911934}" name="{0907e05b-70c7-4463-80bd-ed65c2911934}" columns="11" labelwidth="150">
+                <section columns="11" id="{0907e05b-70c7-4463-80bd-ed65c2911934}" IsUserDefined="0" labelwidth="150" name="{0907e05b-70c7-4463-80bd-ed65c2911934}" showbar="false" showlabel="false">
                   <labels>
                     <label description="General" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{71e2cf4b-746a-4bf4-99f2-65079a890417}" showlabel="true" locklevel="0" colspan="2">
+                      <cell colspan="2" id="{71e2cf4b-746a-4bf4-99f2-65079a890417}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Name" languagecode="1033" />
                         </labels>
-                        <control id="adx_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_name" disabled="false" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_name" disabled="false" id="adx_name" />
                       </cell>
                     </row>
                     <row>
-                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="2" id="{0b72e17e-1a36-4dc6-9628-5251d3edfe4b}">
+                      <cell auto="false" colspan="2" id="{0b72e17e-1a36-4dc6-9628-5251d3edfe4b}" locklevel="0" rowspan="1" showlabel="true">
                         <labels>
                           <label description="Website" languagecode="1033" />
                         </labels>
-                        <control id="adx_websiteid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_websiteid" disabled="false">
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_websiteid" disabled="false" id="adx_websiteid">
                           <parameters>
                             <AutoResolve>true</AutoResolve>
                           </parameters>
@@ -40,17 +40,17 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{b91795aa-ab3e-1936-7815-ca29551361ab}" showlabel="true" locklevel="0">
+                      <cell id="{b91795aa-ab3e-1936-7815-ca29551361ab}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Display Name" languagecode="1033" />
                         </labels>
-                        <control id="adx_display_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_display_name" disabled="false" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_display_name" disabled="false" id="adx_display_name" />
                       </cell>
-                      <cell id="{467e83aa-9e4a-2b42-1432-c3c55ce4009a}" showlabel="true" locklevel="0">
+                      <cell id="{467e83aa-9e4a-2b42-1432-c3c55ce4009a}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Publishing State" languagecode="1033" />
                         </labels>
-                        <control id="adx_publishingstateid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_publishingstateid" disabled="false" uniqueid="{86739580-7811-427a-783b-467bc9777156}">
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_publishingstateid" disabled="false" id="adx_publishingstateid" uniqueid="{86739580-7811-427a-783b-467bc9777156}">
                           <parameters>
                             <AutoResolve>true</AutoResolve>
                             <DisableMru>false</DisableMru>
@@ -66,19 +66,19 @@
                       </cell>
                     </row>
                     <row>
-                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="2" id="{c2faf10d-cc08-4206-8811-0cce08de5ace}">
+                      <cell auto="false" colspan="2" id="{c2faf10d-cc08-4206-8811-0cce08de5ace}" locklevel="0" rowspan="1" showlabel="true">
                         <labels>
                           <label description="Title" languagecode="1033" />
                         </labels>
-                        <control id="adx_title" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_title" disabled="false" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_title" disabled="false" id="adx_title" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{d318305e-a9ba-4de5-d3e8-cc5d87d66e41}" showlabel="true" locklevel="0" colspan="2">
+                      <cell colspan="2" id="{d318305e-a9ba-4de5-d3e8-cc5d87d66e41}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Web Link Set Language" languagecode="1033" />
                         </labels>
-                        <control id="adx_websitelanguageid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_websitelanguageid" disabled="false" uniqueid="{69b15925-b407-c01e-6aa2-115a10e3d689}">
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_websitelanguageid" disabled="false" id="adx_websitelanguageid" uniqueid="{69b15925-b407-c01e-6aa2-115a10e3d689}">
                           <parameters>
                             <AutoResolve>true</AutoResolve>
                             <DisableMru>false</DisableMru>
@@ -95,22 +95,22 @@
                       </cell>
                     </row>
                     <row>
-                      <cell auto="false" showlabel="true" locklevel="0" rowspan="4" colspan="2" id="{1e70a012-258e-4885-9a17-c7f7411f3944}" visible="false">
+                      <cell auto="false" colspan="2" id="{1e70a012-258e-4885-9a17-c7f7411f3944}" locklevel="0" rowspan="4" showlabel="true" visible="false">
                         <labels>
                           <label description="Copy" languagecode="1033" />
                         </labels>
-                        <control id="adx_copy" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="adx_copy" disabled="false" />
+                        <control classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="adx_copy" disabled="false" id="adx_copy" />
                       </cell>
                     </row>
                     <row />
                     <row />
                     <row />
                     <row>
-                      <cell id="{24d6493e-3395-c460-eb94-3e3474ab0290}" showlabel="true" colspan="2" auto="false" rowspan="16">
+                      <cell auto="false" colspan="2" id="{24d6493e-3395-c460-eb94-3e3474ab0290}" rowspan="16" showlabel="true">
                         <labels>
                           <label description="Copy (HTML)" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_adx_copy_ckeditor" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_adx_copy_ckeditor">
                           <parameters>
                             <Url>adx_ckeditor/adx.ckeditor.html</Url>
                             <PassParameters>false</PassParameters>
@@ -122,7 +122,7 @@
                           </parameters>
                         </control>
                         <events>
-                          <event name="onload" application="false">
+                          <event application="false" name="onload">
                             <dependencies>
                               <dependency id="adx_copy" />
                             </dependencies>
@@ -151,24 +151,24 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_3" id="{ed933963-de22-aecb-d6cb-ac1e35d1dd99}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+        <tab expanded="true" id="{ed933963-de22-aecb-d6cb-ac1e35d1dd99}" IsUserDefined="0" locklevel="0" name="tab_3" showlabel="true">
           <labels>
             <label description="Links" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section name="tab_3_section_1" showlabel="false" showbar="false" locklevel="0" id="{de4ee149-8939-9aba-386d-64c3ae2a9615}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115">
+                <section columns="11" id="{de4ee149-8939-9aba-386d-64c3ae2a9615}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="tab_3_section_1" showbar="false" showlabel="false">
                   <labels>
                     <label description="Section" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{782386e9-c9e3-ec70-508d-3969b8875729}" showlabel="false" colspan="2" auto="false" rowspan="8">
+                      <cell auto="false" colspan="2" id="{782386e9-c9e3-ec70-508d-3969b8875729}" rowspan="8" showlabel="false">
                         <labels>
                           <label description="Web Links (Web Link Set)" languagecode="1033" />
                         </labels>
-                        <control id="weblinkset" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                        <control classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" id="weblinkset">
                           <parameters>
                             <ViewId>{BC0CB771-002E-43D3-8E19-09AD0CC8A001}</ViewId>
                             <IsUserView>false</IsUserView>
@@ -201,24 +201,24 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_4" id="{3ba12e00-aead-1b05-3c96-dc45c839d41d}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+        <tab expanded="true" id="{3ba12e00-aead-1b05-3c96-dc45c839d41d}" IsUserDefined="0" locklevel="0" name="tab_4" showlabel="true">
           <labels>
             <label description="Web Pages (Navigation)" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section name="tab_4_section_1" showlabel="false" showbar="false" locklevel="0" id="{9665985d-8cb4-33c6-414b-337c1ac8bc9a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                <section columns="1" id="{9665985d-8cb4-33c6-414b-337c1ac8bc9a}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="tab_4_section_1" showbar="false" showlabel="false">
                   <labels>
                     <label description="Section" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{c73ae900-1dd4-ca50-284d-4634c58a1c7a}" showlabel="false" colspan="1" auto="false" rowspan="8">
+                      <cell auto="false" colspan="1" id="{c73ae900-1dd4-ca50-284d-4634c58a1c7a}" rowspan="8" showlabel="false">
                         <labels>
                           <label description="Web Pages (Navigation)" languagecode="1033" />
                         </labels>
-                        <control id="grid_webpages" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                        <control classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" id="grid_webpages">
                           <parameters>
                             <ViewId>{EBC6FC95-4C19-44E0-8BA5-CB188DDF8A14}</ViewId>
                             <IsUserView>false</IsUserView>
@@ -251,24 +251,24 @@
             </column>
           </columns>
         </tab>
-        <tab id="{44d27a8f-4fed-dd11-9268-0003ff48c0db}" IsUserDefined="1" locklevel="0" name="{44d27a8f-4fed-dd11-9268-0003ff48c0db}" expanded="false">
+        <tab expanded="false" id="{44d27a8f-4fed-dd11-9268-0003ff48c0db}" IsUserDefined="1" locklevel="0" name="{44d27a8f-4fed-dd11-9268-0003ff48c0db}">
           <labels>
             <label description="Administration" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showlabel="false" showbar="false" locklevel="0" id="{45d27a8f-4fed-dd11-9268-0003ff48c0db}" IsUserDefined="1" layout="varwidth" columns="11" labelwidth="115" name="{45d27a8f-4fed-dd11-9268-0003ff48c0db}">
+                <section columns="11" id="{45d27a8f-4fed-dd11-9268-0003ff48c0db}" IsUserDefined="1" labelwidth="115" layout="varwidth" locklevel="0" name="{45d27a8f-4fed-dd11-9268-0003ff48c0db}" showbar="false" showlabel="false">
                   <labels>
                     <label description="System" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="2" id="{fffea629-920b-4bb9-bc0f-7c94ea53a8b4}">
+                      <cell auto="false" colspan="2" id="{fffea629-920b-4bb9-bc0f-7c94ea53a8b4}" locklevel="0" rowspan="1" showlabel="true">
                         <labels>
                           <label description="Owner" languagecode="1033" />
                         </labels>
-                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false">
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" id="ownerid">
                           <parameters>
                             <AutoResolve>true</AutoResolve>
                           </parameters>
@@ -282,14 +282,14 @@
           </columns>
         </tab>
       </tabs>
-      <footer id="{363ce65b-44c1-4a3e-8ac1-4908c38e7fc2}" columns="1">
+      <footer columns="1" id="{363ce65b-44c1-4a3e-8ac1-4908c38e7fc2}">
         <rows>
           <row>
             <cell id="{8414bde1-6742-4158-b7f5-dcb9d5724368}">
               <labels>
                 <label description="Status" languagecode="1033" />
               </labels>
-              <control id="footer_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" />
+              <control classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" id="footer_statecode" />
             </cell>
           </row>
         </rows>

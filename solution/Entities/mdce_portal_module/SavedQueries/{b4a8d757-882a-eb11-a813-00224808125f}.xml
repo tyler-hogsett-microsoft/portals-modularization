@@ -9,7 +9,7 @@
     <savedqueryid>{b4a8d757-882a-eb11-a813-00224808125f}</savedqueryid>
     <querytype>8192</querytype>
     <fetchxml>
-      <fetch version="1.0" mapping="logical" output-format="xml-platform">
+      <fetch mapping="logical" output-format="xml-platform" version="1.0">
         <entity name="mdce_portal_module">
           <attribute name="mdce_portal_moduleid" />
           <filter type="and">

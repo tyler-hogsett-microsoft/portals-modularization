@@ -5,40 +5,40 @@
     <IntroducedVersion>1.0.0021</IntroducedVersion>
     <FormPresentation>0</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form shownavigationbar="true" showImage="false" maxWidth="1900">
+    <form maxWidth="1900" showImage="false" shownavigationbar="true">
       <tabs>
-        <tab verticallayout="true" id="{a36e3e44-6924-4722-8d78-44175ead950b}" IsUserDefined="1" name="{a36e3e44-6924-4722-8d78-44175ead950b}">
+        <tab id="{a36e3e44-6924-4722-8d78-44175ead950b}" IsUserDefined="1" name="{a36e3e44-6924-4722-8d78-44175ead950b}" verticallayout="true">
           <labels>
             <label description="General" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showlabel="false" showbar="false" IsUserDefined="0" id="{139917fd-c4f2-411c-bcab-d810ad4b3a5a}" name="{139917fd-c4f2-411c-bcab-d810ad4b3a5a}" columns="11" locklevel="0" labelwidth="120" celllabelalignment="Left" celllabelposition="Left">
+                <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{139917fd-c4f2-411c-bcab-d810ad4b3a5a}" IsUserDefined="0" labelwidth="120" locklevel="0" name="{139917fd-c4f2-411c-bcab-d810ad4b3a5a}" showbar="false" showlabel="false">
                   <labels>
                     <label description="General" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell showlabel="true" locklevel="0" colspan="1" id="{7042ecf7-bcd2-4248-b520-682e399111ee}">
+                      <cell colspan="1" id="{7042ecf7-bcd2-4248-b520-682e399111ee}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Name" languagecode="1033" />
                         </labels>
-                        <control id="adx_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_name" disabled="false" uniqueid="{3a7dcb18-cabb-85d0-534e-cd3a116cd01a}" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_name" disabled="false" id="adx_name" uniqueid="{3a7dcb18-cabb-85d0-534e-cd3a116cd01a}" />
                       </cell>
-                      <cell id="{9c24cd45-787c-7d47-ea44-a8103ee184d8}" showlabel="true" locklevel="0">
+                      <cell id="{9c24cd45-787c-7d47-ea44-a8103ee184d8}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Primary Domain Name" languagecode="1033" />
                         </labels>
-                        <control id="adx_primarydomainname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_primarydomainname" disabled="false" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_primarydomainname" disabled="false" id="adx_primarydomainname" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{e84652a2-073c-7d67-abed-aa6801687b71}" showlabel="true" locklevel="0">
+                      <cell id="{e84652a2-073c-7d67-abed-aa6801687b71}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Default Language" languagecode="1033" />
                         </labels>
-                        <control id="adx_defaultlanguage" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_defaultlanguage" disabled="false" uniqueid="{dd071753-66bb-8381-9796-231e63b3b3b2}">
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_defaultlanguage" disabled="false" id="adx_defaultlanguage" uniqueid="{dd071753-66bb-8381-9796-231e63b3b3b2}">
                           <parameters>
                             <AutoResolve>true</AutoResolve>
                             <DisableMru>false</DisableMru>
@@ -53,30 +53,30 @@
                           </parameters>
                         </control>
                       </cell>
-                      <cell id="{c006e6b3-2808-1d82-c989-c57e027659dd}" showlabel="true" locklevel="0" colspan="1" visible="false">
+                      <cell colspan="1" id="{c006e6b3-2808-1d82-c989-c57e027659dd}" locklevel="0" showlabel="true" visible="false">
                         <labels>
                           <label description="Partial URL" languagecode="1033" />
                         </labels>
-                        <control id="adx_partialurl" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_partialurl" disabled="false" uniqueid="{7edd5486-18aa-118d-0d31-5b1d5ac42412}" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_partialurl" disabled="false" id="adx_partialurl" uniqueid="{7edd5486-18aa-118d-0d31-5b1d5ac42412}" />
                       </cell>
                     </row>
                     <row>
-                      <cell auto="false" showlabel="true" locklevel="1" rowspan="1" colspan="1" id="{b4ec4dc2-e8db-4088-9f2c-5c2999f817a2}">
+                      <cell auto="false" colspan="1" id="{b4ec4dc2-e8db-4088-9f2c-5c2999f817a2}" locklevel="1" rowspan="1" showlabel="true">
                         <labels>
                           <label description="Owner" languagecode="1033" />
                         </labels>
-                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" uniqueid="{032c213b-7ed3-d7a3-7472-1b2b7c80009b}">
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" id="ownerid" uniqueid="{032c213b-7ed3-d7a3-7472-1b2b7c80009b}">
                           <parameters>
                             <AutoResolve>true</AutoResolve>
                             <DisableMru>false</DisableMru>
                           </parameters>
                         </control>
                       </cell>
-                      <cell id="{e318a193-08da-0037-d828-e201534bdc14}" showlabel="true" locklevel="0" colspan="1">
+                      <cell colspan="1" id="{e318a193-08da-0037-d828-e201534bdc14}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Parent Website" languagecode="1033" />
                         </labels>
-                        <control id="adx_parentwebsiteid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_parentwebsiteid" disabled="false" uniqueid="{22e6ba78-d6ac-89b5-39d3-a11e5c62c6a1}">
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_parentwebsiteid" disabled="false" id="adx_parentwebsiteid" uniqueid="{22e6ba78-d6ac-89b5-39d3-a11e5c62c6a1}">
                           <parameters>
                             <AutoResolve>true</AutoResolve>
                             <DisableMru>false</DisableMru>
@@ -94,26 +94,26 @@
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
-                      <cell id="{3575e9ee-dcb2-7732-7795-7d7695c58b28}" showlabel="false" locklevel="0" visible="false">
+                      <cell id="{3575e9ee-dcb2-7732-7795-7d7695c58b28}" locklevel="0" showlabel="false" visible="false">
                         <labels>
                           <label description="Language" languagecode="1033" />
                         </labels>
-                        <control id="adx_website_language" classid="{671A9387-CA5A-4d1e-8AB7-06E39DDCF6B5}" datafieldname="adx_website_language" disabled="true" uniqueid="{a4d4b326-7da4-9a33-713c-7b8a84c37e20}" />
+                        <control classid="{671A9387-CA5A-4d1e-8AB7-06E39DDCF6B5}" datafieldname="adx_website_language" disabled="true" id="adx_website_language" uniqueid="{a4d4b326-7da4-9a33-713c-7b8a84c37e20}" />
                       </cell>
                     </row>
                   </rows>
                 </section>
-                <section name="{a36e3e44-6924-4722-8d78-44175ead950b}_section_2" showlabel="true" showbar="true" locklevel="0" id="{409170e0-c0b7-96de-d0a1-e949be5dbdb5}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{409170e0-c0b7-96de-d0a1-e949be5dbdb5}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="{a36e3e44-6924-4722-8d78-44175ead950b}_section_2" showbar="true" showlabel="true">
                   <labels>
                     <label description="Options" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{d5db0d14-5ec4-a812-a6aa-a8ab3cc3563c}" showlabel="true" locklevel="0" colspan="1">
+                      <cell colspan="1" id="{d5db0d14-5ec4-a812-a6aa-a8ab3cc3563c}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Header Template" languagecode="1033" />
                         </labels>
-                        <control id="adx_headerwebtemplateid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_headerwebtemplateid" disabled="false">
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_headerwebtemplateid" disabled="false" id="adx_headerwebtemplateid">
                           <parameters>
                             <AutoResolve>true</AutoResolve>
                             <DisableMru>false</DisableMru>
@@ -124,11 +124,11 @@
                           </parameters>
                         </control>
                       </cell>
-                      <cell id="{8b888d0e-2781-d22b-a03a-a24d1261bcb5}" showlabel="true" locklevel="0" colspan="1">
+                      <cell colspan="1" id="{8b888d0e-2781-d22b-a03a-a24d1261bcb5}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Footer Template" languagecode="1033" />
                         </labels>
-                        <control id="adx_footerwebtemplateid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_footerwebtemplateid" disabled="false">
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_footerwebtemplateid" disabled="false" id="adx_footerwebtemplateid">
                           <parameters>
                             <AutoResolve>true</AutoResolve>
                             <DisableMru>false</DisableMru>
@@ -142,17 +142,17 @@
                     </row>
                   </rows>
                 </section>
-                <section name="tab_13_section_2" showlabel="false" showbar="false" locklevel="0" id="{71a2cc44-1d49-6e3c-052e-aa1c9366e607}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                <section columns="1" id="{71a2cc44-1d49-6e3c-052e-aa1c9366e607}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="tab_13_section_2" showbar="false" showlabel="false">
                   <labels>
                     <label description="Section" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{a0095262-bc3e-3469-2c09-6b68c9456530}" showlabel="true" colspan="1" auto="false" rowspan="6">
+                      <cell auto="false" colspan="1" id="{a0095262-bc3e-3469-2c09-6b68c9456530}" rowspan="6" showlabel="true">
                         <labels>
                           <label description="Supported Languages" languagecode="1033" />
                         </labels>
-                        <control id="SupportedLanguagesSubgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{7d9a6147-74c2-559c-369c-1928b9b0dd02}">
+                        <control classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" id="SupportedLanguagesSubgrid" indicationOfSubgrid="true" uniqueid="{7d9a6147-74c2-559c-369c-1928b9b0dd02}">
                           <parameters>
                             <ViewId>{8C424A53-4B67-4626-80EC-4EBEEC52200A}</ViewId>
                             <IsUserView>false</IsUserView>
@@ -183,24 +183,24 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_rootpages" id="{96487a55-b061-37b4-262c-a439904e0453}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+        <tab expanded="false" id="{96487a55-b061-37b4-262c-a439904e0453}" IsUserDefined="0" locklevel="0" name="tab_rootpages" showlabel="true">
           <labels>
             <label description="Root Pages" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section name="tab_12_section_2" showlabel="false" showbar="false" locklevel="0" id="{97388e6a-5ab7-6702-a252-c2a7b3eaed06}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                <section columns="1" id="{97388e6a-5ab7-6702-a252-c2a7b3eaed06}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="tab_12_section_2" showbar="false" showlabel="false">
                   <labels>
                     <label description="Section" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{191d67d6-5ec2-71e1-47b4-750a24405e22}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                      <cell auto="false" colspan="1" id="{191d67d6-5ec2-71e1-47b4-750a24405e22}" rowspan="6" showlabel="false">
                         <labels>
                           <label description=" " languagecode="1033" />
                         </labels>
-                        <control id="grid_rootpages" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                        <control classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" id="grid_rootpages">
                           <parameters>
                             <ViewId>{DE9079AB-17E2-DF11-8658-00155D036405}</ViewId>
                             <IsUserView>false</IsUserView>
@@ -231,24 +231,24 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_childpages" id="{be219c27-d64a-04c3-7655-6a31688ce8a9}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+        <tab expanded="false" id="{be219c27-d64a-04c3-7655-6a31688ce8a9}" IsUserDefined="0" locklevel="0" name="tab_childpages" showlabel="true">
           <labels>
             <label description="Child Pages" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section name="tab_5_section_1" showlabel="false" showbar="false" locklevel="0" id="{c31a6263-7990-d4bb-93d7-24688101bc56}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                <section columns="1" id="{c31a6263-7990-d4bb-93d7-24688101bc56}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="tab_5_section_1" showbar="false" showlabel="false">
                   <labels>
                     <label description="Section" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{6ce9bd27-cd81-6aeb-73e3-09c51bdd9832}" showlabel="true" colspan="1" auto="false" rowspan="12">
+                      <cell auto="false" colspan="1" id="{6ce9bd27-cd81-6aeb-73e3-09c51bdd9832}" rowspan="12" showlabel="true">
                         <labels>
                           <label description=" " languagecode="1033" />
                         </labels>
-                        <control id="grid_childpages" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                        <control classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" id="grid_childpages">
                           <parameters>
                             <ViewId>{EBC6FC95-4C19-44E0-8BA5-CB188DDF8A14}</ViewId>
                             <IsUserView>false</IsUserView>
@@ -285,24 +285,24 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_contentsnippets" id="{1277ed8c-a05d-e3dd-ac54-9d3a6bc80be2}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+        <tab expanded="false" id="{1277ed8c-a05d-e3dd-ac54-9d3a6bc80be2}" IsUserDefined="0" locklevel="0" name="tab_contentsnippets" showlabel="true">
           <labels>
             <label description="Content Snippets" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section name="tab_6_section_1" showlabel="false" showbar="false" locklevel="0" id="{00d4e129-30b2-3e9e-d305-bcdca7eb5e45}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                <section columns="1" id="{00d4e129-30b2-3e9e-d305-bcdca7eb5e45}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="tab_6_section_1" showbar="false" showlabel="false">
                   <labels>
                     <label description="Section" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{1401e01d-6eb7-7eec-8906-29d6a8c7696c}" showlabel="true" colspan="1" auto="false" rowspan="12">
+                      <cell auto="false" colspan="1" id="{1401e01d-6eb7-7eec-8906-29d6a8c7696c}" rowspan="12" showlabel="true">
                         <labels>
                           <label description=" " languagecode="1033" />
                         </labels>
-                        <control id="grid_contentsnippets" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                        <control classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" id="grid_contentsnippets">
                           <parameters>
                             <ViewId>{6D07DB0A-B60F-4260-96CB-7F226E6606A1}</ViewId>
                             <IsUserView>false</IsUserView>
@@ -339,24 +339,24 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_weblinksets" id="{b93dbd99-9c15-04bd-5c50-cd8277a31bac}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+        <tab expanded="false" id="{b93dbd99-9c15-04bd-5c50-cd8277a31bac}" IsUserDefined="0" locklevel="0" name="tab_weblinksets" showlabel="true">
           <labels>
             <label description="Web Link Sets" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section name="tab_7_section_1" showlabel="false" showbar="false" locklevel="0" id="{60da32b2-d3ea-1986-385b-8ddd11edb890}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                <section columns="1" id="{60da32b2-d3ea-1986-385b-8ddd11edb890}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="tab_7_section_1" showbar="false" showlabel="false">
                   <labels>
                     <label description="Section" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{e1e12ced-0e7c-44c6-b8d4-552e3a8baa8a}" showlabel="true" colspan="1" auto="false" rowspan="12">
+                      <cell auto="false" colspan="1" id="{e1e12ced-0e7c-44c6-b8d4-552e3a8baa8a}" rowspan="12" showlabel="true">
                         <labels>
                           <label description=" " languagecode="1033" />
                         </labels>
-                        <control id="grid_weblinksets" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                        <control classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" id="grid_weblinksets">
                           <parameters>
                             <ViewId>{B9A1D346-6D42-455C-AD6B-9AD057F63D62}</ViewId>
                             <IsUserView>false</IsUserView>
@@ -393,24 +393,24 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_sitesettings" id="{58db3a46-8107-a99d-5570-e7c13e26824c}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+        <tab expanded="false" id="{58db3a46-8107-a99d-5570-e7c13e26824c}" IsUserDefined="0" locklevel="0" name="tab_sitesettings" showlabel="true">
           <labels>
             <label description="Site Settings" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section name="tab_8_section_1" showlabel="false" showbar="false" locklevel="0" id="{cab029dd-6220-0649-c17d-9ee0bd0019b7}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                <section columns="1" id="{cab029dd-6220-0649-c17d-9ee0bd0019b7}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="tab_8_section_1" showbar="false" showlabel="false">
                   <labels>
                     <label description="Section" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{23c2539d-98e3-4b3a-98ae-e03634977b66}" showlabel="true" colspan="1" auto="false" rowspan="12">
+                      <cell auto="false" colspan="1" id="{23c2539d-98e3-4b3a-98ae-e03634977b66}" rowspan="12" showlabel="true">
                         <labels>
                           <label description=" " languagecode="1033" />
                         </labels>
-                        <control id="grid_sitesettings" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                        <control classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" id="grid_sitesettings">
                           <parameters>
                             <ViewId>{F69E9C90-1798-4A7A-8160-4127857BF06C}</ViewId>
                             <IsUserView>false</IsUserView>
@@ -447,24 +447,24 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_sitemarkers" id="{79255e1a-c35b-261c-622b-14c2b90cb767}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+        <tab expanded="false" id="{79255e1a-c35b-261c-622b-14c2b90cb767}" IsUserDefined="0" locklevel="0" name="tab_sitemarkers" showlabel="true">
           <labels>
             <label description="Site Markers" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section name="tab_9_section_1" showlabel="false" showbar="false" locklevel="0" id="{e5066d41-b1a4-8e54-ad88-e45e54014bb0}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                <section columns="1" id="{e5066d41-b1a4-8e54-ad88-e45e54014bb0}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="tab_9_section_1" showbar="false" showlabel="false">
                   <labels>
                     <label description="Section" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{a01624d3-0107-e6a0-7c5d-6b4965695d3c}" showlabel="true" colspan="1" auto="false" rowspan="12">
+                      <cell auto="false" colspan="1" id="{a01624d3-0107-e6a0-7c5d-6b4965695d3c}" rowspan="12" showlabel="true">
                         <labels>
                           <label description=" " languagecode="1033" />
                         </labels>
-                        <control id="grid_sitemarkers" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                        <control classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" id="grid_sitemarkers">
                           <parameters>
                             <ViewId>{FB2EAAE3-49C9-486A-BCEF-184FB5B14BEF}</ViewId>
                             <IsUserView>false</IsUserView>
@@ -501,24 +501,24 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_pagetemplates" id="{416d02b8-9e3e-55d6-9adb-59beb3ee9294}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+        <tab expanded="false" id="{416d02b8-9e3e-55d6-9adb-59beb3ee9294}" IsUserDefined="0" locklevel="0" name="tab_pagetemplates" showlabel="true">
           <labels>
             <label description="Page Templates" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section name="tab_10_section_1" showlabel="false" showbar="false" locklevel="0" id="{755c3483-912e-c75a-ee64-00aa132c1cd3}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                <section columns="1" id="{755c3483-912e-c75a-ee64-00aa132c1cd3}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="tab_10_section_1" showbar="false" showlabel="false">
                   <labels>
                     <label description="Section" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{d0a4b62a-85ee-9272-93de-8ddd95b3cd06}" showlabel="true" colspan="1" auto="false" rowspan="12">
+                      <cell auto="false" colspan="1" id="{d0a4b62a-85ee-9272-93de-8ddd95b3cd06}" rowspan="12" showlabel="true">
                         <labels>
                           <label description=" " languagecode="1033" />
                         </labels>
-                        <control id="grid_pagetemplates" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                        <control classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" id="grid_pagetemplates">
                           <parameters>
                             <ViewId>{D260EA2A-4E94-45B2-8782-5379BE86D9B1}</ViewId>
                             <IsUserView>false</IsUserView>
@@ -555,24 +555,24 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_publishingstates" id="{ea816d27-5796-6773-9545-06ecb257419e}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+        <tab expanded="false" id="{ea816d27-5796-6773-9545-06ecb257419e}" IsUserDefined="0" locklevel="0" name="tab_publishingstates" showlabel="true">
           <labels>
             <label description="Publishing States" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section name="tab_11_section_1" showlabel="false" showbar="false" locklevel="0" id="{68cd9d1a-4ab1-aea6-e415-ca80448c8db6}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                <section columns="1" id="{68cd9d1a-4ab1-aea6-e415-ca80448c8db6}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="tab_11_section_1" showbar="false" showlabel="false">
                   <labels>
                     <label description="Section" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{dc6c7174-9492-4b57-d064-257e6a3a52d5}" showlabel="true" colspan="1" auto="false" rowspan="12">
+                      <cell auto="false" colspan="1" id="{dc6c7174-9492-4b57-d064-257e6a3a52d5}" rowspan="12" showlabel="true">
                         <labels>
                           <label description=" " languagecode="1033" />
                         </labels>
-                        <control id="grid_publishingstates" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                        <control classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" id="grid_publishingstates">
                           <parameters>
                             <ViewId>{B851A902-4436-42EC-A230-2DF5EC93005B}</ViewId>
                             <IsUserView>false</IsUserView>
@@ -609,24 +609,24 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_websiteaccesspermissions" id="{95177040-9a50-87a8-5405-ec0577198e77}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+        <tab expanded="false" id="{95177040-9a50-87a8-5405-ec0577198e77}" IsUserDefined="0" locklevel="0" name="tab_websiteaccesspermissions" showlabel="true">
           <labels>
             <label description="Website Access Permissions" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section name="tab_12_section_1" showlabel="false" showbar="false" locklevel="0" id="{b1bde352-2ed9-0121-7e56-7d7ed0d68378}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                <section columns="1" id="{b1bde352-2ed9-0121-7e56-7d7ed0d68378}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="tab_12_section_1" showbar="false" showlabel="false">
                   <labels>
                     <label description="Section" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{0370de99-54a0-d85a-40dc-ad3901461d8b}" showlabel="true" colspan="1" auto="false" rowspan="12">
+                      <cell auto="false" colspan="1" id="{0370de99-54a0-d85a-40dc-ad3901461d8b}" rowspan="12" showlabel="true">
                         <labels>
                           <label description=" " languagecode="1033" />
                         </labels>
-                        <control id="grid_websiteaccesspermissions" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                        <control classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" id="grid_websiteaccesspermissions">
                           <parameters>
                             <ViewId>{BA1A736D-0C7E-427F-A3CB-994126EE7211}</ViewId>
                             <IsUserView>false</IsUserView>
@@ -663,24 +663,24 @@
             </column>
           </columns>
         </tab>
-        <tab name="tab_webroles" id="{515ab949-ba3d-b6d9-748b-2d4120ec2343}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+        <tab expanded="false" id="{515ab949-ba3d-b6d9-748b-2d4120ec2343}" IsUserDefined="0" locklevel="0" name="tab_webroles" showlabel="true">
           <labels>
             <label description="Web Roles" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section name="tab_13_section_1" showlabel="false" showbar="false" locklevel="0" id="{a654a3be-c381-0c8a-315a-2d28b710c663}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                <section columns="1" id="{a654a3be-c381-0c8a-315a-2d28b710c663}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="tab_13_section_1" showbar="false" showlabel="false">
                   <labels>
                     <label description="Section" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{444d71b2-43d4-c14a-c9b6-936008be1939}" showlabel="true" colspan="1" auto="false" rowspan="12">
+                      <cell auto="false" colspan="1" id="{444d71b2-43d4-c14a-c9b6-936008be1939}" rowspan="12" showlabel="true">
                         <labels>
                           <label description=" " languagecode="1033" />
                         </labels>
-                        <control id="grid_webroles" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                        <control classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" id="grid_webroles">
                           <parameters>
                             <ViewId>{8A3AAD5D-06EE-40AD-A1BA-000C521A8F83}</ViewId>
                             <IsUserView>false</IsUserView>
@@ -717,24 +717,24 @@
             </column>
           </columns>
         </tab>
-        <tab id="{6ac737ae-d989-4af6-9ce8-fb5189ac2f24}" IsUserDefined="0" name="{6ac737ae-d989-4af6-9ce8-fb5189ac2f24}" expanded="false">
+        <tab expanded="false" id="{6ac737ae-d989-4af6-9ce8-fb5189ac2f24}" IsUserDefined="0" name="{6ac737ae-d989-4af6-9ce8-fb5189ac2f24}">
           <labels>
             <label description="Notes" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showlabel="false" showbar="false" id="{b6c8814d-99eb-452a-ae6b-adc22c0ba969}" IsUserDefined="0" height="auto" name="{b6c8814d-99eb-452a-ae6b-adc22c0ba969}" columns="11">
+                <section columns="11" height="auto" id="{b6c8814d-99eb-452a-ae6b-adc22c0ba969}" IsUserDefined="0" name="{b6c8814d-99eb-452a-ae6b-adc22c0ba969}" showbar="false" showlabel="false">
                   <labels>
                     <label description="Notes" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell colspan="2" showlabel="false" rowspan="10" auto="true" id="{670de20a-f6d8-42a4-b694-9ec5623b3478}" locklevel="0">
+                      <cell auto="true" colspan="2" id="{670de20a-f6d8-42a4-b694-9ec5623b3478}" locklevel="0" rowspan="10" showlabel="false">
                         <labels>
                           <label description="Notes Properties" languagecode="1033" />
                         </labels>
-                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" disabled="false">
+                        <control classid="{06375649-c143-495e-a496-c962e5b4488e}" disabled="false" id="notescontrol">
                           <parameters>
                             <DefaultTabId>ActivitiesTab</DefaultTabId>
                           </parameters>
@@ -757,14 +757,14 @@
           </columns>
         </tab>
       </tabs>
-      <footer id="{78a67998-ac78-43fb-addd-1d4ac6106c58}" columns="1">
+      <footer columns="1" id="{78a67998-ac78-43fb-addd-1d4ac6106c58}">
         <rows>
           <row>
             <cell id="{38a105e7-1469-4864-9f6a-f4d9e98d2dfd}">
               <labels>
                 <label description="Status" languagecode="1033" />
               </labels>
-              <control id="footer_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" />
+              <control classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" id="footer_statecode" />
             </cell>
           </row>
         </rows>
@@ -1020,12 +1020,12 @@
         <NavBar />
       </Navigation>
       <formLibraries>
-        <Library name="adx_resources/adx_website_language.js" libraryUniqueId="{eb078803-0703-4c9a-4349-662cc5c73de7}" />
+        <Library libraryUniqueId="{eb078803-0703-4c9a-4349-662cc5c73de7}" name="adx_resources/adx_website_language.js" />
       </formLibraries>
       <events>
-        <event name="onload" application="false" active="false">
+        <event active="false" application="false" name="onload">
           <Handlers>
-            <Handler functionName="adx.localizations.websiteLanguage.prototype.InitializeLanguageField" libraryName="adx_resources/adx_website_language.js" handlerUniqueId="{8a27002a-2b02-d4ab-d5eb-d12942097ed4}" enabled="true" parameters="" passExecutionContext="false" />
+            <Handler enabled="true" functionName="adx.localizations.websiteLanguage.prototype.InitializeLanguageField" handlerUniqueId="{8a27002a-2b02-d4ab-d5eb-d12942097ed4}" libraryName="adx_resources/adx_website_language.js" parameters="" passExecutionContext="false" />
           </Handlers>
         </event>
       </events>

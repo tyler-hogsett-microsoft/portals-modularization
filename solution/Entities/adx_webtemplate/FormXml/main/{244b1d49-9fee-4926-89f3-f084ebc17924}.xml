@@ -7,14 +7,14 @@
     <FormActivationState>1</FormActivationState>
     <form>
       <tabs>
-        <tab verticallayout="true" id="{9ecf2238-994f-4190-9bff-6270cc5fb6ff}" IsUserDefined="1">
+        <tab id="{9ecf2238-994f-4190-9bff-6270cc5fb6ff}" IsUserDefined="1" verticallayout="true">
           <labels>
             <label description="General" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showlabel="false" showbar="false" IsUserDefined="0" id="{562d344d-8332-4b52-a573-8d798c15628c}" height="auto">
+                <section height="auto" id="{562d344d-8332-4b52-a573-8d798c15628c}" IsUserDefined="0" showbar="false" showlabel="false">
                   <labels>
                     <label description="General" languagecode="1033" />
                   </labels>
@@ -24,23 +24,23 @@
                         <labels>
                           <label description="Name" languagecode="1033" />
                         </labels>
-                        <control id="adx_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_name" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_name" id="adx_name" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{0d7255aa-082e-e94b-4151-c76886acde1c}" showlabel="true" locklevel="0">
+                      <cell id="{0d7255aa-082e-e94b-4151-c76886acde1c}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Website" languagecode="1033" />
                         </labels>
-                        <control id="adx_websiteid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_websiteid" disabled="false" />
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_websiteid" disabled="false" id="adx_websiteid" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{e634ea52-71e7-5618-b985-a37adc45eb5d}" showlabel="true" colspan="1" auto="false" rowspan="16">
+                      <cell auto="false" colspan="1" id="{e634ea52-71e7-5618-b985-a37adc45eb5d}" rowspan="16" showlabel="true">
                         <labels>
                           <label description="Source" languagecode="1033" />
                         </labels>
-                        <control id="WebResource_adx_source_ace" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_adx_source_ace">
                           <parameters>
                             <Url>adx_monaco/monaco_html.html</Url>
                             <Data>field=adx_source</Data>
@@ -51,7 +51,7 @@
                           </parameters>
                         </control>
                         <events>
-                          <event name="onload" application="false">
+                          <event application="false" name="onload">
                             <dependencies>
                               <dependency id="adx_source" />
                             </dependencies>
@@ -75,11 +75,11 @@
                     <row />
                     <row></row>
                     <row>
-                      <cell id="{8916096d-1e94-784d-0d92-a340048ee181}" showlabel="true" locklevel="1" auto="false" rowspan="16" visible="false">
+                      <cell auto="false" id="{8916096d-1e94-784d-0d92-a340048ee181}" locklevel="1" rowspan="16" showlabel="true" visible="false">
                         <labels>
                           <label description="Source" languagecode="1033" />
                         </labels>
-                        <control id="adx_source" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="adx_source" disabled="false" />
+                        <control classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="adx_source" disabled="false" id="adx_source" />
                       </cell>
                     </row>
                     <row />
@@ -98,11 +98,11 @@
                     <row />
                     <row></row>
                     <row>
-                      <cell id="{ebc562b5-cb0b-cb16-9329-e89c63d0cc1c}" showlabel="true" locklevel="0">
+                      <cell id="{ebc562b5-cb0b-cb16-9329-e89c63d0cc1c}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="MIME Type" languagecode="1033" />
                         </labels>
-                        <control id="adx_mimetype" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_mimetype" disabled="false" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_mimetype" disabled="false" id="adx_mimetype" />
                       </cell>
                     </row>
                   </rows>

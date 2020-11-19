@@ -5,34 +5,34 @@
     <IntroducedVersion>1.0.0021</IntroducedVersion>
     <FormPresentation>0</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form shownavigationbar="true" showImage="false" maxWidth="1900">
+    <form maxWidth="1900" showImage="false" shownavigationbar="true">
       <tabs>
-        <tab verticallayout="true" id="{a187da41-12c7-4303-9366-f8f75727e7e9}" IsUserDefined="1">
+        <tab id="{a187da41-12c7-4303-9366-f8f75727e7e9}" IsUserDefined="1" verticallayout="true">
           <labels>
             <label description="General" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showlabel="false" showbar="false" IsUserDefined="0" id="{659289f9-99df-4c16-b671-4c16f8874df7}">
+                <section id="{659289f9-99df-4c16-b671-4c16f8874df7}" IsUserDefined="0" showbar="false" showlabel="false">
                   <labels>
                     <label description="General" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell showlabel="true" locklevel="0" colspan="2" id="{606fb270-7dcd-457f-b6f5-b1773ff6008a}">
+                      <cell colspan="2" id="{606fb270-7dcd-457f-b6f5-b1773ff6008a}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Name" languagecode="1033" />
                         </labels>
-                        <control id="adx_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_name" disabled="false" uniqueid="{3a683348-19e1-548d-1391-dc9d04d69516}" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_name" disabled="false" id="adx_name" uniqueid="{3a683348-19e1-548d-1391-dc9d04d69516}" />
                       </cell>
                     </row>
                     <row>
-                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="2" id="{6d4a257e-6ecf-41e2-9c12-74ecd680ce39}">
+                      <cell auto="false" colspan="2" id="{6d4a257e-6ecf-41e2-9c12-74ecd680ce39}" locklevel="0" rowspan="1" showlabel="true">
                         <labels>
                           <label description="Website" languagecode="1033" />
                         </labels>
-                        <control id="adx_websiteid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_websiteid" disabled="false">
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_websiteid" disabled="false" id="adx_websiteid">
                           <parameters>
                             <AutoResolve>true</AutoResolve>
                           </parameters>
@@ -40,19 +40,19 @@
                       </cell>
                     </row>
                     <row>
-                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="2" id="{6fbc543a-80e0-4d8b-8fa2-bbd59672acae}">
+                      <cell auto="false" colspan="2" id="{6fbc543a-80e0-4d8b-8fa2-bbd59672acae}" locklevel="0" rowspan="1" showlabel="true">
                         <labels>
                           <label description="Value" languagecode="1033" />
                         </labels>
-                        <control id="adx_value" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_value" disabled="false" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_value" disabled="false" id="adx_value" />
                       </cell>
                     </row>
                     <row>
-                      <cell auto="false" showlabel="true" locklevel="0" rowspan="4" colspan="2" id="{9c4a44a7-fca3-4bda-8495-f203ba307d58}">
+                      <cell auto="false" colspan="2" id="{9c4a44a7-fca3-4bda-8495-f203ba307d58}" locklevel="0" rowspan="4" showlabel="true">
                         <labels>
                           <label description="Description" languagecode="1033" />
                         </labels>
-                        <control id="adx_description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="adx_description" disabled="false" />
+                        <control classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="adx_description" disabled="false" id="adx_description" />
                       </cell>
                     </row>
                     <row />
@@ -71,17 +71,17 @@
           <columns>
             <column width="100%">
               <sections>
-                <section showlabel="false" showbar="false" locklevel="0" id="{0710d477-06f2-dd11-bdf3-0003ff48c0db}" IsUserDefined="1" layout="varwidth" columns="11" labelwidth="115">
+                <section columns="11" id="{0710d477-06f2-dd11-bdf3-0003ff48c0db}" IsUserDefined="1" labelwidth="115" layout="varwidth" locklevel="0" showbar="false" showlabel="false">
                   <labels>
                     <label description="System" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="2" id="{1cc0ab55-2052-4a9f-851e-c12ac523418e}">
+                      <cell auto="false" colspan="2" id="{1cc0ab55-2052-4a9f-851e-c12ac523418e}" locklevel="0" rowspan="1" showlabel="true">
                         <labels>
                           <label description="Owner" languagecode="1033" />
                         </labels>
-                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false">
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" id="ownerid">
                           <parameters>
                             <AutoResolve>true</AutoResolve>
                           </parameters>
@@ -94,24 +94,24 @@
             </column>
           </columns>
         </tab>
-        <tab id="{138064d8-4d4d-4281-b03d-7cb929b05d14}" IsUserDefined="0" expanded="false">
+        <tab expanded="false" id="{138064d8-4d4d-4281-b03d-7cb929b05d14}" IsUserDefined="0">
           <labels>
             <label description="Notes" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showlabel="false" showbar="false" id="{91984a58-1a94-4b7b-aeda-56008cce0fa0}" IsUserDefined="0" height="auto">
+                <section height="auto" id="{91984a58-1a94-4b7b-aeda-56008cce0fa0}" IsUserDefined="0" showbar="false" showlabel="false">
                   <labels>
                     <label description="Notes" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell colspan="2" showlabel="false" rowspan="5" auto="true" id="{96227d98-70ef-4e35-8066-797bd64c3504}">
+                      <cell auto="true" colspan="2" id="{96227d98-70ef-4e35-8066-797bd64c3504}" rowspan="5" showlabel="false">
                         <labels>
                           <label description="Note Text" languagecode="1033" />
                         </labels>
-                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" />
+                        <control classid="{06375649-c143-495e-a496-c962e5b4488e}" id="notescontrol" />
                       </cell>
                     </row>
                     <row />
@@ -132,7 +132,7 @@
               <labels>
                 <label description="Status" languagecode="1033" />
               </labels>
-              <control id="footer_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" />
+              <control classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" id="footer_statecode" />
             </cell>
           </row>
         </rows>
@@ -388,25 +388,25 @@
         </NavBarAreas>
       </Navigation>
       <formLibraries>
-        <Library name="msa_scripts/jquery1.9.1.min.js" libraryUniqueId="{9ede0589-5d3d-48d7-2517-d72457c096cd}" />
-        <Library name="msa_bingmaps/adx_bingmapsvalidation.js" libraryUniqueId="{080464a8-6bca-aa10-7695-901a11b1a6be}" />
-        <Library name="msa_sitesettinghandler.js" libraryUniqueId="{82e9300b-8d1d-4db8-87b2-a0d54c9d7075}" />
-        <Library name="msa_resources/ResourcesManager.js" libraryUniqueId="{05b7ce64-2730-8972-7591-e4446e75518a}" />
+        <Library libraryUniqueId="{9ede0589-5d3d-48d7-2517-d72457c096cd}" name="msa_scripts/jquery1.9.1.min.js" />
+        <Library libraryUniqueId="{080464a8-6bca-aa10-7695-901a11b1a6be}" name="msa_bingmaps/adx_bingmapsvalidation.js" />
+        <Library libraryUniqueId="{82e9300b-8d1d-4db8-87b2-a0d54c9d7075}" name="msa_sitesettinghandler.js" />
+        <Library libraryUniqueId="{05b7ce64-2730-8972-7591-e4446e75518a}" name="msa_resources/ResourcesManager.js" />
       </formLibraries>
       <events>
-        <event name="onload" application="false" active="false">
+        <event active="false" application="false" name="onload">
           <Handlers>
-            <Handler functionName="adx.adx_siteSetting.loadResources" libraryName="msa_sitesettinghandler.js" handlerUniqueId="{51779c36-572e-1941-de05-8ba5445d2bc6}" enabled="true" parameters="" passExecutionContext="false" />
+            <Handler enabled="true" functionName="adx.adx_siteSetting.loadResources" handlerUniqueId="{51779c36-572e-1941-de05-8ba5445d2bc6}" libraryName="msa_sitesettinghandler.js" parameters="" passExecutionContext="false" />
           </Handlers>
         </event>
-        <event name="onchange" application="false" active="false" attribute="adx_name">
+        <event active="false" application="false" attribute="adx_name" name="onchange">
           <Handlers>
-            <Handler functionName="adx.adx_siteSetting.showAdx_SiteSettingPrivacyDisclaimer" libraryName="msa_sitesettinghandler.js" handlerUniqueId="{84030a43-8d2d-e632-1749-5a1043d60122}" enabled="true" parameters="" passExecutionContext="true" />
+            <Handler enabled="true" functionName="adx.adx_siteSetting.showAdx_SiteSettingPrivacyDisclaimer" handlerUniqueId="{84030a43-8d2d-e632-1749-5a1043d60122}" libraryName="msa_sitesettinghandler.js" parameters="" passExecutionContext="true" />
           </Handlers>
         </event>
-        <event name="onsave" application="false" active="false">
+        <event active="false" application="false" name="onsave">
           <Handlers>
-            <Handler functionName="adx.adx_siteSetting.blockBingMapsIntegrationInDeu" libraryName="msa_sitesettinghandler.js" handlerUniqueId="{33a1c9d4-87dc-152e-8b4c-d521c07ebdce}" enabled="true" parameters="" passExecutionContext="true" />
+            <Handler enabled="true" functionName="adx.adx_siteSetting.blockBingMapsIntegrationInDeu" handlerUniqueId="{33a1c9d4-87dc-152e-8b4c-d521c07ebdce}" libraryName="msa_sitesettinghandler.js" parameters="" passExecutionContext="true" />
           </Handlers>
         </event>
       </events>

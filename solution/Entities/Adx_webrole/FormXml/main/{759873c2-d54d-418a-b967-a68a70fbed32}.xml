@@ -7,32 +7,32 @@
     <FormActivationState>1</FormActivationState>
     <form>
       <tabs>
-        <tab verticallayout="true" id="{df9d451b-b910-4ef5-bb24-ea08e5441ad5}" IsUserDefined="1" name="{df9d451b-b910-4ef5-bb24-ea08e5441ad5}">
+        <tab id="{df9d451b-b910-4ef5-bb24-ea08e5441ad5}" IsUserDefined="1" name="{df9d451b-b910-4ef5-bb24-ea08e5441ad5}" verticallayout="true">
           <labels>
             <label description="General" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showlabel="false" showbar="false" IsUserDefined="0" id="{5e67be2f-d70f-47be-b2be-4aaa15b945c8}" name="{5e67be2f-d70f-47be-b2be-4aaa15b945c8}" columns="11" labelwidth="150">
+                <section columns="11" id="{5e67be2f-d70f-47be-b2be-4aaa15b945c8}" IsUserDefined="0" labelwidth="150" name="{5e67be2f-d70f-47be-b2be-4aaa15b945c8}" showbar="false" showlabel="false">
                   <labels>
                     <label description="General" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{81d259c0-9b47-4e9f-b1d5-8721f4e5a148}" showlabel="true" locklevel="0" colspan="2">
+                      <cell colspan="2" id="{81d259c0-9b47-4e9f-b1d5-8721f4e5a148}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Name" languagecode="1033" />
                         </labels>
-                        <control id="adx_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_name" disabled="false" />
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_name" disabled="false" id="adx_name" />
                       </cell>
                     </row>
                     <row>
-                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="2" id="{843b2b9c-0825-4564-8aeb-f752d80ea3ff}">
+                      <cell auto="false" colspan="2" id="{843b2b9c-0825-4564-8aeb-f752d80ea3ff}" locklevel="0" rowspan="1" showlabel="true">
                         <labels>
                           <label description="Website" languagecode="1033" />
                         </labels>
-                        <control id="adx_websiteid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_websiteid" disabled="false">
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_websiteid" disabled="false" id="adx_websiteid">
                           <parameters>
                             <AutoResolve>true</AutoResolve>
                           </parameters>
@@ -40,22 +40,22 @@
                       </cell>
                     </row>
                     <row>
-                      <cell auto="false" showlabel="true" locklevel="0" rowspan="4" colspan="2" id="{514023c2-a245-40c5-918f-329a3137d0f0}">
+                      <cell auto="false" colspan="2" id="{514023c2-a245-40c5-918f-329a3137d0f0}" locklevel="0" rowspan="4" showlabel="true">
                         <labels>
                           <label description="Description" languagecode="1033" />
                         </labels>
-                        <control id="adx_description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="adx_description" disabled="false" />
+                        <control classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="adx_description" disabled="false" id="adx_description" />
                       </cell>
                     </row>
                     <row />
                     <row />
                     <row />
                     <row>
-                      <cell id="{3a62bc4c-892d-0ee9-c556-ba263a53142a}" showlabel="true" locklevel="0">
+                      <cell id="{3a62bc4c-892d-0ee9-c556-ba263a53142a}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Authenticated Users Role" languagecode="1033" />
                         </labels>
-                        <control id="adx_authenticatedusersrole" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="adx_authenticatedusersrole" disabled="false" />
+                        <control classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="adx_authenticatedusersrole" disabled="false" id="adx_authenticatedusersrole" />
                       </cell>
                       <cell id="{3598766e-6362-998c-1837-5759cbbb5dd4}" showlabel="false">
                         <labels>
@@ -64,11 +64,11 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{ccad03ba-32d2-e57e-1b2c-382ce7a01880}" showlabel="true" locklevel="0">
+                      <cell id="{ccad03ba-32d2-e57e-1b2c-382ce7a01880}" locklevel="0" showlabel="true">
                         <labels>
                           <label description="Anonymous Users Role" languagecode="1033" />
                         </labels>
-                        <control id="adx_anonymoususersrole" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="adx_anonymoususersrole" disabled="false" />
+                        <control classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="adx_anonymoususersrole" disabled="false" id="adx_anonymoususersrole" />
                       </cell>
                       <cell id="{1a9758c2-a1ad-9d3a-7757-92edade18ae8}" showlabel="false">
                         <labels>
@@ -89,17 +89,17 @@
           <columns>
             <column width="100%">
               <sections>
-                <section showlabel="false" showbar="false" locklevel="0" id="{17ed5b35-c901-de11-bdf3-0003ff48c0db}" IsUserDefined="1" layout="varwidth" columns="11" labelwidth="150" name="{17ed5b35-c901-de11-bdf3-0003ff48c0db}">
+                <section columns="11" id="{17ed5b35-c901-de11-bdf3-0003ff48c0db}" IsUserDefined="1" labelwidth="150" layout="varwidth" locklevel="0" name="{17ed5b35-c901-de11-bdf3-0003ff48c0db}" showbar="false" showlabel="false">
                   <labels>
                     <label description="System" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="2" id="{1916d666-eaa4-4262-96e5-3b03736f16ff}">
+                      <cell auto="false" colspan="2" id="{1916d666-eaa4-4262-96e5-3b03736f16ff}" locklevel="0" rowspan="1" showlabel="true">
                         <labels>
                           <label description="Owner" languagecode="1033" />
                         </labels>
-                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false">
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" id="ownerid">
                           <parameters>
                             <AutoResolve>true</AutoResolve>
                           </parameters>
@@ -112,24 +112,24 @@
             </column>
           </columns>
         </tab>
-        <tab id="{13755997-4796-41b9-9885-4dbbc7c9b013}" IsUserDefined="0" expanded="false" name="{13755997-4796-41b9-9885-4dbbc7c9b013}">
+        <tab expanded="false" id="{13755997-4796-41b9-9885-4dbbc7c9b013}" IsUserDefined="0" name="{13755997-4796-41b9-9885-4dbbc7c9b013}">
           <labels>
             <label description="Notes" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showlabel="false" showbar="false" id="{078cb033-f565-420b-ab02-cf7af3120744}" IsUserDefined="0" height="auto" name="{078cb033-f565-420b-ab02-cf7af3120744}" columns="11">
+                <section columns="11" height="auto" id="{078cb033-f565-420b-ab02-cf7af3120744}" IsUserDefined="0" name="{078cb033-f565-420b-ab02-cf7af3120744}" showbar="false" showlabel="false">
                   <labels>
                     <label description="Notes" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell colspan="2" showlabel="false" rowspan="5" auto="true" id="{cb346ef4-4d32-474b-876a-06810654e7bf}">
+                      <cell auto="true" colspan="2" id="{cb346ef4-4d32-474b-876a-06810654e7bf}" rowspan="5" showlabel="false">
                         <labels>
                           <label description="Note Text" languagecode="1033" />
                         </labels>
-                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" />
+                        <control classid="{06375649-c143-495e-a496-c962e5b4488e}" id="notescontrol" />
                       </cell>
                     </row>
                     <row />
@@ -143,14 +143,14 @@
           </columns>
         </tab>
       </tabs>
-      <footer id="{206d5ebe-112d-4034-8e12-d4c84b939a56}" columns="1">
+      <footer columns="1" id="{206d5ebe-112d-4034-8e12-d4c84b939a56}">
         <rows>
           <row>
             <cell id="{cc79bc78-9937-4cd4-8e06-c22d949d2877}">
               <labels>
                 <label description="Status" languagecode="1033" />
               </labels>
-              <control id="footer_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" />
+              <control classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" id="footer_statecode" />
             </cell>
           </row>
         </rows>

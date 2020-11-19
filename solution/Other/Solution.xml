@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.1.0.24647" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml generatedBy="CrmLive" languagecode="1033" SolutionPackageVersion="9.1" version="9.1.0.24647" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>mdce_portals_modularization</UniqueName>
     <LocalizedNames>
@@ -78,297 +78,297 @@
       </Addresses>
     </Publisher>
     <RootComponents>
-      <RootComponent type="1" schemaName="adx_contentsnippet" behavior="2" />
-      <RootComponent type="1" schemaName="adx_entityform" behavior="2" />
-      <RootComponent type="1" schemaName="adx_entityformmetadata" behavior="2" />
-      <RootComponent type="1" schemaName="adx_entitylist" behavior="2" />
-      <RootComponent type="1" schemaName="adx_entitypermission" behavior="2" />
-      <RootComponent type="1" schemaName="adx_pagetemplate" behavior="2" />
-      <RootComponent type="1" schemaName="adx_publishingstate" behavior="2" />
-      <RootComponent type="1" schemaName="adx_setting" behavior="2" />
-      <RootComponent type="1" schemaName="adx_sitesetting" behavior="2" />
-      <RootComponent type="1" schemaName="adx_webfile" behavior="2" />
-      <RootComponent type="1" schemaName="adx_webform" behavior="2" />
-      <RootComponent type="1" schemaName="adx_webformmetadata" behavior="2" />
-      <RootComponent type="1" schemaName="adx_webformstep" behavior="2" />
-      <RootComponent type="1" schemaName="adx_weblink" behavior="2" />
-      <RootComponent type="1" schemaName="adx_weblinkset" behavior="2" />
-      <RootComponent type="1" schemaName="adx_webpage" behavior="2" />
-      <RootComponent type="1" schemaName="adx_webpageaccesscontrolrule" behavior="2" />
-      <RootComponent type="1" schemaName="adx_webrole" behavior="2" />
-      <RootComponent type="1" schemaName="adx_website" behavior="2" />
-      <RootComponent type="1" schemaName="adx_websiteaccess" behavior="2" />
-      <RootComponent type="1" schemaName="adx_webtemplate" behavior="2" />
-      <RootComponent type="1" schemaName="mdce_portal_module" behavior="0" />
-      <RootComponent type="60" id="{1c038742-0f0b-4b1e-a61f-79fa72d4cc50}" />
-      <RootComponent type="60" id="{1e6c1e3c-9dab-4a8f-8b73-c6ee3063ed7c}" />
-      <RootComponent type="60" id="{244b1d49-9fee-4926-89f3-f084ebc17924}" />
-      <RootComponent type="60" id="{2623d4e7-ac46-4283-a509-3281ecfb199d}" />
-      <RootComponent type="60" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" />
-      <RootComponent type="60" id="{4b316230-2379-4d27-b262-69d33e3b91ab}" />
-      <RootComponent type="60" id="{51ebff65-5462-47bc-88ee-dd9881465380}" />
-      <RootComponent type="60" id="{72fb7583-02b0-477d-877b-2516031d8a07}" />
-      <RootComponent type="60" id="{759873c2-d54d-418a-b967-a68a70fbed32}" />
-      <RootComponent type="60" id="{85ccf31c-db3f-47fb-8c7a-56938671d99e}" />
-      <RootComponent type="60" id="{9bac59d1-a229-43d2-9030-ff9222a548ec}" />
-      <RootComponent type="60" id="{9be1dc51-076b-4c69-9a19-374f9faa05b0}" />
-      <RootComponent type="60" id="{9f3890fc-f4aa-49cd-a7a8-9fdb15fcdb5d}" />
-      <RootComponent type="60" id="{b6725e3d-1d35-4499-aa99-ba0199a05cc4}" />
-      <RootComponent type="60" id="{d1e40190-ccb6-49d5-866e-5a493206cdc5}" />
-      <RootComponent type="60" id="{dfca2da1-0f04-4fff-92dd-39c8b842309d}" />
-      <RootComponent type="60" id="{ed26206d-9745-4706-9f11-b3448deb51bd}" />
-      <RootComponent type="60" id="{efe18451-69c6-465e-8d3b-818ea660ab76}" />
-      <RootComponent type="60" id="{f2cef676-b675-4c6d-bfd2-8f28ab21d7d1}" />
-      <RootComponent type="60" id="{f9e44486-155b-4e29-b787-927b41d5cde9}" />
+      <RootComponent behavior="2" schemaName="adx_contentsnippet" type="1" />
+      <RootComponent behavior="2" schemaName="adx_entityform" type="1" />
+      <RootComponent behavior="2" schemaName="adx_entityformmetadata" type="1" />
+      <RootComponent behavior="2" schemaName="adx_entitylist" type="1" />
+      <RootComponent behavior="2" schemaName="adx_entitypermission" type="1" />
+      <RootComponent behavior="2" schemaName="adx_pagetemplate" type="1" />
+      <RootComponent behavior="2" schemaName="adx_publishingstate" type="1" />
+      <RootComponent behavior="2" schemaName="adx_setting" type="1" />
+      <RootComponent behavior="2" schemaName="adx_sitesetting" type="1" />
+      <RootComponent behavior="2" schemaName="adx_webfile" type="1" />
+      <RootComponent behavior="2" schemaName="adx_webform" type="1" />
+      <RootComponent behavior="2" schemaName="adx_webformmetadata" type="1" />
+      <RootComponent behavior="2" schemaName="adx_webformstep" type="1" />
+      <RootComponent behavior="2" schemaName="adx_weblink" type="1" />
+      <RootComponent behavior="2" schemaName="adx_weblinkset" type="1" />
+      <RootComponent behavior="2" schemaName="adx_webpage" type="1" />
+      <RootComponent behavior="2" schemaName="adx_webpageaccesscontrolrule" type="1" />
+      <RootComponent behavior="2" schemaName="adx_webrole" type="1" />
+      <RootComponent behavior="2" schemaName="adx_website" type="1" />
+      <RootComponent behavior="2" schemaName="adx_websiteaccess" type="1" />
+      <RootComponent behavior="2" schemaName="adx_webtemplate" type="1" />
+      <RootComponent behavior="0" schemaName="mdce_portal_module" type="1" />
+      <RootComponent behavior="0" id="{1c038742-0f0b-4b1e-a61f-79fa72d4cc50}" type="60" />
+      <RootComponent behavior="0" id="{1e6c1e3c-9dab-4a8f-8b73-c6ee3063ed7c}" type="60" />
+      <RootComponent behavior="0" id="{244b1d49-9fee-4926-89f3-f084ebc17924}" type="60" />
+      <RootComponent behavior="0" id="{2623d4e7-ac46-4283-a509-3281ecfb199d}" type="60" />
+      <RootComponent behavior="0" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" type="60" />
+      <RootComponent behavior="0" id="{4b316230-2379-4d27-b262-69d33e3b91ab}" type="60" />
+      <RootComponent behavior="0" id="{51ebff65-5462-47bc-88ee-dd9881465380}" type="60" />
+      <RootComponent behavior="0" id="{72fb7583-02b0-477d-877b-2516031d8a07}" type="60" />
+      <RootComponent behavior="0" id="{759873c2-d54d-418a-b967-a68a70fbed32}" type="60" />
+      <RootComponent behavior="0" id="{85ccf31c-db3f-47fb-8c7a-56938671d99e}" type="60" />
+      <RootComponent behavior="0" id="{9bac59d1-a229-43d2-9030-ff9222a548ec}" type="60" />
+      <RootComponent behavior="0" id="{9be1dc51-076b-4c69-9a19-374f9faa05b0}" type="60" />
+      <RootComponent behavior="0" id="{9f3890fc-f4aa-49cd-a7a8-9fdb15fcdb5d}" type="60" />
+      <RootComponent behavior="0" id="{b6725e3d-1d35-4499-aa99-ba0199a05cc4}" type="60" />
+      <RootComponent behavior="0" id="{d1e40190-ccb6-49d5-866e-5a493206cdc5}" type="60" />
+      <RootComponent behavior="0" id="{dfca2da1-0f04-4fff-92dd-39c8b842309d}" type="60" />
+      <RootComponent behavior="0" id="{ed26206d-9745-4706-9f11-b3448deb51bd}" type="60" />
+      <RootComponent behavior="0" id="{efe18451-69c6-465e-8d3b-818ea660ab76}" type="60" />
+      <RootComponent behavior="0" id="{f2cef676-b675-4c6d-bfd2-8f28ab21d7d1}" type="60" />
+      <RootComponent behavior="0" id="{f9e44486-155b-4e29-b787-927b41d5cde9}" type="60" />
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
-        <Required key="0" type="1" schemaName="adx_website" displayName="Website" solution="MicrosoftPortalDependencies (9.2.10.0)" />
-        <Dependent key="0" type="1" schemaName="adx_website" displayName="Website" />
+        <Required displayName="adx_adx_website_adx_websitelanguage" parentDisplayName="Website" parentSchemaName="adx_website" schemaName="adx_adx_website_adx_websitelanguage" solution="MicrosoftPortalBase (9.2.2006.10)" type="10" />
+        <Dependent displayName="Information" id="{72fb7583-02b0-477d-877b-2516031d8a07}" parentDisplayName="Content Snippet" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="1" type="1" schemaName="adx_entityform" displayName="Entity Form" solution="MicrosoftPortalWebForms (9.2.2006.0)" />
-        <Dependent key="1" type="1" schemaName="adx_entityform" displayName="Entity Form" />
+        <Required displayName="adx_ckeditor/adx.ckeditor.html" schemaName="adx_ckeditor/adx.ckeditor.html" solution="MicrosoftPortalBase (9.2.2006.10)" type="61" />
+        <Dependent displayName="Information" id="{72fb7583-02b0-477d-877b-2516031d8a07}" parentDisplayName="Content Snippet" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="2" type="1" schemaName="adx_contentsnippet" displayName="Content Snippet" solution="MicrosoftPortalDependencies (9.2.10.0)" />
-        <Dependent key="2" type="1" schemaName="adx_contentsnippet" displayName="Content Snippet" />
+        <Required displayName="adx_content_snippets.svg" schemaName="adx_content_snippets.svg" solution="MicrosoftPortalDependencies (9.2.10.0)" type="61" />
+        <Dependent displayName="Content Snippet" schemaName="adx_contentsnippet" type="1" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="3" type="61" schemaName="adx_content_snippets.svg" displayName="adx_content_snippets.svg" solution="MicrosoftPortalDependencies (9.2.10.0)" />
-        <Dependent key="2" type="1" schemaName="adx_contentsnippet" displayName="Content Snippet" />
+        <Required displayName="adx_contentsnippet.js" schemaName="adx_contentsnippet.js" solution="MicrosoftPortalBase (9.2.2006.10)" type="61" />
+        <Dependent displayName="Information" id="{72fb7583-02b0-477d-877b-2516031d8a07}" parentDisplayName="Content Snippet" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="4" type="61" schemaName="msa_adx_contentsnippet_small" displayName="msa_adx_contentsnippet_small" solution="MicrosoftPortalDependencies (9.2.10.0)" />
-        <Dependent key="2" type="1" schemaName="adx_contentsnippet" displayName="Content Snippet" />
+        <Required displayName="adx_entity_forms.svg" schemaName="adx_entity_forms.svg" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="61" />
+        <Dependent displayName="Entity Form" schemaName="adx_entityform" type="1" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="5" type="61" schemaName="msa_icon_contentsnippet_medium" displayName="msa_icon_contentsnippet_medium" solution="MicrosoftPortalDependencies (9.2.10.0)" />
-        <Dependent key="2" type="1" schemaName="adx_contentsnippet" displayName="Content Snippet" />
+        <Required displayName="adx_Form_16.png" schemaName="adx_Form_16.png" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="61" />
+        <Dependent displayName="Entity Form" schemaName="adx_entityform" type="1" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="6" type="1" schemaName="adx_webrole" displayName="Web Role" solution="MicrosoftPortalDependencies (9.2.10.0)" />
-        <Dependent key="6" type="1" schemaName="adx_webrole" displayName="Web Role" />
+        <Required displayName="adx_Form_32.png" schemaName="adx_Form_32.png" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="61" />
+        <Dependent displayName="Entity Form" schemaName="adx_entityform" type="1" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="7" type="1" schemaName="adx_webtemplate" displayName="Web Template" solution="MicrosoftPortalBase (9.2.2006.10)" />
-        <Dependent key="7" type="1" schemaName="adx_webtemplate" displayName="Web Template" />
+        <Required displayName="adx_website_contentsnippet" parentDisplayName="Website" parentSchemaName="adx_website" schemaName="adx_website_contentsnippet" solution="MicrosoftPortalDependencies (9.2.10.0)" type="10" />
+        <Dependent displayName="Information" id="{72fb7583-02b0-477d-877b-2516031d8a07}" parentDisplayName="Content Snippet" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="8" type="1" schemaName="adx_webformmetadata" displayName="Web Form Metadata" solution="MicrosoftPortalWebForms (9.2.2006.0)" />
-        <Dependent key="8" type="1" schemaName="adx_webformmetadata" displayName="Web Form Metadata" />
+        <Required displayName="adx_websitelanguage_contentsnippet_contentsnippetlanguageid" parentDisplayName="Website Language" parentSchemaName="adx_websitelanguage" schemaName="adx_websitelanguage_contentsnippet_contentsnippetlanguageid" solution="MicrosoftPortalBase (9.2.2006.10)" type="10" />
+        <Dependent displayName="Information" id="{72fb7583-02b0-477d-877b-2516031d8a07}" parentDisplayName="Content Snippet" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="9" type="1" schemaName="adx_sitesetting" displayName="Site Setting" solution="MicrosoftPortalDependencies (9.2.10.0)" />
-        <Dependent key="9" type="1" schemaName="adx_sitesetting" displayName="Site Setting" />
+        <Required displayName="Content Snippet Language" parentDisplayName="Content Snippet" parentSchemaName="adx_contentsnippet" schemaName="adx_contentsnippetlanguageid" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Information" id="{72fb7583-02b0-477d-877b-2516031d8a07}" parentDisplayName="Content Snippet" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="10" type="1" schemaName="adx_webformstep" displayName="Web Form Step" solution="MicrosoftPortalWebForms (9.2.2006.0)" />
-        <Dependent key="10" type="1" schemaName="adx_webformstep" displayName="Web Form Step" />
+        <Required displayName="Content Snippet" schemaName="adx_contentsnippet" solution="MicrosoftPortalDependencies (9.2.10.0)" type="1" />
+        <Dependent displayName="Content Snippet" schemaName="adx_contentsnippet" type="1" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="11" type="1" schemaName="adx_setting" displayName="Setting" solution="MicrosoftPortalBase (9.2.2006.10)" />
-        <Dependent key="11" type="1" schemaName="adx_setting" displayName="Setting" />
+        <Required displayName="Display Name" parentDisplayName="Content Snippet" parentSchemaName="adx_contentsnippet" schemaName="adx_display_name" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Information" id="{72fb7583-02b0-477d-877b-2516031d8a07}" parentDisplayName="Content Snippet" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="12" type="1" schemaName="adx_webform" displayName="Web Form" solution="MicrosoftPortalWebForms (9.2.2006.0)" />
-        <Dependent key="12" type="1" schemaName="adx_webform" displayName="Web Form" />
+        <Required displayName="Entity Form Metadata" schemaName="adx_entityformmetadata" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="1" />
+        <Dependent displayName="Entity Form Metadata" schemaName="adx_entityformmetadata" type="1" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="13" type="1" schemaName="adx_publishingstate" displayName="Publishing State" solution="MicrosoftPortalBase (9.2.2006.10)" />
-        <Dependent key="13" type="1" schemaName="adx_publishingstate" displayName="Publishing State" />
+        <Required displayName="Entity Form" schemaName="adx_entityform" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="1" />
+        <Dependent displayName="Entity Form" schemaName="adx_entityform" type="1" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="14" type="1" schemaName="adx_weblinkset" displayName="Web Link Set" solution="MicrosoftPortalDependencies (9.2.10.0)" />
-        <Dependent key="14" type="1" schemaName="adx_weblinkset" displayName="Web Link Set" />
+        <Required displayName="Entity List" schemaName="adx_entitylist" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="1" />
+        <Dependent displayName="Entity List" schemaName="adx_entitylist" type="1" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="15" type="1" schemaName="adx_weblink" displayName="Web Link" solution="MicrosoftPortalDependencies (9.2.10.0)" />
-        <Dependent key="15" type="1" schemaName="adx_weblink" displayName="Web Link" />
+        <Required displayName="Entity Permission" schemaName="adx_entitypermission" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="Entity Permission" schemaName="adx_entitypermission" type="1" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="16" type="1" schemaName="adx_webfile" displayName="Web File" solution="MicrosoftPortalDependencies (9.2.10.0)" />
-        <Dependent key="16" type="1" schemaName="adx_webfile" displayName="Web File" />
+        <Required displayName="Information" id="{1c038742-0f0b-4b1e-a61f-79fa72d4cc50}" parentDisplayName="Web Link Set" solution="MicrosoftPortalDependencies (9.2.10.0)" type="60" />
+        <Dependent displayName="Information" id="{1c038742-0f0b-4b1e-a61f-79fa72d4cc50}" parentDisplayName="Web Link Set" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="17" type="1" schemaName="adx_webpageaccesscontrolrule" displayName="Web Page Access Control Rule" solution="MicrosoftPortalBase (9.2.2006.10)" />
-        <Dependent key="17" type="1" schemaName="adx_webpageaccesscontrolrule" displayName="Web Page Access Control Rule" />
+        <Required displayName="Information" id="{1e6c1e3c-9dab-4a8f-8b73-c6ee3063ed7c}" parentDisplayName="Website Access" solution="MicrosoftPortalBase (9.2.2006.10)" type="60" />
+        <Dependent displayName="Information" id="{1e6c1e3c-9dab-4a8f-8b73-c6ee3063ed7c}" parentDisplayName="Website Access" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="18" type="1" schemaName="adx_entitypermission" displayName="Entity Permission" solution="MicrosoftPortalBase (9.2.2006.10)" />
-        <Dependent key="18" type="1" schemaName="adx_entitypermission" displayName="Entity Permission" />
+        <Required displayName="Information" id="{244b1d49-9fee-4926-89f3-f084ebc17924}" parentDisplayName="Web Template" solution="MicrosoftPortalBase (9.2.2006.10)" type="60" />
+        <Dependent displayName="Information" id="{244b1d49-9fee-4926-89f3-f084ebc17924}" parentDisplayName="Web Template" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="19" type="1" schemaName="adx_websiteaccess" displayName="Website Access" solution="MicrosoftPortalBase (9.2.2006.10)" />
-        <Dependent key="19" type="1" schemaName="adx_websiteaccess" displayName="Website Access" />
+        <Required displayName="Information" id="{2623d4e7-ac46-4283-a509-3281ecfb199d}" parentDisplayName="Web Link" solution="MicrosoftPortalDependencies (9.2.10.0)" type="60" />
+        <Dependent displayName="Information" id="{2623d4e7-ac46-4283-a509-3281ecfb199d}" parentDisplayName="Web Link" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="20" type="1" schemaName="adx_entitylist" displayName="Entity List" solution="MicrosoftPortalWebForms (9.2.2006.0)" />
-        <Dependent key="20" type="1" schemaName="adx_entitylist" displayName="Entity List" />
+        <Required displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="60" />
+        <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="21" type="1" schemaName="adx_entityformmetadata" displayName="Entity Form Metadata" solution="MicrosoftPortalWebForms (9.2.2006.0)" />
-        <Dependent key="21" type="1" schemaName="adx_entityformmetadata" displayName="Entity Form Metadata" />
+        <Required displayName="Information" id="{4b316230-2379-4d27-b262-69d33e3b91ab}" parentDisplayName="Web Page Access Control Rule" solution="MicrosoftPortalBase (9.2.2006.10)" type="60" />
+        <Dependent displayName="Information" id="{4b316230-2379-4d27-b262-69d33e3b91ab}" parentDisplayName="Web Page Access Control Rule" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="22" type="1" schemaName="adx_webpage" displayName="Web Page" solution="MicrosoftPortalDependencies (9.2.10.0)" />
-        <Dependent key="22" type="1" schemaName="adx_webpage" displayName="Web Page" />
+        <Required displayName="Information" id="{51ebff65-5462-47bc-88ee-dd9881465380}" parentDisplayName="Site Setting" solution="MicrosoftPortalDependencies (9.2.10.0)" type="60" />
+        <Dependent displayName="Information" id="{51ebff65-5462-47bc-88ee-dd9881465380}" parentDisplayName="Site Setting" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="23" type="1" schemaName="adx_pagetemplate" displayName="Page Template" solution="MicrosoftPortalDependencies (9.2.10.0)" />
-        <Dependent key="23" type="1" schemaName="adx_pagetemplate" displayName="Page Template" />
+        <Required displayName="Information" id="{72fb7583-02b0-477d-877b-2516031d8a07}" parentDisplayName="Content Snippet" solution="MicrosoftPortalDependencies (9.2.10.0)" type="60" />
+        <Dependent displayName="Information" id="{72fb7583-02b0-477d-877b-2516031d8a07}" parentDisplayName="Content Snippet" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="1" type="1" schemaName="adx_entityform" displayName="Entity Form" solution="MicrosoftPortalWebForms (9.2.2006.0)" />
-        <Dependent key="24" type="2" schemaName="mdce_module_id" displayName="Module" parentSchemaName="adx_entityform" parentDisplayName="Entity Form" />
+        <Required displayName="Information" id="{759873c2-d54d-418a-b967-a68a70fbed32}" parentDisplayName="Web Role" solution="MicrosoftPortalDependencies (9.2.10.0)" type="60" />
+        <Dependent displayName="Information" id="{759873c2-d54d-418a-b967-a68a70fbed32}" parentDisplayName="Web Role" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="1" type="1" schemaName="adx_entityform" displayName="Entity Form" solution="MicrosoftPortalWebForms (9.2.2006.0)" />
-        <Dependent key="25" type="2" schemaName="mdce_module_idname" parentSchemaName="adx_entityform" parentDisplayName="Entity Form" />
+        <Required displayName="Information" id="{85ccf31c-db3f-47fb-8c7a-56938671d99e}" parentDisplayName="Web Form Step" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="60" />
+        <Dependent displayName="Information" id="{85ccf31c-db3f-47fb-8c7a-56938671d99e}" parentDisplayName="Web Form Step" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="0" type="1" schemaName="adx_website" displayName="Website" solution="MicrosoftPortalDependencies (9.2.10.0)" />
-        <Dependent key="26" type="60" displayName="Information" parentDisplayName="Content Snippet" id="{72fb7583-02b0-477d-877b-2516031d8a07}" />
+        <Required displayName="Information" id="{9bac59d1-a229-43d2-9030-ff9222a548ec}" parentDisplayName="Entity Permission" solution="MicrosoftPortalBase (9.2.2006.10)" type="60" />
+        <Dependent displayName="Information" id="{9bac59d1-a229-43d2-9030-ff9222a548ec}" parentDisplayName="Entity Permission" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="27" type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="adx_contentsnippet" parentDisplayName="Content Snippet" solution="Active" />
-        <Dependent key="26" type="60" displayName="Information" parentDisplayName="Content Snippet" id="{72fb7583-02b0-477d-877b-2516031d8a07}" />
+        <Required displayName="Information" id="{9be1dc51-076b-4c69-9a19-374f9faa05b0}" parentDisplayName="Entity List" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="60" />
+        <Dependent displayName="Information" id="{9be1dc51-076b-4c69-9a19-374f9faa05b0}" parentDisplayName="Entity List" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="28" type="2" schemaName="adx_contentsnippetlanguageid" displayName="Content Snippet Language" parentSchemaName="adx_contentsnippet" parentDisplayName="Content Snippet" solution="MicrosoftPortalBase (9.2.2006.10)" />
-        <Dependent key="26" type="60" displayName="Information" parentDisplayName="Content Snippet" id="{72fb7583-02b0-477d-877b-2516031d8a07}" />
+        <Required displayName="Information" id="{9f3890fc-f4aa-49cd-a7a8-9fdb15fcdb5d}" parentDisplayName="Website" solution="MicrosoftPortalDependencies (9.2.10.0)" type="60" />
+        <Dependent displayName="Information" id="{9f3890fc-f4aa-49cd-a7a8-9fdb15fcdb5d}" parentDisplayName="Website" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="29" type="2" schemaName="statecode" displayName="Status" parentSchemaName="adx_contentsnippet" parentDisplayName="Content Snippet" solution="MicrosoftPortalDependencies (9.2.10.0)" />
-        <Dependent key="26" type="60" displayName="Information" parentDisplayName="Content Snippet" id="{72fb7583-02b0-477d-877b-2516031d8a07}" />
+        <Required displayName="Information" id="{b6725e3d-1d35-4499-aa99-ba0199a05cc4}" parentDisplayName="Publishing State" solution="MicrosoftPortalBase (9.2.2006.10)" type="60" />
+        <Dependent displayName="Information" id="{b6725e3d-1d35-4499-aa99-ba0199a05cc4}" parentDisplayName="Publishing State" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="30" type="2" schemaName="adx_name" displayName="Name" parentSchemaName="adx_contentsnippet" parentDisplayName="Content Snippet" solution="MicrosoftPortalDependencies (9.2.10.0)" />
-        <Dependent key="26" type="60" displayName="Information" parentDisplayName="Content Snippet" id="{72fb7583-02b0-477d-877b-2516031d8a07}" />
+        <Required displayName="Information" id="{d1e40190-ccb6-49d5-866e-5a493206cdc5}" parentDisplayName="Web Form Metadata" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="60" />
+        <Dependent displayName="Information" id="{d1e40190-ccb6-49d5-866e-5a493206cdc5}" parentDisplayName="Web Form Metadata" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="31" type="2" schemaName="adx_type" displayName="Type" parentSchemaName="adx_contentsnippet" parentDisplayName="Content Snippet" solution="MicrosoftPortalBase (9.2.2006.10)" />
-        <Dependent key="26" type="60" displayName="Information" parentDisplayName="Content Snippet" id="{72fb7583-02b0-477d-877b-2516031d8a07}" />
+        <Required displayName="Information" id="{dfca2da1-0f04-4fff-92dd-39c8b842309d}" parentDisplayName="Page Template" solution="MicrosoftPortalDependencies (9.2.10.0)" type="60" />
+        <Dependent displayName="Information" id="{dfca2da1-0f04-4fff-92dd-39c8b842309d}" parentDisplayName="Page Template" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="32" type="2" schemaName="adx_value" displayName="Value" parentSchemaName="adx_contentsnippet" parentDisplayName="Content Snippet" solution="MicrosoftPortalDependencies (9.2.10.0)" />
-        <Dependent key="26" type="60" displayName="Information" parentDisplayName="Content Snippet" id="{72fb7583-02b0-477d-877b-2516031d8a07}" />
+        <Required displayName="Information" id="{ed26206d-9745-4706-9f11-b3448deb51bd}" parentDisplayName="Web Form" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="60" />
+        <Dependent displayName="Information" id="{ed26206d-9745-4706-9f11-b3448deb51bd}" parentDisplayName="Web Form" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="33" type="2" schemaName="adx_display_name" displayName="Display Name" parentSchemaName="adx_contentsnippet" parentDisplayName="Content Snippet" solution="MicrosoftPortalBase (9.2.2006.10)" />
-        <Dependent key="26" type="60" displayName="Information" parentDisplayName="Content Snippet" id="{72fb7583-02b0-477d-877b-2516031d8a07}" />
+        <Required displayName="Information" id="{efe18451-69c6-465e-8d3b-818ea660ab76}" parentDisplayName="Web File" solution="MicrosoftPortalDependencies (9.2.10.0)" type="60" />
+        <Dependent displayName="Information" id="{efe18451-69c6-465e-8d3b-818ea660ab76}" parentDisplayName="Web File" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="34" type="2" schemaName="adx_websiteid" displayName="Website" parentSchemaName="adx_contentsnippet" parentDisplayName="Content Snippet" solution="MicrosoftPortalDependencies (9.2.10.0)" />
-        <Dependent key="26" type="60" displayName="Information" parentDisplayName="Content Snippet" id="{72fb7583-02b0-477d-877b-2516031d8a07}" />
+        <Required displayName="Information" id="{f2cef676-b675-4c6d-bfd2-8f28ab21d7d1}" parentDisplayName="Setting" solution="MicrosoftPortalBase (9.2.2006.10)" type="60" />
+        <Dependent displayName="Information" id="{f2cef676-b675-4c6d-bfd2-8f28ab21d7d1}" parentDisplayName="Setting" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="35" type="10" schemaName="adx_website_contentsnippet" displayName="adx_website_contentsnippet" parentSchemaName="adx_website" parentDisplayName="Website" solution="MicrosoftPortalDependencies (9.2.10.0)" />
-        <Dependent key="26" type="60" displayName="Information" parentDisplayName="Content Snippet" id="{72fb7583-02b0-477d-877b-2516031d8a07}" />
+        <Required displayName="Information" id="{f9e44486-155b-4e29-b787-927b41d5cde9}" parentDisplayName="Entity Form Metadata" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="60" />
+        <Dependent displayName="Information" id="{f9e44486-155b-4e29-b787-927b41d5cde9}" parentDisplayName="Entity Form Metadata" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="36" type="10" schemaName="adx_websitelanguage_contentsnippet_contentsnippetlanguageid" displayName="adx_websitelanguage_contentsnippet_contentsnippetlanguageid" parentSchemaName="adx_websitelanguage" parentDisplayName="Website Language" solution="MicrosoftPortalBase (9.2.2006.10)" />
-        <Dependent key="26" type="60" displayName="Information" parentDisplayName="Content Snippet" id="{72fb7583-02b0-477d-877b-2516031d8a07}" />
+        <Required displayName="msa_adx_contentsnippet_small" schemaName="msa_adx_contentsnippet_small" solution="MicrosoftPortalDependencies (9.2.10.0)" type="61" />
+        <Dependent displayName="Content Snippet" schemaName="adx_contentsnippet" type="1" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="37" type="10" schemaName="adx_adx_website_adx_websitelanguage" displayName="adx_adx_website_adx_websitelanguage" parentSchemaName="adx_website" parentDisplayName="Website" solution="MicrosoftPortalBase (9.2.2006.10)" />
-        <Dependent key="26" type="60" displayName="Information" parentDisplayName="Content Snippet" id="{72fb7583-02b0-477d-877b-2516031d8a07}" />
+        <Required displayName="msa_icon_contentsnippet_medium" schemaName="msa_icon_contentsnippet_medium" solution="MicrosoftPortalDependencies (9.2.10.0)" type="61" />
+        <Dependent displayName="Content Snippet" schemaName="adx_contentsnippet" type="1" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="38" type="26" schemaName="Website Language Lookup View" displayName="Website Language Lookup View" parentSchemaName="adx_websitelanguage" parentDisplayName="Website Language" solution="MicrosoftPortalBase (9.2.2006.10)" id="{8f1824b8-9500-448e-9377-ab993254bb9a}" />
-        <Dependent key="26" type="60" displayName="Information" parentDisplayName="Content Snippet" id="{72fb7583-02b0-477d-877b-2516031d8a07}" />
+        <Required displayName="Name" parentDisplayName="Content Snippet" parentSchemaName="adx_contentsnippet" schemaName="adx_name" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
+        <Dependent displayName="Information" id="{72fb7583-02b0-477d-877b-2516031d8a07}" parentDisplayName="Content Snippet" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="26" type="60" displayName="Information" parentDisplayName="Content Snippet" solution="MicrosoftPortalDependencies (9.2.10.0)" id="{72fb7583-02b0-477d-877b-2516031d8a07}" />
-        <Dependent key="26" type="60" displayName="Information" parentDisplayName="Content Snippet" id="{72fb7583-02b0-477d-877b-2516031d8a07}" />
+        <Required displayName="Owner" parentDisplayName="Content Snippet" parentSchemaName="adx_contentsnippet" schemaName="ownerid" solution="Active" type="2" />
+        <Dependent displayName="Information" id="{72fb7583-02b0-477d-877b-2516031d8a07}" parentDisplayName="Content Snippet" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="39" type="61" schemaName="adx_ckeditor/adx.ckeditor.html" displayName="adx_ckeditor/adx.ckeditor.html" solution="MicrosoftPortalBase (9.2.2006.10)" />
-        <Dependent key="26" type="60" displayName="Information" parentDisplayName="Content Snippet" id="{72fb7583-02b0-477d-877b-2516031d8a07}" />
+        <Required displayName="Page Template" schemaName="adx_pagetemplate" solution="MicrosoftPortalDependencies (9.2.10.0)" type="1" />
+        <Dependent displayName="Page Template" schemaName="adx_pagetemplate" type="1" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="40" type="61" schemaName="adx_contentsnippet.js" displayName="adx_contentsnippet.js" solution="MicrosoftPortalBase (9.2.2006.10)" />
-        <Dependent key="26" type="60" displayName="Information" parentDisplayName="Content Snippet" id="{72fb7583-02b0-477d-877b-2516031d8a07}" />
+        <Required displayName="Publishing State" schemaName="adx_publishingstate" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="Publishing State" schemaName="adx_publishingstate" type="1" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="41" type="60" displayName="Information" parentDisplayName="Entity Form" solution="MicrosoftPortalWebForms (9.2.2006.0)" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" />
-        <Dependent key="41" type="60" displayName="Information" parentDisplayName="Entity Form" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" />
+        <Required displayName="Setting" schemaName="adx_setting" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="Setting" schemaName="adx_setting" type="1" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="42" type="60" displayName="Information" parentDisplayName="Web Link" solution="MicrosoftPortalDependencies (9.2.10.0)" id="{2623d4e7-ac46-4283-a509-3281ecfb199d}" />
-        <Dependent key="42" type="60" displayName="Information" parentDisplayName="Web Link" id="{2623d4e7-ac46-4283-a509-3281ecfb199d}" />
+        <Required displayName="Site Setting" schemaName="adx_sitesetting" solution="MicrosoftPortalDependencies (9.2.10.0)" type="1" />
+        <Dependent displayName="Site Setting" schemaName="adx_sitesetting" type="1" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="43" type="60" displayName="Information" parentDisplayName="Entity List" solution="MicrosoftPortalWebForms (9.2.2006.0)" id="{9be1dc51-076b-4c69-9a19-374f9faa05b0}" />
-        <Dependent key="43" type="60" displayName="Information" parentDisplayName="Entity List" id="{9be1dc51-076b-4c69-9a19-374f9faa05b0}" />
+        <Required displayName="Status" parentDisplayName="Content Snippet" parentSchemaName="adx_contentsnippet" schemaName="statecode" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
+        <Dependent displayName="Information" id="{72fb7583-02b0-477d-877b-2516031d8a07}" parentDisplayName="Content Snippet" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="44" type="60" displayName="Information" parentDisplayName="Page Template" solution="MicrosoftPortalDependencies (9.2.10.0)" id="{dfca2da1-0f04-4fff-92dd-39c8b842309d}" />
-        <Dependent key="44" type="60" displayName="Information" parentDisplayName="Page Template" id="{dfca2da1-0f04-4fff-92dd-39c8b842309d}" />
+        <Required displayName="Type" parentDisplayName="Content Snippet" parentSchemaName="adx_contentsnippet" schemaName="adx_type" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Information" id="{72fb7583-02b0-477d-877b-2516031d8a07}" parentDisplayName="Content Snippet" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="45" type="60" displayName="Information" parentDisplayName="Web Form Step" solution="MicrosoftPortalWebForms (9.2.2006.0)" id="{85ccf31c-db3f-47fb-8c7a-56938671d99e}" />
-        <Dependent key="45" type="60" displayName="Information" parentDisplayName="Web Form Step" id="{85ccf31c-db3f-47fb-8c7a-56938671d99e}" />
+        <Required displayName="Value" parentDisplayName="Content Snippet" parentSchemaName="adx_contentsnippet" schemaName="adx_value" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
+        <Dependent displayName="Information" id="{72fb7583-02b0-477d-877b-2516031d8a07}" parentDisplayName="Content Snippet" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="46" type="60" displayName="Information" parentDisplayName="Web Form Metadata" solution="MicrosoftPortalWebForms (9.2.2006.0)" id="{d1e40190-ccb6-49d5-866e-5a493206cdc5}" />
-        <Dependent key="46" type="60" displayName="Information" parentDisplayName="Web Form Metadata" id="{d1e40190-ccb6-49d5-866e-5a493206cdc5}" />
+        <Required displayName="Web File" schemaName="adx_webfile" solution="MicrosoftPortalDependencies (9.2.10.0)" type="1" />
+        <Dependent displayName="Web File" schemaName="adx_webfile" type="1" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="47" type="60" displayName="Information" parentDisplayName="Web Page Access Control Rule" solution="MicrosoftPortalBase (9.2.2006.10)" id="{4b316230-2379-4d27-b262-69d33e3b91ab}" />
-        <Dependent key="47" type="60" displayName="Information" parentDisplayName="Web Page Access Control Rule" id="{4b316230-2379-4d27-b262-69d33e3b91ab}" />
+        <Required displayName="Web Form Metadata" schemaName="adx_webformmetadata" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="1" />
+        <Dependent displayName="Web Form Metadata" schemaName="adx_webformmetadata" type="1" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="48" type="60" displayName="Information" parentDisplayName="Web Link Set" solution="MicrosoftPortalDependencies (9.2.10.0)" id="{1c038742-0f0b-4b1e-a61f-79fa72d4cc50}" />
-        <Dependent key="48" type="60" displayName="Information" parentDisplayName="Web Link Set" id="{1c038742-0f0b-4b1e-a61f-79fa72d4cc50}" />
+        <Required displayName="Web Form Step" schemaName="adx_webformstep" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="1" />
+        <Dependent displayName="Web Form Step" schemaName="adx_webformstep" type="1" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="49" type="60" displayName="Information" parentDisplayName="Web File" solution="MicrosoftPortalDependencies (9.2.10.0)" id="{efe18451-69c6-465e-8d3b-818ea660ab76}" />
-        <Dependent key="49" type="60" displayName="Information" parentDisplayName="Web File" id="{efe18451-69c6-465e-8d3b-818ea660ab76}" />
+        <Required displayName="Web Form" schemaName="adx_webform" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="1" />
+        <Dependent displayName="Web Form" schemaName="adx_webform" type="1" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="50" type="60" displayName="Information" parentDisplayName="Setting" solution="MicrosoftPortalBase (9.2.2006.10)" id="{f2cef676-b675-4c6d-bfd2-8f28ab21d7d1}" />
-        <Dependent key="50" type="60" displayName="Information" parentDisplayName="Setting" id="{f2cef676-b675-4c6d-bfd2-8f28ab21d7d1}" />
+        <Required displayName="Web Link Set" schemaName="adx_weblinkset" solution="MicrosoftPortalDependencies (9.2.10.0)" type="1" />
+        <Dependent displayName="Web Link Set" schemaName="adx_weblinkset" type="1" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="51" type="60" displayName="Information" parentDisplayName="Entity Form Metadata" solution="MicrosoftPortalWebForms (9.2.2006.0)" id="{f9e44486-155b-4e29-b787-927b41d5cde9}" />
-        <Dependent key="51" type="60" displayName="Information" parentDisplayName="Entity Form Metadata" id="{f9e44486-155b-4e29-b787-927b41d5cde9}" />
+        <Required displayName="Web Link" schemaName="adx_weblink" solution="MicrosoftPortalDependencies (9.2.10.0)" type="1" />
+        <Dependent displayName="Web Link" schemaName="adx_weblink" type="1" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="52" type="60" displayName="Information" parentDisplayName="Website" solution="MicrosoftPortalDependencies (9.2.10.0)" id="{9f3890fc-f4aa-49cd-a7a8-9fdb15fcdb5d}" />
-        <Dependent key="52" type="60" displayName="Information" parentDisplayName="Website" id="{9f3890fc-f4aa-49cd-a7a8-9fdb15fcdb5d}" />
+        <Required displayName="Web Page Access Control Rule" schemaName="adx_webpageaccesscontrolrule" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="Web Page Access Control Rule" schemaName="adx_webpageaccesscontrolrule" type="1" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="53" type="60" displayName="Information" parentDisplayName="Web Role" solution="MicrosoftPortalDependencies (9.2.10.0)" id="{759873c2-d54d-418a-b967-a68a70fbed32}" />
-        <Dependent key="53" type="60" displayName="Information" parentDisplayName="Web Role" id="{759873c2-d54d-418a-b967-a68a70fbed32}" />
+        <Required displayName="Web Page" schemaName="adx_webpage" solution="MicrosoftPortalDependencies (9.2.10.0)" type="1" />
+        <Dependent displayName="Web Page" schemaName="adx_webpage" type="1" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="54" type="60" displayName="Information" parentDisplayName="Web Form" solution="MicrosoftPortalWebForms (9.2.2006.0)" id="{ed26206d-9745-4706-9f11-b3448deb51bd}" />
-        <Dependent key="54" type="60" displayName="Information" parentDisplayName="Web Form" id="{ed26206d-9745-4706-9f11-b3448deb51bd}" />
+        <Required displayName="Web Role" schemaName="adx_webrole" solution="MicrosoftPortalDependencies (9.2.10.0)" type="1" />
+        <Dependent displayName="Web Role" schemaName="adx_webrole" type="1" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="55" type="60" displayName="Information" parentDisplayName="Publishing State" solution="MicrosoftPortalBase (9.2.2006.10)" id="{b6725e3d-1d35-4499-aa99-ba0199a05cc4}" />
-        <Dependent key="55" type="60" displayName="Information" parentDisplayName="Publishing State" id="{b6725e3d-1d35-4499-aa99-ba0199a05cc4}" />
+        <Required displayName="Web Template" schemaName="adx_webtemplate" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="Web Template" schemaName="adx_webtemplate" type="1" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="56" type="60" displayName="Information" parentDisplayName="Website Access" solution="MicrosoftPortalBase (9.2.2006.10)" id="{1e6c1e3c-9dab-4a8f-8b73-c6ee3063ed7c}" />
-        <Dependent key="56" type="60" displayName="Information" parentDisplayName="Website Access" id="{1e6c1e3c-9dab-4a8f-8b73-c6ee3063ed7c}" />
+        <Required displayName="Website Access" schemaName="adx_websiteaccess" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="Website Access" schemaName="adx_websiteaccess" type="1" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="57" type="60" displayName="Information" parentDisplayName="Site Setting" solution="MicrosoftPortalDependencies (9.2.10.0)" id="{51ebff65-5462-47bc-88ee-dd9881465380}" />
-        <Dependent key="57" type="60" displayName="Information" parentDisplayName="Site Setting" id="{51ebff65-5462-47bc-88ee-dd9881465380}" />
+        <Required displayName="Website Language Lookup View" id="{8f1824b8-9500-448e-9377-ab993254bb9a}" parentDisplayName="Website Language" parentSchemaName="adx_websitelanguage" schemaName="Website Language Lookup View" solution="MicrosoftPortalBase (9.2.2006.10)" type="26" />
+        <Dependent displayName="Information" id="{72fb7583-02b0-477d-877b-2516031d8a07}" parentDisplayName="Content Snippet" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="58" type="60" displayName="Information" parentDisplayName="Web Template" solution="MicrosoftPortalBase (9.2.2006.10)" id="{244b1d49-9fee-4926-89f3-f084ebc17924}" />
-        <Dependent key="58" type="60" displayName="Information" parentDisplayName="Web Template" id="{244b1d49-9fee-4926-89f3-f084ebc17924}" />
+        <Required displayName="Website" parentDisplayName="Content Snippet" parentSchemaName="adx_contentsnippet" schemaName="adx_websiteid" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
+        <Dependent displayName="Information" id="{72fb7583-02b0-477d-877b-2516031d8a07}" parentDisplayName="Content Snippet" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="59" type="60" displayName="Information" parentDisplayName="Entity Permission" solution="MicrosoftPortalBase (9.2.2006.10)" id="{9bac59d1-a229-43d2-9030-ff9222a548ec}" />
-        <Dependent key="59" type="60" displayName="Information" parentDisplayName="Entity Permission" id="{9bac59d1-a229-43d2-9030-ff9222a548ec}" />
+        <Required displayName="Website" schemaName="adx_website" solution="MicrosoftPortalDependencies (9.2.10.0)" type="1" />
+        <Dependent displayName="Information" id="{72fb7583-02b0-477d-877b-2516031d8a07}" parentDisplayName="Content Snippet" type="60" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="1" type="1" schemaName="adx_entityform" displayName="Entity Form" solution="MicrosoftPortalWebForms (9.2.2006.0)" />
-        <Dependent key="60" type="10" schemaName="mdce_adx_entityform_module_id_mdce_portal_modu" displayName="mdce_adx_entityform_module_id_mdce_portal_modu" parentSchemaName="mdce_portal_module" parentDisplayName="Portal Module" />
+        <Required displayName="Website" schemaName="adx_website" solution="MicrosoftPortalDependencies (9.2.10.0)" type="1" />
+        <Dependent displayName="Website" schemaName="adx_website" type="1" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>

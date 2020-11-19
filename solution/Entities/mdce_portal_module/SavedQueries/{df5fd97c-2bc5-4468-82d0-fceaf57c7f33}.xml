@@ -8,8 +8,8 @@
     <isdefault>1</isdefault>
     <savedqueryid>{df5fd97c-2bc5-4468-82d0-fceaf57c7f33}</savedqueryid>
     <layoutxml>
-      <grid name="mdce_portal_modules" jump="mdce_name" select="1" icon="1" preview="0">
-        <row name="mdce_portal_module" id="mdce_portal_moduleid">
+      <grid icon="1" jump="mdce_name" name="mdce_portal_modules" preview="0" select="1">
+        <row id="mdce_portal_moduleid" name="mdce_portal_module">
           <cell name="mdce_name" width="300" />
           <cell name="createdon" width="125" />
         </row>
@@ -17,7 +17,7 @@
     </layoutxml>
     <querytype>64</querytype>
     <fetchxml>
-      <fetch version="1.0" mapping="logical">
+      <fetch mapping="logical" version="1.0">
         <entity name="mdce_portal_module">
           <attribute name="mdce_portal_moduleid" />
           <attribute name="mdce_name" />
