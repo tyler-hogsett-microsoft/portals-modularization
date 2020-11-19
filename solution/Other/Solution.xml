@@ -211,6 +211,18 @@
         <Dependent displayName="Entity Permission" schemaName="adx_entitypermission" type="1" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Entity Permission" schemaName="adx_entitypermission" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="mdce_adx_entitypermission_module_id_mdce_porta" parentDisplayName="Portal Module" parentSchemaName="mdce_portal_module" schemaName="mdce_adx_entitypermission_module_id_mdce_porta" type="10" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Entity Permission" schemaName="adx_entitypermission" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="Module" parentDisplayName="Entity Permission" parentSchemaName="adx_entitypermission" schemaName="mdce_module_id" type="2" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Entity Permission" schemaName="adx_entitypermission" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent parentDisplayName="Entity Permission" parentSchemaName="adx_entitypermission" schemaName="mdce_module_idname" type="2" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Information" id="{1c038742-0f0b-4b1e-a61f-79fa72d4cc50}" parentDisplayName="Web Link Set" solution="MicrosoftPortalDependencies (9.2.10.0)" type="60" />
         <Dependent displayName="Information" id="{1c038742-0f0b-4b1e-a61f-79fa72d4cc50}" parentDisplayName="Web Link Set" type="60" />
       </MissingDependency>

@@ -6,5 +6,6 @@
   <EntityRelationship Name="mdce_adx_entityform_module_id_mdce_portal_modu" />
   <EntityRelationship Name="mdce_adx_entityformmetadata_module_id_mdce_por" />
   <EntityRelationship Name="mdce_adx_entitylist_module_id_mdce_portal_modu" />
+  <EntityRelationship Name="mdce_adx_entitypermission_module_id_mdce_porta" />
   <EntityRelationship Name="organization_mdce_portal_module" />
 </EntityRelationships>
