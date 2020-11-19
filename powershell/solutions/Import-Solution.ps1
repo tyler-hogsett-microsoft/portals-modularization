@@ -45,10 +45,11 @@ $doctoredSolutionPath = "$tempFolder\doctored-solution.zip"
 Remove-Item $doctoredSolutionPath -ErrorAction Ignore
 Compress-Archive "$postSolutionPackagerDoctoredFolderPath/*" $doctoredSolutionPath
 
-Import-CrmSolution `
+Import-CrmSolutionAsync `
     -conn $Connection `
     -SolutionFilePath $doctoredSolutionPath `
-    -AsyncOperationImportMethod
+    -AsyncOperationImportMethod `
+    -BlockUntilImportComplete
 
 Publish-CrmAllCustomization `
     -conn $Connection
