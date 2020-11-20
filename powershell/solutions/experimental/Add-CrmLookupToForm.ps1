@@ -8,6 +8,8 @@ param(
     [Parameter(Mandatory=$true)]
     [string]$AttributeDisplayName,
     [Parameter(Mandatory=$true)]
+    [string]$TabDisplayName,
+    [Parameter(Mandatory=$true)]
     [string]$SectionDisplayName
 )
 
@@ -19,10 +21,35 @@ $xml.PreserveWhitespace = $true
 $formXmlFilePath = (Get-Item "$SolutionFolderPath\Entities\$EntityLogicalName\FormXml\main\*.xml")[0].FullName
 $xml.Load($formXmlFilePath)
 
-$sectionsXmlNode = $xml.SelectSingleNode("/forms/systemform/form/tabs/tab/columns/column/sections")
+$tabsXmlNode = $xml.SelectSingleNode("/forms/systemform/form/tabs")
+$tabsXmlNode.Children | ForEach-Object {
+  if($_ -ne $null) {
+    $tabMatchesName = $_.SelectSingleNode("child::labels/label[@description='$TabDisplayName']") -ne $null
+    if($tabMatchesName) {
+      $tabXmlNode = $_
+    }
+  }
+}
+
+if($tabXmlNode -eq $null) {
+  $tabUniqueName = "tab_$($TabDisplayName.ToLower() -Replace " ", "_")"
+  $tabsXmlNode.InnerXML +=
+      "  <tab expanded=`"true`" id=`"{$([Guid]::NewGuid())}`" IsUserDefined=`"0`" locklevel=`"0`" name=`"$tabUniqueName`" showlabel=`"true`">
+          <labels>
+            <label description=`"$TabDisplayName`" languagecode=`"1033`" />
+          </labels>
+          <columns>
+            <column width=`"100%`">
+              <sections></sections>
+            </column>
+          </columns>
+        </tab>"
+  $tabXmlNode = $tabsXmlNode.ChildNodes[$tabsXmlNode.ChildNodes.Count - 1]
+}
+$sectionsXmlNode = $tabXmlNode.SelectSingleNode("child::columns/column/sections")
 $sectionsXmlNode.InnerXML +=
-    $(if($sectionsXmlNode.InnerXML.Length -eq 0) { "`r`n" }) +
-"  <section celllabelalignment=`"Left`" celllabelposition=`"Left`" columns=`"1`" id=`"{$([Guid]::NewGuid())}`" IsUserDefined=`"0`" labelwidth=`"115`" layout=`"varwidth`" locklevel=`"0`" name=`"$sectionLogicalName`" showbar=`"false`" showlabel=`"false`">
+    $(if($sectionsXmlNode.InnerXML.Length -eq 0) { "`r`n              " }) +
+"  <section celllabelalignment=`"Left`" celllabelposition=`"Left`" columns=`"1`" id=`"{$([Guid]::NewGuid())}`" IsUserDefined=`"0`" labelwidth=`"115`" layout=`"varwidth`" locklevel=`"0`" name=`"section_$sectionLogicalName`" showbar=`"false`" showlabel=`"false`">
                   <labels>
                     <label description=`"$SectionDisplayName`" languagecode=`"1033`" />
                   </labels>
