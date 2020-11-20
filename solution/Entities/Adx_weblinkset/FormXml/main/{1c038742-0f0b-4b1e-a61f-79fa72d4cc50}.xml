@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <systemform unmodified="1">
+  <systemform>
     <formid>{1c038742-0f0b-4b1e-a61f-79fa72d4cc50}</formid>
     <IntroducedVersion>1.0.0021</IntroducedVersion>
     <FormPresentation>0</FormPresentation>
@@ -281,7 +281,32 @@
             </column>
           </columns>
         </tab>
-      </tabs>
+        <tab expanded="true" id="{1c6fa080-0e93-4083-ba58-519545c522fd}" IsUserDefined="0" locklevel="0" name="tab_administration" showlabel="true">
+          <labels>
+            <label description="Administration" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section celllabelalignment="Left" celllabelposition="Left" columns="1" id="{3ab403b8-6277-496c-b03f-17883fc1186a}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="section_modularization" showbar="false" showlabel="false">
+                  <labels>
+                    <label description="Modularization" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6585b9a5-1f21-4b31-bedf-b36e56772c57}" locklevel="0">
+                        <labels>
+                          <label description="Module" languagecode="1033" />
+                        </labels>
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mdce_module_id" disabled="false" id="mdce_module_id" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab></tabs>
       <footer columns="1" id="{363ce65b-44c1-4a3e-8ac1-4908c38e7fc2}">
         <rows>
           <row>
