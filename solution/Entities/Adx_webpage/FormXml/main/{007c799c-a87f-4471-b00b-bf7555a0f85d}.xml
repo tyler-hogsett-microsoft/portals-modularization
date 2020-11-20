@@ -1,0 +1,1064 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform unmodified="1">
+    <formid>{007c799c-a87f-4471-b00b-bf7555a0f85d}</formid>
+    <IntroducedVersion>1.0.0021</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1900" showImage="false" shownavigationbar="true">
+      <tabs>
+        <tab id="{2f9f8f11-ec96-46b3-a8aa-b5020da0eac0}" IsUserDefined="1" name="{2f9f8f11-ec96-46b3-a8aa-b5020da0eac0}" verticallayout="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{cc6684cc-049c-4371-9ae1-58682459a75f}" IsUserDefined="0" labelwidth="130" locklevel="0" name="{cc6684cc-049c-4371-9ae1-58682459a75f}" showbar="false" showlabel="false">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell colspan="2" id="{5d8d8c3a-4460-481f-a510-bcf2e111c480}" locklevel="1" showlabel="true">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_name" disabled="false" id="adx_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell auto="false" colspan="2" id="{0e4896b7-b0dd-4f0b-84a7-851b15b37f1b}" locklevel="1" rowspan="1" showlabel="true">
+                        <labels>
+                          <label description="Website" languagecode="1033" />
+                        </labels>
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_websiteid" disabled="false" id="adx_websiteid" uniqueid="{93b5649d-b599-9e8a-7826-da8ec2b29a92}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell auto="false" colspan="2" id="{abf505a3-30ef-4dd6-8161-04afec6d8ea1}" locklevel="1" rowspan="1" showlabel="true">
+                        <labels>
+                          <label description="Parent Page" languagecode="1033" />
+                        </labels>
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_parentpageid" disabled="false" id="adx_parentpageid" uniqueid="{59458440-461a-a6ca-7296-355e58822ce6}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{D40F1C4B-2B80-4D7D-8ED1-D5817562AB54}</DefaultViewId>
+                            <FilterRelationshipName>adx_website_webpage</FilterRelationshipName>
+                            <DependentAttributeName>adx_webpage.adx_websiteid</DependentAttributeName>
+                            <DependentAttributeType>adx_website</DependentAttributeType>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell auto="false" id="{0e353a11-4af9-448a-b326-480a75d19671}" locklevel="1" rowspan="1" showlabel="true">
+                        <labels>
+                          <label description="Partial URL" languagecode="1033" />
+                        </labels>
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_partialurl" disabled="false" id="adx_partialurl" uniqueid="{645660e7-859c-9672-d4b9-7eb169665c7d}" />
+                      </cell>
+                      <cell auto="false" colspan="1" id="{8b6b9923-d053-4cf0-b79a-cc2b86e53195}" locklevel="0" rowspan="1" showlabel="true">
+                        <labels>
+                          <label description="Display Date" languagecode="1033" />
+                        </labels>
+                        <control classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="adx_displaydate" disabled="false" id="adx_displaydate" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell auto="false" colspan="1" id="{b2116934-35aa-447f-b0e3-1b7b6ee20a33}" locklevel="1" rowspan="1" showlabel="true">
+                        <labels>
+                          <label description="Page Template" languagecode="1033" />
+                        </labels>
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_pagetemplateid" disabled="false" id="adx_pagetemplateid" uniqueid="{11c12025-c7dd-5d14-ae09-22997069b609}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{602B2791-3782-E411-943A-00155D038602}</DefaultViewId>
+                            <FilterRelationshipName>adx_website_pagetemplate</FilterRelationshipName>
+                            <DependentAttributeName>adx_webpage.adx_websiteid</DependentAttributeName>
+                            <DependentAttributeType>adx_website</DependentAttributeType>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{759e68e6-a0d0-cde9-1863-014cb4076dd1}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Release Date" languagecode="1033" />
+                        </labels>
+                        <control classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="adx_releasedate" disabled="false" id="adx_releasedate" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8e1c9d99-99b0-e121-94d8-28045e5a1921}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Publishing State" languagecode="1033" />
+                        </labels>
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_publishingstateid" disabled="false" id="adx_publishingstateid" uniqueid="{a609be94-7c5b-a8ce-4bac-50d707e2e192}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{C0FC9644-2A90-43CB-93BA-7E06DD4B9641}</DefaultViewId>
+                            <FilterRelationshipName>adx_website_publishingstate</FilterRelationshipName>
+                            <DependentAttributeName>adx_webpage.adx_websiteid</DependentAttributeName>
+                            <DependentAttributeType>adx_website</DependentAttributeType>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{86686e28-4d1b-dc93-595d-cb71dca806b2}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Expiration Date" languagecode="1033" />
+                        </labels>
+                        <control classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="adx_expirationdate" disabled="false" id="adx_expirationdate" uniqueid="{2bac6574-ea9a-6e61-e049-741a162b7d4e}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e70929c4-1347-ec96-5884-12c548438c43}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Web Form" languagecode="1033" />
+                        </labels>
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_webform" disabled="false" id="adx_webform" />
+                      </cell>
+                      <cell id="{ab746db6-b672-b322-d22b-13224db4d842}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{66c33b14-35e7-2b6b-b718-e25b0e68c4e7}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Entity List" languagecode="1033" />
+                        </labels>
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_entitylist" disabled="false" id="adx_entitylist" />
+                      </cell>
+                      <cell id="{ea91c8bd-78b2-6c06-c0ba-584b96791bbe}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b0d6a844-19b4-1744-3e70-3eac33ac25e2}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Entity Form" languagecode="1033" />
+                        </labels>
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_entityform" disabled="false" id="adx_entityform" />
+                      </cell>
+                      <cell id="{b5259ea6-e96a-185b-4e69-5862de36c99e}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{967073cb-c829-13ee-e300-aaea56296177}" locklevel="1" showlabel="true" visible="false">
+                        <labels>
+                          <label description="Root Webpage" languagecode="1033" />
+                        </labels>
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_rootwebpageid" disabled="true" id="adx_rootwebpageid" uniqueid="{ab2b20e5-8ac2-112d-5641-e5c55cec752d}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{D40F1C4B-2B80-4D7D-8ED1-D5817562AB54}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{22252088-ee65-9be8-c539-8d4503080249}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b36b090d-31aa-c357-6456-42115696850d}" locklevel="0" showlabel="true" visible="false">
+                        <labels>
+                          <label description="Is Root" languagecode="1033" />
+                        </labels>
+                        <control classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="adx_isroot" disabled="true" id="adx_isroot" uniqueid="{3634d518-4ab9-49de-eb56-09e1c676dc78}" />
+                      </cell>
+                      <cell id="{9b2bdd43-336b-e9cd-56c5-5625849e5d92}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section celllabelalignment="Left" celllabelposition="Left" columns="1" id="{1894a819-c906-3d24-2428-eee60140b235}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="section_localized_content" showbar="true" showlabel="true">
+                  <labels>
+                    <label description="Localized Content" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell auto="false" colspan="1" id="{2b22b179-7b85-0bd4-ee75-0be1208e5942}" rowspan="6" showlabel="false">
+                        <labels>
+                          <label description="Localized Content" languagecode="1033" />
+                        </labels>
+                        <control classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" id="subgrid_localized_content" indicationOfSubgrid="true" uniqueid="{059c249d-c64e-3bdb-26d5-e74ad51ae799}">
+                          <parameters>
+                            <ViewId>{4D5B1FE1-A25F-E611-80D9-00155D540C06}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>adx_webpage_webpage_rootwebpageid</RelationshipName>
+                            <TargetEntityType>adx_webpage</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{EBC6FC95-4C19-44E0-8BA5-CB188DDF8A14},{4D5B1FE1-A25F-E611-80D9-00155D540C06}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{272cc442-3b9b-dab8-5553-b0e4e8e953ba}" IsUserDefined="0" labelwidth="130" layout="varwidth" locklevel="0" name="{2f9f8f11-ec96-46b3-a8aa-b5020da0eac0}_section_3" showbar="true" showlabel="true">
+                  <labels>
+                    <label description="Page Options" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{89d166b5-7a47-0252-7120-7e589430ba97}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Enable Ratings" languagecode="1033" />
+                        </labels>
+                        <control classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="adx_enablerating" disabled="false" id="adx_enablerating" />
+                      </cell>
+                      <cell id="{a8029f02-0542-4409-ae99-f9cd851a1b3f}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell auto="false" colspan="1" id="{efa5945d-8bd1-40ef-9a4d-ce7004628302}" locklevel="0" rowspan="1" showlabel="true">
+                        <labels>
+                          <label description="Hidden From Sitemap" languagecode="1033" />
+                        </labels>
+                        <control classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="adx_hiddenfromsitemap" disabled="false" id="adx_hiddenfromsitemap" />
+                      </cell>
+                      <cell id="{281fcb00-4730-446a-8060-2e0faee8c59d}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{83da7c43-4689-a0be-32d0-ca0a985ce8b4}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Exclude From Search" languagecode="1033" />
+                        </labels>
+                        <control classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="adx_excludefromsearch" disabled="false" id="adx_excludefromsearch" />
+                      </cell>
+                      <cell id="{90b9871a-70e9-91a9-1e79-660a8c66e4b6}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{557ad1dd-6573-3e7c-1184-2268797a3b1d}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Comment Policy" languagecode="1033" />
+                        </labels>
+                        <control classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="adx_feedbackpolicy" disabled="false" id="adx_feedbackpolicy" />
+                      </cell>
+                      <cell id="{4f1e17df-d229-49ae-b62a-87c02ef1d188}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{863cb6cd-ec28-6861-5b63-4b50b6d11045}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Allow Origin" languagecode="1033" />
+                        </labels>
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_alloworigin" disabled="false" id="adx_alloworigin" />
+                      </cell>
+                      <cell id="{ceb1ae36-fb43-4f37-bbfe-ada39b0b2004}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{1ccd5e57-be5d-8870-800a-e6902a669c20}" IsUserDefined="0" labelwidth="130" layout="varwidth" locklevel="0" name="{2f9f8f11-ec96-46b3-a8aa-b5020da0eac0}_section_4" showbar="true" showlabel="true">
+                  <labels>
+                    <label description="Miscellaneous" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell auto="false" colspan="1" id="{9fd117da-6be9-4f39-8b9d-333137982ec9}" locklevel="0" rowspan="1" showlabel="true">
+                        <labels>
+                          <label description="Author" languagecode="1033" />
+                        </labels>
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_authorid" disabled="false" id="adx_authorid">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{A2D479C5-53E3-4C69-ADDD-802327E67A0D}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{7ea08c77-868a-8819-5cdc-7170cc0e6ca4}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_meta_description" disabled="false" id="adx_meta_description" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell auto="false" colspan="1" id="{5958e8f3-2d27-4cea-8b2f-399ec76304ef}" locklevel="0" rowspan="1" showlabel="true">
+                        <labels>
+                          <label description="Subject" languagecode="1033" />
+                        </labels>
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_subjectid" disabled="false" id="adx_subjectid">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{FA1A7EF7-53E4-40A6-97D2-5935ADAF1277}</DefaultViewId>
+                            <AvailableViewIds>{796024E0-4525-4DFE-A23F-6B3B6000099D},{FA1A7EF7-53E4-40A6-97D2-5935ADAF1277}</AvailableViewIds>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell auto="false" colspan="1" id="{1c95b1ea-4f41-4b6d-b09c-0e77c428048d}" locklevel="0" rowspan="1" showlabel="true">
+                        <labels>
+                          <label description="Category" languagecode="1033" />
+                        </labels>
+                        <control classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="adx_category" disabled="false" id="adx_category" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell auto="false" colspan="1" id="{ced1d6eb-0939-4eaf-9d3e-dd59ff9ffc5d}" locklevel="0" rowspan="1" showlabel="true">
+                        <labels>
+                          <label description="Display Order" languagecode="1033" />
+                        </labels>
+                        <control classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="adx_displayorder" disabled="false" id="adx_displayorder" />
+                      </cell>
+                      <cell colspan="1" id="{bb31c120-3323-1591-9b7c-8a3600c10335}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Image URL" languagecode="1033" />
+                        </labels>
+                        <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_imageurl" disabled="false" id="adx_imageurl" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell colspan="1" id="{a91d68ed-01bb-9aa9-7631-b977d2d200ba}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Image" languagecode="1033" />
+                        </labels>
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_image" disabled="false" id="adx_image">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{284BCD7A-A506-4F40-A709-1A4384AF1F02}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{ee2ba6db-869d-135e-a8ed-7162808403ae}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell colspan="2" id="{e079157e-b3b9-e8eb-0ed9-9b174277e11d}" locklevel="0" rowspan="4" showlabel="true">
+                        <labels>
+                          <label description="Editorial Comments" languagecode="1033" />
+                        </labels>
+                        <control classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="adx_editorialcomments" disabled="false" id="adx_editorialcomments" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell colspan="2" id="{1345cd83-699b-6d61-439b-59b7136c60c7}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Master Web Page" languagecode="1033" />
+                        </labels>
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="adx_masterwebpageid" disabled="false" id="adx_masterwebpageid">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{D40F1C4B-2B80-4D7D-8ED1-D5817562AB54}</DefaultViewId>
+                            <AvailableViewIds>{EBC6FC95-4C19-44E0-8BA5-CB188DDF8A14},{AAB2F4BB-7813-46B2-9891-4C050325962B},{DE9079AB-17E2-DF11-8658-00155D036405},{D40F1C4B-2B80-4D7D-8ED1-D5817562AB54}</AvailableViewIds>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab expanded="true" id="{ddb6896e-58c8-e1e8-4252-74e86e19d840}" IsUserDefined="0" locklevel="0" name="tab_5" showlabel="true">
+          <labels>
+            <label description="Child Pages" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{d7b24827-6d50-37d5-5726-04a288e1157e}" IsUserDefined="0" labelwidth="130" layout="varwidth" locklevel="0" name="tab_5_section_1" showbar="false" showlabel="false">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell auto="false" colspan="2" id="{e2a39943-bba3-edd6-636c-5abc3563227c}" rowspan="12" showlabel="true">
+                        <labels>
+                          <label description=" " languagecode="1033" />
+                        </labels>
+                        <control classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" id="childPages">
+                          <parameters>
+                            <ViewId>{EBC6FC95-4C19-44E0-8BA5-CB188DDF8A14}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>adx_webpage_webpage</RelationshipName>
+                            <TargetEntityType>adx_webpage</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>true</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{EBC6FC95-4C19-44E0-8BA5-CB188DDF8A14}</ViewIds>
+                            <EnableJumpBar>true</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>10</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab expanded="false" id="{b9b905b4-99d7-b744-2089-5c804aa6cdb8}" IsUserDefined="0" locklevel="0" name="tab_childfiles" showlabel="true">
+          <labels>
+            <label description="Child Files" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section columns="1" id="{41873666-4bd3-1a02-5022-49720a804713}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="tab_6_section_1" showbar="false" showlabel="false">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell auto="false" colspan="1" id="{709d3ea1-300c-11c7-d25b-42065dc720e1}" rowspan="12" showlabel="true">
+                        <labels>
+                          <label description=" " languagecode="1033" />
+                        </labels>
+                        <control classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" id="grid_childfiles">
+                          <parameters>
+                            <ViewId>{031F8184-11B6-44EE-8FAD-3D968385580C}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>adx_webpage_webfile</RelationshipName>
+                            <TargetEntityType>adx_webfile</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>true</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{031F8184-11B6-44EE-8FAD-3D968385580C}</ViewIds>
+                            <EnableJumpBar>true</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>10</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab expanded="false" id="{1dedb5de-d2e4-b104-4482-69c9ee852d3b}" IsUserDefined="0" locklevel="0" name="tab_accesscontrolrules" showlabel="true">
+          <labels>
+            <label description="Access Control Rules" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section columns="1" id="{5184b1b3-8705-7bd3-b202-ecec302093d6}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="tab_6_section_2" showbar="false" showlabel="false">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell auto="false" colspan="1" id="{e2817a7a-1d56-0d25-7da1-766eb50ece6b}" rowspan="12" showlabel="false">
+                        <labels>
+                          <label description=" " languagecode="1033" />
+                        </labels>
+                        <control classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" id="grid_accesscontrolrules">
+                          <parameters>
+                            <ViewId>{6563C717-A829-4B71-94DE-A27DC5A4AAF4}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>adx_webpage_webpageaccesscontrolrule</RelationshipName>
+                            <TargetEntityType>adx_webpageaccesscontrolrule</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{6563C717-A829-4B71-94DE-A27DC5A4AAF4}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>10</RecordsPerPage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab expanded="false" id="{a0ce312b-36a5-ab26-15b6-7086b8d62ac7}" IsUserDefined="0" locklevel="0" name="tab_7" showlabel="true">
+          <labels>
+            <label description="Advanced" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section celllabelalignment="Left" celllabelposition="Left" columns="1" id="{010307d9-1e5e-ac4c-6903-1d73d6c36a41}" IsUserDefined="0" labelwidth="130" layout="varwidth" locklevel="0" name="tab_7_section_1" showbar="false" showlabel="false">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6b24837c-530a-544b-e8da-1b0cb72eda90}" showlabel="true" visible="false">
+                        <labels>
+                          <label description="Custom JavaScript" languagecode="1033" />
+                        </labels>
+                        <control classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="adx_customjavascript" disabled="false" id="adx_customjavascript" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell auto="false" colspan="1" id="{828cee19-7647-eba7-814b-a151080e326b}" rowspan="8" showlabel="true">
+                        <labels>
+                          <label description="Custom Javascript" languagecode="1033" />
+                        </labels>
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_adx_customjavascript_editor">
+                          <parameters>
+                            <Url>adx_monaco/monaco_js.html</Url>
+                            <PassParameters>false</PassParameters>
+                            <Security>false</Security>
+                            <Scrolling>auto</Scrolling>
+                            <Border>false</Border>
+                            <Data>field=adx_customjavascript&amp;sync=true</Data>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{789c0eba-6133-1627-10a4-43678ade5934}" showlabel="false" userspacer="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{79a40a76-4925-c935-26dd-6d7811d9d181}" showlabel="true" visible="false">
+                        <labels>
+                          <label description="Custom CSS" languagecode="1033" />
+                        </labels>
+                        <control classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="adx_customcss" disabled="false" id="adx_customcss" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell auto="false" colspan="1" id="{53b54a93-e8c9-91ea-e836-ad3787de6e9a}" rowspan="8" showlabel="true">
+                        <labels>
+                          <label description="Custom CSS" languagecode="1033" />
+                        </labels>
+                        <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_adx_customcss_editor">
+                          <parameters>
+                            <Url>adx_monaco/monaco_css.html</Url>
+                            <Data>field=adx_customcss&amp;sync=true</Data>
+                            <PassParameters>false</PassParameters>
+                            <Security>false</Security>
+                            <Scrolling>auto</Scrolling>
+                            <Border>false</Border>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab expanded="false" id="{ec7a0995-0aec-dd11-9268-0003ff48c0db}" IsUserDefined="1" locklevel="0" name="{ec7a0995-0aec-dd11-9268-0003ff48c0db}">
+          <labels>
+            <label description="Administration" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section columns="11" id="{ed7a0995-0aec-dd11-9268-0003ff48c0db}" IsUserDefined="1" labelwidth="115" layout="varwidth" locklevel="0" name="{ed7a0995-0aec-dd11-9268-0003ff48c0db}" showbar="false" showlabel="false">
+                  <labels>
+                    <label description="System" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell auto="false" colspan="2" id="{67cb1687-e23e-43d9-a069-35ad016ef5c2}" locklevel="0" rowspan="1" showlabel="true">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" id="ownerid">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab expanded="false" id="{b1775f34-2986-453a-845e-40cb68afa263}" IsUserDefined="0" name="{b1775f34-2986-453a-845e-40cb68afa263}">
+          <labels>
+            <label description="Notes" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section columns="11" height="auto" id="{4495a9f9-6592-469d-b0e2-9b4ba12cefb2}" IsUserDefined="0" name="{4495a9f9-6592-469d-b0e2-9b4ba12cefb2}" showbar="false" showlabel="false">
+                  <labels>
+                    <label description="Notes" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell auto="true" colspan="2" id="{5ebb8552-4310-4cce-990f-de02d6334ad6}" rowspan="5" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control classid="{06375649-c143-495e-a496-c962e5b4488e}" id="notescontrol" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer columns="1" id="{3eaf6e37-c8b8-4712-867b-31880e6e35b8}">
+        <rows>
+          <row>
+            <cell id="{aa834143-770c-4d11-bafe-8ddc1b1dde14}">
+              <labels>
+                <label description="Status" languagecode="1033" />
+              </labels>
+              <control classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" id="footer_statecode" />
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+              <Title LCID="1026" Text="Обща информация" />
+              <Title LCID="1027" Text="Comú" />
+              <Title LCID="1029" Text="Obecné" />
+              <Title LCID="1030" Text="Almindelig" />
+              <Title LCID="1031" Text="Allgemein" />
+              <Title LCID="1032" Text="Κοινό" />
+              <Title LCID="3082" Text="Común" />
+              <Title LCID="1061" Text="Levinud" />
+              <Title LCID="1069" Text="Ohikoak" />
+              <Title LCID="1035" Text="Yhteiset" />
+              <Title LCID="1036" Text="Éléments communs" />
+              <Title LCID="1110" Text="Común" />
+              <Title LCID="1081" Text="सामान्य" />
+              <Title LCID="1050" Text="Uobičajeno" />
+              <Title LCID="1038" Text="Általános" />
+              <Title LCID="1057" Text="Umum" />
+              <Title LCID="1040" Text="Elementi comuni" />
+              <Title LCID="1087" Text="Жалпы" />
+              <Title LCID="1063" Text="Bendra" />
+              <Title LCID="1062" Text="Kopējs" />
+              <Title LCID="1086" Text="Umum" />
+              <Title LCID="1044" Text="Felles" />
+              <Title LCID="1043" Text="Algemeen" />
+              <Title LCID="1045" Text="Wspólne" />
+              <Title LCID="1046" Text="Comum" />
+              <Title LCID="2070" Text="Comum" />
+              <Title LCID="1048" Text="Comun" />
+              <Title LCID="1049" Text="Общее" />
+              <Title LCID="1051" Text="Spoločné" />
+              <Title LCID="1060" Text="Splošno" />
+              <Title LCID="3098" Text="Уобичајено" />
+              <Title LCID="2074" Text="Uobičajeno" />
+              <Title LCID="9242" Text="Uobičajeno" />
+              <Title LCID="1053" Text="Gemensamt" />
+              <Title LCID="1054" Text="ทั่วไป" />
+              <Title LCID="1055" Text="Ortak" />
+              <Title LCID="1058" Text="Загальне" />
+              <Title LCID="1066" Text="Thông thường" />
+              <Title LCID="1041" Text="共通" />
+              <Title LCID="1042" Text="일반" />
+              <Title LCID="10266" Text="Уобичајено" />
+              <Title LCID="2052" Text="公用" />
+              <Title LCID="3076" Text="一般" />
+              <Title LCID="1028" Text="一般" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+              <Title LCID="1026" Text="Продажби" />
+              <Title LCID="1027" Text="Vendes" />
+              <Title LCID="1029" Text="Prodej" />
+              <Title LCID="1030" Text="Salg" />
+              <Title LCID="1031" Text="Vertrieb" />
+              <Title LCID="1032" Text="Πωλήσεις" />
+              <Title LCID="3082" Text="Ventas" />
+              <Title LCID="1061" Text="Müük" />
+              <Title LCID="1069" Text="Salmentak" />
+              <Title LCID="1035" Text="Myynti" />
+              <Title LCID="1036" Text="Ventes" />
+              <Title LCID="1110" Text="Vendas" />
+              <Title LCID="1081" Text="विक्रय" />
+              <Title LCID="1050" Text="Prodaja" />
+              <Title LCID="1038" Text="Értékesítés" />
+              <Title LCID="1057" Text="Penjualan" />
+              <Title LCID="1040" Text="Vendite" />
+              <Title LCID="1087" Text="Сатылым" />
+              <Title LCID="1063" Text="Pardavimas" />
+              <Title LCID="1062" Text="Pārdošana" />
+              <Title LCID="1086" Text="Jualan" />
+              <Title LCID="1044" Text="Salg" />
+              <Title LCID="1043" Text="Verkoop" />
+              <Title LCID="1045" Text="Sprzedaż" />
+              <Title LCID="1046" Text="Vendas" />
+              <Title LCID="2070" Text="Vendas" />
+              <Title LCID="1048" Text="Vânzări" />
+              <Title LCID="1049" Text="Продажи" />
+              <Title LCID="1051" Text="Predaj" />
+              <Title LCID="1060" Text="Prodaja" />
+              <Title LCID="3098" Text="Продаја" />
+              <Title LCID="2074" Text="Prodaja" />
+              <Title LCID="9242" Text="Prodaja" />
+              <Title LCID="1053" Text="Försäljning" />
+              <Title LCID="1054" Text="การขาย" />
+              <Title LCID="1055" Text="Satış" />
+              <Title LCID="1058" Text="Збут" />
+              <Title LCID="1066" Text="Bán hàng" />
+              <Title LCID="1041" Text="営業" />
+              <Title LCID="1042" Text="영업" />
+              <Title LCID="10266" Text="Продаја" />
+              <Title LCID="2052" Text="销售" />
+              <Title LCID="3076" Text="銷售" />
+              <Title LCID="1028" Text="銷售" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+              <Title LCID="1026" Text="Обслужване" />
+              <Title LCID="1027" Text="Servei" />
+              <Title LCID="1029" Text="Služby" />
+              <Title LCID="1030" Text="Service" />
+              <Title LCID="1031" Text="Service" />
+              <Title LCID="1032" Text="Υπηρεσία" />
+              <Title LCID="3082" Text="Servicio" />
+              <Title LCID="1061" Text="Teenindus" />
+              <Title LCID="1069" Text="Zerbitzua" />
+              <Title LCID="1035" Text="Palvelu" />
+              <Title LCID="1036" Text="Service" />
+              <Title LCID="1110" Text="Servizo" />
+              <Title LCID="1081" Text="सेवा" />
+              <Title LCID="1050" Text="Usluga" />
+              <Title LCID="1038" Text="Szolgáltatás" />
+              <Title LCID="1057" Text="Layanan" />
+              <Title LCID="1040" Text="Servizio" />
+              <Title LCID="1087" Text="Қызмет" />
+              <Title LCID="1063" Text="Paslauga" />
+              <Title LCID="1062" Text="Serviss" />
+              <Title LCID="1086" Text="Perkhidmatan" />
+              <Title LCID="1044" Text="Service" />
+              <Title LCID="1043" Text="Service" />
+              <Title LCID="1045" Text="Usługa" />
+              <Title LCID="1046" Text="Serviço" />
+              <Title LCID="2070" Text="Serviço" />
+              <Title LCID="1048" Text="Serviciu" />
+              <Title LCID="1049" Text="Сервис" />
+              <Title LCID="1051" Text="Služba" />
+              <Title LCID="1060" Text="Storitev" />
+              <Title LCID="3098" Text="Услуга" />
+              <Title LCID="2074" Text="Usluga" />
+              <Title LCID="9242" Text="Usluga" />
+              <Title LCID="1053" Text="Tjänst" />
+              <Title LCID="1054" Text="การบริการ" />
+              <Title LCID="1055" Text="Servis" />
+              <Title LCID="1058" Text="Послуга" />
+              <Title LCID="1066" Text="Dịch vụ" />
+              <Title LCID="1041" Text="サービス" />
+              <Title LCID="1042" Text="서비스" />
+              <Title LCID="10266" Text="Услуга" />
+              <Title LCID="2052" Text="服务" />
+              <Title LCID="3076" Text="服務" />
+              <Title LCID="1028" Text="服務" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+              <Title LCID="1026" Text="Маркетинг" />
+              <Title LCID="1027" Text="Màrqueting" />
+              <Title LCID="1029" Text="Marketing" />
+              <Title LCID="1030" Text="Marketing" />
+              <Title LCID="1031" Text="Marketing" />
+              <Title LCID="1032" Text="Μάρκετινγκ" />
+              <Title LCID="3082" Text="Marketing" />
+              <Title LCID="1061" Text="Turundus" />
+              <Title LCID="1069" Text="Marketina" />
+              <Title LCID="1035" Text="Markkinointi" />
+              <Title LCID="1036" Text="Marketing" />
+              <Title LCID="1110" Text="Márketing" />
+              <Title LCID="1081" Text="मार्केटिंग" />
+              <Title LCID="1050" Text="Marketing" />
+              <Title LCID="1038" Text="Marketing" />
+              <Title LCID="1057" Text="Pemasaran" />
+              <Title LCID="1040" Text="Marketing" />
+              <Title LCID="1087" Text="Маркетинг" />
+              <Title LCID="1063" Text="Rinkodara" />
+              <Title LCID="1062" Text="Mārketings" />
+              <Title LCID="1086" Text="Pemasaran" />
+              <Title LCID="1044" Text="Markedsføring" />
+              <Title LCID="1043" Text="Marketing" />
+              <Title LCID="1045" Text="Marketing" />
+              <Title LCID="1046" Text="Marketing" />
+              <Title LCID="2070" Text="Marketing" />
+              <Title LCID="1048" Text="Marketing" />
+              <Title LCID="1049" Text="Маркетинг" />
+              <Title LCID="1051" Text="Marketing" />
+              <Title LCID="1060" Text="Trženje" />
+              <Title LCID="3098" Text="Маркетинг" />
+              <Title LCID="2074" Text="Marketing" />
+              <Title LCID="9242" Text="Marketing" />
+              <Title LCID="1053" Text="Marknadsföring" />
+              <Title LCID="1054" Text="การตลาด" />
+              <Title LCID="1055" Text="Pazarlama" />
+              <Title LCID="1058" Text="Маркетинг" />
+              <Title LCID="1066" Text="Tiếp thị" />
+              <Title LCID="1041" Text="マーケティング" />
+              <Title LCID="1042" Text="마케팅" />
+              <Title LCID="10266" Text="Маркетинг" />
+              <Title LCID="2052" Text="市场营销" />
+              <Title LCID="3076" Text="行銷" />
+              <Title LCID="1028" Text="行銷" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Processes" />
+              <Title LCID="1026" Text="Процеси" />
+              <Title LCID="1027" Text="Processos" />
+              <Title LCID="1029" Text="Procesy" />
+              <Title LCID="1030" Text="Processer" />
+              <Title LCID="1031" Text="Prozesse" />
+              <Title LCID="1032" Text="Διεργασίες" />
+              <Title LCID="3082" Text="Procesos" />
+              <Title LCID="1061" Text="Protsessid" />
+              <Title LCID="1069" Text="Prozesuak" />
+              <Title LCID="1035" Text="Prosessit" />
+              <Title LCID="1036" Text="Processus" />
+              <Title LCID="1110" Text="Procesos" />
+              <Title LCID="1081" Text="प्रक्रियाएँ" />
+              <Title LCID="1050" Text="Procesi" />
+              <Title LCID="1038" Text="Folyamatok" />
+              <Title LCID="1057" Text="Proses" />
+              <Title LCID="1040" Text="Processi" />
+              <Title LCID="1087" Text="Процестер" />
+              <Title LCID="1063" Text="Procesai" />
+              <Title LCID="1062" Text="Procesi" />
+              <Title LCID="1086" Text="Proses" />
+              <Title LCID="1044" Text="Prosesser" />
+              <Title LCID="1043" Text="Processen" />
+              <Title LCID="1045" Text="Procesy" />
+              <Title LCID="1046" Text="Processos" />
+              <Title LCID="2070" Text="Processos" />
+              <Title LCID="1048" Text="Procese" />
+              <Title LCID="1049" Text="Процессы" />
+              <Title LCID="1051" Text="Procesy" />
+              <Title LCID="1060" Text="Procesi" />
+              <Title LCID="3098" Text="Процеси" />
+              <Title LCID="2074" Text="Procesi" />
+              <Title LCID="9242" Text="Procesi" />
+              <Title LCID="1053" Text="Processer" />
+              <Title LCID="1054" Text="กระบวนการ" />
+              <Title LCID="1055" Text="İşlemler" />
+              <Title LCID="1058" Text="Процеси" />
+              <Title LCID="1066" Text="Quy trình" />
+              <Title LCID="1041" Text="プロセス" />
+              <Title LCID="1042" Text="프로세스" />
+              <Title LCID="10266" Text="Процеси" />
+              <Title LCID="2052" Text="流程" />
+              <Title LCID="3076" Text="程序" />
+              <Title LCID="1028" Text="程序" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+        <NavBar />
+      </Navigation>
+      <controlDescriptions />
+      <externaldependencies>
+        <dependency id="adx_name" />
+        <dependency id="adx_pagetemplateid" />
+        <dependency id="adx_parentpageid" />
+        <dependency id="adx_partialurl" />
+        <dependency id="adx_websiteid" />
+        <dependency id="adx_rootwebpageid" />
+      </externaldependencies>
+      <formLibraries>
+        <Library libraryUniqueId="{66cb9c6a-8361-924d-919d-32a3956b9569}" name="msa_scripts/jquery1.9.1.min.js" />
+        <Library libraryUniqueId="{549be968-ee5a-d2c2-5769-acdaadc4bc24}" name="adx_multilanguage/adx.webpage.root.js" />
+        <Library libraryUniqueId="{c5114a6c-d41b-ccdd-dd57-bd510b1e38b2}" name="msa_resources/ResourcesManager.js" />
+        <Library libraryUniqueId="{104cc5ea-d523-3465-93a8-249ad9e07341}" name="adx_webpage/adx_webpagefieldvalidation.js" />
+      </formLibraries>
+      <events>
+        <event active="false" application="false" name="onload">
+          <Handlers>
+            <Handler enabled="true" functionName="adx.multilanguage.webpage.root.formLoad" handlerUniqueId="{d78c4c7c-4c71-530c-7216-9c225da778ee}" libraryName="adx_multilanguage/adx.webpage.root.js" parameters="&quot;007c799c-a87f-4471-b00b-bf7555a0f85d&quot;,&quot;4c2b38f7-578b-4078-bcf6-703d932ebf3a&quot;" passExecutionContext="false" />
+            <Handler enabled="true" functionName="adx.adx_webpage.loadResources" handlerUniqueId="{93db7666-aac9-ccbe-6ba7-721d83801502}" libraryName="adx_webpage/adx_webpagefieldvalidation.js" parameters="" passExecutionContext="false" />
+          </Handlers>
+        </event>
+        <event active="false" application="false" attribute="adx_publishingstateid" name="onchange">
+          <Handlers>
+            <Handler enabled="true" functionName="adx.adx_webpage.validatePublishingState" handlerUniqueId="{0b9b8d03-0a13-755d-b00e-eba1c3312a25}" libraryName="adx_webpage/adx_webpagefieldvalidation.js" parameters="" passExecutionContext="false" />
+          </Handlers>
+        </event>
+        <event active="false" application="false" attribute="adx_expirationdate" name="onchange">
+          <Handlers>
+            <Handler enabled="true" functionName="adx.adx_webpage.validateExpirationDate" handlerUniqueId="{5916c31b-b498-0c88-7be1-bb2b9be04174}" libraryName="adx_webpage/adx_webpagefieldvalidation.js" parameters="" passExecutionContext="false" />
+          </Handlers>
+        </event>
+        <event active="false" application="false" attribute="adx_partialurl" name="onchange">
+          <Handlers>
+            <Handler enabled="true" functionName="adx.adx_webpage.validatePartialUrl" handlerUniqueId="{0c394be2-409c-770b-2e06-04d53ddc5b2b}" libraryName="adx_webpage/adx_webpagefieldvalidation.js" parameters="" passExecutionContext="false" />
+          </Handlers>
+        </event>
+        <event active="false" application="false" attribute="adx_parentpageid" name="onchange">
+          <Handlers>
+            <Handler enabled="true" functionName="adx.adx_webpage.validatePartialUrl" handlerUniqueId="{522d3d84-9336-3c92-d300-26405e147ee0}" libraryName="adx_webpage/adx_webpagefieldvalidation.js" parameters="" passExecutionContext="false" />
+          </Handlers>
+        </event>
+      </events>
+      <DisplayConditions FallbackForm="true" Order="1">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -407,7 +407,8 @@
               </sections>
             </column>
           </columns>
-        </tab></tabs>
+        </tab>
+      </tabs>
       <Navigation>
         <NavBar></NavBar>
         <NavBarAreas>
