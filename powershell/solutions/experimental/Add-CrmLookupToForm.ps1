@@ -18,26 +18,28 @@ $sectionLogicalName = ($SectionDisplayName.ToLower() -Replace " ", "_")
 $xml = New-Object xml
 $xml.PreserveWhitespace = $true
 
-$formXmlFilePath = (Get-Item "$SolutionFolderPath\Entities\$EntityLogicalName\FormXml\main\*.xml")[0].FullName
-$xml.Load($formXmlFilePath)
+$formXmlFiles = (Get-Item "$SolutionFolderPath\Entities\$EntityLogicalName\FormXml\main\*.xml")
+$formXmlFiles | ForEach-Object {
+    $formXmlFilePath = $_.FullName
+    $xml.Load($formXmlFilePath)
 
-$systemFormXmlNode = $xml.SelectSingleNode("/forms/systemform")
-$systemFormXmlNode.RemoveAttribute("unmodified")
+    $systemFormXmlNode = $xml.SelectSingleNode("/forms/systemform")
+    $systemFormXmlNode.RemoveAttribute("unmodified")
 
-$tabsXmlNode = $xml.SelectSingleNode("/forms/systemform/form/tabs")
-$tabsXmlNode.Children | ForEach-Object {
-  if($_ -ne $null) {
-    $tabMatchesName = $_.SelectSingleNode("child::labels/label[@description='$TabDisplayName']") -ne $null
-    if($tabMatchesName) {
-      $tabXmlNode = $_
+    $tabsXmlNode = $xml.SelectSingleNode("/forms/systemform/form/tabs")
+    $tabsXmlNode.ChildNodes | ForEach-Object {
+      if($_ -ne $null) {
+        $tabMatchesName = $_.SelectSingleNode("child::labels/label[@description='$TabDisplayName']") -ne $null
+        if($tabMatchesName) {
+          $tabXmlNode = $_
+        }
+      }
     }
-  }
-}
 
-if($tabXmlNode -eq $null) {
-  $tabUniqueName = "tab_$($TabDisplayName.ToLower() -Replace " ", "_")"
-  $tabsXmlNode.InnerXML +=
-      "  <tab expanded=`"true`" id=`"{$([Guid]::NewGuid())}`" IsUserDefined=`"0`" locklevel=`"0`" name=`"$tabUniqueName`" showlabel=`"true`">
+    if($tabXmlNode -eq $null) {
+      $tabUniqueName = "tab_$($TabDisplayName.ToLower() -Replace " ", "_")"
+      $tabsXmlNode.InnerXML +=
+     "  <tab expanded=`"true`" id=`"{$([Guid]::NewGuid())}`" IsUserDefined=`"0`" locklevel=`"0`" name=`"$tabUniqueName`" showlabel=`"true`">
           <labels>
             <label description=`"$TabDisplayName`" languagecode=`"1033`" />
           </labels>
@@ -46,13 +48,14 @@ if($tabXmlNode -eq $null) {
               <sections></sections>
             </column>
           </columns>
-        </tab>"
-  $tabXmlNode = $tabsXmlNode.ChildNodes[$tabsXmlNode.ChildNodes.Count - 1]
-}
-$sectionsXmlNode = $tabXmlNode.SelectSingleNode("child::columns/column/sections")
-$sectionsXmlNode.InnerXML +=
-    $(if($sectionsXmlNode.InnerXML.Length -eq 0) { "`r`n              " }) +
-"  <section celllabelalignment=`"Left`" celllabelposition=`"Left`" columns=`"1`" id=`"{$([Guid]::NewGuid())}`" IsUserDefined=`"0`" labelwidth=`"115`" layout=`"varwidth`" locklevel=`"0`" name=`"section_$sectionLogicalName`" showbar=`"false`" showlabel=`"false`">
+        </tab>
+      "
+      $tabXmlNode = $tabsXmlNode.ChildNodes[$tabsXmlNode.ChildNodes.Count - 1]
+    }
+    $sectionsXmlNode = $tabXmlNode.SelectSingleNode("child::columns/column/sections")
+    $sectionsXmlNode.InnerXML +=
+        $(if($sectionsXmlNode.InnerXML.Length -eq 0) { "`r`n              " }) +
+              "  <section celllabelalignment=`"Left`" celllabelposition=`"Left`" columns=`"1`" id=`"{$([Guid]::NewGuid())}`" IsUserDefined=`"0`" labelwidth=`"115`" layout=`"varwidth`" locklevel=`"0`" name=`"section_$sectionLogicalName`" showbar=`"false`" showlabel=`"false`">
                   <labels>
                     <label description=`"$SectionDisplayName`" languagecode=`"1033`" />
                   </labels>
@@ -69,4 +72,5 @@ $sectionsXmlNode.InnerXML +=
                 </section>
               "
 
-$xml.Save($formXmlFilePath)
+    $xml.Save($formXmlFilePath)
+}
