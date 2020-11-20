@@ -21,6 +21,9 @@ $xml.PreserveWhitespace = $true
 $formXmlFilePath = (Get-Item "$SolutionFolderPath\Entities\$EntityLogicalName\FormXml\main\*.xml")[0].FullName
 $xml.Load($formXmlFilePath)
 
+$systemFormXmlNode = $xml.SelectSingleNode("/forms/systemform")
+$systemFormXmlNode.RemoveAttribute("unmodified")
+
 $tabsXmlNode = $xml.SelectSingleNode("/forms/systemform/form/tabs")
 $tabsXmlNode.Children | ForEach-Object {
   if($_ -ne $null) {
