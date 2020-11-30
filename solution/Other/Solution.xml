@@ -2986,7 +2986,19 @@
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Publishing State" schemaName="adx_publishingstate" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="mdce_Adx_publishingstate_mdce_module_id_mdce_p" parentDisplayName="Portal Module" parentSchemaName="mdce_portal_module" schemaName="mdce_Adx_publishingstate_mdce_module_id_mdce_p" type="10" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Publishing State" schemaName="adx_publishingstate" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="Module" parentDisplayName="Publishing State" parentSchemaName="adx_publishingstate" schemaName="mdce_module_id" type="2" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Publishing State" schemaName="adx_publishingstate" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
         <Dependent displayName="Publishing State" schemaName="adx_publishingstate" type="1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Publishing State" schemaName="adx_publishingstate" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent parentDisplayName="Publishing State" parentSchemaName="adx_publishingstate" schemaName="mdce_module_idname" type="2" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Query String Parameter Name" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_redirecturlquerystringattributeparamname" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />

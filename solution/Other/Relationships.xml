@@ -8,5 +8,6 @@
   <EntityRelationship Name="mdce_adx_entitylist_module_id_mdce_portal_modu" />
   <EntityRelationship Name="mdce_adx_entitypermission_module_id_mdce_porta" />
   <EntityRelationship Name="mdce_Adx_pagetemplate_mdce_module_id_mdce_port" />
+  <EntityRelationship Name="mdce_Adx_publishingstate_mdce_module_id_mdce_p" />
   <EntityRelationship Name="organization_mdce_portal_module" />
 </EntityRelationships>

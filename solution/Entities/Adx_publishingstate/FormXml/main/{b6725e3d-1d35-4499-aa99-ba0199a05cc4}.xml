@@ -98,17 +98,6 @@
                     </row>
                   </rows>
                 </section>
-              </sections>
-            </column>
-          </columns>
-        </tab>
-        <tab expanded="true" id="{f321c633-a6e5-4a33-ac73-14e890a35007}" IsUserDefined="0" locklevel="0" name="tab_administration" showlabel="true">
-          <labels>
-            <label description="Administration" languagecode="1033" />
-          </labels>
-          <columns>
-            <column width="100%">
-              <sections>
                 <section celllabelalignment="Left" celllabelposition="Left" columns="1" id="{9d2ec925-4a3e-4e2a-9f7c-160c07387d8d}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="section_modularization" showbar="false" showlabel="false">
                   <labels>
                     <label description="Modularization" languagecode="1033" />
