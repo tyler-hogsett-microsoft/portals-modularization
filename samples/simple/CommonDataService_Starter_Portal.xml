@@ -19,6 +19,7 @@
       <field displayname="Value" name="adx_value" type="string" customfield="true" />
       <field displayname="Version Number" name="versionnumber" type="bigint" />
       <field displayname="Website" name="adx_websiteid" type="entityreference" lookupType="adx_website" customfield="true" />
+      <field displayname="Module" name="mdce_module_id" type="entityreference" lookupType="mdce_portal_module" customfield="true" />
     </fields>
     <relationships />
   </entity>
@@ -46,6 +47,7 @@
       <field displayname="Version Number" name="versionnumber" type="bigint" />
       <field displayname="Website" name="adx_websiteid" type="entityreference" lookupType="adx_website" customfield="true" />
       <field displayname="Write" name="adx_write" type="bool" customfield="true" />
+      <field displayname="Module" name="mdce_module_id" type="entityreference" lookupType="mdce_portal_module" customfield="true" />
     </fields>
     <relationships>
       <relationship name="adx_entitypermission_webrole" manyToMany="true" isreflexive="false" relatedEntityName="adx_entitypermission_webrole" m2mTargetEntity="adx_webrole" m2mTargetEntityPrimaryKey="adx_webroleid" />
@@ -70,6 +72,7 @@
       <field displayname="Version Number" name="versionnumber" type="bigint" />
       <field displayname="Web Template" name="adx_webtemplateid" type="entityreference" lookupType="adx_webtemplate" customfield="true" />
       <field displayname="Website" name="adx_websiteid" type="entityreference" lookupType="adx_website" customfield="true" />
+      <field displayname="Module" name="mdce_module_id" type="entityreference" lookupType="mdce_portal_module" customfield="true" />
     </fields>
     <relationships />
   </entity>
@@ -88,6 +91,7 @@
       <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
       <field displayname="Version Number" name="versionnumber" type="bigint" />
       <field displayname="Website" name="adx_websiteid" type="entityreference" lookupType="adx_website" customfield="true" />
+      <field displayname="Module" name="mdce_module_id" type="entityreference" lookupType="mdce_portal_module" customfield="true" />
     </fields>
     <relationships />
   </entity>
@@ -104,6 +108,7 @@
       <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
       <field displayname="Value" name="adx_value" type="string" customfield="true" />
       <field displayname="Version Number" name="versionnumber" type="bigint" />
+      <field displayname="Module" name="mdce_module_id" type="entityreference" lookupType="mdce_portal_module" customfield="true" />
     </fields>
     <relationships />
   </entity>
@@ -121,6 +126,7 @@
       <field displayname="Value" name="adx_value" type="string" customfield="true" />
       <field displayname="Version Number" name="versionnumber" type="bigint" />
       <field displayname="Website" name="adx_websiteid" type="entityreference" lookupType="adx_website" customfield="true" />
+      <field displayname="Module" name="mdce_module_id" type="entityreference" lookupType="mdce_portal_module" customfield="true" />
     </fields>
     <relationships />
   </entity>
@@ -157,6 +163,7 @@
       <field displayname="Version Number" name="versionnumber" type="bigint" />
       <field updateCompare="true" displayname="Web File" name="adx_webfileid" type="guid" primaryKey="true" />
       <field displayname="Website" name="adx_websiteid" type="entityreference" lookupType="adx_website" customfield="true" />
+      <field displayname="Module" name="mdce_module_id" type="entityreference" lookupType="mdce_portal_module" customfield="true" />
     </fields>
     <relationships />
   </entity>
@@ -191,6 +198,7 @@
       <field displayname="Version Number" name="versionnumber" type="bigint" />
       <field updateCompare="true" displayname="Web Link" name="adx_weblinkid" type="guid" primaryKey="true" />
       <field displayname="Web Link Set" name="adx_weblinksetid" type="entityreference" lookupType="adx_weblinkset" customfield="true" />
+      <field displayname="Module" name="mdce_module_id" type="entityreference" lookupType="mdce_portal_module" customfield="true" />
     </fields>
     <relationships />
   </entity>
@@ -211,6 +219,7 @@
       <field updateCompare="true" displayname="Web Link Set" name="adx_weblinksetid" type="guid" primaryKey="true" />
       <field displayname="Web Link Set Language" name="adx_websitelanguageid" type="entityreference" lookupType="adx_websitelanguage" customfield="true" />
       <field displayname="Website" name="adx_websiteid" type="entityreference" lookupType="adx_website" customfield="true" />
+      <field displayname="Module" name="mdce_module_id" type="entityreference" lookupType="mdce_portal_module" customfield="true" />
     </fields>
     <relationships />
   </entity>
@@ -265,6 +274,7 @@
       <field updateCompare="true" displayname="Web Page" name="adx_webpageid" type="guid" primaryKey="true" />
       <field displayname="Webpage Language" name="adx_webpagelanguageid" type="entityreference" lookupType="adx_websitelanguage" customfield="true" />
       <field displayname="Website" name="adx_websiteid" type="entityreference" lookupType="adx_website" customfield="true" />
+      <field displayname="Module" name="mdce_module_id" type="entityreference" lookupType="mdce_portal_module" customfield="true" />
     </fields>
     <relationships />
   </entity>
@@ -284,6 +294,7 @@
       <field displayname="Web Page" name="adx_webpageid" type="entityreference" lookupType="adx_webpage" customfield="true" />
       <field updateCompare="true" displayname="Webpage Access Control Rule" name="adx_webpageaccesscontrolruleid" type="guid" primaryKey="true" />
       <field displayname="Website" name="adx_websiteid" type="entityreference" lookupType="adx_website" customfield="true" />
+      <field displayname="Module" name="mdce_module_id" type="entityreference" lookupType="mdce_portal_module" customfield="true" />
     </fields>
     <relationships>
       <relationship name="adx_accesscontrolrule_publishingstate" manyToMany="true" isreflexive="false" relatedEntityName="adx_accesscontrolrule_publishingstate" m2mTargetEntity="adx_publishingstate" m2mTargetEntityPrimaryKey="adx_publishingstateid" />
@@ -306,6 +317,7 @@
       <field displayname="Version Number" name="versionnumber" type="bigint" />
       <field updateCompare="true" displayname="Web Role" name="adx_webroleid" type="guid" primaryKey="true" />
       <field displayname="Website" name="adx_websiteid" type="entityreference" lookupType="adx_website" customfield="true" />
+      <field displayname="Module" name="mdce_module_id" type="entityreference" lookupType="mdce_portal_module" customfield="true" />
     </fields>
     <relationships>
       <relationship name="adx_webrole_contact" manyToMany="true" isreflexive="false" relatedEntityName="adx_webrole_contact" m2mTargetEntity="contact" m2mTargetEntityPrimaryKey="contactid" />
@@ -327,6 +339,7 @@
       <field displayname="Version Number" name="versionnumber" type="bigint" />
       <field updateCompare="true" displayname="Web Template" name="adx_webtemplateid" type="guid" primaryKey="true" />
       <field displayname="Website" name="adx_websiteid" type="entityreference" lookupType="adx_website" customfield="true" />
+      <field displayname="Module" name="mdce_module_id" type="entityreference" lookupType="mdce_portal_module" customfield="true" />
     </fields>
     <relationships />
   </entity>
@@ -348,6 +361,7 @@
       <field displayname="UTC Conversion Time Zone Code" name="utcconversiontimezonecode" type="number" />
       <field displayname="Version Number" name="versionnumber" type="bigint" />
       <field updateCompare="true" displayname="Website" name="adx_websiteid" type="guid" primaryKey="true" />
+      <field displayname="Module" name="mdce_module_id" type="entityreference" lookupType="mdce_portal_module" customfield="true" />
     </fields>
     <relationships>
       <relationship name="adx_website_sponsor" manyToMany="true" isreflexive="false" relatedEntityName="adx_website_sponsor" m2mTargetEntity="account" m2mTargetEntityPrimaryKey="accountid" />
@@ -369,6 +383,7 @@
       <field displayname="Version Number" name="versionnumber" type="bigint" />
       <field displayname="Website" name="adx_websiteid" type="entityreference" lookupType="adx_website" customfield="true" />
       <field updateCompare="true" displayname="Website Access" name="adx_websiteaccessid" type="guid" primaryKey="true" />
+      <field displayname="Module" name="mdce_module_id" type="entityreference" lookupType="mdce_portal_module" customfield="true" />
     </fields>
     <relationships>
       <relationship name="adx_websiteaccess_webrole" manyToMany="true" isreflexive="false" relatedEntityName="adx_websiteaccess_webrole" m2mTargetEntity="adx_webrole" m2mTargetEntityPrimaryKey="adx_webroleid" />
@@ -476,6 +491,7 @@
       <field displayname="Version Number" name="versionnumber" type="bigint" />
       <field displayname="Website" name="adx_websiteid" type="entityreference" lookupType="adx_website" customfield="true" />
       <field displayname="Zip/Postal Code Field Name" name="adx_geolocation_postalcodefieldname" type="string" customfield="true" />
+      <field displayname="Module" name="mdce_module_id" type="entityreference" lookupType="mdce_portal_module" customfield="true" />
     </fields>
     <relationships />
   </entity>
@@ -532,6 +548,7 @@
       <field displayname="Validation Regular Expression" name="adx_validationregularexpression" type="string" customfield="true" />
       <field displayname="Value" name="adx_onsavevalue" type="string" customfield="true" />
       <field displayname="Version Number" name="versionnumber" type="bigint" />
+      <field displayname="Module" name="mdce_module_id" type="entityreference" lookupType="mdce_portal_module" customfield="true" />
     </fields>
     <relationships />
   </entity>
@@ -604,6 +621,7 @@
       <field displayname="Version Number" name="versionnumber" type="bigint" />
       <field updateCompare="true" displayname="Web Form Metadata" name="adx_webformmetadataid" type="guid" primaryKey="true" />
       <field displayname="Web Form Step" name="adx_webformstep" type="entityreference" lookupType="adx_webformstep" customfield="true" />
+      <field displayname="Module" name="mdce_module_id" type="entityreference" lookupType="mdce_portal_module" customfield="true" />
     </fields>
     <relationships />
   </entity>
@@ -680,6 +698,7 @@
       <field displayname="Web Page for Details View" name="adx_webpagefordetailsview" type="entityreference" lookupType="adx_webpage" customfield="true" />
       <field displayname="Website" name="adx_websiteid" type="entityreference" lookupType="adx_website" customfield="true" />
       <field displayname="Zoom" name="adx_map_zoom" type="number" customfield="true" />
+      <field displayname="Module" name="mdce_module_id" type="entityreference" lookupType="mdce_portal_module" customfield="true" />
     </fields>
     <relationships />
   </entity>
@@ -712,6 +731,7 @@
       <field displayname="Version Number" name="versionnumber" type="bigint" />
       <field updateCompare="true" displayname="Web Form" name="adx_webformid" type="guid" primaryKey="true" />
       <field displayname="Website" name="adx_websiteid" type="entityreference" lookupType="adx_website" customfield="true" />
+      <field displayname="Module" name="mdce_module_id" type="entityreference" lookupType="mdce_portal_module" customfield="true" />
     </fields>
     <relationships />
   </entity>
@@ -843,6 +863,7 @@
       <field displayname="Web Form" name="adx_webform" type="entityreference" lookupType="adx_webform" customfield="true" />
       <field updateCompare="true" displayname="Web Form Step" name="adx_webformstepid" type="guid" primaryKey="true" />
       <field displayname="Zip/Postal Code Field Name" name="adx_geolocation_postalcodefieldname" type="string" customfield="true" />
+      <field displayname="Module" name="mdce_module_id" type="entityreference" lookupType="mdce_portal_module" customfield="true" />
     </fields>
     <relationships />
   </entity>
