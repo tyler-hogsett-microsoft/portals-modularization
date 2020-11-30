@@ -6,6 +6,7 @@
 [subrepo]
 	remote = https://github.com/tyler-hogsett-microsoft/portals-modularization-solution.git
 	branch = main
-	commit = 
+	commit = 2cd5a7ea59750aca624ca2dc3211cee75ce693ce
 	method = merge
 	cmdver = 0.4.2
+	parent = 0289e28936a2bd7ca3ff8b7beee276da116eeeb0
