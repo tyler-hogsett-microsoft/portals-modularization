@@ -6,7 +6,7 @@
 [subrepo]
 	remote = https://github.com/tyler-hogsett-microsoft/cds-powershell-quickstart
 	branch = main
-	commit = 8863338c7bf6f9fbbb23800c593a78b6b360d788
-	parent = 97adeacd9bd5b59a89c2ced03064f0e938767575
+	commit = 309a0c56168bf267a2f5776dbd26b27186c57481
+	parent = 7cc251e5a657e6d742d35b3f020f6ef972b494ae
 	method = merge
 	cmdver = 0.4.2
