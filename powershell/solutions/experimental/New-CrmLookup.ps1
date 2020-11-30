@@ -10,7 +10,7 @@ param(
     [switch]$SkipSort
 )
 
-$attributeLogicalName = "$($AttributeDisplayName.ToLower() -Replace " ", "_")_id"
+$attributeLogicalName = "mdce_$($AttributeDisplayName.ToLower() -Replace " ", "_")_id"
 
 $xml = New-Object xml
 $xml.PreserveWhitespace = $true
