@@ -2,8 +2,8 @@
 <Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name LocalizedName="Web Form" OriginalName="Web Form">adx_webform</Name>
   <EntityInfo>
-    <entity Name="adx_webform">
-      <attributes/>
+    <entity Name="adx_webform" unmodified="1">
+      <attributes />
     </entity>
   </EntityInfo>
   <FormXml />

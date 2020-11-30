@@ -2,8 +2,8 @@
 <Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name LocalizedName="Web Link" OriginalName="Web Link">Adx_weblink</Name>
   <EntityInfo>
-    <entity Name="Adx_weblink">
-      <attributes/>
+    <entity Name="Adx_weblink" unmodified="1">
+      <attributes />
     </entity>
   </EntityInfo>
   <FormXml />

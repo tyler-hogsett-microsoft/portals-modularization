@@ -2,8 +2,8 @@
 <Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name LocalizedName="Web Form Step" OriginalName="Web Form Step">adx_webformstep</Name>
   <EntityInfo>
-    <entity Name="adx_webformstep">
-      <attributes/>
+    <entity Name="adx_webformstep" unmodified="1">
+      <attributes />
     </entity>
   </EntityInfo>
   <FormXml />
