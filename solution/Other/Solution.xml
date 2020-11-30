@@ -3314,7 +3314,19 @@
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Setting" schemaName="adx_setting" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="mdce_adx_setting_mdce_module_id_mdce_portal_mo" parentDisplayName="Portal Module" parentSchemaName="mdce_portal_module" schemaName="mdce_adx_setting_mdce_module_id_mdce_portal_mo" type="10" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Setting" schemaName="adx_setting" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="Module" parentDisplayName="Setting" parentSchemaName="adx_setting" schemaName="mdce_module_id" type="2" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Setting" schemaName="adx_setting" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
         <Dependent displayName="Setting" schemaName="adx_setting" type="1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Setting" schemaName="adx_setting" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent parentDisplayName="Setting" parentSchemaName="adx_setting" schemaName="mdce_module_idname" type="2" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Settings" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_settings" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
@@ -3363,6 +3375,18 @@
       <MissingDependency>
         <Required displayName="Site Marker" schemaName="adx_sitemarker" solution="MicrosoftPortalDependencies (9.2.10.0)" type="1" />
         <Dependent displayName="Information" id="{9f3890fc-f4aa-49cd-a7a8-9fdb15fcdb5d}" parentDisplayName="Website" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Site Setting" schemaName="adx_sitesetting" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="mdce_Adx_sitesetting_mdce_module_id_mdce_porta" parentDisplayName="Portal Module" parentSchemaName="mdce_portal_module" schemaName="mdce_Adx_sitesetting_mdce_module_id_mdce_porta" type="10" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Site Setting" schemaName="adx_sitesetting" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="Module" parentDisplayName="Site Setting" parentSchemaName="adx_sitesetting" schemaName="mdce_module_id" type="2" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Site Setting" schemaName="adx_sitesetting" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent parentDisplayName="Site Setting" parentSchemaName="adx_sitesetting" schemaName="mdce_module_idname" type="2" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Site Setting" schemaName="adx_sitesetting" solution="MicrosoftPortalDependencies (9.2.10.0)" type="1" />
@@ -3761,12 +3785,36 @@
         <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Web File" schemaName="adx_webfile" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="mdce_Adx_webfile_mdce_module_id_mdce_portal_mo" parentDisplayName="Portal Module" parentSchemaName="mdce_portal_module" schemaName="mdce_Adx_webfile_mdce_module_id_mdce_portal_mo" type="10" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Web File" schemaName="adx_webfile" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="Module" parentDisplayName="Web File" parentSchemaName="adx_webfile" schemaName="mdce_module_id" type="2" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Web File" schemaName="adx_webfile" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent parentDisplayName="Web File" parentSchemaName="adx_webfile" schemaName="mdce_module_idname" type="2" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Web File" schemaName="adx_webfile" solution="MicrosoftPortalDependencies (9.2.10.0)" type="1" />
         <Dependent displayName="Web File" schemaName="adx_webfile" type="1" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Web Form Lookup View" id="{614b2579-9d9f-4e34-a69e-65163a3e14de}" parentDisplayName="Web Form" parentSchemaName="adx_webform" schemaName="Web Form Lookup View" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="26" />
         <Dependent displayName="Information" id="{85ccf31c-db3f-47fb-8c7a-56938671d99e}" parentDisplayName="Web Form Step" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Web Form Metadata" schemaName="adx_webformmetadata" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="mdce_adx_webformmetadata_mdce_module_id_mdce_p" parentDisplayName="Portal Module" parentSchemaName="mdce_portal_module" schemaName="mdce_adx_webformmetadata_mdce_module_id_mdce_p" type="10" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Web Form Metadata" schemaName="adx_webformmetadata" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="Module" parentDisplayName="Web Form Metadata" parentSchemaName="adx_webformmetadata" schemaName="mdce_module_id" type="2" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Web Form Metadata" schemaName="adx_webformmetadata" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent parentDisplayName="Web Form Metadata" parentSchemaName="adx_webformmetadata" schemaName="mdce_module_idname" type="2" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Web Form Metadata" schemaName="adx_webformmetadata" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="1" />
@@ -3793,6 +3841,18 @@
         <Dependent displayName="Information" id="{d1e40190-ccb6-49d5-866e-5a493206cdc5}" parentDisplayName="Web Form Metadata" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Web Form Step" schemaName="adx_webformstep" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="mdce_adx_webformstep_mdce_module_id_mdce_porta" parentDisplayName="Portal Module" parentSchemaName="mdce_portal_module" schemaName="mdce_adx_webformstep_mdce_module_id_mdce_porta" type="10" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Web Form Step" schemaName="adx_webformstep" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="Module" parentDisplayName="Web Form Step" parentSchemaName="adx_webformstep" schemaName="mdce_module_id" type="2" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Web Form Step" schemaName="adx_webformstep" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent parentDisplayName="Web Form Step" parentSchemaName="adx_webformstep" schemaName="mdce_module_idname" type="2" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Web Form Step" schemaName="adx_webformstep" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="1" />
         <Dependent displayName="Web Form Step" schemaName="adx_webformstep" type="1" />
       </MissingDependency>
@@ -3811,6 +3871,18 @@
       <MissingDependency>
         <Required displayName="Web Form" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_webform" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
         <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Web Form" schemaName="adx_webform" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="mdce_adx_webform_mdce_module_id_mdce_portal_mo" parentDisplayName="Portal Module" parentSchemaName="mdce_portal_module" schemaName="mdce_adx_webform_mdce_module_id_mdce_portal_mo" type="10" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Web Form" schemaName="adx_webform" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="Module" parentDisplayName="Web Form" parentSchemaName="adx_webform" schemaName="mdce_module_id" type="2" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Web Form" schemaName="adx_webform" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent parentDisplayName="Web Form" parentSchemaName="adx_webform" schemaName="mdce_module_idname" type="2" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Web Form" schemaName="adx_webform" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="1" />
@@ -3833,8 +3905,32 @@
         <Dependent displayName="Information" id="{2623d4e7-ac46-4283-a509-3281ecfb199d}" parentDisplayName="Web Link" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Web Link Set" schemaName="adx_weblinkset" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="mdce_Adx_weblinkset_mdce_module_id_mdce_portal" parentDisplayName="Portal Module" parentSchemaName="mdce_portal_module" schemaName="mdce_Adx_weblinkset_mdce_module_id_mdce_portal" type="10" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Web Link Set" schemaName="adx_weblinkset" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="Module" parentDisplayName="Web Link Set" parentSchemaName="adx_weblinkset" schemaName="mdce_module_id" type="2" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Web Link Set" schemaName="adx_weblinkset" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent parentDisplayName="Web Link Set" parentSchemaName="adx_weblinkset" schemaName="mdce_module_idname" type="2" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Web Link Set" schemaName="adx_weblinkset" solution="MicrosoftPortalDependencies (9.2.10.0)" type="1" />
         <Dependent displayName="Web Link Set" schemaName="adx_weblinkset" type="1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Web Link" schemaName="adx_weblink" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="mdce_Adx_weblink_mdce_module_id_mdce_portal_mo" parentDisplayName="Portal Module" parentSchemaName="mdce_portal_module" schemaName="mdce_Adx_weblink_mdce_module_id_mdce_portal_mo" type="10" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Web Link" schemaName="adx_weblink" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="Module" parentDisplayName="Web Link" parentSchemaName="adx_weblink" schemaName="mdce_module_id" type="2" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Web Link" schemaName="adx_weblink" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent parentDisplayName="Web Link" parentSchemaName="adx_weblink" schemaName="mdce_module_idname" type="2" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Web Link" schemaName="adx_weblink" solution="MicrosoftPortalDependencies (9.2.10.0)" type="1" />
@@ -3842,7 +3938,19 @@
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Web Page Access Control Rule" schemaName="adx_webpageaccesscontrolrule" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="mdce_Adx_webpageaccesscontrolrule_mdce_module_" parentDisplayName="Portal Module" parentSchemaName="mdce_portal_module" schemaName="mdce_Adx_webpageaccesscontrolrule_mdce_module_" type="10" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Web Page Access Control Rule" schemaName="adx_webpageaccesscontrolrule" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="Module" parentDisplayName="Web Page Access Control Rule" parentSchemaName="adx_webpageaccesscontrolrule" schemaName="mdce_module_id" type="2" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Web Page Access Control Rule" schemaName="adx_webpageaccesscontrolrule" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
         <Dependent displayName="Web Page Access Control Rule" schemaName="adx_webpageaccesscontrolrule" type="1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Web Page Access Control Rule" schemaName="adx_webpageaccesscontrolrule" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent parentDisplayName="Web Page Access Control Rule" parentSchemaName="adx_webpageaccesscontrolrule" schemaName="mdce_module_idname" type="2" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Web Page for Create" parentDisplayName="Entity List" parentSchemaName="adx_entitylist" schemaName="adx_webpageforcreate" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
@@ -3885,8 +3993,32 @@
         <Dependent displayName="Information" id="{4b316230-2379-4d27-b262-69d33e3b91ab}" parentDisplayName="Web Page Access Control Rule" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Web Page" schemaName="adx_webpage" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="mdce_Adx_webpage_mdce_module_id_mdce_portal_mo" parentDisplayName="Portal Module" parentSchemaName="mdce_portal_module" schemaName="mdce_Adx_webpage_mdce_module_id_mdce_portal_mo" type="10" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Web Page" schemaName="adx_webpage" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="Module" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="mdce_module_id" type="2" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Web Page" schemaName="adx_webpage" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="mdce_module_idname" type="2" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Web Page" schemaName="adx_webpage" solution="MicrosoftPortalDependencies (9.2.10.0)" type="1" />
         <Dependent displayName="Web Page" schemaName="adx_webpage" type="1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Web Role" schemaName="adx_webrole" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="mdce_Adx_webrole_mdce_module_id_mdce_portal_mo" parentDisplayName="Portal Module" parentSchemaName="mdce_portal_module" schemaName="mdce_Adx_webrole_mdce_module_id_mdce_portal_mo" type="10" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Web Role" schemaName="adx_webrole" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="Module" parentDisplayName="Web Role" parentSchemaName="adx_webrole" schemaName="mdce_module_id" type="2" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Web Role" schemaName="adx_webrole" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent parentDisplayName="Web Role" parentSchemaName="adx_webrole" schemaName="mdce_module_idname" type="2" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Web Role" schemaName="adx_webrole" solution="MicrosoftPortalDependencies (9.2.10.0)" type="1" />
@@ -3906,7 +4038,19 @@
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Web Template" schemaName="adx_webtemplate" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="mdce_adx_webtemplate_mdce_module_id_mdce_porta" parentDisplayName="Portal Module" parentSchemaName="mdce_portal_module" schemaName="mdce_adx_webtemplate_mdce_module_id_mdce_porta" type="10" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Web Template" schemaName="adx_webtemplate" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="Module" parentDisplayName="Web Template" parentSchemaName="adx_webtemplate" schemaName="mdce_module_id" type="2" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Web Template" schemaName="adx_webtemplate" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
         <Dependent displayName="Web Template" schemaName="adx_webtemplate" type="1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Web Template" schemaName="adx_webtemplate" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent parentDisplayName="Web Template" parentSchemaName="adx_webtemplate" schemaName="mdce_module_idname" type="2" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Webpage Language" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_webpagelanguageid" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
@@ -3914,7 +4058,19 @@
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Website Access" schemaName="adx_websiteaccess" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="mdce_Adx_websiteaccess_mdce_module_id_mdce_por" parentDisplayName="Portal Module" parentSchemaName="mdce_portal_module" schemaName="mdce_Adx_websiteaccess_mdce_module_id_mdce_por" type="10" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Website Access" schemaName="adx_websiteaccess" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="Module" parentDisplayName="Website Access" parentSchemaName="adx_websiteaccess" schemaName="mdce_module_id" type="2" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Website Access" schemaName="adx_websiteaccess" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
         <Dependent displayName="Website Access" schemaName="adx_websiteaccess" type="1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Website Access" schemaName="adx_websiteaccess" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent parentDisplayName="Website Access" parentSchemaName="adx_websiteaccess" schemaName="mdce_module_idname" type="2" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Website Language Lookup View" id="{8f1824b8-9500-448e-9377-ab993254bb9a}" parentDisplayName="Website Language" parentSchemaName="adx_websitelanguage" schemaName="Website Language Lookup View" solution="MicrosoftPortalBase (9.2.2006.10)" type="26" />
@@ -4007,6 +4163,18 @@
       <MissingDependency>
         <Required displayName="Website" parentDisplayName="Website Language" parentSchemaName="adx_websitelanguage" schemaName="adx_websiteid" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
         <Dependent displayName="Information" id="{9f3890fc-f4aa-49cd-a7a8-9fdb15fcdb5d}" parentDisplayName="Website" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Website" schemaName="adx_website" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="mdce_Adx_website_mdce_module_id_mdce_portal_mo" parentDisplayName="Portal Module" parentSchemaName="mdce_portal_module" schemaName="mdce_Adx_website_mdce_module_id_mdce_portal_mo" type="10" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Website" schemaName="adx_website" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent displayName="Module" parentDisplayName="Website" parentSchemaName="adx_website" schemaName="mdce_module_id" type="2" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Website" schemaName="adx_website" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
+        <Dependent parentDisplayName="Website" parentSchemaName="adx_website" schemaName="mdce_module_idname" type="2" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Website" schemaName="adx_website" solution="MicrosoftPortalDependencies (9.2.10.0)" type="1" />

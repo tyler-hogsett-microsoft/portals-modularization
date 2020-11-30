@@ -90,6 +90,21 @@
                     </row>
                   </rows>
                 </section>
+                <section celllabelalignment="Left" celllabelposition="Left" columns="1" id="{f26c6408-5db7-479a-a7ff-e176f47de66e}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="section_modularization" showbar="false" showlabel="false">
+                  <labels>
+                    <label description="Modularization" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4413a749-dc79-4e42-bbf2-5ed603395b8e}" locklevel="0">
+                        <labels>
+                          <label description="Module" languagecode="1033" />
+                        </labels>
+                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mdce_module_id" disabled="false" id="mdce_module_id" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
               </sections>
             </column>
           </columns>
@@ -118,32 +133,6 @@
                     <row />
                     <row />
                     <row height="auto" />
-                  </rows>
-                </section>
-              </sections>
-            </column>
-          </columns>
-        </tab>
-        <tab expanded="true" id="{18265bb0-0699-4ab6-93c1-f309cf085dcc}" IsUserDefined="0" locklevel="0" name="tab_administration" showlabel="true">
-          <labels>
-            <label description="Administration" languagecode="1033" />
-          </labels>
-          <columns>
-            <column width="100%">
-              <sections>
-                <section celllabelalignment="Left" celllabelposition="Left" columns="1" id="{f26c6408-5db7-479a-a7ff-e176f47de66e}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="section_modularization" showbar="false" showlabel="false">
-                  <labels>
-                    <label description="Modularization" languagecode="1033" />
-                  </labels>
-                  <rows>
-                    <row>
-                      <cell id="{4413a749-dc79-4e42-bbf2-5ed603395b8e}" locklevel="0">
-                        <labels>
-                          <label description="Module" languagecode="1033" />
-                        </labels>
-                        <control classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="mdce_module_id" disabled="false" id="mdce_module_id" />
-                      </cell>
-                    </row>
                   </rows>
                 </section>
               </sections>
