@@ -9,14 +9,14 @@
       <tabs>
         <tab id="{279d3d21-6b08-46ae-8815-96ee2b1fa94c}" IsUserDefined="1" verticallayout="true">
           <labels>
-            <label description="General" languagecode="1033" />
+            <label description="" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
                 <section celllabelalignment="Left" celllabelposition="Left" columns="11" height="auto" id="{4c13f681-994c-46f8-a193-219e88408ddc}" IsUserDefined="0" labelwidth="220" locklevel="0" name="{4c13f681-994c-46f8-a193-219e88408ddc}" showbar="false" showlabel="false">
                   <labels>
-                    <label description="General" languagecode="1033" />
+                    <label description="" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
@@ -72,7 +72,7 @@
                 </section>
                 <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{67c47e58-3add-be0b-d2d9-822622836804}" IsUserDefined="0" labelwidth="220" layout="varwidth" locklevel="0" name="section_attributelogicalname" showbar="false" showlabel="false" visible="false">
                   <labels>
-                    <label description="Attribute Logical Name" languagecode="1033" />
+                    <label description="" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
@@ -84,7 +84,7 @@
                       </cell>
                       <cell auto="false" colspan="1" id="{ed531aa5-107d-1425-376a-b59298d96d32}" rowspan="1" showlabel="false">
                         <labels>
-                          <label description="Attribute Logical Name (Selector)" languagecode="1033" />
+                          <label description="" languagecode="1033" />
                         </labels>
                         <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_attributelogicalname">
                           <parameters>
@@ -111,7 +111,7 @@
                 </section>
                 <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{2b168e93-0991-803b-c872-0454c0bae9dc}" IsUserDefined="0" labelwidth="220" layout="varwidth" locklevel="0" name="section_tabname" showbar="false" showlabel="false" visible="false">
                   <labels>
-                    <label description="Tab Name" languagecode="1033" />
+                    <label description="" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
@@ -123,7 +123,7 @@
                       </cell>
                       <cell auto="false" colspan="1" id="{eb2499a5-17b0-a740-16e2-32b675523c2e}" rowspan="1" showlabel="false">
                         <labels>
-                          <label description="Tab Name (Selector)" languagecode="1033" />
+                          <label description="" languagecode="1033" />
                         </labels>
                         <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_tabname">
                           <parameters>
@@ -150,7 +150,7 @@
                 </section>
                 <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{aae131c3-3db4-e866-b7a9-1275d79bcb4e}" IsUserDefined="0" labelwidth="220" layout="varwidth" locklevel="0" name="section_sectionname" showbar="false" showlabel="false" visible="false">
                   <labels>
-                    <label description="Section Name" languagecode="1033" />
+                    <label description="" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
@@ -162,7 +162,7 @@
                       </cell>
                       <cell auto="false" colspan="1" id="{07832eb6-6ba5-27bc-7b9b-adac6a74057b}" rowspan="1" showlabel="false">
                         <labels>
-                          <label description="Section Name (Selector)" languagecode="1033" />
+                          <label description="" languagecode="1033" />
                         </labels>
                         <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_sectionname">
                           <parameters>
@@ -189,7 +189,7 @@
                 </section>
                 <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{72d713b5-e0a8-74db-0d1b-bdd00c34c6a4}" IsUserDefined="0" labelwidth="220" layout="varwidth" locklevel="0" name="section_subgrid_name" showbar="false" showlabel="false" visible="false">
                   <labels>
-                    <label description="Subgrid Name" languagecode="1033" />
+                    <label description="" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
@@ -201,7 +201,7 @@
                       </cell>
                       <cell auto="false" colspan="1" id="{5597c63d-4963-5cae-a429-a68ae82eb229}" rowspan="1" showlabel="false">
                         <labels>
-                          <label description="Subgrid Name" languagecode="1033" />
+                          <label description="" languagecode="1033" />
                         </labels>
                         <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_subgrid_name">
                           <parameters>
@@ -228,13 +228,13 @@
                 </section>
                 <section celllabelalignment="Left" celllabelposition="Left" columns="1" id="{d2475de3-8684-05e9-ecae-302294c07a78}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="section_label" showbar="true" showlabel="true" visible="false">
                   <labels>
-                    <label description="Label" languagecode="1033" />
+                    <label description="" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
                       <cell auto="false" colspan="1" id="{949a9188-5acc-88d9-0293-ae2554c8a4d3}" rowspan="2" showlabel="false">
                         <labels>
-                          <label description="Label" languagecode="1033" />
+                          <label description="" languagecode="1033" />
                         </labels>
                         <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_localizelabel">
                           <parameters>
@@ -262,7 +262,7 @@
                 </section>
                 <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{de432bc7-6581-c33b-492d-00039a3b189e}" IsUserDefined="0" labelwidth="200" layout="varwidth" locklevel="0" name="section_controlstyle" showbar="true" showlabel="true" visible="false">
                   <labels>
-                    <label description="Control Style" languagecode="1033" />
+                    <label description="" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
@@ -325,7 +325,7 @@
                 </section>
                 <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{814da907-4175-5dc6-a547-ab5b1e6042e1}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="section_prepopulate" showbar="true" showlabel="true" visible="false">
                   <labels>
-                    <label description="Prepopulate Field" languagecode="1033" />
+                    <label description="" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
@@ -339,7 +339,7 @@
                     <row>
                       <cell id="{d99dbc4a-b672-ee26-be87-627bd81b5205}" locklevel="0" showlabel="true">
                         <labels>
-                          <label description="Type" languagecode="1033" />
+                          <label description="Prepopulate Type" languagecode="1033" />
                         </labels>
                         <control classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="adx_prepopulatetype" disabled="false" id="adx_prepopulatetype" />
                       </cell>
@@ -352,7 +352,7 @@
                     <row>
                       <cell id="{94cb9c4b-1b00-8d90-448c-b38d50137c3d}" locklevel="0" showlabel="true">
                         <labels>
-                          <label description="Value" languagecode="1033" />
+                          <label description="Prepopulate Value" languagecode="1033" />
                         </labels>
                         <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_prepopulatevalue" disabled="false" id="adx_prepopulatevalue" />
                       </cell>
@@ -365,13 +365,13 @@
                     <row>
                       <cell id="{a20e003c-8a5e-549a-c448-705e2c2b0436}" locklevel="0" showlabel="true">
                         <labels>
-                          <label description="From Attribute" languagecode="1033" />
+                          <label description="Prepopulate From Attribute" languagecode="1033" />
                         </labels>
                         <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_prepopulatefromattribute" disabled="true" id="adx_prepopulatefromattribute" />
                       </cell>
                       <cell auto="false" colspan="1" id="{85a0280a-acd5-dd78-4207-4761905c230a}" rowspan="1" showlabel="false">
                         <labels>
-                          <label description="Prepopulate From Attribute" languagecode="1033" />
+                          <label description="" languagecode="1033" />
                         </labels>
                         <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_adx_prepopulatefromattribute">
                           <parameters>
@@ -394,7 +394,7 @@
                 </section>
                 <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{70625833-3958-6604-003c-766419e62e66}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="section_setvalueonsave" showbar="true" showlabel="true" visible="false">
                   <labels>
-                    <label description="Set Value On Save" languagecode="1033" />
+                    <label description="" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
@@ -408,7 +408,7 @@
                     <row>
                       <cell id="{d71cdc6b-40c2-2b74-d519-05e945477237}" locklevel="0" showlabel="true">
                         <labels>
-                          <label description="Type" languagecode="1033" />
+                          <label description="On Save Type" languagecode="1033" />
                         </labels>
                         <control classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="adx_onsavetype" disabled="false" id="adx_onsavetype" />
                       </cell>
@@ -434,13 +434,13 @@
                     <row>
                       <cell id="{a46b2408-036c-9512-b432-75218dd66127}" locklevel="0" showlabel="true">
                         <labels>
-                          <label description="From Attribute" languagecode="1033" />
+                          <label description="On Save From Attribute" languagecode="1033" />
                         </labels>
                         <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_onsavefromattribute" disabled="true" id="adx_onsavefromattribute" />
                       </cell>
                       <cell auto="false" colspan="1" id="{e0617eab-b5d5-152d-9cec-b87565b3e6d7}" rowspan="1" showlabel="false">
                         <labels>
-                          <label description="On Save From Attribute" languagecode="1033" />
+                          <label description="" languagecode="1033" />
                         </labels>
                         <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_adx_onsavefromattribute">
                           <parameters>
@@ -463,7 +463,7 @@
                 </section>
                 <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{768306bd-969a-5b43-16cb-64419214d610}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="section_lookupsettings" showbar="true" showlabel="true" visible="false">
                   <labels>
-                    <label description="Lookup Settings" languagecode="1033" />
+                    <label description="" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
@@ -483,7 +483,7 @@
                 </section>
                 <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{d4230d55-2354-dbbb-8cea-5e22299eee03}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="section_adddescription" showbar="true" showlabel="true" visible="false">
                   <labels>
-                    <label description="Description/Instructions" languagecode="1033" />
+                    <label description="" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
@@ -503,7 +503,7 @@
                 </section>
                 <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{392469b7-0572-a149-279c-edab5b64e51c}" IsUserDefined="0" labelwidth="200" layout="varwidth" locklevel="0" name="section_description" showbar="false" showlabel="false" visible="false">
                   <labels>
-                    <label description="Description Properties" languagecode="1033" />
+                    <label description="" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
@@ -535,7 +535,7 @@
                     <row>
                       <cell auto="false" colspan="2" id="{c4b5c323-7ec0-3597-7a4a-23e30b8ee7ad}" rowspan="2" showlabel="true">
                         <labels>
-                          <label description="Description" languagecode="1033" />
+                          <label description="" languagecode="1033" />
                         </labels>
                         <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_localizedescription">
                           <parameters>
@@ -563,13 +563,13 @@
                 </section>
                 <section celllabelalignment="Left" celllabelposition="Left" columns="11" id="{1a977d4b-3eb2-8ea7-4aea-090643cc149d}" IsUserDefined="0" labelwidth="200" layout="varwidth" locklevel="0" name="section_validation" showbar="true" showlabel="true" visible="false">
                   <labels>
-                    <label description="Validation" languagecode="1033" />
+                    <label description="" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
                       <cell auto="false" colspan="2" id="{d1789118-095c-3a9d-e642-ba710090b9ce}" rowspan="2" showlabel="true">
                         <labels>
-                          <label description="Validation Error Message" languagecode="1033" />
+                          <label description="" languagecode="1033" />
                         </labels>
                         <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_localizevalidationerrormessage">
                           <parameters>
@@ -596,7 +596,7 @@
                     <row>
                       <cell colspan="2" id="{ba37eab3-6317-ba55-1256-d0307a5c5171}" locklevel="0" showlabel="true">
                         <labels>
-                          <label description="Regular Expression" languagecode="1033" />
+                          <label description="Validation Regular Expression" languagecode="1033" />
                         </labels>
                         <control classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="adx_validationregularexpression" id="adx_validationregularexpression" />
                       </cell>
@@ -604,7 +604,7 @@
                     <row>
                       <cell auto="false" colspan="2" id="{ce851265-c6eb-3cb1-b000-308575552a2c}" rowspan="2" showlabel="true">
                         <labels>
-                          <label description="Regular Expression Validation Error Message" languagecode="1033" />
+                          <label description="" languagecode="1033" />
                         </labels>
                         <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_localizeregularexpressionerrormessage">
                           <parameters>
@@ -644,7 +644,7 @@
                     <row>
                       <cell auto="false" colspan="2" id="{456aa16e-c36c-b46d-b0b0-c924e2d0094a}" rowspan="2" showlabel="true">
                         <labels>
-                          <label description="Required Field Validation Error Message" languagecode="1033" />
+                          <label description="" languagecode="1033" />
                         </labels>
                         <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_localizerequiredfieldvalidationerrormessage">
                           <parameters>
@@ -671,7 +671,7 @@
                     <row>
                       <cell auto="false" colspan="2" id="{6066a1d8-63d9-6581-e931-17731970b0c9}" rowspan="2" showlabel="true">
                         <labels>
-                          <label description="Range Validation Error Message" languagecode="1033" />
+                          <label description="" languagecode="1033" />
                         </labels>
                         <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_localizerangevalidationerrormessage">
                           <parameters>
@@ -698,7 +698,7 @@
                     <row>
                       <cell auto="false" colspan="2" id="{57049eb0-97a4-8491-b109-39db0b1b2a50}" rowspan="2" showlabel="true">
                         <labels>
-                          <label description="Geolocation Validator Error Message" languagecode="1033" />
+                          <label description="" languagecode="1033" />
                         </labels>
                         <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_localizegeolocationerrormessage">
                           <parameters>
@@ -725,7 +725,7 @@
                     <row>
                       <cell auto="false" colspan="2" id="{2c712a11-c641-3a9e-9ce4-9b19cca65c60}" rowspan="2" showlabel="true">
                         <labels>
-                          <label description="Constant Sum Validation Error Message" languagecode="1033" />
+                          <label description="" languagecode="1033" />
                         </labels>
                         <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_localizeconstantsumerrormessage">
                           <parameters>
@@ -752,7 +752,7 @@
                     <row>
                       <cell auto="false" colspan="2" id="{814841e6-15e9-88a0-3ec7-88b7778298e7}" rowspan="2" showlabel="true">
                         <labels>
-                          <label description="Multiple Choice Validation Error Message" languagecode="1033" />
+                          <label description="" languagecode="1033" />
                         </labels>
                         <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_localizemultiplechoiceerrormessage">
                           <parameters>
@@ -779,7 +779,7 @@
                     <row>
                       <cell auto="false" colspan="2" id="{8971a3b6-bcba-5c70-b9bd-ba9a2a147520}" rowspan="2" showlabel="true">
                         <labels>
-                          <label description="Rank Order No Ties Validation Error Message" languagecode="1033" />
+                          <label description="" languagecode="1033" />
                         </labels>
                         <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_localizerankordernotieserrormessage">
                           <parameters>
@@ -807,13 +807,13 @@
                 </section>
                 <section celllabelalignment="Left" celllabelposition="Left" columns="11" height="auto" id="{db843827-de6c-5058-7c36-7c4adeceb115}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="section_subgrid" showbar="false" showlabel="false" visible="false">
                   <labels>
-                    <label description="Subgrid Configuration" languagecode="1033" />
+                    <label description="" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
                       <cell auto="false" colspan="2" id="{92da2cd2-028e-beec-4c7a-a9e96e629b27}" rowspan="18" showlabel="false">
                         <labels>
-                          <label description="Subgrid Settings" languagecode="1033" />
+                          <label description="" languagecode="1033" />
                         </labels>
                         <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_subgrid_settings">
                           <parameters>
@@ -863,13 +863,13 @@
                 </section>
                 <section celllabelalignment="Left" celllabelposition="Left" columns="1" id="{c2b48527-d4c7-8e97-66cc-0d767c740d2d}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="section_notes" showbar="false" showlabel="false" visible="false">
                   <labels>
-                    <label description="Notes Configuration" languagecode="1033" />
+                    <label description="" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
                       <cell auto="false" colspan="1" id="{164e2aca-7821-8b5a-3e08-eb6672d6c728}" rowspan="18" showlabel="false">
                         <labels>
-                          <label description="Notes Settings" languagecode="1033" />
+                          <label description="" languagecode="1033" />
                         </labels>
                         <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_notes_settings">
                           <parameters>
@@ -919,13 +919,13 @@
                 </section>
                 <section celllabelalignment="Left" celllabelposition="Left" columns="1" id="{2d591e37-e61b-36ad-e2e2-085034909b59}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="section_timeline" showbar="false" showlabel="false">
                   <labels>
-                    <label description="Timeline Configuration" languagecode="1033" />
+                    <label description="" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
                       <cell auto="false" colspan="1" id="{8bd213ad-bcad-4257-ca6c-8bcde679bec3}" rowspan="18" showlabel="false">
                         <labels>
-                          <label description="Timeline Settings" languagecode="1033" />
+                          <label description="" languagecode="1033" />
                         </labels>
                         <control classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}" id="WebResource_timeline_settings">
                           <parameters>

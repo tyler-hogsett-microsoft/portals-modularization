@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml generatedBy="CrmLive" languagecode="1033" SolutionPackageVersion="9.1" version="9.1.0.24647" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml generatedBy="CrmLive" languagecode="1033" SolutionPackageVersion="9.1" version="9.1.0.24949" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>mdce_portals_modularization</UniqueName>
     <LocalizedNames>
@@ -165,6 +165,10 @@
         <Dependent displayName="Information" id="{9f3890fc-f4aa-49cd-a7a8-9fdb15fcdb5d}" parentDisplayName="Website" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Active Web Files" id="{031f8184-11b6-44ee-8fad-3d968385580c}" parentDisplayName="Web File" parentSchemaName="adx_webfile" schemaName="Active Web Files" solution="MicrosoftPortalDependencies (9.2.10.0)" type="26" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Active Web Form Sessions" id="{734390a0-ac7c-45bb-8d28-1586e8aefb16}" parentDisplayName="Web Form Session" parentSchemaName="adx_webformsession" schemaName="Active Web Form Sessions" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="26" />
         <Dependent displayName="Information" id="{ed26206d-9745-4706-9f11-b3448deb51bd}" parentDisplayName="Web Form" type="60" />
       </MissingDependency>
@@ -185,6 +189,18 @@
         <Dependent displayName="Information" id="{1c038742-0f0b-4b1e-a61f-79fa72d4cc50}" parentDisplayName="Web Link Set" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Active Web Page Access Control Rules" id="{6563c717-a829-4b71-94de-a27dc5a4aaf4}" parentDisplayName="Web Page Access Control Rule" parentSchemaName="adx_webpageaccesscontrolrule" schemaName="Active Web Page Access Control Rules" solution="MicrosoftPortalBase (9.2.2006.10)" type="26" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Active Web Page Page Templates" id="{602b2791-3782-e411-943a-00155d038602}" parentDisplayName="Page Template" parentSchemaName="adx_pagetemplate" schemaName="Active Web Page Page Templates" solution="MicrosoftPortalBase (9.2.2006.10)" type="26" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Active Web Page Page Templates" id="{602b2791-3782-e411-943a-00155d038602}" parentDisplayName="Page Template" parentSchemaName="adx_pagetemplate" schemaName="Active Web Page Page Templates" solution="MicrosoftPortalBase (9.2.2006.10)" type="26" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Active Web Roles" id="{8a3aad5d-06ee-40ad-a1ba-000c521a8f83}" parentDisplayName="Web Role" parentSchemaName="adx_webrole" schemaName="Active Web Roles" solution="MicrosoftPortalDependencies (9.2.10.0)" type="26" />
         <Dependent displayName="Information" id="{1e6c1e3c-9dab-4a8f-8b73-c6ee3063ed7c}" parentDisplayName="Website Access" type="60" />
       </MissingDependency>
@@ -199,6 +215,14 @@
       <MissingDependency>
         <Required displayName="Active Web Roles" id="{8a3aad5d-06ee-40ad-a1ba-000c521a8f83}" parentDisplayName="Web Role" parentSchemaName="adx_webrole" schemaName="Active Web Roles" solution="MicrosoftPortalDependencies (9.2.10.0)" type="26" />
         <Dependent displayName="Information" id="{9f3890fc-f4aa-49cd-a7a8-9fdb15fcdb5d}" parentDisplayName="Website" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Active WebPages" id="{ebc6fc95-4c19-44e0-8ba5-cb188ddf8a14}" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="Active WebPages" solution="MicrosoftPortalDependencies (9.2.10.0)" type="26" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Active WebPages" id="{ebc6fc95-4c19-44e0-8ba5-cb188ddf8a14}" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="Active WebPages" solution="MicrosoftPortalDependencies (9.2.10.0)" type="26" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Active WebPages" id="{ebc6fc95-4c19-44e0-8ba5-cb188ddf8a14}" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="Active WebPages" solution="MicrosoftPortalDependencies (9.2.10.0)" type="26" />
@@ -266,6 +290,10 @@
       </MissingDependency>
       <MissingDependency>
         <Required displayName="adx_adx_website_adx_websitelanguage" parentDisplayName="Website" parentSchemaName="adx_website" schemaName="adx_adx_website_adx_websitelanguage" solution="MicrosoftPortalBase (9.2.2006.10)" type="10" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_adx_website_adx_websitelanguage" parentDisplayName="Website" parentSchemaName="adx_website" schemaName="adx_adx_website_adx_websitelanguage" solution="MicrosoftPortalBase (9.2.2006.10)" type="10" />
         <Dependent displayName="Information" id="{1c038742-0f0b-4b1e-a61f-79fa72d4cc50}" parentDisplayName="Web Link Set" type="60" />
       </MissingDependency>
       <MissingDependency>
@@ -282,6 +310,10 @@
       </MissingDependency>
       <MissingDependency>
         <Required displayName="adx_ckeditor/adx.ckeditor.html" schemaName="adx_ckeditor/adx.ckeditor.html" solution="MicrosoftPortalBase (9.2.2006.10)" type="61" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_ckeditor/adx.ckeditor.html" schemaName="adx_ckeditor/adx.ckeditor.html" solution="MicrosoftPortalBase (9.2.2006.10)" type="61" />
         <Dependent displayName="Information" id="{1c038742-0f0b-4b1e-a61f-79fa72d4cc50}" parentDisplayName="Web Link Set" type="60" />
       </MissingDependency>
       <MissingDependency>
@@ -295,6 +327,14 @@
       <MissingDependency>
         <Required displayName="adx_ckeditor/adx.ckeditor.html" schemaName="adx_ckeditor/adx.ckeditor.html" solution="MicrosoftPortalBase (9.2.2006.10)" type="61" />
         <Dependent displayName="Information" id="{efe18451-69c6-465e-8d3b-818ea660ab76}" parentDisplayName="Web File" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_contact_webpage" parentDisplayName="Contact" parentSchemaName="contact" schemaName="adx_contact_webpage" solution="MicrosoftPortalDependencies (9.2.10.0)" type="10" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_contact_webpage" parentDisplayName="Contact" parentSchemaName="contact" schemaName="adx_contact_webpage" solution="MicrosoftPortalDependencies (9.2.10.0)" type="10" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="adx_content_snippets.svg" schemaName="adx_content_snippets.svg" solution="MicrosoftPortalDependencies (9.2.10.0)" type="61" />
@@ -589,8 +629,24 @@
         <Dependent displayName="Information" id="{9be1dc51-076b-4c69-9a19-374f9faa05b0}" parentDisplayName="Entity List" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="adx_monaco/monaco_css.html" schemaName="adx_monaco/monaco_css.html" solution="MicrosoftPortalBase (9.2.2006.10)" type="61" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_monaco/monaco_css.html" schemaName="adx_monaco/monaco_css.html" solution="MicrosoftPortalBase (9.2.2006.10)" type="61" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="adx_monaco/monaco_html.html" schemaName="adx_monaco/monaco_html.html" solution="MicrosoftPortalBase (9.2.2006.10)" type="61" />
         <Dependent displayName="Information" id="{244b1d49-9fee-4926-89f3-f084ebc17924}" parentDisplayName="Web Template" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_monaco/monaco_js.html" schemaName="adx_monaco/monaco_js.html" solution="MicrosoftPortalBase (9.2.2006.10)" type="61" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_monaco/monaco_js.html" schemaName="adx_monaco/monaco_js.html" solution="MicrosoftPortalBase (9.2.2006.10)" type="61" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="adx_monaco/monaco_js.html" schemaName="adx_monaco/monaco_js.html" solution="MicrosoftPortalBase (9.2.2006.10)" type="61" />
@@ -605,8 +661,24 @@
         <Dependent displayName="Information" id="{9be1dc51-076b-4c69-9a19-374f9faa05b0}" parentDisplayName="Entity List" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="adx_multilanguage/adx.webpage.content.js" schemaName="adx_multilanguage/adx.webpage.content.js" solution="MicrosoftPortalBase (9.2.2006.10)" type="61" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_multilanguage/adx.webpage.root.js" schemaName="adx_multilanguage/adx.webpage.root.js" solution="MicrosoftPortalBase (9.2.2006.10)" type="61" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="adx_page_templates.svg" schemaName="adx_page_templates.svg" solution="MicrosoftPortalDependencies (9.2.10.0)" type="61" />
         <Dependent displayName="Page Template" schemaName="adx_pagetemplate" type="1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_pagetemplate_webpage" parentDisplayName="Page Template" parentSchemaName="adx_pagetemplate" schemaName="adx_pagetemplate_webpage" solution="MicrosoftPortalDependencies (9.2.10.0)" type="10" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_pagetemplate_webpage" parentDisplayName="Page Template" parentSchemaName="adx_pagetemplate" schemaName="adx_pagetemplate_webpage" solution="MicrosoftPortalDependencies (9.2.10.0)" type="10" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="adx_pagetemplate_webpage" parentDisplayName="Page Template" parentSchemaName="adx_pagetemplate" schemaName="adx_pagetemplate_webpage" solution="MicrosoftPortalDependencies (9.2.10.0)" type="10" />
@@ -625,8 +697,20 @@
         <Dependent displayName="Information" id="{1c038742-0f0b-4b1e-a61f-79fa72d4cc50}" parentDisplayName="Web Link Set" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="adx_publishingstate_webpage" parentDisplayName="Publishing State" parentSchemaName="adx_publishingstate" schemaName="adx_publishingstate_webpage" solution="MicrosoftPortalBase (9.2.2006.10)" type="10" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_publishingstate_webpage" parentDisplayName="Publishing State" parentSchemaName="adx_publishingstate" schemaName="adx_publishingstate_webpage" solution="MicrosoftPortalBase (9.2.2006.10)" type="10" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="adx_resources/adx_website_language.js" schemaName="adx_resources/adx_website_language.js" solution="MicrosoftPortalBase (9.2.2006.10)" type="61" />
         <Dependent displayName="Information" id="{9f3890fc-f4aa-49cd-a7a8-9fdb15fcdb5d}" parentDisplayName="Website" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_resources/ResourcesManager.js" schemaName="adx_resources/ResourcesManager.js" solution="MicrosoftPortalBase (9.2.2006.10)" type="61" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="adx_resources/ResourcesManager.js" schemaName="adx_resources/ResourcesManager.js" solution="MicrosoftPortalBase (9.2.2006.10)" type="61" />
@@ -650,6 +734,10 @@
       </MissingDependency>
       <MissingDependency>
         <Required displayName="adx_scripts/jquery1.9.1.min.js" schemaName="adx_scripts/jquery1.9.1.min.js" solution="MicrosoftPortalBase (9.2.2006.10)" type="61" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_scripts/jquery1.9.1.min.js" schemaName="adx_scripts/jquery1.9.1.min.js" solution="MicrosoftPortalBase (9.2.2006.10)" type="61" />
         <Dependent displayName="Information" id="{9be1dc51-076b-4c69-9a19-374f9faa05b0}" parentDisplayName="Entity List" type="60" />
       </MissingDependency>
       <MissingDependency>
@@ -667,6 +755,14 @@
       <MissingDependency>
         <Required displayName="adx_subject_webfile" parentDisplayName="Subject" parentSchemaName="subject" schemaName="adx_subject_webfile" solution="MicrosoftPortalDependencies (9.2.10.0)" type="10" />
         <Dependent displayName="Information" id="{efe18451-69c6-465e-8d3b-818ea660ab76}" parentDisplayName="Web File" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_subject_webpage" parentDisplayName="Subject" parentSchemaName="subject" schemaName="adx_subject_webpage" solution="MicrosoftPortalDependencies (9.2.10.0)" type="10" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_subject_webpage" parentDisplayName="Subject" parentSchemaName="subject" schemaName="adx_subject_webpage" solution="MicrosoftPortalDependencies (9.2.10.0)" type="10" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="adx_web_files.svg" schemaName="adx_web_files.svg" solution="MicrosoftPortalDependencies (9.2.10.0)" type="61" />
@@ -691,6 +787,14 @@
       <MissingDependency>
         <Required displayName="adx_webfile_masterwebfile" parentDisplayName="Web File" parentSchemaName="adx_webfile" schemaName="adx_webfile_masterwebfile" solution="MicrosoftPortalBase (9.2.2006.10)" type="10" />
         <Dependent displayName="Information" id="{efe18451-69c6-465e-8d3b-818ea660ab76}" parentDisplayName="Web File" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_webfile_webpage_image" parentDisplayName="Web File" parentSchemaName="adx_webfile" schemaName="adx_webfile_webpage_image" solution="MicrosoftPortalBase (9.2.2006.10)" type="10" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_webfile_webpage_image" parentDisplayName="Web File" parentSchemaName="adx_webfile" schemaName="adx_webfile_webpage_image" solution="MicrosoftPortalBase (9.2.2006.10)" type="10" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="adx_webform_startstep" parentDisplayName="Web Form Step" parentSchemaName="adx_webformstep" schemaName="adx_webform_startstep" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="10" />
@@ -785,8 +889,44 @@
         <Dependent displayName="Information" id="{2623d4e7-ac46-4283-a509-3281ecfb199d}" parentDisplayName="Web Link" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="adx_webpage/adx_webpagefieldvalidation.js" schemaName="adx_webpage/adx_webpagefieldvalidation.js" solution="MicrosoftPortalBase (9.2.2006.10)" type="61" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_webpage/adx_webpagefieldvalidation.js" schemaName="adx_webpage/adx_webpagefieldvalidation.js" solution="MicrosoftPortalBase (9.2.2006.10)" type="61" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_webpage_entityform" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_webpage_entityform" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="10" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_webpage_entityform" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_webpage_entityform" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="10" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_webpage_entitylist" parentDisplayName="Entity List" parentSchemaName="adx_entitylist" schemaName="adx_webpage_entitylist" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="10" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_webpage_entitylist" parentDisplayName="Entity List" parentSchemaName="adx_entitylist" schemaName="adx_webpage_entitylist" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="10" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="adx_webpage_entitylist" parentDisplayName="Entity List" parentSchemaName="adx_entitylist" schemaName="adx_webpage_entitylist" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="10" />
         <Dependent displayName="Information" id="{9be1dc51-076b-4c69-9a19-374f9faa05b0}" parentDisplayName="Entity List" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_webpage_masterwebpage" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_webpage_masterwebpage" solution="MicrosoftPortalBase (9.2.2006.10)" type="10" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_webpage_masterwebpage" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_webpage_masterwebpage" solution="MicrosoftPortalBase (9.2.2006.10)" type="10" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_webpage_navigation_weblinkset" parentDisplayName="Web Link Set" parentSchemaName="adx_weblinkset" schemaName="adx_webpage_navigation_weblinkset" solution="MicrosoftPortalBase (9.2.2006.10)" type="10" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="adx_webpage_navigation_weblinkset" parentDisplayName="Web Link Set" parentSchemaName="adx_weblinkset" schemaName="adx_webpage_navigation_weblinkset" solution="MicrosoftPortalBase (9.2.2006.10)" type="10" />
@@ -794,7 +934,19 @@
       </MissingDependency>
       <MissingDependency>
         <Required displayName="adx_webpage_webfile" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_webpage_webfile" solution="MicrosoftPortalDependencies (9.2.10.0)" type="10" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_webpage_webfile" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_webpage_webfile" solution="MicrosoftPortalDependencies (9.2.10.0)" type="10" />
         <Dependent displayName="Information" id="{efe18451-69c6-465e-8d3b-818ea660ab76}" parentDisplayName="Web File" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_webpage_webform" parentDisplayName="Web Form" parentSchemaName="adx_webform" schemaName="adx_webpage_webform" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="10" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_webpage_webform" parentDisplayName="Web Form" parentSchemaName="adx_webform" schemaName="adx_webpage_webform" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="10" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="adx_webpage_webform" parentDisplayName="Web Form" parentSchemaName="adx_webform" schemaName="adx_webpage_webform" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="10" />
@@ -803,6 +955,26 @@
       <MissingDependency>
         <Required displayName="adx_webpage_weblink" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_webpage_weblink" solution="MicrosoftPortalDependencies (9.2.10.0)" type="10" />
         <Dependent displayName="Information" id="{2623d4e7-ac46-4283-a509-3281ecfb199d}" parentDisplayName="Web Link" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_webpage_webpage" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_webpage_webpage" solution="MicrosoftPortalDependencies (9.2.10.0)" type="10" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_webpage_webpage" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_webpage_webpage" solution="MicrosoftPortalDependencies (9.2.10.0)" type="10" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_webpage_webpage_rootwebpageid" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_webpage_webpage_rootwebpageid" solution="MicrosoftPortalBase (9.2.2006.10)" type="10" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_webpage_webpage_rootwebpageid" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_webpage_webpage_rootwebpageid" solution="MicrosoftPortalBase (9.2.2006.10)" type="10" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_webpage_webpageaccesscontrolrule" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_webpage_webpageaccesscontrolrule" solution="MicrosoftPortalBase (9.2.2006.10)" type="10" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="adx_webpage_webpageaccesscontrolrule" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_webpage_webpageaccesscontrolrule" solution="MicrosoftPortalBase (9.2.2006.10)" type="10" />
@@ -846,6 +1018,14 @@
       </MissingDependency>
       <MissingDependency>
         <Required displayName="adx_website_pagetemplate" parentDisplayName="Website" parentSchemaName="adx_website" schemaName="adx_website_pagetemplate" solution="MicrosoftPortalDependencies (9.2.10.0)" type="10" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_website_pagetemplate" parentDisplayName="Website" parentSchemaName="adx_website" schemaName="adx_website_pagetemplate" solution="MicrosoftPortalDependencies (9.2.10.0)" type="10" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_website_pagetemplate" parentDisplayName="Website" parentSchemaName="adx_website" schemaName="adx_website_pagetemplate" solution="MicrosoftPortalDependencies (9.2.10.0)" type="10" />
         <Dependent displayName="Information" id="{9f3890fc-f4aa-49cd-a7a8-9fdb15fcdb5d}" parentDisplayName="Website" type="60" />
       </MissingDependency>
       <MissingDependency>
@@ -855,6 +1035,14 @@
       <MissingDependency>
         <Required displayName="adx_website_parentwebsite" parentDisplayName="Website" parentSchemaName="adx_website" schemaName="adx_website_parentwebsite" solution="MicrosoftPortalBase (9.2.2006.10)" type="10" />
         <Dependent displayName="Information" id="{9f3890fc-f4aa-49cd-a7a8-9fdb15fcdb5d}" parentDisplayName="Website" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_website_publishingstate" parentDisplayName="Website" parentSchemaName="adx_website" schemaName="adx_website_publishingstate" solution="MicrosoftPortalBase (9.2.2006.10)" type="10" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_website_publishingstate" parentDisplayName="Website" parentSchemaName="adx_website" schemaName="adx_website_publishingstate" solution="MicrosoftPortalBase (9.2.2006.10)" type="10" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="adx_website_publishingstate" parentDisplayName="Website" parentSchemaName="adx_website" schemaName="adx_website_publishingstate" solution="MicrosoftPortalBase (9.2.2006.10)" type="10" />
@@ -899,6 +1087,14 @@
       <MissingDependency>
         <Required displayName="adx_website_weblinkset" parentDisplayName="Website" parentSchemaName="adx_website" schemaName="adx_website_weblinkset" solution="MicrosoftPortalDependencies (9.2.10.0)" type="10" />
         <Dependent displayName="Information" id="{9f3890fc-f4aa-49cd-a7a8-9fdb15fcdb5d}" parentDisplayName="Website" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_website_webpage" parentDisplayName="Website" parentSchemaName="adx_website" schemaName="adx_website_webpage" solution="MicrosoftPortalDependencies (9.2.10.0)" type="10" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="adx_website_webpage" parentDisplayName="Website" parentSchemaName="adx_website" schemaName="adx_website_webpage" solution="MicrosoftPortalDependencies (9.2.10.0)" type="10" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="adx_website_webpage" parentDisplayName="Website" parentSchemaName="adx_website" schemaName="adx_website_webpage" solution="MicrosoftPortalDependencies (9.2.10.0)" type="10" />
@@ -961,6 +1157,10 @@
         <Dependent displayName="Information" id="{1c038742-0f0b-4b1e-a61f-79fa72d4cc50}" parentDisplayName="Web Link Set" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="adx_websitelanguage_webpage_webpagelanguageid" parentDisplayName="Website Language" parentSchemaName="adx_websitelanguage" schemaName="adx_websitelanguage_webpage_webpagelanguageid" solution="MicrosoftPortalBase (9.2.2006.10)" type="10" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="adx_websites.svg" schemaName="adx_websites.svg" solution="MicrosoftPortalDependencies (9.2.10.0)" type="61" />
         <Dependent displayName="Website" schemaName="adx_website" type="1" />
       </MissingDependency>
@@ -987,6 +1187,14 @@
       <MissingDependency>
         <Required displayName="Allow Origin" parentDisplayName="Web File" parentSchemaName="adx_webfile" schemaName="adx_alloworigin" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
         <Dependent displayName="Information" id="{efe18451-69c6-465e-8d3b-818ea660ab76}" parentDisplayName="Web File" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Allow Origin" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_alloworigin" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Allow Origin" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_alloworigin" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Anonymous Users Role" parentDisplayName="Web Role" parentSchemaName="adx_webrole" schemaName="adx_anonymoususersrole" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
@@ -1133,6 +1341,14 @@
         <Dependent displayName="Information" id="{ed26206d-9745-4706-9f11-b3448deb51bd}" parentDisplayName="Web Form" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Author" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_authorid" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Author" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_authorid" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Auto Generate Steps From Tabs" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_autogeneratesteps" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
         <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
       </MissingDependency>
@@ -1173,6 +1389,14 @@
         <Dependent displayName="Information" id="{85ccf31c-db3f-47fb-8c7a-56938671d99e}" parentDisplayName="Web Form Step" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Category" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_category" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Category" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_category" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Child Entity Permissions" id="{d3f8a7c8-2af0-e311-9428-00155d038c01}" parentDisplayName="Entity Permission" parentSchemaName="adx_entitypermission" schemaName="Child Entity Permissions" solution="MicrosoftPortalBase (9.2.2006.10)" type="26" />
         <Dependent displayName="Information" id="{9bac59d1-a229-43d2-9030-ff9222a548ec}" parentDisplayName="Entity Permission" type="60" />
       </MissingDependency>
@@ -1187,6 +1411,14 @@
       <MissingDependency>
         <Required displayName="Cloud Blob Address" parentDisplayName="Web File" parentSchemaName="adx_webfile" schemaName="adx_cloudblobaddress" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
         <Dependent displayName="Information" id="{efe18451-69c6-465e-8d3b-818ea660ab76}" parentDisplayName="Web File" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Comment Policy" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_feedbackpolicy" solution="Feedback (9.2.2001.0)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Comment Policy" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_feedbackpolicy" solution="Feedback (9.2.2001.0)" type="2" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Condition Default Next Step" parentDisplayName="Web Form Step" parentSchemaName="adx_webformstep" schemaName="adx_conditiondefaultnextstep" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
@@ -1253,6 +1485,10 @@
         <Dependent displayName="Information" id="{1c038742-0f0b-4b1e-a61f-79fa72d4cc50}" parentDisplayName="Web Link Set" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Copy" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_copy" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Country/Region Field Name" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_geolocation_countryfieldname" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
         <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
       </MissingDependency>
@@ -1297,6 +1533,14 @@
         <Dependent displayName="Information" id="{d1e40190-ccb6-49d5-866e-5a493206cdc5}" parentDisplayName="Web Form Metadata" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Custom CSS" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_customcss" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Custom CSS" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_customcss" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Custom JavaScript" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_registerstartupscript" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
         <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
       </MissingDependency>
@@ -1307,6 +1551,14 @@
       <MissingDependency>
         <Required displayName="Custom JavaScript" parentDisplayName="Web Form Step" parentSchemaName="adx_webformstep" schemaName="adx_registerstartupscript" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
         <Dependent displayName="Information" id="{85ccf31c-db3f-47fb-8c7a-56938671d99e}" parentDisplayName="Web Form Step" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Custom JavaScript" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_customjavascript" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Custom JavaScript" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_customjavascript" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Custom Query String" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_redirecturlcustomquerystring" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
@@ -1357,6 +1609,14 @@
         <Dependent displayName="Information" id="{4b316230-2379-4d27-b262-69d33e3b91ab}" parentDisplayName="Web Page Access Control Rule" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Description" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_meta_description" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Description" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_meta_description" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Description" parentDisplayName="Web Role" parentSchemaName="adx_webrole" schemaName="adx_description" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
         <Dependent displayName="Information" id="{759873c2-d54d-418a-b967-a68a70fbed32}" parentDisplayName="Web Role" type="60" />
       </MissingDependency>
@@ -1371,6 +1631,14 @@
       <MissingDependency>
         <Required displayName="Display Date" parentDisplayName="Web File" parentSchemaName="adx_webfile" schemaName="adx_displaydate" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
         <Dependent displayName="Information" id="{efe18451-69c6-465e-8d3b-818ea660ab76}" parentDisplayName="Web File" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Display Date" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_displaydate" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Display Date" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_displaydate" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Display Image Only" parentDisplayName="Web Link" parentSchemaName="adx_weblink" schemaName="adx_displayimageonly" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
@@ -1405,6 +1673,14 @@
         <Dependent displayName="Information" id="{2623d4e7-ac46-4283-a509-3281ecfb199d}" parentDisplayName="Web Link" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Display Order" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_displayorder" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Display Order" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_displayorder" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Display Page Child Links" parentDisplayName="Web Link" parentSchemaName="adx_weblink" schemaName="adx_displaypagechildlinks" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
         <Dependent displayName="Information" id="{2623d4e7-ac46-4283-a509-3281ecfb199d}" parentDisplayName="Web Link" type="60" />
       </MissingDependency>
@@ -1437,6 +1713,14 @@
         <Dependent displayName="Information" id="{ed26206d-9745-4706-9f11-b3448deb51bd}" parentDisplayName="Web Form" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Editorial Comments" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_editorialcomments" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Editorial Comments" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_editorialcomments" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Empty List Text" parentDisplayName="Entity List" parentSchemaName="adx_entitylist" schemaName="adx_emptylisttext" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
         <Dependent displayName="Information" id="{9be1dc51-076b-4c69-9a19-374f9faa05b0}" parentDisplayName="Entity List" type="60" />
       </MissingDependency>
@@ -1451,6 +1735,14 @@
       <MissingDependency>
         <Required displayName="Enable Entity Permissions" parentDisplayName="Web Form Step" parentSchemaName="adx_webformstep" schemaName="adx_entitypermissionsenabled" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
         <Dependent displayName="Information" id="{85ccf31c-db3f-47fb-8c7a-56938671d99e}" parentDisplayName="Web Form Step" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Enable Ratings" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_enablerating" solution="Feedback (9.2.2001.0)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Enable Ratings" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_enablerating" solution="Feedback (9.2.2001.0)" type="2" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Enable Validation Summary Links" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_validationsummarylinksenabled" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
@@ -1497,8 +1789,24 @@
         <Dependent displayName="Information" id="{f9e44486-155b-4e29-b787-927b41d5cde9}" parentDisplayName="Entity Form Metadata" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Entity Form" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_entityform" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Entity Form" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_entityform" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Entity Form" schemaName="adx_entityform" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="1" />
         <Dependent displayName="Entity Form" schemaName="adx_entityform" type="1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Entity List" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_entitylist" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Entity List" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_entitylist" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Entity List" schemaName="adx_entitylist" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="1" />
@@ -1545,8 +1853,24 @@
         <Dependent displayName="Information" id="{efe18451-69c6-465e-8d3b-818ea660ab76}" parentDisplayName="Web File" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Exclude From Search" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_excludefromsearch" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Exclude From Search" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_excludefromsearch" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Expiration Date" parentDisplayName="Web File" parentSchemaName="adx_webfile" schemaName="adx_expirationdate" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
         <Dependent displayName="Information" id="{efe18451-69c6-465e-8d3b-818ea660ab76}" parentDisplayName="Web File" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Expiration Date" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_expirationdate" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Expiration Date" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_expirationdate" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="External Url" parentDisplayName="Web Link" parentSchemaName="adx_weblink" schemaName="adx_externalurl" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
@@ -1633,6 +1957,14 @@
         <Dependent displayName="Information" id="{efe18451-69c6-465e-8d3b-818ea660ab76}" parentDisplayName="Web File" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Hidden From Sitemap" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_hiddenfromsitemap" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Hidden From Sitemap" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_hiddenfromsitemap" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Hide Form on Success" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_hideformonsuccess" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
         <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
       </MissingDependency>
@@ -1669,12 +2001,36 @@
         <Dependent displayName="Information" id="{2623d4e7-ac46-4283-a509-3281ecfb199d}" parentDisplayName="Web Link" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Image URL" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_imageurl" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Image URL" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_imageurl" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Image Width" parentDisplayName="Web Link" parentSchemaName="adx_weblink" schemaName="adx_imagewidth" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
         <Dependent displayName="Information" id="{2623d4e7-ac46-4283-a509-3281ecfb199d}" parentDisplayName="Web Link" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Image" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_image" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Image" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_image" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Inactive Web Link Sets" id="{d294de96-2297-4a9c-a364-205e42a4707f}" parentDisplayName="Web Link Set" parentSchemaName="adx_weblinkset" schemaName="Inactive Web Link Sets" solution="MicrosoftPortalDependencies (9.2.10.0)" type="26" />
         <Dependent displayName="Information" id="{2623d4e7-ac46-4283-a509-3281ecfb199d}" parentDisplayName="Web Link" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Inactive WebPages" id="{aab2f4bb-7813-46b2-9891-4c050325962b}" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="Inactive WebPages" solution="MicrosoftPortalDependencies (9.2.10.0)" type="26" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Inactive WebPages" id="{aab2f4bb-7813-46b2-9891-4c050325962b}" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="Inactive WebPages" solution="MicrosoftPortalDependencies (9.2.10.0)" type="26" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Inactive WebPages" id="{aab2f4bb-7813-46b2-9891-4c050325962b}" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="Inactive WebPages" solution="MicrosoftPortalDependencies (9.2.10.0)" type="26" />
@@ -1817,6 +2173,14 @@
         <Dependent displayName="Information" id="{b6725e3d-1d35-4499-aa99-ba0199a05cc4}" parentDisplayName="Publishing State" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Is Root" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_isroot" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Is Root" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_isroot" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Key" parentDisplayName="Entity List" parentSchemaName="adx_entitylist" schemaName="adx_key" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
         <Dependent displayName="Information" id="{9be1dc51-076b-4c69-9a19-374f9faa05b0}" parentDisplayName="Entity List" type="60" />
       </MissingDependency>
@@ -1885,6 +2249,14 @@
         <Dependent displayName="Information" id="{85ccf31c-db3f-47fb-8c7a-56938671d99e}" parentDisplayName="Web Form Step" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Localized Content" id="{4d5b1fe1-a25f-e611-80d9-00155d540c06}" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="Localized Content" solution="MicrosoftPortalBase (9.2.2006.10)" type="26" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Localized Content" id="{4d5b1fe1-a25f-e611-80d9-00155d540c06}" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="Localized Content" solution="MicrosoftPortalBase (9.2.2006.10)" type="26" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Location Field Name" parentDisplayName="Entity List" parentSchemaName="adx_entitylist" schemaName="adx_calendar_locationfieldname" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
         <Dependent displayName="Information" id="{9be1dc51-076b-4c69-9a19-374f9faa05b0}" parentDisplayName="Entity List" type="60" />
       </MissingDependency>
@@ -1947,6 +2319,14 @@
       <MissingDependency>
         <Required displayName="Master Web File" parentDisplayName="Web File" parentSchemaName="adx_webfile" schemaName="adx_masterwebfileid" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
         <Dependent displayName="Information" id="{efe18451-69c6-465e-8d3b-818ea660ab76}" parentDisplayName="Web File" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Master Web Page" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_masterwebpageid" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Master Web Page" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_masterwebpageid" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Maximum File Size" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_attachfilemaxsize" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
@@ -2082,11 +2462,19 @@
       </MissingDependency>
       <MissingDependency>
         <Required displayName="msa_resources/ResourcesManager.js" schemaName="msa_resources/ResourcesManager.js" solution="MicrosoftPortalDependencies (9.2.10.0)" type="61" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="msa_resources/ResourcesManager.js" schemaName="msa_resources/ResourcesManager.js" solution="MicrosoftPortalDependencies (9.2.10.0)" type="61" />
         <Dependent displayName="Information" id="{51ebff65-5462-47bc-88ee-dd9881465380}" parentDisplayName="Site Setting" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="msa_resources/ResourcesManager.js" schemaName="msa_resources/ResourcesManager.js" solution="MicrosoftPortalDependencies (9.2.10.0)" type="61" />
         <Dependent displayName="Information" id="{f2cef676-b675-4c6d-bfd2-8f28ab21d7d1}" parentDisplayName="Setting" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="msa_scripts/jquery1.9.1.min.js" schemaName="msa_scripts/jquery1.9.1.min.js" solution="MicrosoftPortalDependencies (9.2.10.0)" type="61" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="msa_scripts/jquery1.9.1.min.js" schemaName="msa_scripts/jquery1.9.1.min.js" solution="MicrosoftPortalDependencies (9.2.10.0)" type="61" />
@@ -2189,6 +2577,14 @@
         <Dependent displayName="Information" id="{4b316230-2379-4d27-b262-69d33e3b91ab}" parentDisplayName="Web Page Access Control Rule" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Name" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_name" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Name" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_name" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Name" parentDisplayName="Web Role" parentSchemaName="adx_webrole" schemaName="adx_name" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
         <Dependent displayName="Information" id="{759873c2-d54d-418a-b967-a68a70fbed32}" parentDisplayName="Web Role" type="60" />
       </MissingDependency>
@@ -2203,6 +2599,10 @@
       <MissingDependency>
         <Required displayName="Name" parentDisplayName="Website" parentSchemaName="adx_website" schemaName="adx_name" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
         <Dependent displayName="Information" id="{9f3890fc-f4aa-49cd-a7a8-9fdb15fcdb5d}" parentDisplayName="Website" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Navigation" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_navigation" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Neighborhood Field Name" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_geolocation_neighborhoodfieldname" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
@@ -2329,6 +2729,14 @@
         <Dependent displayName="Information" id="{4b316230-2379-4d27-b262-69d33e3b91ab}" parentDisplayName="Web Page Access Control Rule" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Owner" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="ownerid" solution="Active" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Owner" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="ownerid" solution="Active" type="2" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Owner" parentDisplayName="Web Role" parentSchemaName="adx_webrole" schemaName="ownerid" solution="Active" type="2" />
         <Dependent displayName="Information" id="{759873c2-d54d-418a-b967-a68a70fbed32}" parentDisplayName="Web Role" type="60" />
       </MissingDependency>
@@ -2343,6 +2751,14 @@
       <MissingDependency>
         <Required displayName="Page Size" parentDisplayName="Entity List" parentSchemaName="adx_entitylist" schemaName="adx_pagesize" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
         <Dependent displayName="Information" id="{9be1dc51-076b-4c69-9a19-374f9faa05b0}" parentDisplayName="Entity List" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Page Template" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_pagetemplateid" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Page Template" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_pagetemplateid" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Page Template" schemaName="adx_pagetemplate" solution="MicrosoftPortalDependencies (9.2.10.0)" type="1" />
@@ -2361,6 +2777,14 @@
         <Dependent displayName="Information" id="{efe18451-69c6-465e-8d3b-818ea660ab76}" parentDisplayName="Web File" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Parent Page" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_parentpageid" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Parent Page" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_parentpageid" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Parent Relationship" parentDisplayName="Entity Permission" parentSchemaName="adx_entitypermission" schemaName="adx_parentrelationship" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
         <Dependent displayName="Information" id="{9bac59d1-a229-43d2-9030-ff9222a548ec}" parentDisplayName="Entity Permission" type="60" />
       </MissingDependency>
@@ -2375,6 +2799,14 @@
       <MissingDependency>
         <Required displayName="Partial URL" parentDisplayName="Web File" parentSchemaName="adx_webfile" schemaName="adx_partialurl" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
         <Dependent displayName="Information" id="{efe18451-69c6-465e-8d3b-818ea660ab76}" parentDisplayName="Web File" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Partial URL" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_partialurl" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Partial URL" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_partialurl" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Partial URL" parentDisplayName="Website" parentSchemaName="adx_website" schemaName="adx_partialurl" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
@@ -2514,6 +2946,14 @@
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Publishing State Lookup View" id="{c0fc9644-2a90-43cb-93ba-7e06dd4b9641}" parentDisplayName="Publishing State" parentSchemaName="adx_publishingstate" schemaName="Publishing State Lookup View" solution="MicrosoftPortalBase (9.2.2006.10)" type="26" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Publishing State Lookup View" id="{c0fc9644-2a90-43cb-93ba-7e06dd4b9641}" parentDisplayName="Publishing State" parentSchemaName="adx_publishingstate" schemaName="Publishing State Lookup View" solution="MicrosoftPortalBase (9.2.2006.10)" type="26" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Publishing State Lookup View" id="{c0fc9644-2a90-43cb-93ba-7e06dd4b9641}" parentDisplayName="Publishing State" parentSchemaName="adx_publishingstate" schemaName="Publishing State Lookup View" solution="MicrosoftPortalBase (9.2.2006.10)" type="26" />
         <Dependent displayName="Information" id="{1c038742-0f0b-4b1e-a61f-79fa72d4cc50}" parentDisplayName="Web Link Set" type="60" />
       </MissingDependency>
       <MissingDependency>
@@ -2535,6 +2975,14 @@
       <MissingDependency>
         <Required displayName="Publishing State" parentDisplayName="Web Link" parentSchemaName="adx_weblink" schemaName="adx_publishingstateid" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
         <Dependent displayName="Information" id="{2623d4e7-ac46-4283-a509-3281ecfb199d}" parentDisplayName="Web Link" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Publishing State" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_publishingstateid" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Publishing State" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_publishingstateid" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Publishing State" schemaName="adx_publishingstate" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
@@ -2721,6 +3169,14 @@
         <Dependent displayName="Information" id="{efe18451-69c6-465e-8d3b-818ea660ab76}" parentDisplayName="Web File" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Release Date" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_releasedate" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Release Date" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_releasedate" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Render Web Resources Inline" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_renderwebresourcesinline" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
         <Dependent displayName="Information" id="{2b970b06-8b9e-40fd-bedb-1cc99a09a258}" parentDisplayName="Entity Form" type="60" />
       </MissingDependency>
@@ -2766,7 +3222,23 @@
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Root Web Pages" id="{de9079ab-17e2-df11-8658-00155d036405}" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="Root Web Pages" solution="MicrosoftPortalDependencies (9.2.10.0)" type="26" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Root Web Pages" id="{de9079ab-17e2-df11-8658-00155d036405}" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="Root Web Pages" solution="MicrosoftPortalDependencies (9.2.10.0)" type="26" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Root Web Pages" id="{de9079ab-17e2-df11-8658-00155d036405}" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="Root Web Pages" solution="MicrosoftPortalDependencies (9.2.10.0)" type="26" />
         <Dependent displayName="Information" id="{9f3890fc-f4aa-49cd-a7a8-9fdb15fcdb5d}" parentDisplayName="Website" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Root Webpage" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_rootwebpageid" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Root Webpage" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_rootwebpageid" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Save Changes Warning Message" parentDisplayName="Web Form" parentSchemaName="adx_webform" schemaName="adx_savechangeswarningmessage" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
@@ -2969,6 +3441,14 @@
         <Dependent displayName="Information" id="{4b316230-2379-4d27-b262-69d33e3b91ab}" parentDisplayName="Web Page Access Control Rule" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Status" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="statecode" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Status" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="statecode" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Status" parentDisplayName="Web Role" parentSchemaName="adx_webrole" schemaName="statecode" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
         <Dependent displayName="Information" id="{759873c2-d54d-418a-b967-a68a70fbed32}" parentDisplayName="Web Role" type="60" />
       </MissingDependency>
@@ -2999,6 +3479,14 @@
       <MissingDependency>
         <Required displayName="Subject" parentDisplayName="Web File" parentSchemaName="adx_webfile" schemaName="adx_subjectid" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
         <Dependent displayName="Information" id="{efe18451-69c6-465e-8d3b-818ea660ab76}" parentDisplayName="Web File" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Subject" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_subjectid" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Subject" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_subjectid" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Submit Button Busy Text" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_submitbuttonbusytext" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
@@ -3043,6 +3531,10 @@
       <MissingDependency>
         <Required displayName="Summary" parentDisplayName="Web File" parentSchemaName="adx_webfile" schemaName="adx_summary" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
         <Dependent displayName="Information" id="{efe18451-69c6-465e-8d3b-818ea660ab76}" parentDisplayName="Web File" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Summary" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_summary" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Tab Name" parentDisplayName="Entity Form Metadata" parentSchemaName="adx_entityformmetadata" schemaName="adx_tabname" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
@@ -3107,6 +3599,10 @@
       <MissingDependency>
         <Required displayName="Title" parentDisplayName="Web Link Set" parentSchemaName="adx_weblinkset" schemaName="adx_title" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
         <Dependent displayName="Information" id="{1c038742-0f0b-4b1e-a61f-79fa72d4cc50}" parentDisplayName="Web Link Set" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Title" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_title" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="ToolTip Enabled" parentDisplayName="Entity Form" parentSchemaName="adx_entityform" schemaName="adx_tooltipenabled" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
@@ -3245,6 +3741,14 @@
         <Dependent displayName="Information" id="{9be1dc51-076b-4c69-9a19-374f9faa05b0}" parentDisplayName="Entity List" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Web File Lookup View" id="{284bcd7a-a506-4f40-a709-1a4384af1f02}" parentDisplayName="Web File" parentSchemaName="adx_webfile" schemaName="Web File Lookup View" solution="MicrosoftPortalDependencies (9.2.10.0)" type="26" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Web File Lookup View" id="{284bcd7a-a506-4f40-a709-1a4384af1f02}" parentDisplayName="Web File" parentSchemaName="adx_webfile" schemaName="Web File Lookup View" solution="MicrosoftPortalDependencies (9.2.10.0)" type="26" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Web File" schemaName="adx_webfile" solution="MicrosoftPortalDependencies (9.2.10.0)" type="1" />
         <Dependent displayName="Web File" schemaName="adx_webfile" type="1" />
       </MissingDependency>
@@ -3289,6 +3793,14 @@
         <Dependent displayName="Information" id="{ed26206d-9745-4706-9f11-b3448deb51bd}" parentDisplayName="Web Form" type="60" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Web Form" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_webform" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Web Form" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_webform" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Web Form" schemaName="adx_webform" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="1" />
         <Dependent displayName="Web Form" schemaName="adx_webform" type="1" />
       </MissingDependency>
@@ -3327,6 +3839,14 @@
       <MissingDependency>
         <Required displayName="Web Page for Details View" parentDisplayName="Entity List" parentSchemaName="adx_entitylist" schemaName="adx_webpagefordetailsview" solution="MicrosoftPortalWebForms (9.2.2006.0)" type="2" />
         <Dependent displayName="Information" id="{9be1dc51-076b-4c69-9a19-374f9faa05b0}" parentDisplayName="Entity List" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Web Page Lookup View" id="{d40f1c4b-2b80-4d7d-8ed1-d5817562ab54}" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="Web Page Lookup View" solution="MicrosoftPortalDependencies (9.2.10.0)" type="26" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Web Page Lookup View" id="{d40f1c4b-2b80-4d7d-8ed1-d5817562ab54}" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="Web Page Lookup View" solution="MicrosoftPortalDependencies (9.2.10.0)" type="26" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Web Page Lookup View" id="{d40f1c4b-2b80-4d7d-8ed1-d5817562ab54}" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="Web Page Lookup View" solution="MicrosoftPortalDependencies (9.2.10.0)" type="26" />
@@ -3377,8 +3897,16 @@
         <Dependent displayName="Web Template" schemaName="adx_webtemplate" type="1" />
       </MissingDependency>
       <MissingDependency>
+        <Required displayName="Webpage Language" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_webpagelanguageid" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
         <Required displayName="Website Access" schemaName="adx_websiteaccess" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
         <Dependent displayName="Website Access" schemaName="adx_websiteaccess" type="1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Website Language Lookup View" id="{8f1824b8-9500-448e-9377-ab993254bb9a}" parentDisplayName="Website Language" parentSchemaName="adx_websitelanguage" schemaName="Website Language Lookup View" solution="MicrosoftPortalBase (9.2.2006.10)" type="26" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Website Language Lookup View" id="{8f1824b8-9500-448e-9377-ab993254bb9a}" parentDisplayName="Website Language" parentSchemaName="adx_websitelanguage" schemaName="Website Language Lookup View" solution="MicrosoftPortalBase (9.2.2006.10)" type="26" />
@@ -3391,6 +3919,10 @@
       <MissingDependency>
         <Required displayName="Website Language" schemaName="adx_websitelanguage" solution="MicrosoftPortalBase (9.2.2006.10)" type="1" />
         <Dependent displayName="Information" id="{9f3890fc-f4aa-49cd-a7a8-9fdb15fcdb5d}" parentDisplayName="Website" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Website Lookup View" id="{52f03978-5c2c-426f-a5cf-7b76b8a043db}" parentDisplayName="Website" parentSchemaName="adx_website" schemaName="Website Lookup View" solution="MicrosoftPortalDependencies (9.2.10.0)" type="26" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Website Lookup View" id="{52f03978-5c2c-426f-a5cf-7b76b8a043db}" parentDisplayName="Website" parentSchemaName="adx_website" schemaName="Website Lookup View" solution="MicrosoftPortalDependencies (9.2.10.0)" type="26" />
@@ -3439,6 +3971,14 @@
       <MissingDependency>
         <Required displayName="Website" parentDisplayName="Web Page Access Control Rule" parentSchemaName="adx_webpageaccesscontrolrule" schemaName="adx_websiteid" solution="MicrosoftPortalBase (9.2.2006.10)" type="2" />
         <Dependent displayName="Information" id="{4b316230-2379-4d27-b262-69d33e3b91ab}" parentDisplayName="Web Page Access Control Rule" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Website" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_websiteid" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
+        <Dependent displayName="Content Page" id="{4c2b38f7-578b-4078-bcf6-703d932ebf3a}" parentDisplayName="Web Page" type="60" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required displayName="Website" parentDisplayName="Web Page" parentSchemaName="adx_webpage" schemaName="adx_websiteid" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
+        <Dependent displayName="Information" id="{007c799c-a87f-4471-b00b-bf7555a0f85d}" parentDisplayName="Web Page" type="60" />
       </MissingDependency>
       <MissingDependency>
         <Required displayName="Website" parentDisplayName="Web Role" parentSchemaName="adx_webrole" schemaName="adx_websiteid" solution="MicrosoftPortalDependencies (9.2.10.0)" type="2" />
