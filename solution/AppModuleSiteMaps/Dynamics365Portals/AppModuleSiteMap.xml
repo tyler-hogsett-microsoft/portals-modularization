@@ -1,0 +1,491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SiteMapUniqueName>Dynamics365Portals</SiteMapUniqueName>
+  <SiteMap IntroducedVersion="7.0.0.0">
+    <Area Icon="/WebResources/msa_icon_nav_portals_32.png" Id="adx_cms" ShowGroups="true" VectorIcon="$webresource:adx_portals_area.svg">
+      <Titles>
+        <Title LCID="1033" Title="Portals" />
+        <Title LCID="1026" Title="Портали" />
+        <Title LCID="1027" Title="Portals" />
+        <Title LCID="1029" Title="Portály" />
+        <Title LCID="1030" Title="Portaler" />
+        <Title LCID="1031" Title="Portale" />
+        <Title LCID="1032" Title="Πύλες" />
+        <Title LCID="3082" Title="Portales" />
+        <Title LCID="1061" Title="Portaalid" />
+        <Title LCID="1069" Title="Atariak" />
+        <Title LCID="1035" Title="Portaalit" />
+        <Title LCID="1036" Title="Portails" />
+        <Title LCID="1110" Title="Portais" />
+        <Title LCID="1081" Title="पोर्टल" />
+        <Title LCID="1050" Title="Portali" />
+        <Title LCID="1038" Title="Portálok" />
+        <Title LCID="1057" Title="Portal" />
+        <Title LCID="1040" Title="Portali" />
+        <Title LCID="1041" Title="ポータル" />
+        <Title LCID="1087" Title="Порталдар" />
+        <Title LCID="1042" Title="포털" />
+        <Title LCID="1063" Title="Portalai" />
+        <Title LCID="1062" Title="Portāli" />
+        <Title LCID="1086" Title="Portal" />
+        <Title LCID="1044" Title="Portaler" />
+        <Title LCID="1043" Title="Portals" />
+        <Title LCID="1045" Title="Portale" />
+        <Title LCID="1046" Title="Portais" />
+        <Title LCID="2070" Title="Portais" />
+        <Title LCID="1048" Title="Portaluri" />
+        <Title LCID="1049" Title="Порталы" />
+        <Title LCID="1051" Title="Portály" />
+        <Title LCID="1060" Title="Portali" />
+        <Title LCID="3098" Title="Портали" />
+        <Title LCID="10266" Title="Портали" />
+        <Title LCID="2074" Title="Portali" />
+        <Title LCID="9242" Title="Portali" />
+        <Title LCID="1053" Title="Portaler" />
+        <Title LCID="1054" Title="พอร์ทัล" />
+        <Title LCID="1055" Title="Portallar" />
+        <Title LCID="1058" Title="Портали" />
+        <Title LCID="1066" Title="Cổng thông tin" />
+        <Title LCID="2052" Title="门户" />
+        <Title LCID="3076" Title="入口網站" />
+        <Title LCID="1028" Title="入口網站" />
+      </Titles>
+      <Group Id="Website" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Website" />
+          <Title LCID="1026" Title="Website" />
+          <Title LCID="1027" Title="Website" />
+          <Title LCID="1029" Title="Website" />
+          <Title LCID="1030" Title="Website" />
+          <Title LCID="1031" Title="Website" />
+          <Title LCID="1032" Title="Website" />
+          <Title LCID="3082" Title="Website" />
+          <Title LCID="1061" Title="Website" />
+          <Title LCID="1069" Title="Website" />
+          <Title LCID="1035" Title="Website" />
+          <Title LCID="1036" Title="Website" />
+          <Title LCID="1110" Title="Website" />
+          <Title LCID="1081" Title="Website" />
+          <Title LCID="1050" Title="Website" />
+          <Title LCID="1038" Title="Website" />
+          <Title LCID="1057" Title="Website" />
+          <Title LCID="1040" Title="Website" />
+          <Title LCID="1041" Title="Website" />
+          <Title LCID="1087" Title="Website" />
+          <Title LCID="1042" Title="Website" />
+          <Title LCID="1063" Title="Website" />
+          <Title LCID="1062" Title="Website" />
+          <Title LCID="1086" Title="Website" />
+          <Title LCID="1044" Title="Website" />
+          <Title LCID="1043" Title="Website" />
+          <Title LCID="1045" Title="Website" />
+          <Title LCID="1046" Title="Website" />
+          <Title LCID="2070" Title="Website" />
+          <Title LCID="1048" Title="Website" />
+          <Title LCID="1049" Title="Website" />
+          <Title LCID="1051" Title="Website" />
+          <Title LCID="1060" Title="Website" />
+          <Title LCID="3098" Title="Website" />
+          <Title LCID="10266" Title="Website" />
+          <Title LCID="2074" Title="Website" />
+          <Title LCID="9242" Title="Website" />
+          <Title LCID="1053" Title="Website" />
+          <Title LCID="1054" Title="Website" />
+          <Title LCID="1055" Title="Website" />
+          <Title LCID="1058" Title="Website" />
+          <Title LCID="1066" Title="Website" />
+          <Title LCID="2052" Title="Website" />
+          <Title LCID="3076" Title="Website" />
+          <Title LCID="1028" Title="Website" />
+        </Titles>
+        <SubArea AvailableOffline="true" Entity="adx_website" Icon="/WebResources/adx_websites.svg" Id="adx_website" PassParams="false" />
+        <SubArea AvailableOffline="true" Entity="adx_pagetemplate" Icon="/WebResources/adx_page_templates.svg" Id="adx_pagetemplate" PassParams="false" />
+        <SubArea AvailableOffline="true" Entity="adx_redirect" Icon="/WebResources/adx_redirects.svg" Id="adx_redirect" PassParams="false" />
+        <SubArea AvailableOffline="true" Entity="adx_sitemarker" Icon="/WebResources/adx_site_markers.svg" Id="adx_sitemarker" PassParams="false" />
+        <SubArea AvailableOffline="true" Entity="adx_sitesetting" Icon="/WebResources/adx_site_settings.svg" Id="adx_sitesetting" PassParams="false" />
+        <SubArea AvailableOffline="true" Entity="adx_websitebinding" Icon="/WebResources/adx_website_bindings.svg" Id="adx_websitebinding" PassParams="false" />
+        <SubArea AvailableOffline="true" Entity="adx_setting" Icon="/_imgs/imagestrips/transparent_spacer.gif" Id="adx_setting" PassParams="false" />
+      </Group>
+      <Group Id="Content" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Content" />
+          <Title LCID="1026" Title="Съдържание" />
+          <Title LCID="1027" Title="Contingut" />
+          <Title LCID="1029" Title="Obsah" />
+          <Title LCID="1030" Title="Indhold" />
+          <Title LCID="1031" Title="Inhalt" />
+          <Title LCID="1032" Title="Περιεχόμενο" />
+          <Title LCID="3082" Title="Contenido" />
+          <Title LCID="1061" Title="Sisu" />
+          <Title LCID="1069" Title="Edukia" />
+          <Title LCID="1035" Title="Sisältö" />
+          <Title LCID="1036" Title="Contenu" />
+          <Title LCID="1110" Title="Contido" />
+          <Title LCID="1081" Title="सामग्री" />
+          <Title LCID="1050" Title="Sadržaj" />
+          <Title LCID="1038" Title="Tartalom" />
+          <Title LCID="1057" Title="Konten" />
+          <Title LCID="1040" Title="Contenuti" />
+          <Title LCID="1041" Title="コンテンツ" />
+          <Title LCID="1087" Title="Мазмұн" />
+          <Title LCID="1042" Title="내용" />
+          <Title LCID="1063" Title="Turinys" />
+          <Title LCID="1062" Title="Saturs" />
+          <Title LCID="1086" Title="Kandungan" />
+          <Title LCID="1044" Title="Innhold" />
+          <Title LCID="1043" Title="Inhoud" />
+          <Title LCID="1045" Title="Zawartość" />
+          <Title LCID="1046" Title="Conteúdo" />
+          <Title LCID="2070" Title="Conteúdo" />
+          <Title LCID="1048" Title="Conținut" />
+          <Title LCID="1049" Title="Содержимое" />
+          <Title LCID="1051" Title="Obsah" />
+          <Title LCID="1060" Title="Vsebina" />
+          <Title LCID="3098" Title="Садржај" />
+          <Title LCID="10266" Title="Садржај" />
+          <Title LCID="2074" Title="Sadržaj" />
+          <Title LCID="9242" Title="Sadržaj" />
+          <Title LCID="1053" Title="Innehåll" />
+          <Title LCID="1054" Title="เนื้อหา" />
+          <Title LCID="1055" Title="İçerik" />
+          <Title LCID="1058" Title="Вміст" />
+          <Title LCID="1066" Title="Nội dung" />
+          <Title LCID="2052" Title="内容" />
+          <Title LCID="3076" Title="內容" />
+          <Title LCID="1028" Title="內容" />
+        </Titles>
+        <SubArea AvailableOffline="true" Entity="adx_contentsnippet" Icon="/WebResources/adx_content_snippets.svg" Id="adx_contentsnippet" PassParams="false" />
+        <SubArea AvailableOffline="true" Entity="adx_entityform" Icon="/WebResources/adx_entity_forms.svg" Id="adx_entityform" PassParams="false" />
+        <SubArea AvailableOffline="true" Entity="adx_entitylist" Icon="/WebResources/adx_entity_lists.svg" Id="adx_entitylist" PassParams="false" />
+        <SubArea AvailableOffline="true" Entity="adx_shortcut" Icon="/WebResources/adx_shortcuts.svg" Id="adx_shortcut" PassParams="false" />
+        <SubArea AvailableOffline="true" Entity="adx_webfile" Icon="/WebResources/adx_web_files.svg" Id="adx_webfile" PassParams="false" />
+        <SubArea AvailableOffline="true" Entity="adx_webform" Icon="/WebResources/adx_web_forms.svg" Id="adx_webform" PassParams="false" />
+        <SubArea AvailableOffline="true" Entity="adx_weblinkset" Icon="/WebResources/adx_weblink_sets.svg" Id="adx_weblinkset" PassParams="false" />
+        <SubArea AvailableOffline="true" Entity="adx_portallanguage" Icon="/WebResources/adx_portal_languages.svg" Id="adx_portallanguage" PassParams="false" />
+        <SubArea AvailableOffline="true" Entity="adx_webpage" Icon="/WebResources/adx_web_pages.svg" Id="adx_webpage" PassParams="false" />
+        <SubArea AvailableOffline="true" Entity="adx_webtemplate" Icon="/WebResources/adx_web_templates.svg" Id="adx_webtemplate" PassParams="false" />
+      </Group>
+      <Group Id="Security" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Security" />
+          <Title LCID="1026" Title="Security" />
+          <Title LCID="1027" Title="Security" />
+          <Title LCID="1029" Title="Security" />
+          <Title LCID="1030" Title="Security" />
+          <Title LCID="1031" Title="Security" />
+          <Title LCID="1032" Title="Security" />
+          <Title LCID="3082" Title="Security" />
+          <Title LCID="1061" Title="Security" />
+          <Title LCID="1069" Title="Security" />
+          <Title LCID="1035" Title="Security" />
+          <Title LCID="1036" Title="Security" />
+          <Title LCID="1110" Title="Security" />
+          <Title LCID="1081" Title="Security" />
+          <Title LCID="1050" Title="Security" />
+          <Title LCID="1038" Title="Security" />
+          <Title LCID="1057" Title="Security" />
+          <Title LCID="1040" Title="Security" />
+          <Title LCID="1041" Title="Security" />
+          <Title LCID="1087" Title="Security" />
+          <Title LCID="1042" Title="Security" />
+          <Title LCID="1063" Title="Security" />
+          <Title LCID="1062" Title="Security" />
+          <Title LCID="1086" Title="Security" />
+          <Title LCID="1044" Title="Security" />
+          <Title LCID="1043" Title="Security" />
+          <Title LCID="1045" Title="Security" />
+          <Title LCID="1046" Title="Security" />
+          <Title LCID="2070" Title="Security" />
+          <Title LCID="1048" Title="Security" />
+          <Title LCID="1049" Title="Security" />
+          <Title LCID="1051" Title="Security" />
+          <Title LCID="1060" Title="Security" />
+          <Title LCID="3098" Title="Security" />
+          <Title LCID="10266" Title="Security" />
+          <Title LCID="2074" Title="Security" />
+          <Title LCID="9242" Title="Security" />
+          <Title LCID="1053" Title="Security" />
+          <Title LCID="1054" Title="Security" />
+          <Title LCID="1055" Title="Security" />
+          <Title LCID="1058" Title="Security" />
+          <Title LCID="1066" Title="Security" />
+          <Title LCID="2052" Title="Security" />
+          <Title LCID="3076" Title="Security" />
+          <Title LCID="1028" Title="Security" />
+        </Titles>
+        <SubArea AvailableOffline="true" DescriptionResourceId="Contact_SubArea_Description" Entity="contact" Icon="/WebResources/adx_contacts.svg" Id="nav_contacts" PassParams="false" />
+        <SubArea AvailableOffline="true" Entity="adx_entitypermission" Icon="/WebResources/adx_entity_permissions.svg" Id="adx_entitypermissions" PassParams="false" />
+        <SubArea AvailableOffline="true" Entity="adx_invitation" Icon="/WebResources/adx_invitations.svg" Id="adx_invitation" PassParams="false" />
+        <SubArea AvailableOffline="true" Entity="adx_publishingstatetransitionrule" Icon="/WebResources/adx_publishing_state_transition_rules.svg" Id="adx_publishingstatetransitionrule" PassParams="false" />
+        <SubArea AvailableOffline="true" Entity="adx_webpageaccesscontrolrule" Icon="/WebResources/adx_web_page_access_control_rules.svg" Id="adx_webpageaccesscontrolrule" PassParams="false" />
+        <SubArea AvailableOffline="true" Entity="adx_webrole" Icon="/WebResources/adx_webroles.svg" Id="adx_webrole" PassParams="false" />
+        <SubArea AvailableOffline="true" Entity="adx_websiteaccess" Icon="/WebResources/adx_website access.svg" Id="adx_websiteaccess" PassParams="false" />
+      </Group>
+      <Group Id="Ads" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Ads" />
+          <Title LCID="1026" Title="Ads" />
+          <Title LCID="1027" Title="Ads" />
+          <Title LCID="1029" Title="Ads" />
+          <Title LCID="1030" Title="Ads" />
+          <Title LCID="1031" Title="Ads" />
+          <Title LCID="1032" Title="Ads" />
+          <Title LCID="3082" Title="Ads" />
+          <Title LCID="1061" Title="Ads" />
+          <Title LCID="1069" Title="Ads" />
+          <Title LCID="1035" Title="Ads" />
+          <Title LCID="1036" Title="Ads" />
+          <Title LCID="1110" Title="Ads" />
+          <Title LCID="1081" Title="Ads" />
+          <Title LCID="1050" Title="Ads" />
+          <Title LCID="1038" Title="Ads" />
+          <Title LCID="1057" Title="Ads" />
+          <Title LCID="1040" Title="Ads" />
+          <Title LCID="1041" Title="Ads" />
+          <Title LCID="1087" Title="Ads" />
+          <Title LCID="1042" Title="Ads" />
+          <Title LCID="1063" Title="Ads" />
+          <Title LCID="1062" Title="Ads" />
+          <Title LCID="1086" Title="Ads" />
+          <Title LCID="1044" Title="Ads" />
+          <Title LCID="1043" Title="Ads" />
+          <Title LCID="1045" Title="Ads" />
+          <Title LCID="1046" Title="Ads" />
+          <Title LCID="2070" Title="Ads" />
+          <Title LCID="1048" Title="Ads" />
+          <Title LCID="1049" Title="Ads" />
+          <Title LCID="1051" Title="Ads" />
+          <Title LCID="1060" Title="Ads" />
+          <Title LCID="3098" Title="Ads" />
+          <Title LCID="10266" Title="Ads" />
+          <Title LCID="2074" Title="Ads" />
+          <Title LCID="9242" Title="Ads" />
+          <Title LCID="1053" Title="Ads" />
+          <Title LCID="1054" Title="Ads" />
+          <Title LCID="1055" Title="Ads" />
+          <Title LCID="1058" Title="Ads" />
+          <Title LCID="1066" Title="Ads" />
+          <Title LCID="2052" Title="Ads" />
+          <Title LCID="3076" Title="Ads" />
+          <Title LCID="1028" Title="Ads" />
+        </Titles>
+        <SubArea AvailableOffline="true" Entity="adx_adplacement" Icon="/WebResources/adx_ad_placement.svg" Id="adx_adplacement" PassParams="false" />
+        <SubArea AvailableOffline="true" Entity="adx_ad" Icon="/WebResources/adx_ad.svg" Id="adx_ad" PassParams="false" />
+      </Group>
+      <Group Id="Polls" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Polls" />
+          <Title LCID="1026" Title="Polls" />
+          <Title LCID="1027" Title="Polls" />
+          <Title LCID="1029" Title="Polls" />
+          <Title LCID="1030" Title="Polls" />
+          <Title LCID="1031" Title="Polls" />
+          <Title LCID="1032" Title="Polls" />
+          <Title LCID="3082" Title="Polls" />
+          <Title LCID="1061" Title="Polls" />
+          <Title LCID="1069" Title="Polls" />
+          <Title LCID="1035" Title="Polls" />
+          <Title LCID="1036" Title="Polls" />
+          <Title LCID="1110" Title="Polls" />
+          <Title LCID="1081" Title="Polls" />
+          <Title LCID="1050" Title="Polls" />
+          <Title LCID="1038" Title="Polls" />
+          <Title LCID="1057" Title="Polls" />
+          <Title LCID="1040" Title="Polls" />
+          <Title LCID="1041" Title="Polls" />
+          <Title LCID="1087" Title="Polls" />
+          <Title LCID="1042" Title="Polls" />
+          <Title LCID="1063" Title="Polls" />
+          <Title LCID="1062" Title="Polls" />
+          <Title LCID="1086" Title="Polls" />
+          <Title LCID="1044" Title="Polls" />
+          <Title LCID="1043" Title="Polls" />
+          <Title LCID="1045" Title="Polls" />
+          <Title LCID="1046" Title="Polls" />
+          <Title LCID="2070" Title="Polls" />
+          <Title LCID="1048" Title="Polls" />
+          <Title LCID="1049" Title="Polls" />
+          <Title LCID="1051" Title="Polls" />
+          <Title LCID="1060" Title="Polls" />
+          <Title LCID="3098" Title="Polls" />
+          <Title LCID="10266" Title="Polls" />
+          <Title LCID="2074" Title="Polls" />
+          <Title LCID="9242" Title="Polls" />
+          <Title LCID="1053" Title="Polls" />
+          <Title LCID="1054" Title="Polls" />
+          <Title LCID="1055" Title="Polls" />
+          <Title LCID="1058" Title="Polls" />
+          <Title LCID="1066" Title="Polls" />
+          <Title LCID="2052" Title="Polls" />
+          <Title LCID="3076" Title="Polls" />
+          <Title LCID="1028" Title="Polls" />
+        </Titles>
+        <SubArea AvailableOffline="true" Entity="adx_pollplacement" Icon="/WebResources/adx_poll_placement.svg" Id="adx_pollplacement" PassParams="false" />
+        <SubArea AvailableOffline="true" Entity="adx_poll" Icon="/WebResources/adx_poll.svg" Id="adx_poll" PassParams="false" />
+      </Group>
+      <Group Id="Administration" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Administration" />
+          <Title LCID="1026" Title="Администриране" />
+          <Title LCID="1027" Title="Administració" />
+          <Title LCID="1029" Title="Správa" />
+          <Title LCID="1030" Title="Administration" />
+          <Title LCID="1031" Title="Verwaltung" />
+          <Title LCID="1032" Title="Διαχείριση" />
+          <Title LCID="3082" Title="Administración" />
+          <Title LCID="1061" Title="Haldus" />
+          <Title LCID="1069" Title="Administrazioa" />
+          <Title LCID="1035" Title="Hallinto" />
+          <Title LCID="1036" Title="Administration" />
+          <Title LCID="1110" Title="Administración" />
+          <Title LCID="1081" Title="व्यवस्थापन" />
+          <Title LCID="1050" Title="Administracija" />
+          <Title LCID="1038" Title="Adminisztráció" />
+          <Title LCID="1057" Title="Administrasi" />
+          <Title LCID="1040" Title="Amministrazione" />
+          <Title LCID="1041" Title="管理" />
+          <Title LCID="1087" Title="Әкімшілік" />
+          <Title LCID="1042" Title="관리" />
+          <Title LCID="1063" Title="Administracija" />
+          <Title LCID="1062" Title="Administrēšana" />
+          <Title LCID="1086" Title="Pentadbiran" />
+          <Title LCID="1044" Title="Administrasjon" />
+          <Title LCID="1043" Title="Beheer" />
+          <Title LCID="1045" Title="Administracja" />
+          <Title LCID="1046" Title="Administração" />
+          <Title LCID="2070" Title="Administração" />
+          <Title LCID="1048" Title="Administrare" />
+          <Title LCID="1049" Title="Администрирование" />
+          <Title LCID="1051" Title="Správa" />
+          <Title LCID="1060" Title="Skrbništvo" />
+          <Title LCID="3098" Title="Администрација" />
+          <Title LCID="10266" Title="Администрација" />
+          <Title LCID="2074" Title="Administracija" />
+          <Title LCID="9242" Title="Administracija" />
+          <Title LCID="1053" Title="Administration" />
+          <Title LCID="1054" Title="การจัดการ" />
+          <Title LCID="1055" Title="Yönetim" />
+          <Title LCID="1058" Title="Адміністрування" />
+          <Title LCID="1066" Title="Quản trị" />
+          <Title LCID="2052" Title="管理" />
+          <Title LCID="3076" Title="管理" />
+          <Title LCID="1028" Title="管理" />
+        </Titles>
+        <SubArea AvailableOffline="true" Id="Create_Portal_Content" PassParams="false" Url="$webresource:msa_portalmanagement/modules/wizard/wizard.html" VectorIcon="$webresource:adx_create_portal_content.svg">
+          <Titles>
+            <Title LCID="1033" Title="Create Portal Content" />
+            <Title LCID="1026" Title="Създаване на съдържание на портал" />
+            <Title LCID="1027" Title="Crea contingut del portal" />
+            <Title LCID="1029" Title="Vytvořit obsah portálu" />
+            <Title LCID="1030" Title="Opret indhold på portal" />
+            <Title LCID="1031" Title="Portalinhalt erstellen" />
+            <Title LCID="1032" Title="Δημιουργία περιεχομένου πύλης" />
+            <Title LCID="3082" Title="Crear contenido del portal" />
+            <Title LCID="1061" Title="Portaali sisu loomine" />
+            <Title LCID="1069" Title="Sortu atariko edukia" />
+            <Title LCID="1035" Title="Luo portaalin sisältöä" />
+            <Title LCID="1036" Title="Créer le contenu du portail" />
+            <Title LCID="1110" Title="Crear contido do portal" />
+            <Title LCID="1081" Title="पोर्टल सामग्री बनाएँ" />
+            <Title LCID="1050" Title="Stvori sadržaj portala" />
+            <Title LCID="1038" Title="Portáltartalom létrehozása" />
+            <Title LCID="1057" Title="Buat Konten Portal" />
+            <Title LCID="1040" Title="Crea contenuti portale" />
+            <Title LCID="1041" Title="ポータル コンテンツの作成" />
+            <Title LCID="1087" Title="Портал мазмұнын жасау" />
+            <Title LCID="1042" Title="포털 콘텐츠 만들기" />
+            <Title LCID="1063" Title="Kurti portalo turinį" />
+            <Title LCID="1062" Title="Portāla satura izveide" />
+            <Title LCID="1086" Title="Cipta Kandungan Portal" />
+            <Title LCID="1044" Title="Opprett portalinnhold" />
+            <Title LCID="1043" Title="Portalinhoud maken" />
+            <Title LCID="1045" Title="Utwórz zawartość portalu" />
+            <Title LCID="1046" Title="Criar Conteúdo do Portal" />
+            <Title LCID="2070" Title="Criar Conteúdo do Portal" />
+            <Title LCID="1048" Title="Creare conținut pe portal" />
+            <Title LCID="1049" Title="Создание содержимого портала" />
+            <Title LCID="1051" Title="Vytvorenie obsahu portálu" />
+            <Title LCID="1060" Title="Ustvarjanje vsebine portala" />
+            <Title LCID="3098" Title="Креирање садржаја портала" />
+            <Title LCID="10266" Title="Креирање садржаја портала" />
+            <Title LCID="2074" Title="Kreiranje sadržaja portala" />
+            <Title LCID="9242" Title="Kreiranje sadržaja portala" />
+            <Title LCID="1053" Title="Skapa portalinnehåll" />
+            <Title LCID="1054" Title="สร้างเนื้อหาของพอร์ทัล" />
+            <Title LCID="1055" Title="Portal İçeriği Oluşturun" />
+            <Title LCID="1058" Title="Створити вміст порталу" />
+            <Title LCID="1066" Title="Tạo Nội dung Cổng thông tin" />
+            <Title LCID="2052" Title="创建门户内容" />
+            <Title LCID="3076" Title="建立入口網站內容" />
+            <Title LCID="1028" Title="建立入口網站內容" />
+          </Titles>
+          <Privilege Entity="adx_website" Privilege="Read,Append,AppendTo" />
+          <Privilege Entity="adx_publishingstate" Privilege="Read,Append,AppendTo" />
+          <Privilege Entity="adx_webpage" Privilege="Create,Delete,Read,Write,Append,AppendTo" />
+          <Privilege Entity="adx_pagetemplate" Privilege="Read,Append,AppendTo" />
+          <Privilege Entity="adx_portallanguage" Privilege="Read,Append,AppendTo" />
+          <Privilege Entity="adx_websitelanguage" Privilege="Read,Append,AppendTo" />
+        </SubArea>
+        <SubArea AvailableOffline="true" Id="Enable_Traffic_Analysis" PassParams="false" Url="$webresource:msa_portalmanagement/modules/traffic_analytics/traffic_analytics.html" VectorIcon="$webresource:adx_enable_traffic_analysis.svg">
+          <Titles>
+            <Title LCID="1033" Title="Enable Traffic Analysis" />
+            <Title LCID="1026" Title="Разрешаване на анализ на трафика" />
+            <Title LCID="1027" Title="Habilita l'anàlisi de trànsit" />
+            <Title LCID="1029" Title="Povolit analýzu provozu" />
+            <Title LCID="1030" Title="Aktivér trafikanalyse" />
+            <Title LCID="1031" Title="Datenverkehrsanalyse aktivieren" />
+            <Title LCID="1032" Title="Ενεργοποίηση ανάλυσης κυκλοφορίας" />
+            <Title LCID="3082" Title="Habilitar análisis de tráfico" />
+            <Title LCID="1061" Title="Luba liikluse analüüs" />
+            <Title LCID="1069" Title="Gaitu trafikoaren analisia" />
+            <Title LCID="1035" Title="Ota liikenteen analyysi käyttöön" />
+            <Title LCID="1036" Title="Activer l'analyse de trafic" />
+            <Title LCID="1110" Title="Activar análise de tráfico" />
+            <Title LCID="1081" Title="ट्रैफ़िक विश्लेषण सक्षम करें" />
+            <Title LCID="1050" Title="Omogući analizu prometa" />
+            <Title LCID="1038" Title="Forgalomelemzés engedélyezése" />
+            <Title LCID="1057" Title="Aktifkan Analisis Lalu Lintas" />
+            <Title LCID="1040" Title="Abilita analisi traffico" />
+            <Title LCID="1041" Title="トラフィック分析の有効化" />
+            <Title LCID="1087" Title="Трафик талдауын қосу" />
+            <Title LCID="1042" Title="트래픽 분석 사용" />
+            <Title LCID="1063" Title="Įjungti srauto analizę" />
+            <Title LCID="1062" Title="Datplūsmas analīzes iespējošana" />
+            <Title LCID="1086" Title="Dayakan Analisis Trafik" />
+            <Title LCID="1044" Title="Aktiver trafikkanalyse" />
+            <Title LCID="1043" Title="Verkeersanalyse inschakelen" />
+            <Title LCID="1045" Title="Włącz analizę ruchu" />
+            <Title LCID="1046" Title="Habilitar Análise de Tráfego" />
+            <Title LCID="2070" Title="Ativar Análise de Tráfego" />
+            <Title LCID="1048" Title="Activare analiză de trafic" />
+            <Title LCID="1049" Title="Включение анализа трафика" />
+            <Title LCID="1051" Title="Povolenie analýzy prenosu" />
+            <Title LCID="1060" Title="Omogočanje analize prometa" />
+            <Title LCID="3098" Title="Омогућавање анализе саобраћаја" />
+            <Title LCID="10266" Title="Омогућавање анализе саобраћаја" />
+            <Title LCID="2074" Title="Omogućavanje analize saobraćaja" />
+            <Title LCID="9242" Title="Omogućavanje analize saobraćaja" />
+            <Title LCID="1053" Title="Aktivera trafikanalys" />
+            <Title LCID="1054" Title="เปิดใช้งานการวิเคราะห์ปริมาณการใช้งาน" />
+            <Title LCID="1055" Title="Trafik Analizini Etkinleştirin" />
+            <Title LCID="1058" Title="Увімкнути засоби аналізу трафіку" />
+            <Title LCID="1066" Title="Bật Phân tích Lưu lượng truy cập" />
+            <Title LCID="2052" Title="启用流量分析" />
+            <Title LCID="3076" Title="啟用流量分析" />
+            <Title LCID="1028" Title="啟用流量分析" />
+          </Titles>
+          <Privilege Entity="adx_website" Privilege="Read,Append,AppendTo" />
+          <Privilege Entity="adx_publishingstate" Privilege="Read,Append,AppendTo" />
+          <Privilege Entity="adx_webpage" Privilege="Create,Delete,Read,Write,Append,AppendTo" />
+          <Privilege Entity="adx_pagetemplate" Privilege="Read,Append,AppendTo" />
+          <Privilege Entity="adx_portallanguage" Privilege="Read,Append,AppendTo" />
+          <Privilege Entity="adx_websitelanguage" Privilege="Read,Append,AppendTo" />
+        </SubArea>
+        <SubArea AvailableOffline="true" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" Entity="mdce_portal_module" Icon="/_imgs/imagestrips/transparent_spacer.gif" Id="NewSubArea_856fc8e1" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="Dynamics 365 Portals" languagecode="1033" />
+  </LocalizedNames>
+</AppModuleSiteMap>
