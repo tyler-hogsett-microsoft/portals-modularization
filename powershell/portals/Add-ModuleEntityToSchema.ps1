@@ -15,6 +15,7 @@ if($moduleNode -eq $null) {
     <fields>
       <field updateCompare=`"true`" displayname=`"Module`" name=`"mdce_portal_moduleid`" type=`"guid`" primaryKey=`"true`" />
       <field displayname=`"Name`" name=`"mdce_name`" type=`"string`" />
+      <field displayname=`"Version`" name=`"mdce_version`" type=`"string`" />
     </fields>
     <relationships />
   </entity>

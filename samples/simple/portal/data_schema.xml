@@ -913,6 +913,7 @@
     <fields>
       <field updateCompare="true" displayname="Module" name="mdce_portal_moduleid" type="guid" primaryKey="true" />
       <field displayname="Name" name="mdce_name" type="string" />
+      <field displayname="Version" name="mdce_version" type="string" />
     </fields>
     <relationships />
     <filter>&lt;fetch&gt;&lt;entity name="mdce_portal_module"&gt;&lt;attribute name="mdce_portal_moduleid" /&gt;&lt;filter&gt;&lt;condition attribute="mdce_name" operator="eq" value="Base" /&gt;&lt;/filter&gt;&lt;/entity&gt;&lt;/fetch&gt;</filter>
