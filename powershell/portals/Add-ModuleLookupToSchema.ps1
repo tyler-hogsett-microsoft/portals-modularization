@@ -1,5 +1,5 @@
 param(
-    $Connection,
+    $Connection = (& $PSScriptRoot\..\cds\Get-CrmConnection.ps1),
     [Parameter(Mandatory=$true)]
     [string]$SchemaFilePath
 )
