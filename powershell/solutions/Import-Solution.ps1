@@ -50,5 +50,7 @@ Import-CrmSolution `
     -SolutionFilePath $doctoredSolutionPath `
     -AsyncOperationImportMethod
 
-Publish-CrmAllCustomization `
-    -conn $Connection
+if(-not $Managed) {
+    Publish-CrmAllCustomization `
+        -conn $Connection
+}
