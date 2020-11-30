@@ -16,6 +16,10 @@ if($Connection -eq $null)
 $tempFolder = "$PSScriptRoot\..\temp"
 md $tempFolder -ErrorAction Ignore
 
+$tempSchemaFilePath = "$tempFolder\export-schema.xml"
+Remove-Item $tempSchemaFilePath -ErrorAction Ignore
+Copy-Item $SchemaFilePath $tempSchemaFilePath
+
 $dataFilePath = "$tempFolder\portal-data.zip"
 Remove-Item $dataFilePath -ErrorAction Ignore
 
@@ -24,7 +28,7 @@ New-Item $logsPath -ItemType Directory -ErrorAction Ignore
 
 Export-CrmDataFile `
     -CrmConnection $Connection `
-    -SchemaFile $SchemaFilePath `
+    -SchemaFile $tempSchemaFilePath `
     -DataFile $dataFilePath `
     -LogWriteDirectory $logsPath
 
