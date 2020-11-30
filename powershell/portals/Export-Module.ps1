@@ -1,7 +1,8 @@
 param(
     $Connection = (& $PSScriptRoot\..\cds\Get-CrmConnection.ps1),
     [Parameter(Mandatory=$true)]
-    [string]$ModuleFolderPath
+    [string]$ModuleFolderPath,
+    [string]$SchemaFilePath = "$ModuleFolderPath\data_schema.xml"
 )
 
 $dataXml = New-Object xml
