@@ -5,7 +5,7 @@
     <IntroducedVersion>1.0.0021</IntroducedVersion>
     <FormPresentation>0</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form>
+    <form headerdensity="HighWithControls">
       <tabs>
         <tab id="{fc9e2d57-f451-4766-84c0-e8dadb7a0479}" IsUserDefined="1" verticallayout="true">
           <labels>
@@ -213,17 +213,6 @@
                     </row>
                   </rows>
                 </section>
-              </sections>
-            </column>
-          </columns>
-        </tab>
-        <tab expanded="true" id="{ef2a638a-c3c3-495a-a0d5-386f153c84c4}" IsUserDefined="0" locklevel="0" name="tab_administration" showlabel="true">
-          <labels>
-            <label description="Administration" languagecode="1033" />
-          </labels>
-          <columns>
-            <column width="100%">
-              <sections>
                 <section celllabelalignment="Left" celllabelposition="Left" columns="1" id="{d61ca062-6053-4a27-b34d-dcd2cd426113}" IsUserDefined="0" labelwidth="115" layout="varwidth" locklevel="0" name="section_modularization" showbar="false" showlabel="false">
                   <labels>
                     <label description="Modularization" languagecode="1033" />
@@ -257,7 +246,7 @@
         </rows>
       </footer>
       <Navigation>
-        <NavBar></NavBar>
+        <NavBar />
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>
@@ -506,6 +495,30 @@
           </NavBarArea>
         </NavBarAreas>
       </Navigation>
+      <header celllabelalignment="Left" celllabelposition="Top" columns="111" id="{c2082482-2aa8-49df-b59c-ccd273643deb}" labelwidth="115">
+        <rows>
+          <row>
+            <cell id="{d3ee6f8f-df95-40dc-8ca7-60329e4dff2c}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9a88601c-7835-4b5e-b9e0-74f75255ab89}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{3de564ea-4c6b-4aa4-b7f7-43e6b9cd1d17}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <DisplayConditions FallbackForm="true" Order="0">
+        <Everyone />
+      </DisplayConditions>
     </form>
     <LocalizedNames>
       <LocalizedName description="Information" languagecode="1033" />
