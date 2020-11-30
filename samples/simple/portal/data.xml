@@ -1,4 +1,3 @@
-
 <entities xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" timestamp="2020-11-30T19:04:20.2389975Z">
   <entity name="adx_contentsnippet" displayname="Content Snippet">
     <records>
@@ -12,6 +11,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="User name" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="6f505cfc-28af-e711-80c7-000d3af744c3">
         <field name="adx_contentsnippetid" value="6f505cfc-28af-e711-80c7-000d3af744c3" />
@@ -23,6 +23,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Age Requirements&#xD;&#xA;" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="732c162f-29af-e711-80c7-000d3af744c3">
         <field name="adx_contentsnippetid" value="732c162f-29af-e711-80c7-000d3af744c3" />
@@ -34,6 +35,7 @@
         <field name="adx_type" value="756150001" />
         <field name="adx_value" value="&amp;lt;p&amp;gt;The use of this portal by minors is not allowed.&amp;lt;/p&amp;gt;&#xD;&#xA;" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="57a92764-29af-e711-80c7-000d3af744c3">
         <field name="adx_contentsnippetid" value="57a92764-29af-e711-80c7-000d3af744c3" />
@@ -45,6 +47,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Parental Consent&#xD;&#xA;" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="5f71cb9d-29af-e711-80c7-000d3af744c3">
         <field name="adx_contentsnippetid" value="5f71cb9d-29af-e711-80c7-000d3af744c3" />
@@ -56,6 +59,7 @@
         <field name="adx_type" value="756150001" />
         <field name="adx_value" value="&amp;lt;p&amp;gt;The use of this portal by minors requires parental consent.&amp;lt;/p&amp;gt;&#xD;&#xA;" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="ca8dca00-ddac-e711-80c7-000d3af9c37b">
         <field name="adx_contentsnippetid" value="ca8dca00-ddac-e711-80c7-000d3af9c37b" />
@@ -67,6 +71,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Account Migration" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="2c3a648b-ddac-e711-80c7-000d3af9c37b">
         <field name="adx_contentsnippetid" value="2c3a648b-ddac-e711-80c7-000d3af9c37b" />
@@ -78,6 +83,7 @@
         <field name="adx_type" value="756150001" />
         <field name="adx_value" value="&amp;lt;p&amp;gt;You have signed in with an account that is no longer supported. To continue using this portal, you must migrate to a different account. Select the button below to sign in with a new or existing supported account.&amp;lt;/p&amp;gt;" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="f31a3eef-ddac-e711-80c7-000d3af9c37b">
         <field name="adx_contentsnippetid" value="f31a3eef-ddac-e711-80c7-000d3af9c37b" />
@@ -89,6 +95,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Sign in with a supported account" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="3f3a0cff-75ae-e711-80c7-000d3afd1882">
         <field name="adx_contentsnippetid" value="3f3a0cff-75ae-e711-80c7-000d3afd1882" />
@@ -100,6 +107,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Account Conversion Error" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="93c7572f-76ae-e711-80c7-000d3afd1882">
         <field name="adx_contentsnippetid" value="93c7572f-76ae-e711-80c7-000d3afd1882" />
@@ -111,6 +119,7 @@
         <field name="adx_type" value="756150001" />
         <field name="adx_value" value="&amp;lt;p&amp;gt;This account already exists. Close your browser, restart the process, and select a different account on the &amp;lt;b&amp;gt;Account Migration&amp;lt;/b&amp;gt; page.&amp;lt;/p&amp;gt;" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="d010a746-76ae-e711-80c7-000d3afd1882">
         <field name="adx_contentsnippetid" value="d010a746-76ae-e711-80c7-000d3afd1882" />
@@ -122,6 +131,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Sign in with a legacy account" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="15ae77ce-5f24-e311-a5a8-00155d03690b">
         <field name="adx_contentsnippetid" value="15ae77ce-5f24-e311-a5a8-00155d03690b" />
@@ -133,6 +143,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_type" value="756150000" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="25ae77ce-5f24-e311-a5a8-00155d03690b">
         <field name="adx_contentsnippetid" value="25ae77ce-5f24-e311-a5a8-00155d03690b" />
@@ -144,6 +155,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_type" value="756150000" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="e3b767fc-b480-e611-80d6-00155d0a351d">
         <field name="adx_contentsnippetid" value="e3b767fc-b480-e611-80d6-00155d0a351d" />
@@ -155,6 +167,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Record Type" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="e4b767fc-b480-e611-80d6-00155d0a351d">
         <field name="adx_contentsnippetid" value="e4b767fc-b480-e611-80d6-00155d0a351d" />
@@ -166,6 +179,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Show more" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="e5b767fc-b480-e611-80d6-00155d0a351d">
         <field name="adx_contentsnippetid" value="e5b767fc-b480-e611-80d6-00155d0a351d" />
@@ -177,6 +191,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Show less" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="e6b767fc-b480-e611-80d6-00155d0a351d">
         <field name="adx_contentsnippetid" value="e6b767fc-b480-e611-80d6-00155d0a351d" />
@@ -188,6 +203,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Modified date" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="e7b767fc-b480-e611-80d6-00155d0a351d">
         <field name="adx_contentsnippetid" value="e7b767fc-b480-e611-80d6-00155d0a351d" />
@@ -199,6 +215,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Rating" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="e8b767fc-b480-e611-80d6-00155d0a351d">
         <field name="adx_contentsnippetid" value="e8b767fc-b480-e611-80d6-00155d0a351d" />
@@ -210,6 +227,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="All" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="e9b767fc-b480-e611-80d6-00155d0a351d">
         <field name="adx_contentsnippetid" value="e9b767fc-b480-e611-80d6-00155d0a351d" />
@@ -221,6 +239,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Products" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="eab767fc-b480-e611-80d6-00155d0a351d">
         <field name="adx_contentsnippetid" value="eab767fc-b480-e611-80d6-00155d0a351d" />
@@ -232,6 +251,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Relevance" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="ebb767fc-b480-e611-80d6-00155d0a351d">
         <field name="adx_contentsnippetid" value="ebb767fc-b480-e611-80d6-00155d0a351d" />
@@ -243,6 +263,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Average User Ratings" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="ecb767fc-b480-e611-80d6-00155d0a351d">
         <field name="adx_contentsnippetid" value="ecb767fc-b480-e611-80d6-00155d0a351d" />
@@ -254,6 +275,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="View Count" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="edb767fc-b480-e611-80d6-00155d0a351d">
         <field name="adx_contentsnippetid" value="edb767fc-b480-e611-80d6-00155d0a351d" />
@@ -265,6 +287,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="All" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="eeb767fc-b480-e611-80d6-00155d0a351d">
         <field name="adx_contentsnippetid" value="eeb767fc-b480-e611-80d6-00155d0a351d" />
@@ -276,6 +299,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Search Filter" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="efb767fc-b480-e611-80d6-00155d0a351d">
         <field name="adx_contentsnippetid" value="efb767fc-b480-e611-80d6-00155d0a351d" />
@@ -287,6 +311,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Search" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="f0b767fc-b480-e611-80d6-00155d0a351d">
         <field name="adx_contentsnippetid" value="f0b767fc-b480-e611-80d6-00155d0a351d" />
@@ -298,6 +323,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Search" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="ca1cc468-7409-e611-80d5-00155d216304">
         <field name="adx_contentsnippetid" value="ca1cc468-7409-e611-80d5-00155d216304" />
@@ -309,6 +335,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Custom Portal" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="329154f1-7709-e611-80d5-00155d216304">
         <field name="adx_contentsnippetid" value="329154f1-7709-e611-80d5-00155d216304" />
@@ -320,6 +347,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="&amp;lt;div&amp;gt;Sample Data&amp;lt;/div&amp;gt;" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="fea5e44a-5801-e611-80d3-00155db6442d">
         <field name="adx_contentsnippetid" value="fea5e44a-5801-e611-80d3-00155db6442d" />
@@ -331,6 +359,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Sign in to Custom Portal" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="4db60d52-988c-e611-80d7-00155db768d1">
         <field name="adx_contentsnippetid" value="4db60d52-988c-e611-80d7-00155db768d1" />
@@ -342,6 +371,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Clear All" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="1b7447d7-7659-e611-80d7-00155dba6402">
         <field name="adx_contentsnippetid" value="1b7447d7-7659-e611-80d7-00155dba6402" />
@@ -351,6 +381,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_type" value="756150001" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="313bc968-6c2b-e711-80df-00155dfcea14">
         <field name="adx_contentsnippetid" value="313bc968-6c2b-e711-80df-00155dfcea14" />
@@ -361,6 +392,7 @@
         <field name="adx_type" value="756150001" />
         <field name="adx_value" value="&amp;lt;div class=&amp;quot;alert alert-warning&amp;quot;&amp;gt;&#xD;&#xA;  Registration is disabled&#xD;&#xA;&amp;lt;/div&amp;gt;" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="1d14f332-824f-e711-80dc-00155dfd2fe9">
         <field name="adx_contentsnippetid" value="1d14f332-824f-e711-80dc-00155dfd2fe9" />
@@ -372,6 +404,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="E-mail" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="75dc4955-824f-e711-80dc-00155dfd2fe9">
         <field name="adx_contentsnippetid" value="75dc4955-824f-e711-80dc-00155dfd2fe9" />
@@ -383,6 +416,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value=" " />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="2b8fe369-824f-e711-80dc-00155dfd2fe9">
         <field name="adx_contentsnippetid" value="2b8fe369-824f-e711-80dc-00155dfd2fe9" />
@@ -394,6 +428,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Confirm E-mail" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="265bac87-824f-e711-80dc-00155dfd2fe9">
         <field name="adx_contentsnippetid" value="265bac87-824f-e711-80dc-00155dfd2fe9" />
@@ -405,6 +440,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Confirm E-mail." />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="e47124a5-824f-e711-80dc-00155dfd2fe9">
         <field name="adx_contentsnippetid" value="e47124a5-824f-e711-80dc-00155dfd2fe9" />
@@ -416,6 +452,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="E-mail" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="25d9c8bc-824f-e711-80dc-00155dfd2fe9">
         <field name="adx_contentsnippetid" value="25d9c8bc-824f-e711-80dc-00155dfd2fe9" />
@@ -427,6 +464,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value=" " />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="d1701d3d-3397-e211-be76-00242153b43d">
         <field name="adx_contentsnippetid" value="d1701d3d-3397-e211-be76-00242153b43d" />
@@ -438,6 +476,7 @@
         <field name="adx_type" value="756150001" />
         <field name="adx_value" value="&amp;lt;p&amp;gt;Copyright &amp;#169; {{ now | date: &amp;#39;yyyy&amp;#39; }}. All rights reserved.&amp;lt;/p&amp;gt;" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="9b06ed6f-c8cb-416e-9b9c-0095dee3c581">
         <field name="adx_contentsnippetid" value="9b06ed6f-c8cb-416e-9b9c-0095dee3c581" />
@@ -449,6 +488,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Sign in failed." />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="8445b7c3-8316-424d-aa74-08d1a1da876c">
         <field name="adx_contentsnippetid" value="8445b7c3-8316-424d-aa74-08d1a1da876c" />
@@ -460,6 +500,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="&amp;lt;h3&amp;gt;&amp;lt;a href=&amp;quot;~/&amp;quot;&amp;gt;Custom Portal&amp;lt;/a&amp;gt;&amp;lt;/h3&amp;gt;" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="bd63c8bb-5544-4248-bbce-0cfd186335d2">
         <field name="adx_contentsnippetid" value="bd63c8bb-5544-4248-bbce-0cfd186335d2" />
@@ -471,6 +512,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="We were unable to confirm your email address. Make sure the spelling is correct and that your profile allows for email communication, or try another email address." />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="31a60921-a966-45e6-b193-21886d4fc09b">
         <field name="adx_contentsnippetid" value="31a60921-a966-45e6-b193-21886d4fc09b" />
@@ -482,6 +524,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Continue" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="fa4ec5ce-b04a-49aa-8af6-228798b21e8e">
         <field name="adx_contentsnippetid" value="fa4ec5ce-b04a-49aa-8af6-228798b21e8e" />
@@ -492,6 +535,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_type" value="756150000" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="bfa51246-c44b-4694-9b87-2dda6ab03a11">
         <field name="adx_contentsnippetid" value="bfa51246-c44b-4694-9b87-2dda6ab03a11" />
@@ -503,6 +547,7 @@
         <field name="adx_type" value="756150001" />
         <field name="adx_value" value="&amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;~/&amp;quot; title=&amp;quot;Custom Portal&amp;quot; class=&amp;quot;homelink&amp;quot;&amp;gt;Contoso Portal&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="3e18e103-6414-4a49-81e4-2e13a52d69c2">
         <field name="adx_contentsnippetid" value="3e18e103-6414-4a49-81e4-2e13a52d69c2" />
@@ -514,6 +559,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Set Password" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="0d0628d1-a70e-45ac-97a8-389f6001d329">
         <field name="adx_contentsnippetid" value="0d0628d1-a70e-45ac-97a8-389f6001d329" />
@@ -525,6 +571,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Sign in cancelled." />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="6635be2d-4c78-4907-afe3-416999558760">
         <field name="adx_contentsnippetid" value="6635be2d-4c78-4907-afe3-416999558760" />
@@ -536,6 +583,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="This page was last updated" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="869aed06-c99b-4f47-84ee-45e0d303fb44">
         <field name="adx_contentsnippetid" value="869aed06-c99b-4f47-84ee-45e0d303fb44" />
@@ -547,6 +595,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="In This Section" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="e5d84bd0-51c0-488b-b88d-4b0178b4372f">
         <field name="adx_contentsnippetid" value="e5d84bd0-51c0-488b-b88d-4b0178b4372f" />
@@ -557,6 +606,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_type" value="756150000" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="55676bfa-2f4d-4439-a98a-5a723ca05f8f">
         <field name="adx_contentsnippetid" value="55676bfa-2f4d-4439-a98a-5a723ca05f8f" />
@@ -567,6 +617,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_type" value="756150000" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="f991566c-08ef-43df-82c3-627ef2f63746">
         <field name="adx_contentsnippetid" value="f991566c-08ef-43df-82c3-627ef2f63746" />
@@ -578,6 +629,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Email" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="35510f17-4e4d-4676-988c-6550b3036a6f">
         <field name="adx_contentsnippetid" value="35510f17-4e4d-4676-988c-6550b3036a6f" />
@@ -589,6 +641,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Downloads" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="da6370a9-f354-4026-bff7-65dbe87df21c">
         <field name="adx_contentsnippetid" value="da6370a9-f354-4026-bff7-65dbe87df21c" />
@@ -600,6 +653,7 @@
         <field name="adx_type" value="756150001" />
         <field name="adx_value" value="&amp;lt;div&amp;gt;&amp;lt;a class=&amp;quot;navbar-brand&amp;quot; href=&amp;quot;~/&amp;quot; tabindex=&amp;quot;-1&amp;quot; title=&amp;quot;Custom Portal&amp;quot;&amp;gt;Custom Portal&amp;lt;/a&amp;gt;&amp;lt;/div&amp;gt;" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="18f30b59-a11c-49b2-a399-6778fdc5e650">
         <field name="adx_contentsnippetid" value="18f30b59-a11c-49b2-a399-6778fdc5e650" />
@@ -610,6 +664,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_type" value="756150000" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="d9ebd03c-5764-47d6-b1da-6883cbb54fe9">
         <field name="adx_contentsnippetid" value="d9ebd03c-5764-47d6-b1da-6883cbb54fe9" />
@@ -621,6 +676,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Related Topics" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="e9a17fe9-f673-44cb-9272-6e7e9545c6b6">
         <field name="adx_contentsnippetid" value="e9a17fe9-f673-44cb-9272-6e7e9545c6b6" />
@@ -632,6 +688,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Username" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="80608bf3-6b30-475d-953a-8244cb530e7f">
         <field name="adx_contentsnippetid" value="80608bf3-6b30-475d-953a-8244cb530e7f" />
@@ -643,6 +700,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="It was published" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="8cb00add-6563-4fa4-9498-890733553c01">
         <field name="adx_contentsnippetid" value="8cb00add-6563-4fa4-9498-890733553c01" />
@@ -654,6 +712,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Set password form heading" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="18fb600d-88c7-43cb-b84a-8f651cb79f18">
         <field name="adx_contentsnippetid" value="18fb600d-88c7-43cb-b84a-8f651cb79f18" />
@@ -664,6 +723,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_type" value="756150001" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="5067383f-f0c0-4f23-8579-ac27185daa94">
         <field name="adx_contentsnippetid" value="5067383f-f0c0-4f23-8579-ac27185daa94" />
@@ -675,6 +735,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="I agree to these terms and conditions." />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="cc0661c1-04ab-4a71-9ab6-af34dbcfb167">
         <field name="adx_contentsnippetid" value="cc0661c1-04ab-4a71-9ab6-af34dbcfb167" />
@@ -686,6 +747,7 @@
         <field name="adx_type" value="756150001" />
         <field name="adx_value" value="Toggle navigation" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="b95ffd5d-e4df-e511-80e0-c4346bac0574">
         <field name="adx_contentsnippetid" value="b95ffd5d-e4df-e511-80e0-c4346bac0574" />
@@ -697,6 +759,7 @@
         <field name="adx_type" value="756150001" />
         <field name="adx_value" value="&amp;lt;h4&amp;gt;About Custom Portal&amp;lt;/h4&amp;gt;&amp;lt;p&amp;gt;This site uses sample data and text, please update as per your requirement.&amp;lt;/p&amp;gt;" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="31939df3-38db-e511-80e4-c4346bacf5c0">
         <field name="adx_contentsnippetid" value="31939df3-38db-e511-80e4-c4346bacf5c0" />
@@ -708,6 +771,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="No results found." />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="e267934d-dde0-e511-80e6-c4346bacf5c0">
         <field name="adx_contentsnippetid" value="e267934d-dde0-e511-80e6-c4346bacf5c0" />
@@ -719,6 +783,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="{{ poll.votes }} Votes" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="4f178b61-7ce1-e511-80e6-c4346bacf5c0">
         <field name="adx_contentsnippetid" value="4f178b61-7ce1-e511-80e6-c4346bacf5c0" />
@@ -730,6 +795,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Results for {{ request.params.q }}" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="ac30dd0e-7de1-e511-80e6-c4346bacf5c0">
         <field name="adx_contentsnippetid" value="ac30dd0e-7de1-e511-80e6-c4346bacf5c0" />
@@ -741,6 +807,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="{{ current_page }} - {{ page_size }} of {{ searchindex.approximate_total_hits }} Results" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="3b1eda6f-bfe4-e511-80e6-c4346bacf5c0">
         <field name="adx_contentsnippetid" value="3b1eda6f-bfe4-e511-80e6-c4346bacf5c0" />
@@ -752,6 +819,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Welcome!" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="76227a41-a33c-4d63-b0f6-cd4ecd116bf8">
         <field name="adx_contentsnippetid" value="76227a41-a33c-4d63-b0f6-cd4ecd116bf8" />
@@ -763,6 +831,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="&amp;amp;nbsp;&amp;#183; Custom Portal" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="7d1a4d3f-3704-4bf3-9a07-d1c16a5b7e94">
         <field name="adx_contentsnippetid" value="7d1a4d3f-3704-4bf3-9a07-d1c16a5b7e94" />
@@ -774,6 +843,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="New Password" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="79817ade-2d9b-489c-b865-e6e25a0d6def">
         <field name="adx_contentsnippetid" value="79817ade-2d9b-489c-b865-e6e25a0d6def" />
@@ -784,6 +854,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_type" value="756150000" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="79f4863c-e92c-420f-be0a-f1bf86f17673">
         <field name="adx_contentsnippetid" value="79f4863c-e92c-420f-be0a-f1bf86f17673" />
@@ -795,6 +866,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Terms and Conditions" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="385c35e3-66de-4db6-9cd6-f5dc030ae8e7">
         <field name="adx_contentsnippetid" value="385c35e3-66de-4db6-9cd6-f5dc030ae8e7" />
@@ -806,6 +878,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_value" value="Confirm Password" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="9fad1675-06eb-44c4-8cff-fbd6a319830e">
         <field name="adx_contentsnippetid" value="9fad1675-06eb-44c4-8cff-fbd6a319830e" />
@@ -817,6 +890,7 @@
         <field name="adx_type" value="756150001" />
         <field name="adx_value" value="&amp;lt;div class=&amp;quot;alert alert-block alert-warning&amp;quot;&amp;gt;&amp;lt;p&amp;gt;&amp;lt;span class=&amp;quot;fa fa-exclamation-triangle&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;The view is not available.&amp;lt;/p&amp;gt;&amp;lt;/div&amp;gt;" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="34fba481-e815-45a6-a73e-ffbf8203d323">
         <field name="adx_contentsnippetid" value="34fba481-e815-45a6-a73e-ffbf8203d323" />
@@ -827,6 +901,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_type" value="756150001" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
     </records>
     <m2mrelationships />
@@ -847,6 +922,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
         <field name="adx_write" value="True" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
     </records>
     <m2mrelationships>
@@ -872,6 +948,7 @@
         <field name="adx_usewebsiteheaderandfooter" value="True" />
         <field name="adx_webtemplateid" value="aa71197d-e128-eb11-a813-000d3a995243" lookupentity="adx_webtemplate" lookupentityname="Default studio template" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="723159bd-46bf-e211-96f8-00155d036906">
         <field name="adx_entityname" value="adx_webpage" />
@@ -885,6 +962,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_usewebsiteheaderandfooter" value="True" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="237cd64e-f6ce-e211-9ec5-00155d03690b">
         <field name="adx_entityname" value="adx_webpage" />
@@ -898,6 +976,7 @@
         <field name="adx_usewebsiteheaderandfooter" value="True" />
         <field name="adx_webtemplateid" value="b76a7550-ebdb-e511-80e6-c4346bacf5c0" lookupentity="adx_webtemplate" lookupentityname="Full Page" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="283694d4-06d7-e411-945b-00155d039904">
         <field name="adx_entityname" value="adx_webpage" />
@@ -910,6 +989,7 @@
         <field name="adx_usewebsiteheaderandfooter" value="True" />
         <field name="adx_webtemplateid" value="fda99999-06d7-e411-945b-00155d039904" lookupentity="adx_webtemplate" lookupentityname="Page with Side Navigation (2 columns)" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="430f58e6-06d7-e411-945b-00155d039904">
         <field name="adx_entityname" value="adx_webpage" />
@@ -922,6 +1002,7 @@
         <field name="adx_usewebsiteheaderandfooter" value="True" />
         <field name="adx_webtemplateid" value="f580f2b3-06d7-e411-945b-00155d039904" lookupentity="adx_webtemplate" lookupentityname="Page with Side Navigation and Sidebar (3 columns)" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="0695c631-8ad9-e411-945d-00155d039904">
         <field name="adx_entityname" value="adx_webpage" />
@@ -934,6 +1015,7 @@
         <field name="adx_usewebsiteheaderandfooter" value="True" />
         <field name="adx_webtemplateid" value="730ef21a-8ad9-e411-945d-00155d039904" lookupentity="adx_webtemplate" lookupentityname="Full Page without Child Links" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="7c80af5d-f896-4ca1-ba45-25058a2d21df">
         <field name="adx_entityname" value="adx_webpage" />
@@ -947,6 +1029,7 @@
         <field name="adx_usewebsiteheaderandfooter" value="True" />
         <field name="adx_webtemplateid" value="c1b22dde-bde0-e511-80e6-c4346bacf5c0" lookupentity="adx_webtemplate" lookupentityname="Listing" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="d647197e-687e-499a-b353-28deae501f1e">
         <field name="adx_entityname" value="adx_webpage" />
@@ -960,6 +1043,7 @@
         <field name="adx_usewebsiteheaderandfooter" value="True" />
         <field name="adx_webtemplateid" value="4fe2ad9b-6cda-e511-80e4-c4346bacf5c0" lookupentity="adx_webtemplate" lookupentityname="Category" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="6c8245b6-6f74-4c1b-b84c-2f4b2017a013">
         <field name="adx_entityname" value="adx_webpage" />
@@ -973,6 +1057,7 @@
         <field name="adx_usewebsiteheaderandfooter" value="True" />
         <field name="adx_webtemplateid" value="727d979d-32db-e511-80e4-c4346bacf5c0" lookupentity="adx_webtemplate" lookupentityname="Search Results" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="0ecc7000-9c45-45d1-89b3-5650d34fa260">
         <field name="adx_entityname" value="adx_webpage" />
@@ -985,6 +1070,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_usewebsiteheaderandfooter" value="True" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="3e5fad9f-b31f-4383-94a7-5a6e9cc5437b">
         <field name="adx_entityname" value="adx_webpage" />
@@ -998,6 +1084,7 @@
         <field name="adx_usewebsiteheaderandfooter" value="True" />
         <field name="adx_webtemplateid" value="02ea2c2a-79d9-e511-80e4-c4346bacf5c0" lookupentity="adx_webtemplate" lookupentityname="Blank Page" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="b6cd4ced-67fb-4837-bb74-5ec36dcbfc95">
         <field name="adx_entityname" value="adx_webpage" />
@@ -1010,6 +1097,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_usewebsiteheaderandfooter" value="True" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="ea918282-1dce-4ca9-8728-610963bcc289">
         <field name="adx_entityname" value="adx_webpage" />
@@ -1022,6 +1110,7 @@
         <field name="adx_type" value="756150000" />
         <field name="adx_usewebsiteheaderandfooter" value="True" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="725a25d4-fd50-498e-9343-acb372ca2938">
         <field name="adx_entityname" value="adx_webpage" />
@@ -1035,6 +1124,7 @@
         <field name="adx_usewebsiteheaderandfooter" value="True" />
         <field name="adx_webtemplateid" value="babd2b2d-eadf-e511-80e6-c4346bacf5c0" lookupentity="adx_webtemplate" lookupentityname="Page" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="0a44e868-65a8-40de-b4d5-b1d00fc1c801">
         <field name="adx_entityname" value="adx_webpage" />
@@ -1048,6 +1138,7 @@
         <field name="adx_usewebsiteheaderandfooter" value="True" />
         <field name="adx_webtemplateid" value="1457b89a-25db-e511-80e4-c4346bacf5c0" lookupentity="adx_webtemplate" lookupentityname="Category Topic" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="6c2caf03-bde0-e511-80e6-c4346bacf5c0">
         <field name="adx_entityname" value="adx_webpage" />
@@ -1060,6 +1151,7 @@
         <field name="adx_usewebsiteheaderandfooter" value="True" />
         <field name="adx_webtemplateid" value="3ca6d52e-bce0-e511-80e6-c4346bacf5c0" lookupentity="adx_webtemplate" lookupentityname="Contact Us" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="a0f96477-62e1-e511-80e6-c4346bacf5c0">
         <field name="adx_entityname" value="adx_webpage" />
@@ -1072,6 +1164,7 @@
         <field name="adx_usewebsiteheaderandfooter" value="True" />
         <field name="adx_webtemplateid" value="9a6ace57-62e1-e511-80e6-c4346bacf5c0" lookupentity="adx_webtemplate" lookupentityname="Home" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="c7e741cd-45ca-4f4e-a6fa-cfaa33d460d8">
         <field name="adx_entityname" value="adx_webpage" />
@@ -1085,6 +1178,7 @@
         <field name="adx_usewebsiteheaderandfooter" value="True" />
         <field name="adx_webtemplateid" value="2c142e05-9ad9-e511-80e4-c4346bacf5c0" lookupentity="adx_webtemplate" lookupentityname="Layout 1 Column" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="7014caf3-750d-4975-ace8-fd042f11ae5c">
         <field name="adx_entityname" value="adx_webpage" />
@@ -1098,6 +1192,7 @@
         <field name="adx_usewebsiteheaderandfooter" value="True" />
         <field name="adx_webtemplateid" value="9b938558-aed9-e511-80e4-c4346bacf5c0" lookupentity="adx_webtemplate" lookupentityname="Sitemap" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
     </records>
     <m2mrelationships />
@@ -1113,6 +1208,7 @@
         <field name="statecode" value="0" />
         <field name="statuscode" value="1" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="fd38c991-15d1-4591-81be-2745ba3a1752">
         <field name="adx_displayorder" value="2" />
@@ -1123,6 +1219,7 @@
         <field name="statecode" value="0" />
         <field name="statuscode" value="1" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
     </records>
     <m2mrelationships />
@@ -1135,6 +1232,7 @@
         <field name="statecode" value="0" />
         <field name="statuscode" value="1" />
         <field name="adx_value" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
     </records>
     <m2mrelationships />
@@ -1148,6 +1246,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="{&amp;quot;status&amp;quot;:&amp;quot;disable&amp;quot;,&amp;quot;selectedThemeId&amp;quot;:&amp;quot;df88c9ca-e24f-4eca-af9a-880e7b8559a0&amp;quot;,&amp;quot;siteSettingId&amp;quot;:&amp;quot;&amp;quot;}" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="1cdd92e9-7bad-e711-80c7-000d3afd1882">
         <field name="adx_description" value="A true or false value. If set to true, the local account will be marked as deprecated. The portal user will be required to migrate to a non-deprecated account." />
@@ -1157,6 +1256,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="False" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="0f61a2f2-39a9-e711-80c7-000d3afd3574">
         <field name="adx_description" value="Denies use of the portal to minors. By default, it is set to false." />
@@ -1166,6 +1266,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="false" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="9f12c006-3aa9-e711-80c7-000d3afd3574">
         <field name="adx_description" value="Denies use of the portal to minors without parental consent. By default, it is set to false." />
@@ -1175,6 +1276,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="false" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="479cf4df-a582-e211-a2ad-00155d036906">
         <field name="adx_name" value="Profile/ForceSignUp" />
@@ -1183,6 +1285,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="False" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="afe2021a-6796-e211-be45-00155d03a500">
         <field name="adx_name" value="Authentication/OpenAuth/LinkedIn/ConsumerKey" />
@@ -1190,6 +1293,7 @@
         <field name="statecode" value="0" />
         <field name="statuscode" value="1" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="b1e2021a-6796-e211-be45-00155d03a500">
         <field name="adx_name" value="Authentication/OpenAuth/LinkedIn/ConsumerSecret" />
@@ -1197,6 +1301,7 @@
         <field name="statecode" value="0" />
         <field name="statuscode" value="1" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="f7f02105-7496-e211-be45-00155d03a500">
         <field name="adx_name" value="Search/IndexQueryName" />
@@ -1205,6 +1310,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="Portal Search" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="f9f02105-7496-e211-be45-00155d03a500">
         <field name="adx_name" value="Search/Enabled" />
@@ -1213,6 +1319,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="true" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="5d1e8f94-6b66-e211-9d9e-00155d03a715">
         <field name="adx_description" value="Override query for site search, to apply additional weights and filters. @Query is the query text entered by a user. Lucene query syntax reference: http://lucene.apache.org/core/old_versioned_docs/versions/2_9_1/queryparsersyntax.html" />
@@ -1222,6 +1329,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="+(@Query) _title:(@Query) _logicalname:knowledgearticle~0.9^0.3 _logicalname:annotation~0.9^0.25 _logicalname:adx_webpage~0.9^0.2 -_logicalname:adx_webfile~0.9 adx_partialurl:(@Query) _logicalname:adx_blogpost~0.9^0.1 -_logicalname:adx_communityforumthread~0.9" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="898cd4cc-976c-e211-9d9e-00155d03a715">
         <field name="importsequencenumber" value="5" />
@@ -1231,6 +1339,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="true" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="998cd4cc-976c-e211-9d9e-00155d03a715">
         <field name="importsequencenumber" value="5" />
@@ -1239,6 +1348,7 @@
         <field name="statecode" value="0" />
         <field name="statuscode" value="1" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="a98cd4cc-976c-e211-9d9e-00155d03a715">
         <field name="importsequencenumber" value="5" />
@@ -1247,6 +1357,7 @@
         <field name="statecode" value="0" />
         <field name="statuscode" value="1" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="b98cd4cc-976c-e211-9d9e-00155d03a715">
         <field name="importsequencenumber" value="5" />
@@ -1255,6 +1366,7 @@
         <field name="statecode" value="0" />
         <field name="statuscode" value="1" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="c98cd4cc-976c-e211-9d9e-00155d03a715">
         <field name="importsequencenumber" value="5" />
@@ -1263,6 +1375,7 @@
         <field name="statecode" value="0" />
         <field name="statuscode" value="1" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="d98cd4cc-976c-e211-9d9e-00155d03a715">
         <field name="importsequencenumber" value="5" />
@@ -1271,6 +1384,7 @@
         <field name="statecode" value="0" />
         <field name="statuscode" value="1" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="e98cd4cc-976c-e211-9d9e-00155d03a715">
         <field name="importsequencenumber" value="5" />
@@ -1279,6 +1393,7 @@
         <field name="statecode" value="0" />
         <field name="statuscode" value="1" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="9d833015-b1fa-e511-80d3-00155db754a9">
         <field name="adx_description" value="The amount of time the IP address will have to wait if Authentication/LoginThrottling/MaxInvaildAttemptsFromIPAddress occur within Authentication/LoginThrottling/MaxAttemptsTimeLimitTimeSpan amount of time. Default: 00:10:00 (10 mins)" />
@@ -1288,6 +1403,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="00:10:00" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="c529ce6a-b1fa-e511-80d3-00155db754a9">
         <field name="adx_description" value="The amount of time the Authentication/LoginThrottling/MaxInvaildAttemptsFromIPAddress are to be within before the IP address has to wait Authentication/LoginThrottling/IpAddressTimeoutTimeSpan. Default: 00:03:00 (3 mins)" />
@@ -1297,6 +1413,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="00:03:00" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="7ce4de7f-b1fa-e511-80d3-00155db754a9">
         <field name="adx_description" value="The default number of unauthenticated login attempts from an IP address before the IP address is blocked for Authentication/LoginThrottling/IpAddressTimeoutTimeSpan if the attempts occur within Authentication/LoginThrottling/MaxAttemptsTimeLimitTimeSpan amount of time. Default: 1000" />
@@ -1306,6 +1423,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="1000" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="89a18fc1-622b-e711-80df-00155dfcea14">
         <field name="adx_description" value="Enables or disables Azure AD as an external identity provider. By default, it is set to true." />
@@ -1316,6 +1434,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="true" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="8ba18fc1-622b-e711-80df-00155dfcea14">
         <field name="importsequencenumber" value="3" />
@@ -1325,6 +1444,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="true" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="8da18fc1-622b-e711-80df-00155dfcea14">
         <field name="importsequencenumber" value="3" />
@@ -1334,6 +1454,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="true" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="8fa18fc1-622b-e711-80df-00155dfcea14">
         <field name="importsequencenumber" value="3" />
@@ -1343,6 +1464,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="true" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="91a18fc1-622b-e711-80df-00155dfcea14">
         <field name="importsequencenumber" value="3" />
@@ -1351,6 +1473,7 @@
         <field name="statecode" value="0" />
         <field name="statuscode" value="1" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="93a18fc1-622b-e711-80df-00155dfcea14">
         <field name="importsequencenumber" value="3" />
@@ -1360,6 +1483,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="true" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="95a18fc1-622b-e711-80df-00155dfcea14">
         <field name="adx_description" value="Sets whether or not the portal can redirect the user to the profile page after successful sign-in. By default, it is set to true." />
@@ -1370,6 +1494,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="true" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="8ff3b211-370e-405b-9a82-0b5c28908365">
         <field name="adx_name" value="Search/IndexNotesAttachments" />
@@ -1378,6 +1503,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="false" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="c646ea55-4390-49be-bea2-148e0ffe9b09">
         <field name="adx_description" value="A collection of search logical name filter options. Defining a value here will add dropdown filter options to site-wide search.&#xA;&#xA;This value should be in the form of name/value pairs, with name and value separated by a colon, and pairs separated by a semicolon. For example: &amp;quot;Forums:adx_communityforum,adx_communityforumthread,adx_communityforumpost;Blogs:adx_blog,adx_blogpost,adx_blogpostcomment&amp;quot;." />
@@ -1386,6 +1512,7 @@
         <field name="statecode" value="0" />
         <field name="statuscode" value="1" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="db5c49f3-c788-4479-9182-2cf8d5d4c7b1">
         <field name="adx_description" value="A true or false value. If set to true, the portal will display the terms and conditions of the site. Users must agree to the terms and conditions before they are considered authenticated and can use the site." />
@@ -1395,6 +1522,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="false" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="40aef340-7441-4494-b493-2f0d97d87efe">
         <field name="adx_name" value="Profile/ShowMarketingOptionsPanel" />
@@ -1403,6 +1531,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="True" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="ec7a68b8-7cba-4e09-91e8-42cc4406c660">
         <field name="adx_name" value="OnlineDomains" />
@@ -1411,6 +1540,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="sharepoint.com;microsoftonline.com" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="51138c9f-eb33-46ea-817a-442931cb540a">
         <field name="adx_name" value="HTTP/X-Frame-Options" />
@@ -1419,6 +1549,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="SAMEORIGIN" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="39331662-ca04-44cf-b333-6d66b0209336">
         <field name="adx_description" value="Set whether the header web template is output cached." />
@@ -1428,6 +1559,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="True" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="8a4ff429-3e20-47a4-abcb-8ce8638f48fa">
         <field name="adx_description" value="A true or false value. If set to true, the Last Successful Login field on the portal user’s contact will be updated with the date and time when they successfully signed in." />
@@ -1437,6 +1569,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="False" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="fe33c85c-8d38-4d8a-97ed-8fd6c6296eee">
         <field name="adx_description" value="The Prefix entered here will be used to filter Notes Text, allowing you to control notes exposed on the Portal ex: *WEB*" />
@@ -1446,6 +1579,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="*WEB*" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="a94e3044-26b3-4ba6-afd7-8ff43553d14c">
         <field name="adx_description" value="Site setting that determines if the language code is included in the portal URL." />
@@ -1455,6 +1589,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="False" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="ee0eb540-4c85-4dc6-8f79-9d5e33f2b1fb">
         <field name="adx_description" value="Determines if faceted search is used for this portal." />
@@ -1464,6 +1599,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="True" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="ea29ec32-125c-482c-986b-a524a67ce8d2">
         <field name="adx_description" value="Site setting that controls the depth of the webpage hierarchy that’s cloned in a newly-added supported language. Web link sets and content snippets are cloned in the newly-added language when webpages are cloned." />
@@ -1473,6 +1609,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="3" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="8c443def-42d7-e511-80e0-c4346bac0574">
         <field name="adx_name" value="Authentication/Registration/LocalLoginEnabled" />
@@ -1481,6 +1618,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="true" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="ca93ff11-41ac-4a1c-8ac5-d9099f719f4f">
         <field name="adx_description" value="Set whether the footer web template is output cached." />
@@ -1490,6 +1628,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="True" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="6c25f2f8-6090-4f9e-bc3a-dae06cfee206">
         <field name="adx_description" value="Enabling this setting will show all customer activity on the portal timeline." />
@@ -1499,6 +1638,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="false" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="5457ee60-5a25-472f-a733-dd4969268fa7">
         <field name="adx_description" value="Setting controls whether attachments will be displayed on Knowledge articles" />
@@ -1508,6 +1648,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="false" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="768d104b-e732-4460-824f-e40f38f87da5">
         <field name="adx_description" value="Used to group a set of entities under an entry in the record type facet view." />
@@ -1517,6 +1658,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_value" value="Downloads:annotation,adx_webfile" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="ab62ddeb-f2c5-4511-aee3-fb8d91afbbf5">
         <field name="adx_description" value="A date/time value in GMT format to represent the effective date of the current published terms and conditions. If the terms agreement is enabled, portal users that have not accepted the terms after this date will be asked to accept them the next time they sign in. If the date is not provided, and the terms agreement is enabled, the terms will be presented every time portal users sign in." />
@@ -1525,6 +1667,7 @@
         <field name="statecode" value="0" />
         <field name="statuscode" value="1" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
     </records>
     <m2mrelationships />
@@ -1545,6 +1688,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webfileid" value="c47f4895-d5e0-e511-9405-000d3a3107a2" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="2aa45984-44e2-e511-9405-000d3a3107a2">
         <field name="adx_contentdisposition" value="756150000" />
@@ -1560,6 +1704,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webfileid" value="2aa45984-44e2-e511-9405-000d3a3107a2" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="26f7e1fd-57e2-e511-9405-000d3a3107a2">
         <field name="adx_contentdisposition" value="756150000" />
@@ -1575,6 +1720,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webfileid" value="26f7e1fd-57e2-e511-9405-000d3a3107a2" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="896ba162-c508-e611-80d5-00155d216304">
         <field name="adx_contentdisposition" value="756150000" />
@@ -1589,6 +1735,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webfileid" value="896ba162-c508-e611-80d5-00155d216304" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="86d60697-5109-e611-80d5-00155d216304">
         <field name="adx_contentdisposition" value="756150000" />
@@ -1603,6 +1750,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webfileid" value="86d60697-5109-e611-80d5-00155d216304" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="c9515cab-5109-e611-80d5-00155d216304">
         <field name="adx_contentdisposition" value="756150000" />
@@ -1617,6 +1765,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webfileid" value="c9515cab-5109-e611-80d5-00155d216304" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="b1babea4-94fe-47d9-ad59-7613ee62548f">
         <field name="adx_contentdisposition" value="756150000" />
@@ -1631,6 +1780,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webfileid" value="b1babea4-94fe-47d9-ad59-7613ee62548f" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
     </records>
     <m2mrelationships />
@@ -1651,6 +1801,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_weblinkid" value="a4cd8dfc-02d1-e511-9404-000d3a328808" />
         <field name="adx_weblinksetid" value="f12d7227-affb-40a8-aa37-f9ee1e030eb7" lookupentity="adx_weblinkset" lookupentityname="Primary Navigation" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="a4a1b28d-520b-e611-80d5-00155d216304">
         <field name="adx_disablepagevalidation" value="False" />
@@ -1667,6 +1818,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_weblinkid" value="a4a1b28d-520b-e611-80d5-00155d216304" />
         <field name="adx_weblinksetid" value="f12d7227-affb-40a8-aa37-f9ee1e030eb7" lookupentity="adx_weblinkset" lookupentityname="Primary Navigation" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="e7abfdf3-ebae-4eb1-a289-0d0c22f4106e">
         <field name="adx_disablepagevalidation" value="False" />
@@ -1683,6 +1835,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_weblinkid" value="e7abfdf3-ebae-4eb1-a289-0d0c22f4106e" />
         <field name="adx_weblinksetid" value="9d2b6030-b58f-468d-8d1d-dc3b1997de85" lookupentity="adx_weblinkset" lookupentityname="Default" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="c926cd2e-15dc-49f1-add0-112afea7c4fd">
         <field name="adx_disablepagevalidation" value="False" />
@@ -1699,6 +1852,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_weblinkid" value="c926cd2e-15dc-49f1-add0-112afea7c4fd" />
         <field name="adx_weblinksetid" value="9d2b6030-b58f-468d-8d1d-dc3b1997de85" lookupentity="adx_weblinkset" lookupentityname="Default" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="3b57dffc-132f-4dac-9580-157b50973575">
         <field name="adx_disablepagevalidation" value="False" />
@@ -1715,6 +1869,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_weblinkid" value="3b57dffc-132f-4dac-9580-157b50973575" />
         <field name="adx_weblinksetid" value="9d2b6030-b58f-468d-8d1d-dc3b1997de85" lookupentity="adx_weblinkset" lookupentityname="Default" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="cb95f0a4-9d15-4cde-9c5f-2cf7dee33883">
         <field name="adx_disablepagevalidation" value="False" />
@@ -1731,6 +1886,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_weblinkid" value="cb95f0a4-9d15-4cde-9c5f-2cf7dee33883" />
         <field name="adx_weblinksetid" value="9d2b6030-b58f-468d-8d1d-dc3b1997de85" lookupentity="adx_weblinkset" lookupentityname="Default" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="09eb7126-8423-402c-ad7b-36728fdf29ac">
         <field name="adx_disablepagevalidation" value="False" />
@@ -1747,6 +1903,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_weblinkid" value="09eb7126-8423-402c-ad7b-36728fdf29ac" />
         <field name="adx_weblinksetid" value="9d2b6030-b58f-468d-8d1d-dc3b1997de85" lookupentity="adx_weblinkset" lookupentityname="Default" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="a55c0c5b-5424-4f90-a6c6-46b9d5fb32bb">
         <field name="adx_disablepagevalidation" value="False" />
@@ -1763,6 +1920,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_weblinkid" value="a55c0c5b-5424-4f90-a6c6-46b9d5fb32bb" />
         <field name="adx_weblinksetid" value="9d2b6030-b58f-468d-8d1d-dc3b1997de85" lookupentity="adx_weblinkset" lookupentityname="Default" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="de53e5e6-9d89-45a2-998a-47baa75b407b">
         <field name="adx_disablepagevalidation" value="False" />
@@ -1779,6 +1937,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_weblinkid" value="de53e5e6-9d89-45a2-998a-47baa75b407b" />
         <field name="adx_weblinksetid" value="9d2b6030-b58f-468d-8d1d-dc3b1997de85" lookupentity="adx_weblinkset" lookupentityname="Default" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="6786a41d-77de-4c10-9b20-55c5088e8bf9">
         <field name="adx_disablepagevalidation" value="False" />
@@ -1794,6 +1953,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_weblinkid" value="6786a41d-77de-4c10-9b20-55c5088e8bf9" />
         <field name="adx_weblinksetid" value="9d2b6030-b58f-468d-8d1d-dc3b1997de85" lookupentity="adx_weblinkset" lookupentityname="Default" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="9cbdb965-1c3e-4f69-a35a-5b7ac29a26a0">
         <field name="adx_disablepagevalidation" value="False" />
@@ -1809,6 +1969,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_weblinkid" value="9cbdb965-1c3e-4f69-a35a-5b7ac29a26a0" />
         <field name="adx_weblinksetid" value="f12d7227-affb-40a8-aa37-f9ee1e030eb7" lookupentity="adx_weblinkset" lookupentityname="Primary Navigation" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="60ddda63-4532-43fe-9dd6-63d358e07660">
         <field name="adx_disablepagevalidation" value="False" />
@@ -1825,6 +1986,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_weblinkid" value="60ddda63-4532-43fe-9dd6-63d358e07660" />
         <field name="adx_weblinksetid" value="9d2b6030-b58f-468d-8d1d-dc3b1997de85" lookupentity="adx_weblinkset" lookupentityname="Default" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="170a6b04-edb1-4b33-8478-6973ce651fbd">
         <field name="adx_disablepagevalidation" value="False" />
@@ -1841,6 +2003,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_weblinkid" value="170a6b04-edb1-4b33-8478-6973ce651fbd" />
         <field name="adx_weblinksetid" value="9d2b6030-b58f-468d-8d1d-dc3b1997de85" lookupentity="adx_weblinkset" lookupentityname="Default" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="a0f61126-9d9d-4899-b88a-78ae9f8cb65e">
         <field name="adx_disablepagevalidation" value="False" />
@@ -1856,6 +2019,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_weblinkid" value="a0f61126-9d9d-4899-b88a-78ae9f8cb65e" />
         <field name="adx_weblinksetid" value="9d2b6030-b58f-468d-8d1d-dc3b1997de85" lookupentity="adx_weblinkset" lookupentityname="Default" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="eaad211b-2b15-4e27-8313-8300a5ffdc68">
         <field name="adx_disablepagevalidation" value="False" />
@@ -1871,6 +2035,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_weblinkid" value="eaad211b-2b15-4e27-8313-8300a5ffdc68" />
         <field name="adx_weblinksetid" value="d2c852bc-d46f-4d83-9200-8dbf98499b0c" lookupentity="adx_weblinkset" lookupentityname="Profile Navigation" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="8777af7b-ea02-4674-b5e7-85b7dcb629d8">
         <field name="adx_disablepagevalidation" value="False" />
@@ -1887,6 +2052,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_weblinkid" value="8777af7b-ea02-4674-b5e7-85b7dcb629d8" />
         <field name="adx_weblinksetid" value="9d2b6030-b58f-468d-8d1d-dc3b1997de85" lookupentity="adx_weblinkset" lookupentityname="Default" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="f37c5995-f93f-475e-9d3a-886ffb63a19b">
         <field name="adx_disablepagevalidation" value="False" />
@@ -1903,6 +2069,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_weblinkid" value="f37c5995-f93f-475e-9d3a-886ffb63a19b" />
         <field name="adx_weblinksetid" value="9d2b6030-b58f-468d-8d1d-dc3b1997de85" lookupentity="adx_weblinkset" lookupentityname="Default" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="f9c4447b-1631-4339-82c4-90ad71a176ea">
         <field name="adx_disablepagevalidation" value="False" />
@@ -1919,6 +2086,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_weblinkid" value="f9c4447b-1631-4339-82c4-90ad71a176ea" />
         <field name="adx_weblinksetid" value="9d2b6030-b58f-468d-8d1d-dc3b1997de85" lookupentity="adx_weblinkset" lookupentityname="Default" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="66c02733-9488-492f-8696-9dfcfac19809">
         <field name="adx_disablepagevalidation" value="False" />
@@ -1935,6 +2103,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_weblinkid" value="66c02733-9488-492f-8696-9dfcfac19809" />
         <field name="adx_weblinksetid" value="9d2b6030-b58f-468d-8d1d-dc3b1997de85" lookupentity="adx_weblinkset" lookupentityname="Default" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="cc26c479-3a0c-4c7e-aadd-a0010373aa3c">
         <field name="adx_disablepagevalidation" value="False" />
@@ -1951,6 +2120,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_weblinkid" value="cc26c479-3a0c-4c7e-aadd-a0010373aa3c" />
         <field name="adx_weblinksetid" value="9d2b6030-b58f-468d-8d1d-dc3b1997de85" lookupentity="adx_weblinkset" lookupentityname="Default" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="b051e73d-b69e-43aa-ad2d-a09460d19a6f">
         <field name="adx_disablepagevalidation" value="False" />
@@ -1967,6 +2137,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_weblinkid" value="b051e73d-b69e-43aa-ad2d-a09460d19a6f" />
         <field name="adx_weblinksetid" value="9d2b6030-b58f-468d-8d1d-dc3b1997de85" lookupentity="adx_weblinkset" lookupentityname="Default" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="8e8c24de-e09c-47bc-b876-a1555b8a80bb">
         <field name="adx_disablepagevalidation" value="False" />
@@ -1983,6 +2154,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_weblinkid" value="8e8c24de-e09c-47bc-b876-a1555b8a80bb" />
         <field name="adx_weblinksetid" value="9d2b6030-b58f-468d-8d1d-dc3b1997de85" lookupentity="adx_weblinkset" lookupentityname="Default" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="02d14ed5-bf39-422a-b345-a4ebc2d5d604">
         <field name="adx_disablepagevalidation" value="False" />
@@ -1998,6 +2170,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_weblinkid" value="02d14ed5-bf39-422a-b345-a4ebc2d5d604" />
         <field name="adx_weblinksetid" value="9d2b6030-b58f-468d-8d1d-dc3b1997de85" lookupentity="adx_weblinkset" lookupentityname="Default" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="3231dda9-915a-4249-984c-a78aefa20bac">
         <field name="adx_disablepagevalidation" value="False" />
@@ -2014,6 +2187,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_weblinkid" value="3231dda9-915a-4249-984c-a78aefa20bac" />
         <field name="adx_weblinksetid" value="9d2b6030-b58f-468d-8d1d-dc3b1997de85" lookupentity="adx_weblinkset" lookupentityname="Default" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="2cab5b15-ce93-4d52-8486-ab18c4a9e060">
         <field name="adx_disablepagevalidation" value="False" />
@@ -2030,6 +2204,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_weblinkid" value="2cab5b15-ce93-4d52-8486-ab18c4a9e060" />
         <field name="adx_weblinksetid" value="9d2b6030-b58f-468d-8d1d-dc3b1997de85" lookupentity="adx_weblinkset" lookupentityname="Default" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="9e3aa2a8-a9bf-4fa4-8488-c0327360810d">
         <field name="adx_disablepagevalidation" value="False" />
@@ -2045,6 +2220,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_weblinkid" value="9e3aa2a8-a9bf-4fa4-8488-c0327360810d" />
         <field name="adx_weblinksetid" value="9d2b6030-b58f-468d-8d1d-dc3b1997de85" lookupentity="adx_weblinkset" lookupentityname="Default" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="78130292-1988-496f-88be-c3080ba1e2a5">
         <field name="adx_disablepagevalidation" value="False" />
@@ -2061,6 +2237,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_weblinkid" value="78130292-1988-496f-88be-c3080ba1e2a5" />
         <field name="adx_weblinksetid" value="9d2b6030-b58f-468d-8d1d-dc3b1997de85" lookupentity="adx_weblinkset" lookupentityname="Default" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="c72705f4-0dd7-4bbc-9ed4-eddd4b073c95">
         <field name="adx_disablepagevalidation" value="False" />
@@ -2077,6 +2254,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_weblinkid" value="c72705f4-0dd7-4bbc-9ed4-eddd4b073c95" />
         <field name="adx_weblinksetid" value="9d2b6030-b58f-468d-8d1d-dc3b1997de85" lookupentity="adx_weblinkset" lookupentityname="Default" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="e5fd9051-a4c0-42a0-8384-f5fdbf1daec2">
         <field name="adx_disablepagevalidation" value="False" />
@@ -2092,6 +2270,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_weblinkid" value="e5fd9051-a4c0-42a0-8384-f5fdbf1daec2" />
         <field name="adx_weblinksetid" value="9d2b6030-b58f-468d-8d1d-dc3b1997de85" lookupentity="adx_weblinkset" lookupentityname="Default" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
     </records>
     <m2mrelationships />
@@ -2108,6 +2287,7 @@
         <field name="adx_weblinksetid" value="de647473-5c51-43f4-ab17-60b58671982f" />
         <field name="adx_websitelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="d2c852bc-d46f-4d83-9200-8dbf98499b0c">
         <field name="adx_display_name" value="Profile Navigation" />
@@ -2117,6 +2297,7 @@
         <field name="adx_weblinksetid" value="d2c852bc-d46f-4d83-9200-8dbf98499b0c" />
         <field name="adx_websitelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="9d2b6030-b58f-468d-8d1d-dc3b1997de85">
         <field name="adx_display_name" value="Default" />
@@ -2127,6 +2308,7 @@
         <field name="adx_weblinksetid" value="9d2b6030-b58f-468d-8d1d-dc3b1997de85" />
         <field name="adx_websitelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="23a43d58-804b-43f4-b5c0-f172593a860a">
         <field name="adx_display_name" value="Secondary Navigation" />
@@ -2137,6 +2319,7 @@
         <field name="adx_weblinksetid" value="23a43d58-804b-43f4-b5c0-f172593a860a" />
         <field name="adx_websitelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="f12d7227-affb-40a8-aa37-f9ee1e030eb7">
         <field name="adx_display_name" value="Primary Navigation" />
@@ -2147,6 +2330,7 @@
         <field name="adx_weblinksetid" value="f12d7227-affb-40a8-aa37-f9ee1e030eb7" />
         <field name="adx_websitelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
     </records>
     <m2mrelationships />
@@ -2173,6 +2357,7 @@
         <field name="adx_title" value="Contact Us" />
         <field name="adx_webpageid" value="40cc2dee-02d1-e511-9404-000d3a328808" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="d908f3c1-3ed1-e511-9404-000d3a328808">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2192,6 +2377,7 @@
         <field name="adx_title" value="Profile Child Page" />
         <field name="adx_webpageid" value="d908f3c1-3ed1-e511-9404-000d3a328808" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="e35efc16-3fd1-e511-9404-000d3a328808">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2212,6 +2398,7 @@
         <field name="adx_title" value="Full Page without Child Links" />
         <field name="adx_webpageid" value="e35efc16-3fd1-e511-9404-000d3a328808" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="73d1402a-3fd1-e511-9404-000d3a328808">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2232,6 +2419,7 @@
         <field name="adx_title" value="Child Page 1" />
         <field name="adx_webpageid" value="73d1402a-3fd1-e511-9404-000d3a328808" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="16369494-3fd1-e511-9404-000d3a328808">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2252,6 +2440,7 @@
         <field name="adx_title" value="Child Page 2" />
         <field name="adx_webpageid" value="16369494-3fd1-e511-9404-000d3a328808" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="9576f9df-3fd1-e511-9404-000d3a328808">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2271,6 +2460,7 @@
         <field name="adx_title" value="Child Page One" />
         <field name="adx_webpageid" value="9576f9df-3fd1-e511-9404-000d3a328808" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="908c382c-40d1-e511-9404-000d3a328808">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2291,6 +2481,7 @@
         <field name="adx_title" value="Page with Side Navigation" />
         <field name="adx_webpageid" value="908c382c-40d1-e511-9404-000d3a328808" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="706a0e55-40d1-e511-9404-000d3a328808">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2311,6 +2502,7 @@
         <field name="adx_title" value="Child Page 1" />
         <field name="adx_webpageid" value="706a0e55-40d1-e511-9404-000d3a328808" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="30747663-40d1-e511-9404-000d3a328808">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2331,6 +2523,7 @@
         <field name="adx_title" value="Child Page 2" />
         <field name="adx_webpageid" value="30747663-40d1-e511-9404-000d3a328808" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="47e5daa2-40d1-e511-9404-000d3a328808">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2351,6 +2544,7 @@
         <field name="adx_title" value="Page with Side Navigation and Sidebar" />
         <field name="adx_webpageid" value="47e5daa2-40d1-e511-9404-000d3a328808" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="778af6d3-40d1-e511-9404-000d3a328808">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2371,6 +2565,7 @@
         <field name="adx_title" value="Child Page 1" />
         <field name="adx_webpageid" value="778af6d3-40d1-e511-9404-000d3a328808" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="d52f35e6-40d1-e511-9404-000d3a328808">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2391,6 +2586,7 @@
         <field name="adx_title" value="Child Page 2" />
         <field name="adx_webpageid" value="d52f35e6-40d1-e511-9404-000d3a328808" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="d69b7608-42d1-e511-9404-000d3a328808">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2411,6 +2607,7 @@
         <field name="adx_title" value="Child of Child Page 1" />
         <field name="adx_webpageid" value="d69b7608-42d1-e511-9404-000d3a328808" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="2b5d3f18-42d1-e511-9404-000d3a328808">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2431,6 +2628,7 @@
         <field name="adx_title" value="Child of Child Page 2" />
         <field name="adx_webpageid" value="2b5d3f18-42d1-e511-9404-000d3a328808" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="516014c5-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2456,6 +2654,7 @@
         <field name="adx_webpageid" value="516014c5-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="546014c5-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2478,6 +2677,7 @@
         <field name="adx_webpageid" value="546014c5-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="596014c5-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2502,6 +2702,7 @@
         <field name="adx_webpageid" value="596014c5-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="5c6014c5-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2526,6 +2727,7 @@
         <field name="adx_webpageid" value="5c6014c5-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="5f6014c5-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2550,6 +2752,7 @@
         <field name="adx_webpageid" value="5f6014c5-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="626014c5-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2572,6 +2775,7 @@
         <field name="adx_webpageid" value="626014c5-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="289845cb-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2596,6 +2800,7 @@
         <field name="adx_webpageid" value="289845cb-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="2b9845cb-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2620,6 +2825,7 @@
         <field name="adx_webpageid" value="2b9845cb-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="2e9845cb-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2644,6 +2850,7 @@
         <field name="adx_webpageid" value="2e9845cb-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="319845cb-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2668,6 +2875,7 @@
         <field name="adx_webpageid" value="319845cb-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="349845cb-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2692,6 +2900,7 @@
         <field name="adx_webpageid" value="349845cb-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="379845cb-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2715,6 +2924,7 @@
         <field name="adx_webpageid" value="379845cb-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="3a9845cb-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2739,6 +2949,7 @@
         <field name="adx_webpageid" value="3a9845cb-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="3d9845cb-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2763,6 +2974,7 @@
         <field name="adx_webpageid" value="3d9845cb-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="409845cb-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2787,6 +2999,7 @@
         <field name="adx_webpageid" value="409845cb-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="439845cb-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150002" />
@@ -2811,6 +3024,7 @@
         <field name="adx_webpageid" value="439845cb-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="86fd52d1-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150005" />
@@ -2834,6 +3048,7 @@
         <field name="adx_webpageid" value="86fd52d1-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="89fd52d1-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2856,6 +3071,7 @@
         <field name="adx_webpageid" value="89fd52d1-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="8cfd52d1-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2878,6 +3094,7 @@
         <field name="adx_webpageid" value="8cfd52d1-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="8ffd52d1-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2902,6 +3119,7 @@
         <field name="adx_webpageid" value="8ffd52d1-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="92fd52d1-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2924,6 +3142,7 @@
         <field name="adx_webpageid" value="92fd52d1-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="95fd52d1-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2948,6 +3167,7 @@
         <field name="adx_webpageid" value="95fd52d1-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="98fd52d1-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2969,6 +3189,7 @@
         <field name="adx_webpageid" value="98fd52d1-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="9bfd52d1-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -2992,6 +3213,7 @@
         <field name="adx_webpageid" value="9bfd52d1-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="9efd52d1-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -3016,6 +3238,7 @@
         <field name="adx_webpageid" value="9efd52d1-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="a1fd52d1-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -3039,6 +3262,7 @@
         <field name="adx_webpageid" value="a1fd52d1-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="91216ad7-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -3063,6 +3287,7 @@
         <field name="adx_webpageid" value="91216ad7-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="94216ad7-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -3087,6 +3312,7 @@
         <field name="adx_webpageid" value="94216ad7-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="97216ad7-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -3111,6 +3337,7 @@
         <field name="adx_webpageid" value="97216ad7-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="9a216ad7-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -3135,6 +3362,7 @@
         <field name="adx_webpageid" value="9a216ad7-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="9d216ad7-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -3156,6 +3384,7 @@
         <field name="adx_webpageid" value="9d216ad7-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="a0216ad7-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -3180,6 +3409,7 @@
         <field name="adx_webpageid" value="a0216ad7-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="a3216ad7-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -3204,6 +3434,7 @@
         <field name="adx_webpageid" value="a3216ad7-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="a6216ad7-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -3227,6 +3458,7 @@
         <field name="adx_webpageid" value="a6216ad7-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="a9216ad7-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -3248,6 +3480,7 @@
         <field name="adx_webpageid" value="a9216ad7-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="ac216ad7-7864-e611-80d7-00155db4fa48">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -3271,6 +3504,7 @@
         <field name="adx_webpageid" value="ac216ad7-7864-e611-80d7-00155db4fa48" />
         <field name="adx_webpagelanguageid" value="506014c5-7864-e611-80d7-00155db4fa48" lookupentity="adx_websitelanguage" lookupentityname="English" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="5f6ebe4c-6b16-42ef-b127-208bffea459f">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -3291,6 +3525,7 @@
         <field name="adx_title" value="Category" />
         <field name="adx_webpageid" value="5f6ebe4c-6b16-42ef-b127-208bffea459f" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="5c4347a0-e429-4a76-9f66-2329ad4d5c87">
         <field name="adx_feedbackpolicy" value="756150002" />
@@ -3311,6 +3546,7 @@
         <field name="adx_title" value="Page with Ratings and Comments" />
         <field name="adx_webpageid" value="5c4347a0-e429-4a76-9f66-2329ad4d5c87" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="de90d43b-1ff4-45f2-8de2-32eeb03c8878">
         <field name="adx_feedbackpolicy" value="756150005" />
@@ -3330,6 +3566,7 @@
         <field name="adx_title" value="Home" />
         <field name="adx_webpageid" value="de90d43b-1ff4-45f2-8de2-32eeb03c8878" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="5ec45f1a-581f-4471-967a-485e479f5831">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -3349,6 +3586,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webpageid" value="5ec45f1a-581f-4471-967a-485e479f5831" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="919fd0ab-f1f4-4211-b6ca-4df40e578253">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -3368,6 +3606,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webpageid" value="919fd0ab-f1f4-4211-b6ca-4df40e578253" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="308b9183-1fc9-413a-bafd-551277e1a43c">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -3388,6 +3627,7 @@
         <field name="adx_title" value="Content B" />
         <field name="adx_webpageid" value="308b9183-1fc9-413a-bafd-551277e1a43c" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="c3622ff4-ecc5-47d3-af92-55d2596752b5">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -3407,6 +3647,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webpageid" value="c3622ff4-ecc5-47d3-af92-55d2596752b5" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="c6ca3209-e8a0-4c5b-8e18-61af9224e60c">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -3427,6 +3668,7 @@
         <field name="adx_title" value="Blank Page" />
         <field name="adx_webpageid" value="c6ca3209-e8a0-4c5b-8e18-61af9224e60c" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="8ddaaa60-fd26-47a4-82de-872815e92573">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -3446,6 +3688,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webpageid" value="8ddaaa60-fd26-47a4-82de-872815e92573" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="6393f178-8b7f-493a-be94-8d103ac81ac2">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -3466,6 +3709,7 @@
         <field name="adx_title" value="Child Page" />
         <field name="adx_webpageid" value="6393f178-8b7f-493a-be94-8d103ac81ac2" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="23acd65d-39d8-e211-be89-90e6ba7f22d2">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -3486,6 +3730,7 @@
         <field name="adx_title" value="Full Page with Child Links" />
         <field name="adx_webpageid" value="23acd65d-39d8-e211-be89-90e6ba7f22d2" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="9624a996-ceeb-4664-8c19-925a982258e4">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -3505,6 +3750,7 @@
         <field name="statuscode" value="2" />
         <field name="adx_webpageid" value="9624a996-ceeb-4664-8c19-925a982258e4" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="cba75650-6411-4612-b90e-a9f4d89512a7">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -3525,6 +3771,7 @@
         <field name="adx_title" value="Content C" />
         <field name="adx_webpageid" value="cba75650-6411-4612-b90e-a9f4d89512a7" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="cd84acc7-e5e3-4dc1-8dfa-b03ce5d514e3">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -3545,6 +3792,7 @@
         <field name="adx_title" value="Page" />
         <field name="adx_webpageid" value="cd84acc7-e5e3-4dc1-8dfa-b03ce5d514e3" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="986692dd-ec74-44aa-89b1-b273c9567b11">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -3565,6 +3813,7 @@
         <field name="adx_title" value="Table of Contents" />
         <field name="adx_webpageid" value="986692dd-ec74-44aa-89b1-b273c9567b11" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="2092fd0c-cb0b-4583-adc7-bf9183ffa717">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -3585,6 +3834,7 @@
         <field name="adx_title" value="Content A" />
         <field name="adx_webpageid" value="2092fd0c-cb0b-4583-adc7-bf9183ffa717" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="3ec3f3e0-f84a-4b42-a3f1-d89fbf6bb86f">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -3603,6 +3853,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webpageid" value="3ec3f3e0-f84a-4b42-a3f1-d89fbf6bb86f" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="52cae6f4-02a5-41f7-a01d-d913ae63b322">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -3622,6 +3873,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webpageid" value="52cae6f4-02a5-41f7-a01d-d913ae63b322" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="92b7293a-616c-4dda-ae91-dfb7c45672fa">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -3642,6 +3894,7 @@
         <field name="adx_title" value="Overview" />
         <field name="adx_webpageid" value="92b7293a-616c-4dda-ae91-dfb7c45672fa" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="7438b063-90ce-49a2-a550-e5aa7aca00da">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -3661,6 +3914,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webpageid" value="7438b063-90ce-49a2-a550-e5aa7aca00da" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="9f6a33c5-c15d-493a-91ba-f82a01ea9b1d">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -3680,6 +3934,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webpageid" value="9f6a33c5-c15d-493a-91ba-f82a01ea9b1d" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="b03619a7-6ff6-40ff-b196-ff58a03a8702">
         <field name="adx_feedbackpolicy" value="756150000" />
@@ -3700,6 +3955,7 @@
         <field name="adx_title" value="Profile" />
         <field name="adx_webpageid" value="b03619a7-6ff6-40ff-b196-ff58a03a8702" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
     </records>
     <m2mrelationships />
@@ -3715,6 +3971,7 @@
         <field name="adx_webpageid" value="986692dd-ec74-44aa-89b1-b273c9567b11" lookupentity="adx_webpage" lookupentityname="Table of Contents" />
         <field name="adx_webpageaccesscontrolruleid" value="e058d930-56a1-41d0-86d5-8a096e76c779" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="4e2039de-d4d5-4a0a-b1f8-b805fdbaf25b">
         <field name="adx_name" value="Grant Change to Administrators" />
@@ -3725,6 +3982,7 @@
         <field name="adx_webpageid" value="de90d43b-1ff4-45f2-8de2-32eeb03c8878" lookupentity="adx_webpage" lookupentityname="Home" />
         <field name="adx_webpageaccesscontrolruleid" value="4e2039de-d4d5-4a0a-b1f8-b805fdbaf25b" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
     </records>
     <m2mrelationships>
@@ -3745,6 +4003,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webroleid" value="50ff498c-7a26-e611-80d6-00155db46a72" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="6f2449bf-9988-4db2-b4b7-42a52c931cc5">
         <field name="adx_anonymoususersrole" value="False" />
@@ -3754,6 +4013,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webroleid" value="6f2449bf-9988-4db2-b4b7-42a52c931cc5" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="844598bc-d0cb-410a-b2de-b6f2c4dbc487">
         <field name="adx_anonymoususersrole" value="False" />
@@ -3763,6 +4023,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webroleid" value="844598bc-d0cb-410a-b2de-b6f2c4dbc487" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
     </records>
     <m2mrelationships>
@@ -3782,6 +4043,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="aa71197d-e128-eb11-a813-000d3a995243" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="fda99999-06d7-e411-945b-00155d039904">
         <field name="adx_name" value="Page with Side Navigation (2 columns)" />
@@ -3790,6 +4052,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="fda99999-06d7-e411-945b-00155d039904" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="f580f2b3-06d7-e411-945b-00155d039904">
         <field name="adx_name" value="Page with Side Navigation and Sidebar (3 columns)" />
@@ -3798,6 +4061,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="f580f2b3-06d7-e411-945b-00155d039904" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="730ef21a-8ad9-e411-945d-00155d039904">
         <field name="adx_name" value="Full Page without Child Links" />
@@ -3806,6 +4070,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="730ef21a-8ad9-e411-945d-00155d039904" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="4be94b40-5da2-e411-942d-00155d03a501">
         <field name="adx_name" value="Random Poll" />
@@ -3814,6 +4079,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="4be94b40-5da2-e411-942d-00155d03a501" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="d33d0ce8-71a2-e411-942d-00155d03a501">
         <field name="adx_name" value="Poll Template" />
@@ -3822,6 +4088,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="d33d0ce8-71a2-e411-942d-00155d03a501" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="a6b20148-74a2-e411-942d-00155d03a501">
         <field name="adx_name" value="Random Ad" />
@@ -3830,6 +4097,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="a6b20148-74a2-e411-942d-00155d03a501" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="63fb751a-78a2-e411-942d-00155d03a501">
         <field name="adx_name" value="Ad Template" />
@@ -3838,6 +4106,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="63fb751a-78a2-e411-942d-00155d03a501" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="fc07baf6-0a4a-49f6-be86-34d8bcd27c70">
         <field name="adx_name" value="Faceted Search - Main Template" />
@@ -3846,6 +4115,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="fc07baf6-0a4a-49f6-be86-34d8bcd27c70" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="6bf6ffd4-0bcf-4c25-859e-43008a3a7afc">
         <field name="adx_name" value="Faceted Search - Results Template" />
@@ -3854,6 +4124,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="6bf6ffd4-0bcf-4c25-859e-43008a3a7afc" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="766be55b-3990-41e6-bc20-4dd58dc7b631">
         <field name="adx_name" value="Faceted Search - Sort Template" />
@@ -3862,6 +4133,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="766be55b-3990-41e6-bc20-4dd58dc7b631" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="b754d1bd-a472-4a15-bde4-9a9126716c57">
         <field name="adx_name" value="Languages Dropdown" />
@@ -3870,6 +4142,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="b754d1bd-a472-4a15-bde4-9a9126716c57" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="5c983086-78d9-e511-80e4-c4346bacf5c0">
         <field name="adx_name" value="Header" />
@@ -3878,6 +4151,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="5c983086-78d9-e511-80e4-c4346bacf5c0" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="894adf91-78d9-e511-80e4-c4346bacf5c0">
         <field name="adx_name" value="Footer" />
@@ -3886,6 +4160,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="894adf91-78d9-e511-80e4-c4346bacf5c0" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="b2d70ab8-78d9-e511-80e4-c4346bacf5c0">
         <field name="adx_name" value="Search" />
@@ -3894,6 +4169,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="b2d70ab8-78d9-e511-80e4-c4346bacf5c0" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="02ea2c2a-79d9-e511-80e4-c4346bacf5c0">
         <field name="adx_name" value="Blank Page" />
@@ -3902,6 +4178,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="02ea2c2a-79d9-e511-80e4-c4346bacf5c0" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="90f44436-7bd9-e511-80e4-c4346bacf5c0">
         <field name="adx_name" value="Poll" />
@@ -3910,6 +4187,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="90f44436-7bd9-e511-80e4-c4346bacf5c0" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="a5455137-99d9-e511-80e4-c4346bacf5c0">
         <field name="adx_name" value="Side Navigation" />
@@ -3918,6 +4196,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="a5455137-99d9-e511-80e4-c4346bacf5c0" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="2c142e05-9ad9-e511-80e4-c4346bacf5c0">
         <field name="adx_name" value="Layout 1 Column" />
@@ -3926,6 +4205,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="2c142e05-9ad9-e511-80e4-c4346bacf5c0" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="a8984613-9ad9-e511-80e4-c4346bacf5c0">
         <field name="adx_name" value="Page Header" />
@@ -3934,6 +4214,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="a8984613-9ad9-e511-80e4-c4346bacf5c0" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="18ac361b-9ad9-e511-80e4-c4346bacf5c0">
         <field name="adx_name" value="Page Copy" />
@@ -3942,6 +4223,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="18ac361b-9ad9-e511-80e4-c4346bacf5c0" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="6fd58f25-9ad9-e511-80e4-c4346bacf5c0">
         <field name="adx_name" value="Breadcrumbs" />
@@ -3950,6 +4232,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="6fd58f25-9ad9-e511-80e4-c4346bacf5c0" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="e87e9d49-a0d9-e511-80e4-c4346bacf5c0">
         <field name="adx_name" value="Layout 2 Column Wide Right" />
@@ -3958,6 +4241,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="e87e9d49-a0d9-e511-80e4-c4346bacf5c0" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="194d067a-a2d9-e511-80e4-c4346bacf5c0">
         <field name="adx_name" value="Layout 3 Column" />
@@ -3966,6 +4250,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="194d067a-a2d9-e511-80e4-c4346bacf5c0" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="2a9703e6-a2d9-e511-80e4-c4346bacf5c0">
         <field name="adx_name" value="Ad" />
@@ -3974,6 +4259,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="2a9703e6-a2d9-e511-80e4-c4346bacf5c0" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="9b938558-aed9-e511-80e4-c4346bacf5c0">
         <field name="adx_name" value="Sitemap" />
@@ -3982,6 +4268,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="9b938558-aed9-e511-80e4-c4346bacf5c0" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="77a9f6fb-64da-e511-80e4-c4346bacf5c0">
         <field name="adx_name" value="Sitemap Item" />
@@ -3990,6 +4277,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="77a9f6fb-64da-e511-80e4-c4346bacf5c0" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="0e156b87-6cda-e511-80e4-c4346bacf5c0">
         <field name="adx_name" value="Tab Header" />
@@ -3998,6 +4286,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="0e156b87-6cda-e511-80e4-c4346bacf5c0" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="4fe2ad9b-6cda-e511-80e4-c4346bacf5c0">
         <field name="adx_name" value="Category" />
@@ -4006,6 +4295,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="4fe2ad9b-6cda-e511-80e4-c4346bacf5c0" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="1457b89a-25db-e511-80e4-c4346bacf5c0">
         <field name="adx_name" value="Category Topic" />
@@ -4014,6 +4304,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="1457b89a-25db-e511-80e4-c4346bacf5c0" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="727d979d-32db-e511-80e4-c4346bacf5c0">
         <field name="adx_name" value="Search Results" />
@@ -4022,6 +4313,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="727d979d-32db-e511-80e4-c4346bacf5c0" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="2444a723-39db-e511-80e4-c4346bacf5c0">
         <field name="adx_name" value="Pagination" />
@@ -4030,6 +4322,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="2444a723-39db-e511-80e4-c4346bacf5c0" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="443b06bd-dddb-e511-80e6-c4346bacf5c0">
         <field name="adx_name" value="Layout 2 Column Wide Left" />
@@ -4038,6 +4331,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="443b06bd-dddb-e511-80e6-c4346bacf5c0" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="260a2bf6-e0db-e511-80e6-c4346bacf5c0">
         <field name="adx_name" value="Child Navigation" />
@@ -4046,6 +4340,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="260a2bf6-e0db-e511-80e6-c4346bacf5c0" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="b76a7550-ebdb-e511-80e6-c4346bacf5c0">
         <field name="adx_name" value="Full Page" />
@@ -4054,6 +4349,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="b76a7550-ebdb-e511-80e6-c4346bacf5c0" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="16a61fcd-eddb-e511-80e6-c4346bacf5c0">
         <field name="adx_name" value="Weblink List Group" />
@@ -4062,6 +4358,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="16a61fcd-eddb-e511-80e6-c4346bacf5c0" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="1177c6ea-c6df-e511-80e6-c4346bacf5c0">
         <field name="adx_name" value="Snippet" />
@@ -4070,6 +4367,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="1177c6ea-c6df-e511-80e6-c4346bacf5c0" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="babd2b2d-eadf-e511-80e6-c4346bacf5c0">
         <field name="adx_name" value="Page" />
@@ -4078,6 +4376,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="babd2b2d-eadf-e511-80e6-c4346bacf5c0" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="3ca6d52e-bce0-e511-80e6-c4346bacf5c0">
         <field name="adx_name" value="Contact Us" />
@@ -4086,6 +4385,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="3ca6d52e-bce0-e511-80e6-c4346bacf5c0" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="c1b22dde-bde0-e511-80e6-c4346bacf5c0">
         <field name="adx_name" value="Listing" />
@@ -4094,6 +4394,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="c1b22dde-bde0-e511-80e6-c4346bacf5c0" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="9a6ace57-62e1-e511-80e6-c4346bacf5c0">
         <field name="adx_name" value="Home" />
@@ -4102,6 +4403,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="9a6ace57-62e1-e511-80e6-c4346bacf5c0" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="81649369-15d6-49ec-bd4b-c848e79a3c17">
         <field name="adx_name" value="Faceted Search - Paging Template" />
@@ -4110,6 +4412,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="81649369-15d6-49ec-bd4b-c848e79a3c17" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="c876963a-f808-4732-b5cd-cd78fd0f105f">
         <field name="adx_name" value="Faceted Search - Facets Template" />
@@ -4118,6 +4421,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_webtemplateid" value="c876963a-f808-4732-b5cd-cd78fd0f105f" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
     </records>
     <m2mrelationships />
@@ -4134,6 +4438,7 @@
         <field name="statecode" value="0" />
         <field name="statuscode" value="1" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
     </records>
     <m2mrelationships />
@@ -4150,6 +4455,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
         <field name="adx_websiteaccessid" value="d3d016e0-a0aa-4750-b515-84f83b65cd2f" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
       <record id="0130888f-9172-45df-9998-b9317ed8670c">
         <field name="adx_managecontentsnippets" value="True" />
@@ -4161,6 +4467,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
         <field name="adx_websiteaccessid" value="0130888f-9172-45df-9998-b9317ed8670c" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
     </records>
     <m2mrelationships>
@@ -4210,6 +4517,7 @@
         <field name="statuscode" value="1" />
         <field name="adx_tooltipenabled" value="False" />
         <field name="adx_websiteid" value="d78574f9-20c3-4dcc-8d8d-85cf5b7ac141" lookupentity="adx_website" lookupentityname="Custom Portal" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
     </records>
     <m2mrelationships />
@@ -4232,6 +4540,7 @@
         <field name="adx_tabname" value="General" />
         <field name="adx_type" value="100000002" />
         <field name="adx_useattributedescriptionproperty" value="True" />
+        <field name="mdce_module_id" value="1da8d2d8-3b33-eb11-a813-000d3a995243" lookupentity="mdce_portal_module" lookupentityname="Base" />
       </record>
     </records>
     <m2mrelationships />
